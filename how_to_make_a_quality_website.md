@@ -11,21 +11,25 @@ This document lives at [https://github.com/knowledgetranslation/process/](https:
 
 This process has lots of padding and failsafes built-in. Every project always runs over-time, over-budget, and under-scope. The padding and failsafes should help mitigate the consequences of unexpected barriers.
 
-Many of the references in this document cite [usability.gov](http://usability.gov), a secondary source for evidence-based web development. The [usability.gov](http://usability.gov) pages cited contain examples and references to primary research sources, as well as indicators of relative importance and strength of evidence.
+Many of the references in this document cite [usability.gov](http://usability.gov), a secondary source for evidence-based web development. The [usability.gov](http://usability.gov) pages cited here contain examples and references to primary research sources, as well as indicators of relative importance and strength of evidence.
 
-[usability.gov](http://usability.gov) also contains many guidelines, templates, and methods not covered here, that may be useful to review as part of your research steps.
+[usability.gov](http://usability.gov) also contains many guidelines, templates, and methods not covered here, that may be useful to review as part of your research steps. Note, though, that some of their recommendations are out of date and are no longer considered best practice, especially:
+
+* [Chapter 4: Hardware and Software](http://guidelines.usability.gov/chapters/4/introduction)
+
+* [5:7 Limit Homepage Length](http://guidelines.usability.gov/guidelines/52)
 
 ## Principles
 
 These principles should be examined and considered before the project starts, when the project ends, and at every step in between. At every step, every team member should consider how the principle applies to the step as a whole, and to their work in that step.
 
-1. Every website needs to be [responsive](https://en.wikipedia.org/wiki/Responsive_web_design)[^1], every website needs to be [accessible](https://en.wikipedia.org/wiki/Web_accessibility)[^2], every website needs to use [progressive enhancement](https://en.wikipedia.org/wiki/Progressive_Enhancement)[^3].
+1. Every website needs to be [responsive](https://en.wikipedia.org/wiki/Responsive_web_design)[^1], every website needs to be [accessible](https://en.wikipedia.org/wiki/Web_accessibility)[^2],[^3], every website needs to use [progressive enhancement](https://en.wikipedia.org/wiki/Progressive_Enhancement)[^4].
 
-1. Every stakeholder is a team member and every team member is a stakeholder.[^4]
+1. Every stakeholder is a team member and every team member is a stakeholder.[^5]
 
 	* Exception: Usability tests should, ideally, be conducted and summarized by people completely separate from the rest of the team, to avoid bias.
 	
-		If the team members are the ones conducting usability tests, every effort should be made to avoid bias in testing.[^5]
+		If the team members are the ones conducting usability tests, every effort should be made to avoid bias in testing.[^6]
 
 1. Involve all stakeholders at every step of the project, every meeting, and every decision point. Everybody should have the *opportunity* to participate.
 	
@@ -41,7 +45,7 @@ These principles should be examined and considered before the project starts, wh
 
 	* e.g. a content expert is not a designer; a developer is not a scientist
 
-1. Don’t give disproportionate or inappropriate weight to trivial issues.[^6]
+1. Don’t give disproportionate or inappropriate weight to trivial issues.[^7]
 
 1. Remember the [Priority of Constituencies](http://www.w3.org/TR/html-design-principles/#priority-of-constituencies), a founding web design principle encoded by the World Wide Web Consortium and Web Hypertext Application Technology Working Group (the organizations responsible for web standards):
 
@@ -53,9 +57,9 @@ These principles should be examined and considered before the project starts, wh
 	
 	* With these new definitions, we can resolve conflicts by giving more weight to costs/difficulties affecting users over developers/designers over content creators over planners over theoretical purity. But, as always, solutions should ideally improve things for multiple/all constituencies.
 	
-	* Note that this principle does not mean we should always defer to what each constituency wants or says they want; it means that in cases of conflict we should look at evidence and use that evidence to prioritize benefits to users over authors, etc.[^7] We always prioritize evidence over expert opinion.
+	* Note that this principle does not mean we should always defer to what each constituency wants or says they want; it means that in cases of conflict we should look at evidence and use that evidence to prioritize benefits to users over authors, etc.[^8] We always prioritize evidence over expert opinion.
 
-1. No single user is more important than another user.[^8] 
+1. No single user is more important than another user.[^9] 
 
 	* e.g. mobile users need the same access to the same content as desktop users, disabled users need the same access to the same content as able users, etc.
 
@@ -65,11 +69,11 @@ These principles should be examined and considered before the project starts, wh
 
 	* Usability test summaries focus on identifying 	problems rather than solutions. While user-suggested solutions should be considered, final decisions on solutions should be decided by experts on your team.
 	
-	* “Users are most valuable in helping designers know what a system should do, but not in helping designers determine how best to have the system do it.”[^9]
+	* “Users are most valuable in helping designers know what a system should do, but not in helping designers determine how best to have the system do it.”[^10]
 
 1. Usability testing should only ever focus on one area at a time, e.g. either content, look-and-feel, or functionality. If you want to test multiple areas, conduct separate usability tests.
 
-	* Usability tests should have specific performance and success goals.[^10]
+	* Usability tests should have specific performance and success goals.[^11]
 
 1. You’re building for the web, so use web-compatible technologies.
 
@@ -93,7 +97,7 @@ These principles should be examined and considered before the project starts, wh
 
 1. Everybody should track their hours. Ideally hours should be tracked according to specific tasks. One good way to do this is to make every task a GitHub issue, and associate all hours with specific issues.
 
-1. Publish what you publish. Knowledge translation depends on dissemination; we need share what we’re creating[^11].
+1. Publish what you publish. Knowledge translation depends on dissemination; we need share what we’re creating[^12].
 
 	* Make all website content public, not password protected or behind a paywall.
 	
@@ -136,7 +140,7 @@ These principles should be examined and considered before the project starts, wh
 
 	* Remember: extra money is a good problem to have.
 
-1. Using your operating budget and timelines as guides, determine the ideal project scope[^12], then reduce it by half. This is your scope for *this phase*.
+1. Using your operating budget and timelines as guides, determine the ideal project scope[^13], then reduce it by half. This is your scope for *this phase*.
 
 	* A focused project is more likely to be successful, and there will always be time for more phases later.
 	
@@ -150,7 +154,7 @@ These principles should be examined and considered before the project starts, wh
 
 1. Research
 
-	* Study the data collected from other projects and earlier versions of this project, and interview stakeholders (especially users). Determine what content and features are important to whom and why, how they will be used, and where they will be accessed from.[^9],[^13]
+	* Study the data collected from other projects and earlier versions of this project, and interview stakeholders (especially users). Determine what content and features are important to whom and why, how they will be used, and where they will be accessed from.[^10],[^14]
 	
 	* Every team member should spend at least one full day reading about their area of focus (and especially about how it applies to the web), and another full day about an area on which they aren’t focusing and/or aren’t an expert. This helps insure that everybody’s knowledge is current and continues to grow.
 	
@@ -166,7 +170,7 @@ These principles should be examined and considered before the project starts, wh
 
 1. Create a launch plan.
 
-	* If this is an update to an existing site, develop a plan for how users will transition to the new version. Give them options to opt-in to the new version early, and opt-out for a set period after launch. Plan specific changeover dates and stick to them. Create and make available change documentation explaining what has changed and why. 
+	* If this is an update to an existing site, develop a plan for how users will transition to the new version. Give them options to opt-in to the new version early, and opt-out for a set period after launch. Plan specific changeover dates and stick to them. Create and make available change documentation explaining what has changed and why.[^15],[^16]
 	
 	* Provide communication and feedback channels, and plan how these will be monitored.
 	
@@ -204,9 +208,9 @@ These principles should be examined and considered before the project starts, wh
 	
 1. Create your content, in compliance with your style guide and Information Architecture, and keeping in mind your user personas. Then, delete half the content.
 
-	* Your users usually have very specific goals when visiting a web site. Don’t clutter their experience, and don’t give them what they don’t need.[^13],[^14]
+	* Your users usually have very specific goals when visiting a web site. Don’t clutter their experience, and don’t give them what they don’t need.[^14],[^17]
 
-1. Conduct usability testing on the content. Can users understand it and get the info they need?[^9]
+1. Conduct usability testing on the content. Can users understand it and get the info they need?[^10]
 
 	* Try to test with users that closely match each of your personas.
 	
@@ -218,19 +222,19 @@ These principles should be examined and considered before the project starts, wh
 
 1. Create basic, works-for-everybody design templates that account for all the content and work well for all users, regardless of:
 
-	* Printed vs. on-screen[^15],[^16],[^17]
+	* Printed vs. on-screen[^18],[^19],[^20]
 	* Device, e.g. phone, tablet, desktop, laptop, etc.
 	* Browser, e.g. modern IE, obsolete IE, Firefox, Chrome, Safari, Opera, etc.
 	* Connection speed, e.g. high-speed/broadband, LTE, 3G, 2G, etc.
 	* Ability, e.g. using a mouse, using a keyboard, without assistive technology, with a screenreader, etc.
-	* Javascript support/availability
+	* Javascript and plugin support/availability[^21]
 	* Language, e.g. with machine-translation support
 	
-	This isn’t the “showcase” design, this is the fallback, lowest-common-denominator design.[^8]
+	This isn’t the “showcase” design, this is the fallback, lowest-common-denominator design.[^9]
 	
-1. Cut the number of templates in half, and for each remaining template, cut the number of user interace elements in half. Double the font size, and double the white space.[^18]
+1. Cut the number of templates in half, and for each remaining template, cut the number of user interace elements in half. Double the font size, and double the white space.[^22]
 
-1. Conduct usability testing on this design, using paper prototypes.[^8],[^13]
+1. Conduct usability testing on this design, using paper prototypes.[^9],[^14]
 
 	* Try to test with users that closely match each of your personas.
 	
@@ -268,7 +272,7 @@ These principles should be examined and considered before the project starts, wh
 
 1. Based on this design, update the project’s style guide with relevant design details, e.g. typefaces, colours, grid definitions, sizes, interactions, etc.
 
-1. Design “showcase” design templates for how everything should look when printed in the best possible case: modern device, modern browser, available JavaScript.[^15],[^16],[^17]
+1. Design “showcase” design templates for how everything should look when printed in the best possible case: modern device, modern browser, available JavaScript.[^18],[^19],[^20]
 
 1. Cut the number of templates in half, and for each remaining template, cut the number of user interace elements in half. Double the font size, and double the white space.
 
@@ -348,13 +352,13 @@ These steps focus on front-end development. Back-end development may need to tak
 
 1. Perform the **Testing** steps.
 
-1. Perform Search Engine Optimization by ensuring proper meta-information and titles have been used for all pages, including the use of structured data (e.g. [schema.org](http://schema.org/)).[^19]
+1. Perform Search Engine Optimization by ensuring proper meta-information and titles have been used for all pages, including the use of structured data (e.g. [schema.org](http://schema.org/)).[^23]
 
 	* Also consider using search engine submission tools, such as [Google Webmaster Tools](https://www.google.com/webmasters/tools/home?hl=en).
 
 	* The best ways to achieve high-ranking search results are to have high quality content; semantic, validated code; and high performance. All of these should have been handled before this point in the process.
 	
-1. Create a “help” section.[^20],[^21]
+1. Create a “help” section.[^24],[^25]
 
 	* If any parts of your “help” section get very complex, consider simplifying the design/functionality to require less explanation. This may require returning to an earlier step.
 	
@@ -362,7 +366,7 @@ These steps focus on front-end development. Back-end development may need to tak
 
 ### Testing
 
-1. Test the templates in as many browsers as possible, on as many devices as possible, with as many assistive technologies as possible. Make sure everything functions as it should and looks ok (though not necessarily pixel perfect!).
+1. Test the templates in as many browsers as possible[^15], on as many devices as possible, with as many assistive technologies as possible. Make sure everything functions as it should and looks ok (though not necessarily pixel perfect!).
 
 	* Prioritize testing with real browsers and devices, and only use simulators if the real thing is unavailable.
 	
@@ -374,17 +378,17 @@ These steps focus on front-end development. Back-end development may need to tak
 
 	* If there were problems to fix, return to step 1.
 
-1. Conduct automated markup and accessibility validation.
+1. Conduct automated markup and accessibility[^3] validation.
 
 1. Fix any problems that arose during validity testing.
 
 	* If there were problems to fix, return to step 1.
 
-1. Conduct automated performance testing[^22].
+1. Conduct automated performance testing[^26].
 
 1. Fix any problems that arose during performance testing.
 
-	* Good performance should take priority over good aesthetics. Ideally you can achieve both, but in cases of conflict, optimize for performance.[^23]
+	* Good performance should take priority over good aesthetics. Ideally you can achieve both, but in cases of conflict, optimize for performance.[^27]
 
 	* If there were problems to fix, return to step 1.
 
@@ -394,44 +398,52 @@ These steps focus on front-end development. Back-end development may need to tak
 
 [^2]: Not making sites accessible risks excluding a large number of users: [according to the Canadian government](http://www4.rhdcc.gc.ca/indicator.jsp?&indicatorid=40), 13.7% of the population has a disability. Furthermore, we are required by law (The [Accessibility for Ontarians with Disabilities Act, 2005](http://www.e-laws.gov.on.ca/html/statutes/english/elaws_statutes_05a11_e.htm)) to make all our websites accessible. We do this by adhering to the [Web Content Accessibility Guidelines (WCAG) 2.0](http://www.w3.org/TR/WCAG20/) and other industry standards.
 
-[^3]: Using progressive enhancement facilitates making responsive and accessible websites, and also helps us make websites that work with the wide variety of browsers in use. We see similar variety in browser versions as we do in screen resolution; [StatCounter](http://gs.statcounter.com/) tracks 12 popular browser versions with significant usage, the highest being “Android 0” at 6.38%. The largest segment is, again, the “Other” category, with 48.1%. Progressive enhancement with feature detection allows us to accomodate this variability and offer good experiences to users no matter what their browser and version.
+[^3]: “Web sites should be designed to ensure that everyone, including users who have difficulty seeing, hearing, and making precise movements, can use them. Generally, this means ensuring that Web sites facilitate the use of common assistive technologies.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 3: Accessibility”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/chapters/3/introduction](http://guidelines.usability.gov/chapters/3/introduction). Accessed 2014-07-28.
 
-[^4]: “Involve Users in Establishing User Requirements: Involve users to improve the completeness and accuracy of user requirements. One of the basic principles of user-centered design is the early and continual focus on users. For this reason, user involvement has become a widely accepted principle in the development of usable systems. Involving users has the most value when trying to improve the completeness and accuracy of user requirements. It is also useful in helping to avoid unused or little-used system features. Users are most valuable in helping designers know what a system should do, but not in helping designers determine how best to have the system do it.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 4, Involve Users in Establishing User Requirements”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/4](http://guidelines.usability.gov/guidelines/4). Accessed 2014-07-28.
+[^4]: Using progressive enhancement facilitates making responsive and accessible websites, and also helps us make websites that work with the wide variety of browsers in use. We see similar variety in browser versions as we do in screen resolution; [StatCounter](http://gs.statcounter.com/) tracks 12 popular browser versions with significant usage, the highest being “Android 0” at 6.38%. The largest segment is, again, the “Other” category, with 48.1%. Progressive enhancement with feature detection allows us to accomodate this variability and offer good experiences to users no matter what their browser and version.
 
-[^5]: Using a usability tester without a vested interest in the project avoids injecting bias. From Rubin & Chisnell, *Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests*, 2008, ‘Chapter 9. Conduct the Test Sessions’: “Take the attitude that you have no vested interest in the results one way or the other. Present the product neutrally (this does not mean you need to be solemn), so that the participants cannot ascertain any preference on your part. Never indicate through your speech or mannerisms that you strongly approve or disapprove of any actions or comments offered by a particular participant. React to ‘mistakes’ or ‘wrong turns’ in exactly the same way as you do to correct behavior. Never make participants feel stupid or inadequate (even inadvertently) by how you respond to their actions. If a participant is having problems, remember that it is the fault of the product. Period. Even if you say and do all the right things, participants will still blame themselves. If that happens, remind them of the value of their difficulties in understanding how the product actually works. Encourage them to freely explore areas without concern for ‘looking good.’”
+[^5]: “Involve Users in Establishing User Requirements: Involve users to improve the completeness and accuracy of user requirements. One of the basic principles of user-centered design is the early and continual focus on users. For this reason, user involvement has become a widely accepted principle in the development of usable systems. Involving users has the most value when trying to improve the completeness and accuracy of user requirements. It is also useful in helping to avoid unused or little-used system features. Users are most valuable in helping designers know what a system should do, but not in helping designers determine how best to have the system do it.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 4, Involve Users in Establishing User Requirements”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/4](http://guidelines.usability.gov/guidelines/4). Accessed 2014-07-28.
 
-[^6]: In software development, this is known as [Bikeshedding](https://en.wikipedia.org/wiki/Parkinson%27s_Law_of_Triviality).
+[^6]: Using a usability tester without a vested interest in the project avoids injecting bias. From Rubin & Chisnell, *Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests*, 2008, ‘Chapter 9. Conduct the Test Sessions’: “Take the attitude that you have no vested interest in the results one way or the other. Present the product neutrally (this does not mean you need to be solemn), so that the participants cannot ascertain any preference on your part. Never indicate through your speech or mannerisms that you strongly approve or disapprove of any actions or comments offered by a particular participant. React to ‘mistakes’ or ‘wrong turns’ in exactly the same way as you do to correct behavior. Never make participants feel stupid or inadequate (even inadvertently) by how you respond to their actions. If a participant is having problems, remember that it is the fault of the product. Period. Even if you say and do all the right things, participants will still blame themselves. If that happens, remind them of the value of their difficulties in understanding how the product actually works. Encourage them to freely explore areas without concern for ‘looking good.’”
 
-[^7]: “Reduce User’s Workload: Allocate functions to take advantage of the inherent respective strengths of computers and users. Let the computer perform as many tasks as possible, so that users can concentrate on performing tasks that actually require human processing and input. Ensure that the activities performed by the human and the computer take full advantage of the strengths of each. For example, calculating body mass indexes, remembering user IDs, and mortgage payments are best performed by computers.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 2: Optimizing the User Experience; Section 4, Reduce User’s Workload”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/15](http://guidelines.usability.gov/guidelines/15). Accessed 2014-07-28.
+[^7]: In software development, this is known as [Bikeshedding](https://en.wikipedia.org/wiki/Parkinson%27s_Law_of_Triviality).
 
-[^8]: “Consider Many User Interface Issues: Consider as many user interface issues as possible during the design process. Consider numerous usability-related issues during the creation of a Web site. These can include: the context within which users will be visiting a Web site; the experience levels of the users; the types of tasks users will perform on the site; the types of computer and connection speeds used when visiting the site; evaluation of prototypes; and the results of usability tests.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 7, Consider Many User Interface Issues”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/7](http://guidelines.usability.gov/guidelines/7). Accessed 2014-07-28.
+[^8]: “Reduce User’s Workload: Allocate functions to take advantage of the inherent respective strengths of computers and users. Let the computer perform as many tasks as possible, so that users can concentrate on performing tasks that actually require human processing and input. Ensure that the activities performed by the human and the computer take full advantage of the strengths of each. For example, calculating body mass indexes, remembering user IDs, and mortgage payments are best performed by computers.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 2: Optimizing the User Experience; Section 4, Reduce User’s Workload”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/15](http://guidelines.usability.gov/guidelines/15). Accessed 2014-07-28.
 
-[^9]: “Establish User Requirements: Use all available resources to better understand users’ requirements. The greater the number of exchanges of information with potential users, the better the developers’ understanding of the users’ requirements. The more information that can be exchanged between developers and users, the higher the probability of having a successful website. These could include customer support lines, customer surveys and interviews, bulletin boards, sales people, user groups, trade show experiences, focus groups, etc. Successful projects require at least four (and average five) different sources of information. Do not rely too heavily on user intermediaries. The information gathered from exchanges with users can be used to build ‘use cases’. Use cases describe the things that users want and need the website to be able to do. In one study, when compared with traditional function-oriented analyses, use cases provided a specification that produced better user performance and higher user preferences.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 2, Establish User Requirements”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/2](http://guidelines.usability.gov/guidelines/2). Accessed 2014-07-28.
+[^9]: “Consider Many User Interface Issues: Consider as many user interface issues as possible during the design process. Consider numerous usability-related issues during the creation of a Web site. These can include: the context within which users will be visiting a Web site; the experience levels of the users; the types of tasks users will perform on the site; the types of computer and connection speeds used when visiting the site; evaluation of prototypes; and the results of usability tests.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 7, Consider Many User Interface Issues”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/7](http://guidelines.usability.gov/guidelines/7). Accessed 2014-07-28.
 
-[^10]: “Set Usability Goals: Set performance goals that include success rates and the time it takes users to find specific information, or preference goals that address satisfaction and acceptance by users. Setting user performance and/or preference goals helps developers build better Web sites. It can also help make usability testing more effective. For example, some intranet Web sites have set the goal that information will be found eighty percent of the time and in less than one minute.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 9, Set Usability Goals”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/9](http://guidelines.usability.gov/guidelines/9). Accessed 2014-07-28.
+[^10]: “Establish User Requirements: Use all available resources to better understand users’ requirements. The greater the number of exchanges of information with potential users, the better the developers’ understanding of the users’ requirements. The more information that can be exchanged between developers and users, the higher the probability of having a successful website. These could include customer support lines, customer surveys and interviews, bulletin boards, sales people, user groups, trade show experiences, focus groups, etc. Successful projects require at least four (and average five) different sources of information. Do not rely too heavily on user intermediaries. The information gathered from exchanges with users can be used to build ‘use cases’. Use cases describe the things that users want and need the website to be able to do. In one study, when compared with traditional function-oriented analyses, use cases provided a specification that produced better user performance and higher user preferences.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 2, Establish User Requirements”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/2](http://guidelines.usability.gov/guidelines/2). Accessed 2014-07-28.
 
-[^11]: This is often referred to as “eating your own dogfood” or [dogfooding](http://en.wikipedia.org/wiki/Dogfooding).
+[^11]: “Set Usability Goals: Set performance goals that include success rates and the time it takes users to find specific information, or preference goals that address satisfaction and acceptance by users. Setting user performance and/or preference goals helps developers build better Web sites. It can also help make usability testing more effective. For example, some intranet Web sites have set the goal that information will be found eighty percent of the time and in less than one minute.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 9, Set Usability Goals”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/9](http://guidelines.usability.gov/guidelines/9). Accessed 2014-07-28.
 
-[^12]: “Set and State Goals: Identify and clearly articulate the primary goals of the Web site before beginning the design process. Before starting design work, identify the primary goals of the website (educate, inform, entertain, sell, etc.). Goals determine the audience, content, function, and the site’s unique look and feel. It is also a good idea to communicate the goals to, and develop consensus for the site goals from management and those working on the website.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 5, Set and State Goals”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/5](http://guidelines.usability.gov/guidelines/5). Accessed 2014-07-28.
+[^12]: This is often referred to as “eating your own dogfood” or [dogfooding](http://en.wikipedia.org/wiki/Dogfooding).
 
-[^13]: “Understand and Meet User’s Expectations: Ensure that the website format meets user expectations, especially related to navigation, content, and organization. Users define ‘usability’ as their perception of how consistent, efficient, productive, organized, easy to use, intuitive, and straightforward it is to accomplish tasks within a system. It is important for designers to develop an understanding of their users expectations through task analyses and other research. Users can have expectations based on their prior knowledge and past experience. The use of familiar formatting and navigation schemes makes it easier for users to learn and remember the layout of a site. Assume that certain users will not use a website frequently enough to learn to use it efficiently. Therefore, use familiar conventions.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 3, Understand and Meet User’s Expectations”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/3](http://guidelines.usability.gov/guidelines/3). Accessed 2014-07-28.
+[^13]: “Set and State Goals: Identify and clearly articulate the primary goals of the Web site before beginning the design process. Before starting design work, identify the primary goals of the website (educate, inform, entertain, sell, etc.). Goals determine the audience, content, function, and the site’s unique look and feel. It is also a good idea to communicate the goals to, and develop consensus for the site goals from management and those working on the website.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 5, Set and State Goals”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/5](http://guidelines.usability.gov/guidelines/5). Accessed 2014-07-28.
 
-[^14]: “Provide Useful Content: Provide content that is engaging, relevant, and appropriate to the audience. Content is the information provided on a Web site. Do not waste resources providing easy access and good usability to the wrong content. One study found that content is the most critical element of a Web site. Other studies have reported that content is more important than navigation, visual design, functionality, and interactivity.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 1, Provide Useful Content”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/1](http://guidelines.usability.gov/guidelines/1). Accessed 2014-07-28.
+[^14]: “Understand and Meet User’s Expectations: Ensure that the website format meets user expectations, especially related to navigation, content, and organization. Users define ‘usability’ as their perception of how consistent, efficient, productive, organized, easy to use, intuitive, and straightforward it is to accomplish tasks within a system. It is important for designers to develop an understanding of their users expectations through task analyses and other research. Users can have expectations based on their prior knowledge and past experience. The use of familiar formatting and navigation schemes makes it easier for users to learn and remember the layout of a site. Assume that certain users will not use a website frequently enough to learn to use it efficiently. Therefore, use familiar conventions.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 3, Understand and Meet User’s Expectations”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/3](http://guidelines.usability.gov/guidelines/3). Accessed 2014-07-28.
 
-[^15]: “Format Information for Reading and Printing: Prepare information with the expectation that it will either be read online or printed. Prepare documents so that they can be read online or printed. Online documents can be read anywhere and at any time. However, users prefer to print documents that are five or more pages long, can be read at a later time, support presentations or research, or contain complex information requiring notes or highlighting.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 2: Optimizing the User Experience; Section 9, Format Information for Reading and Printing”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/20](http://guidelines.usability.gov/guidelines/20). Accessed 2014-07-28.
+[^15]: “Announce Changes to a Web Site: Announce major changes to a Web site on the homepage - do not surprise users. Introducing users to a redesigned Web site can require some preparation of expectations. Users may not know what to do when they are suddenly confronted with a new look or navigation structure. Therefore, you should communicate any planned changes to users ahead of time. Following completion of changes, tell users exactly what has changed and when the changes were made. Assure users that all previously available information will continue to be on the site. It may also be helpful to users if you inform them of site changes at other relevant places on the Web site. For example, if shipping policies have changed, a notification of such on the order page should be provided.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 5: The Home Page; Section 8, Announce Changes to a Web Site”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/53](http://guidelines.usability.gov/guidelines/53). Accessed 2014-07-28.
 
-[^16]: “Develop Pages that Will Print Properly: If users are likely to print one or more pages, develop pages with widths that print properly. It is possible to display pages that are too wide to print completely on standard 8.5 x 11 inch paper in portrait orientation. Ensure that margin to margin printing is possible.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 2: Optimizing the User Experience; Section 12, Develop Pages that Will Print Properly”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/23](http://guidelines.usability.gov/guidelines/23). Accessed 2014-07-28.
+[^16]: Lewis, Makayla (2013). Cerebral palsy, online social networks and change. (Unpublished Doctoral thesis, City University London). http://openaccess.city.ac.uk/3011/. Accessed 2014-07-28. Summary available at [http://www.slideshare.net/MakaylaLewis1/makayla-lewis-a11y-to-april-2014publicversion](http://www.slideshare.net/MakaylaLewis1/makayla-lewis-a11y-to-april-2014publicversion). Accessed 2014-07-28.
 
-[^17]: “Provide Printing Options: Provide a link to printable and downloadable document versions. Many users prefer to read text from a paper copy of a document. Paper allows users to take notes, highlight ideas, follow presentations, and save information that may be difficult to find at a later time.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 2: Optimizing the User Experience; Section 15, Provide Printing Options”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/26](http://guidelines.usability.gov/guidelines/26). Accessed 2014-07-28.
+[^17]: “Provide Useful Content: Provide content that is engaging, relevant, and appropriate to the audience. Content is the information provided on a Web site. Do not waste resources providing easy access and good usability to the wrong content. One study found that content is the most critical element of a Web site. Other studies have reported that content is more important than navigation, visual design, functionality, and interactivity.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 1, Provide Useful Content”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/1](http://guidelines.usability.gov/guidelines/1). Accessed 2014-07-28.
 
-[^18]: “Standardize Task Sequences: Allow users to perform tasks in the same sequence and manner across similar conditions. Users learn certain sequences of behaviors and perform best when they can be reliably repeated. For example, users become accustomed to looking in either the left or right panels for additional information. Also, users become familiar with the steps in a search or checkout process.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 2: Optimizing the User Experience; Section 3, Standardize Task Sequences”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/14](http://guidelines.usability.gov/guidelines/14). Accessed 2014-07-28.
+[^18]: “Format Information for Reading and Printing: Prepare information with the expectation that it will either be read online or printed. Prepare documents so that they can be read online or printed. Online documents can be read anywhere and at any time. However, users prefer to print documents that are five or more pages long, can be read at a later time, support presentations or research, or contain complex information requiring notes or highlighting.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 2: Optimizing the User Experience; Section 9, Format Information for Reading and Printing”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/20](http://guidelines.usability.gov/guidelines/20). Accessed 2014-07-28.
 
-[^19]: “Be Easily Found in the Top 30: In order to have a high probability of being accessed, ensure that a Web site is in the ‘top 30’ references presented from a major search engine. One study showed that users usually do not look at Web sites that are not in the ‘top 30’. Some of the features required to be in the ‘top 30’ include appropriate meta-content and page titles, the number of links to the Web site, as well as updated registration with the major search engines.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 8, Be Easily Found in the Top 30”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/8](http://guidelines.usability.gov/guidelines/8). Accessed 2014-07-28.
+[^19]: “Develop Pages that Will Print Properly: If users are likely to print one or more pages, develop pages with widths that print properly. It is possible to display pages that are too wide to print completely on standard 8.5 x 11 inch paper in portrait orientation. Ensure that margin to margin printing is possible.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 2: Optimizing the User Experience; Section 12, Develop Pages that Will Print Properly”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/23](http://guidelines.usability.gov/guidelines/23). Accessed 2014-07-28.
 
-[^20]: “Use Users’ Terminology in Help Documentation: Create ‘Help’ documentation using the users’ terminology to describe elements and features. Users have a colloquial understanding of website features, names and functions (e.g., breadcrumbs). Create ‘Help’ sections that address unfamiliar terms with the right amount of context. For example, if you refer to the ‘navigation bar,’ explain or highlight what you are referring. Remember that users and designers may use different terms to identify the same web features.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 2: Optimizing the User Experience; Section 14, Use Users’ Terminology in Help Documentation”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/25](http://guidelines.usability.gov/guidelines/25). Accessed 2014-07-28.
+[^20]: “Provide Printing Options: Provide a link to printable and downloadable document versions. Many users prefer to read text from a paper copy of a document. Paper allows users to take notes, highlight ideas, follow presentations, and save information that may be difficult to find at a later time.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 2: Optimizing the User Experience; Section 15, Provide Printing Options”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/26](http://guidelines.usability.gov/guidelines/26). Accessed 2014-07-28.
 
-[^21]: “Provide Assistance to Users: Provide assistance for users who need additional help with the website. Some users require special assistance. This is particularly important if the site was designed for inexperienced users or has many first time users. For example, in one website that was designed for repeat users, more than one-third of users (thirty-six percent) were first time visitors. A special link was prepared that allowed new users to access more information about the content of the site and described the best way to navigate the site.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 2: Optimizing the User Experience; Section 16, Provide Assistance to Users”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/26](http://guidelines.usability.gov/guidelines/26). Accessed 2014-07-28.
+[^21]: “Test Plug-Ins and Applets for Accessibility: To ensure accessibility, test any applets, plug-ins or other applications required to interpret page content to ensure that they can be used by assistive technologies. Applets, plug-ins and other software can create problems for people using assistive technologies, and should be thoroughly tested for accessibility.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 3: Accessibility; Section 6, Test Plug-Ins and Applets for Accessibility”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/33](http://guidelines.usability.gov/guidelines/33). Accessed 2014-07-28.
 
-[^22]: “Minimize Page Download Time: Minimize the time required to download a Web site’s pages. The best way to facilitate fast page loading is to minimize the number of bytes per page.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 2: Optimizing the User Experience; Section 6, Minimize Page Download Time”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/17](http://guidelines.usability.gov/guidelines/17). Accessed 2014-07-28.
+[^22]: “Standardize Task Sequences: Allow users to perform tasks in the same sequence and manner across similar conditions. Users learn certain sequences of behaviors and perform best when they can be reliably repeated. For example, users become accustomed to looking in either the left or right panels for additional information. Also, users become familiar with the steps in a search or checkout process.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 2: Optimizing the User Experience; Section 3, Standardize Task Sequences”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/14](http://guidelines.usability.gov/guidelines/14). Accessed 2014-07-28.
 
-[^23]: “Focus on Performance Before Preference: If user performance is important, make decisions about content, format, interaction, and navigation before deciding on colors and decorative graphics. Focus on achieving a high rate of user performance before dealing with aesthetics. Graphics issues tend to have little impact, if any, on users’ success rates or speed of performance.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 6, Focus on Performance Before Preference”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/6](http://guidelines.usability.gov/guidelines/6). Accessed 2014-07-28.
+[^23]: “Be Easily Found in the Top 30: In order to have a high probability of being accessed, ensure that a Web site is in the ‘top 30’ references presented from a major search engine. One study showed that users usually do not look at Web sites that are not in the ‘top 30’. Some of the features required to be in the ‘top 30’ include appropriate meta-content and page titles, the number of links to the Web site, as well as updated registration with the major search engines.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 8, Be Easily Found in the Top 30”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/8](http://guidelines.usability.gov/guidelines/8). Accessed 2014-07-28.
+
+[^24]: “Use Users’ Terminology in Help Documentation: Create ‘Help’ documentation using the users’ terminology to describe elements and features. Users have a colloquial understanding of website features, names and functions (e.g., breadcrumbs). Create ‘Help’ sections that address unfamiliar terms with the right amount of context. For example, if you refer to the ‘navigation bar,’ explain or highlight what you are referring. Remember that users and designers may use different terms to identify the same web features.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 2: Optimizing the User Experience; Section 14, Use Users’ Terminology in Help Documentation”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/25](http://guidelines.usability.gov/guidelines/25). Accessed 2014-07-28.
+
+[^25]: “Provide Assistance to Users: Provide assistance for users who need additional help with the website. Some users require special assistance. This is particularly important if the site was designed for inexperienced users or has many first time users. For example, in one website that was designed for repeat users, more than one-third of users (thirty-six percent) were first time visitors. A special link was prepared that allowed new users to access more information about the content of the site and described the best way to navigate the site.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 2: Optimizing the User Experience; Section 16, Provide Assistance to Users”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/26](http://guidelines.usability.gov/guidelines/26). Accessed 2014-07-28.
+
+[^26]: “Minimize Page Download Time: Minimize the time required to download a Web site’s pages. The best way to facilitate fast page loading is to minimize the number of bytes per page.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 2: Optimizing the User Experience; Section 6, Minimize Page Download Time”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/17](http://guidelines.usability.gov/guidelines/17). Accessed 2014-07-28.
+
+[^27]: “Focus on Performance Before Preference: If user performance is important, make decisions about content, format, interaction, and navigation before deciding on colors and decorative graphics. Focus on achieving a high rate of user performance before dealing with aesthetics. Graphics issues tend to have little impact, if any, on users’ success rates or speed of performance.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 6, Focus on Performance Before Preference”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/6](http://guidelines.usability.gov/guidelines/6). Accessed 2014-07-28.
