@@ -5,6 +5,10 @@ for the Knowledge Translation Program, St. Michael’s Hospital
 With feedback and contributions from Sharon Straus and Wai-Hin Chan  
 2014-07-28*
 
+This document lives at [https://github.com/knowledgetranslation/process/](https://github.com/knowledgetranslation/process/). Please check there for the most up-to-date version.
+
+---
+
 This process has lots of padding and failsafes built-in. Every project always runs over-time, over-budget, and under-scope. The padding and failsafes should help mitigate the consequences of unexpected barriers.
 
 ## Principles
