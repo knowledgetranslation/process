@@ -2,7 +2,8 @@
 
 *David Newton  
 for the Knowledge Translation Program, St. Michael’s Hospital  
-2014-07-24*
+With feedback and contributions from Sharon Straus and Wai-Hin Chan  
+2014-07-28*
 
 This process has lots of padding and failsafes built-in. Every project always runs over-time, over-budget, and under-scope. The padding and failsafes should help mitigate the consequences of unexpected barriers.
 
@@ -14,25 +15,37 @@ These principles should be examined and considered before the project starts, wh
 
 1. Every stakeholder is a team member and every team member is a stakeholder.
 
-	* Exception: Usability tests should be conducted and summarized by people complete separate from the rest of the team, to avoid bias.[^4]
+	* Exception: Usability tests should, ideally, be conducted and summarized by people completely separate from the rest of the team, to avoid bias.
+	
+		If the team members are the ones conducting usability tests, every effort should be made to avoid bias in testing.[^4]
 
 1. Involve all stakeholders at every step of the project, every meeting, and every decision point. Everybody should have the *opportunity* to participate.
+	
+	* Involvement should be discussed and agreed upon at the first meeting, and the team should make decisions about what the expectations are for every team member, and what the timelines for response are.
 
-	* For some parts a team member’s involvement will be mandatory, for others optional; but, every team member should have that option for every stage.
+	* For some parts of the project, a team member’s involvement will be mandatory, for others optional; but, every team member should have the option to participate in every stage.
 
-	* Involvement does not simply equal presence. Every team member should have the option of *participating*, and should be encouraged to do so.
+	* Involvement does not simply equal presence. Every team member should have the option of *participating actively*, and should be encouraged to do so.
 
-	* e.g. desginers should be involved during content creation, developers should be involved while creating timelines, users should be involved while planning scope, etc.
+	* e.g. designers should be involved during content creation, developers should be involved while creating timelines, users should be involved while planning scope, etc.
 
 1. Trust the expertise of your experts, *in their area of expertise*. Being an expert in one area doesn’t make somebody an expert in another area.
 
 	* e.g. a content expert is not a designer; a developer is not a scientist
 
-1. Don’t [Bikeshed](http://en.wikipedia.org/wiki/Bikeshed).
+1. Don’t give disproportionate or inappropriate weight to trivial issues.[^5]
 
-1. Remember the [Priority of Constituencies](http://www.w3.org/TR/html-design-principles/#priority-of-constituencies):
+1. Remember the [Priority of Constituencies](http://www.w3.org/TR/html-design-principles/#priority-of-constituencies), a founding web design principle encoded by the World Wide Web Consortium and Web Hypertext Application Technology Working Group (the organizations responsible for web standards):
 
-	* In case of conflict, consider users over authors (developers/designers) over implementors (tool creators?) over specifiers (other stakeholders?) over theoretical purity. In other words costs or difficulties to the user should be given more weight than costs to authors; which in turn should be given more weight than costs to implementors; which should be given more weight than costs to authors of the spec itself, which should be given more weight than those proposing changes for theoretical reasons alone. Of course, it is preferred to make things better for multiple constituencies at once. (paraphrased; need to work a bit more to clarify how this applies here)
+	> In case of conflict, consider users over authors over implementors over specifiers over theoretical purity. In other words costs or difficulties to the user should be given more weight than costs to authors; which in turn should be given more weight than costs to implementors; which should be given more weight than costs to authors of the spec itself, which should be given more weight than those proposing changes for theoretical reasons alone. Of course, it is preferred to make things better for multiple constituencies at once.
+	
+	* The original principle defines “authors” as web authors, i.e. web developers and designers who are building a site; “implementors” as browser implementors, i.e. software developers who build web browsers; and “specifiers” as those writing web standards specifications.
+	
+	* For our projects, we can alter these definitions while still retaining the spirit of the principle. “Specifiers” would be those team members who are responsible for planning, and “implementors” would be those responsible for content; the definitions for “users”, “authors”, and “theoretical purity” can remain unchanged.
+	
+	* With these new definitions, we can resolve conflicts by giving more weight to costs/difficulties affecting users over developers/designers over content creators over planners over theoretical purity. But, as always, solutions should ideally improve things for multiple/all constituencies.
+	
+	* Note that this principle does not mean we should always defer to what each constituency wants or says they want; it means that in cases of conflict we should look at evidence and use that evidence to prioritize benefits to users over authors, etc. We always prioritize evidence over expert opinion.
 
 1. No single user is more important than another user. 
 
@@ -40,11 +53,9 @@ These principles should be examined and considered before the project starts, wh
 
 1. Usability tests are for identifying problems, not for generating suggestions.
 
-	* Users might think they know how to solve these problems, but they’re probably wrong.
+	* Users might think they know how to solve these problems, but they may be wrong. They aren’t the experts in tool development, you are. *However*, they may be knowledge experts in the context of the tool usage.
 
-	* They aren’t the experts, you are.
-
-	* Usability test summaries should identify 	problems, but not mention any user-generated suggested solutions. Solutions should be determined by experts on your team.
+	* Usability test summaries focus on identifying 	problems rather than solutions. While user-suggested solutions should be considered, final decisions on solutions should be decided by experts on your team.
 
 1. Usability testing should only ever focus on one area at a time, e.g. either content, look-and-feel, or functionality. If you want to test multiple areas, conduct separate usability tests.
 
@@ -70,7 +81,7 @@ These principles should be examined and considered before the project starts, wh
 
 1. Everybody should track their hours. Ideally hours should be tracked according to specific tasks. One good way to do this is to make every task a GitHub issue, and associate all hours with specific issues.
 
-1. Publish what you publish. Knowledge translation depends on dissemination; we need to do some [dogfooding](http://en.wikipedia.org/wiki/Dogfooding) and share what we’re creating.
+1. Publish what you publish. Knowledge translation depends on dissemination; we need share what we’re creating[^6].
 
 	* Make all website content public, not password protected or behind a paywall.
 	
@@ -80,7 +91,7 @@ These principles should be examined and considered before the project starts, wh
 	
 	* Find out what your rights are when you publish papers about the project. If possible make the papers available as widely as possible, for free, even if it costs extra money.
 
-1. Research as much as possible. Learn as much as possible. Collect as much data as possible. More [dogfooding](http://en.wikipedia.org/wiki/Dogfooding): evidence-based web development.
+1. Research as much as possible. Learn as much as possible. Collect as much data as possible. We should always strive to do evidence-based web development.
 
 1. Work in the open. Avoid decision-making over email or in private conversations.
 
@@ -88,7 +99,7 @@ These principles should be examined and considered before the project starts, wh
 	
 	* All decision-making between meetings should be done in an open forum, such as GitHub or Basecamp.
 
-1. Give credit where it’s due. All the documentation you develop, including git logs and timesheets, means you’ll know who did what. Give appropriate credit to *everyone* in *all* the following places:
+1. Give credit where it’s due. In steps 1–3 you’ll clearly define roles and responsibilities for each team member. With all the documentation you develop, including git logs and timesheets, you’ll be able to verify who did what. Give appropriate credit to *everyone* in *all* the following places:
 
 	* on the website (e.g. in a humans.txt file, in page metadata)
 	* in the website’s documentation (e.g. CONTRIBUTORS.MD on GitHub)
@@ -113,11 +124,13 @@ These principles should be examined and considered before the project starts, wh
 
 	* Remember: extra money is a good problem to have.
 
-1. Using your operating budget as a guideline, determine the ideal project scope, then reduce it by half. This is your scope for *this phase*.
+1. Using your operating budget and timelines as guides, determine the ideal project scope, then reduce it by half. This is your scope for *this phase*.
 
 	* A focused project is more likely to be successful, and there will always be time for more phases later.
+	
+	* Remember to consider *all* the steps in this document when considering timelines, including multiple rounds of usability and testing.
 
-1. Plan exactly what data you’d like collected and why. Then, plan to collect more data than you think you’ll need.
+1. Plan exactly what data you’d like collected for research, testing, and development/planning purposes, and define why you need it. Then, for each of these, plan to collect more data than you think you’ll need.
 
 	* If possible, try to collect as much data as possible anonymously. Identifiable data should be avoided whenever possible.
 	
@@ -125,7 +138,7 @@ These principles should be examined and considered before the project starts, wh
 
 1. Research
 
-	* Study the data from other projects and earlier versions of this project and interview stakeholders (especially users). Determine what is important to whom and why, how it will be used, and where it will be accessed from.
+	* Study the data collected from other projects and earlier versions of this project, and interview stakeholders (especially users). Determine what content and features are important to whom and why, how they will be used, and where they will be accessed from.
 	
 	* Every team member should spend at least one full day reading about their area of focus (and especially about how it applies to the web), and another full day about an area on which they aren’t focusing and/or aren’t an expert. This helps insure that everybody’s knowledge is current and continues to grow.
 	
@@ -147,9 +160,19 @@ These principles should be examined and considered before the project starts, wh
 	
 	* Plan how data will be monitored during the launch/transition period, and how to react/make adjustments based on this data.
 
-1. Follow your launch plan.
+1. Create a post-launch plan.
 
-1. After launch, have all the stakeholders go over the built-up documentation (minutes, git logs, documentation, style guides, READMEs, help files, timesheets, papers written, etc.) and compile a “bible” for the project.
+	* Decide what actions will be required for maintaining and updating the site, who will be responsible for this, and where the funds will come from.
+	
+	* Plan for how to monitor and react to usage and other data post-launch.
+	
+	* Plan for who will monitor and respond to the communications channels that were defined in your launch plan.
+
+1. Implement your launch plan.
+
+1. Once the final phase of your launch plan is complete, implement your post-launch plan.
+
+1. Once you are in the post-launch phase, have all the stakeholders go over the built-up documentation (minutes, git logs, documentation, style guides, READMEs, help files, timesheets, papers written, etc.) and compile a “bible” for the project.
 
 	* This should include take-aways that can be used in future projects.
 	
@@ -305,6 +328,8 @@ These steps focus on front-end development. Back-end development may need to tak
 	* Prioritize testing with real browsers and devices, and only use simulators if the real thing is unavailable.
 	
 	* While testing, take screenshots of every template in every browser/device combination. Save these.
+	
+	* Make sure multiple team members test. Fresh eyes are crucial.
 
 1. Fix any problems that arose during browser testing.
 
@@ -331,3 +356,7 @@ These steps focus on front-end development. Back-end development may need to tak
 [^3]: Using progressive enhancement facilitates making responsive and accessible websites, and also helps us make websites that work with the wide variety of browsers in use. We see similar variety in browser versions as we do in screen resolution; [StatCounter](http://gs.statcounter.com/) tracks 12 popular browser versions with significant usage, the highest being “Android 0” at 6.38%. The largest segment is, again, the “Other” category, with 48.1%. Progressive enhancement with feature detection allows us to accomodate this variability and offer good experiences to users no matter what their browser and version.
 
 [^4]: Using a usability tester without a vested interest in the project avoids injecting bias. From Rubin & Chisnell, *Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests*, 2008, ‘Chapter 9. Conduct the Test Sessions’: “Take the attitude that you have no vested interest in the results one way or the other. Present the product neutrally (this does not mean you need to be solemn), so that the participants cannot ascertain any preference on your part. Never indicate through your speech or mannerisms that you strongly approve or disapprove of any actions or comments offered by a particular participant. React to ‘mistakes’ or ‘wrong turns’ in exactly the same way as you do to correct behavior. Never make participants feel stupid or inadequate (even inadvertently) by how you respond to their actions. If a participant is having problems, remember that it is the fault of the product. Period. Even if you say and do all the right things, participants will still blame themselves. If that happens, remind them of the value of their difficulties in understanding how the product actually works. Encourage them to freely explore areas without concern for ‘looking good.’”
+
+[^5]: In software development, this is known as [Bikeshedding](https://en.wikipedia.org/wiki/Parkinson%27s_Law_of_Triviality).
+
+[^6]: This is often referred to as “eating your own dogfood” or [dogfooding](http://en.wikipedia.org/wiki/Dogfooding).
