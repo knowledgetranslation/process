@@ -2,7 +2,7 @@
 
 *David Newton  
 for the Knowledge Translation Program, St. Michael’s Hospital  
-2014-07-23*
+2014-07-24*
 
 This process has lots of padding and failsafes built-in. Every project always runs over-time, over-budget, and under-scope. The padding and failsafes should help mitigate the consequences of unexpected barriers.
 
@@ -10,19 +10,19 @@ This process has lots of padding and failsafes built-in. Every project always ru
 
 These principles should be examined and considered before the project starts, when the project ends, and at every step in between. At every step, every team member should consider how the principle applies to the step as a whole, and to their work in that step.
 
-1. Every website needs to be [responsive](https://en.wikipedia.org/wiki/Responsive_web_design), every website needs to be [accessible](https://en.wikipedia.org/wiki/Web_accessibility), every website needs to use [progressive enhancement](https://en.wikipedia.org/wiki/Progressive_Enhancement).
+1. Every website needs to be [responsive](https://en.wikipedia.org/wiki/Responsive_web_design)[^1], every website needs to be [accessible](https://en.wikipedia.org/wiki/Web_accessibility)[^2], every website needs to use [progressive enhancement](https://en.wikipedia.org/wiki/Progressive_Enhancement)[^3].
 
 1. Every stakeholder is a team member and every team member is a stakeholder.
 
-	* Exception: Usability tests should be conducted and summarized by people complete separate from the rest of the team, to avoid bias.
+	* Exception: Usability tests should be conducted and summarized by people complete separate from the rest of the team, to avoid bias.[^4]
 
 1. Involve all stakeholders at every step of the project, every meeting, and every decision point. Everybody should have the *opportunity* to participate.
 
 	* For some parts a team member’s involvement will be mandatory, for others optional; but, every team member should have that option for every stage.
 
-	* Involvement does not simply equal presence. Every team member should have the option *participating*, and should be encouraged to do so.
+	* Involvement does not simply equal presence. Every team member should have the option of *participating*, and should be encouraged to do so.
 
-	* e.g. desginers should be involved while during content creation, developers should be involved while creating timelines, users should be involved while planning scope, etc.		
+	* e.g. desginers should be involved during content creation, developers should be involved while creating timelines, users should be involved while planning scope, etc.
 
 1. Trust the expertise of your experts, *in their area of expertise*. Being an expert in one area doesn’t make somebody an expert in another area.
 
@@ -32,25 +32,25 @@ These principles should be examined and considered before the project starts, wh
 
 1. Remember the [Priority of Constituencies](http://www.w3.org/TR/html-design-principles/#priority-of-constituencies):
 
-	* In case of conflict, consider users over authors (developers/designers) over implementors (tool creators?) over specifiers (other stakeholders?) over theoretical purity. In other words costs or difficulties to the user should be given more weight than costs to authors; which in turn should be given more weight than costs to implementors; which should be given more weight than costs to authors of the spec itself, which should be given more weight than those proposing changes for theoretical reasons alone. Of course, it is preferred to make things better for multiple constituencies at once. (paraphrased)
+	* In case of conflict, consider users over authors (developers/designers) over implementors (tool creators?) over specifiers (other stakeholders?) over theoretical purity. In other words costs or difficulties to the user should be given more weight than costs to authors; which in turn should be given more weight than costs to implementors; which should be given more weight than costs to authors of the spec itself, which should be given more weight than those proposing changes for theoretical reasons alone. Of course, it is preferred to make things better for multiple constituencies at once. (paraphrased; need to work a bit more to clarify how this applies here)
 
-1. No one user is more important than another user. 
+1. No single user is more important than another user. 
 
 	* e.g. mobile users need the same access to the same content as desktop users, disabled users need the same access to the same content as able users, etc.
 
 1. Usability tests are for identifying problems, not for generating suggestions.
 
 	* Users might think they know how to solve these problems, but they’re probably wrong.
-	
+
 	* They aren’t the experts, you are.
 
 	* Usability test summaries should identify 	problems, but not mention any user-generated suggested solutions. Solutions should be determined by experts on your team.
 
-1. Usability testing should only ever focus on one area at a time, e.g. either content, look-and-feel, functionality. If you want to test multiple areas, conduct separate usability tests.
+1. Usability testing should only ever focus on one area at a time, e.g. either content, look-and-feel, or functionality. If you want to test multiple areas, conduct separate usability tests.
 
 1. You’re building for the web, so use web-compatible technologies.
 
-	* Create content using plain text, [Markdown](https://en.wikipedia.org/wiki/Markdown), or HTML, not in Microsoft Word (and especially not PDFs or PowerPoint).
+	* Create content using plain text, [Markdown](https://en.wikipedia.org/wiki/Markdown), or HTML; not in Microsoft Word (and especially not PDFs or PowerPoint).
 
 	* If possible, design *in the browser* using CSS, not in software designed for print, like Photoshop, Illustrator, or InDesign (and especially not in non-design software like PowerPoint, Word, etc).
 	
@@ -62,11 +62,11 @@ These principles should be examined and considered before the project starts, wh
 
 1. Build everything (content, design, development) modularly: you’ll probably be on another project where you can re-use components.
 
-1. Avoid social components (e.g. forums, chat, blogs, social media).
+1. Avoid social components (e.g. forums, chat, blogs, social media) when possible.
 
 1. Avoid requiring users to login with a username and password.
 
-1. Document everything you do at every step and fall in love with version control software for every piece.
+1. Document everything you do at every step and use version control software for every piece.
 
 1. Everybody should track their hours. Ideally hours should be tracked according to specific tasks. One good way to do this is to make every task a GitHub issue, and associate all hours with specific issues.
 
@@ -84,7 +84,7 @@ These principles should be examined and considered before the project starts, wh
 
 1. Work in the open. Avoid decision-making over email or in private conversations.
 
-	* All meetings should have a secretary, and that secretary should take notes *visibly*, e.g. on a whiteboard, so other attendees can contribute and updates notes where they see fit. Ideally, meetings should also be audio recorded and made available to members who weren’t able to attend. Ideally, any sketches should be photographed/scanned and be included with the minutes.
+	* All meetings should have a secretary, and that secretary should take notes *visibly*, e.g. on a whiteboard, so other attendees can contribute and update notes where they see fit. Ideally, meetings should also be audio recorded and made available to members who weren’t able to attend. Ideally, any sketches should be photographed/scanned and be included with the minutes.
 	
 	* All decision-making between meetings should be done in an open forum, such as GitHub or Basecamp.
 
@@ -115,7 +115,7 @@ These principles should be examined and considered before the project starts, wh
 
 1. Using your operating budget as a guideline, determine the ideal project scope, then reduce it by half. This is your scope for *this phase*.
 
-	* A focused project is more likely to be successful, and there will always be time for more phases later.		
+	* A focused project is more likely to be successful, and there will always be time for more phases later.
 
 1. Plan exactly what data you’d like collected and why. Then, plan to collect more data than you think you’ll need.
 
@@ -234,13 +234,13 @@ These principles should be examined and considered before the project starts, wh
 
 1. Document in detail how each element of each template progressively enhances from the fallback design to the mobile design to the desktop design. Make sure there is complete content- and functionality-parity between all three designs, and that it’s clear how each element adjusts in changing circumstances.
 
-	* This process will probably require creating a few extra alternate design templates at different “breakpoints”, i.e. an adjustment when something breaks or looks bad at certain size or when a certain feature is supported. Always create these alternate templates based on breakpoints and not specific devices.
+	* This process will probably require creating a few extra alternate design templates at different “breakpoints”, i.e. an adjustment when something breaks or looks bad at a certain size or when a certain feature is/isn’t supported. Always create these alternate templates based on breakpoints and not specific devices.
 	
 1. Update the style guide with any design information not previously entered.
 
 ### Development
 
-These steps focus on front-end development.
+These steps focus on front-end development. Back-end development may need to take place in parallel with these steps.
 
 1. Develop HTML and CSS versions of each fallback template, using real content.
 
@@ -321,3 +321,13 @@ These steps focus on front-end development.
 1. Fix any problems that arose during performance testing.
 
 	* If there were problems to fix, return to step 1.
+
+### Notes
+
+[^1]: Given the variability in how users access the web, responsive design has become an industry standard; sites need to be responsive because we cannot account for how a user will be using a site. No designing responsively risks excluding a large number of users. According to [StatCounter](http://gs.statcounter.com/), in June 2014 mobile web usage is 26.64% (up from 15.31% in June 2013), tablet web usage is 6.4% (up from 4.65% in June 2013). Moreover, according to [OurMobilePlanet](http://think.withgoogle.com/mobileplanet/en/graph/?country=ca&category=MOBI&topic=Q09B&stat=Q09B_1&wave=2013&age=all&gender=all&chart_type=&active=stat), 74% of Canadians access the web from their mobile devices daily. However, these discrete, broad categories can also obfuscate the fact that “mobile” and “tablet” aren’t really consistent; screen resolution varies wildly. [StatCounter](http://gs.statcounter.com/) also tracks 14 separate screen resolutions that people use to access the web in signficant numbers, but the highest percentage of access for any one resolution is 20.13% (for 1366x768 pixels); far more users (27.84%) fall into the “other” category. We cannot design for individual devices, device types, or resolutions; we must instead allow our designs to *respond* to the users’ viewing context.
+
+[^2]: Not making sites accessible risks excluding a large number of users: [according to the Canadian government](http://www4.rhdcc.gc.ca/indicator.jsp?&indicatorid=40), 13.7% of the population has a disability. Furthermore, we are required by law (The [Accessibility for Ontarians with Disabilities Act, 2005](http://www.e-laws.gov.on.ca/html/statutes/english/elaws_statutes_05a11_e.htm)) to make all our websites accessible. We do this by adhering to the [Web Content Accessibility Guidelines (WCAG) 2.0](http://www.w3.org/TR/WCAG20/) and other industry standards.
+
+[^3]: Using progressive enhancement facilitates making responsive and accessible websites, and also helps us make websites that work with the wide variety of browsers in use. We see similar variety in browser versions as we do in screen resolution; [StatCounter](http://gs.statcounter.com/) tracks 12 popular browser versions with significant usage, the highest being “Android 0” at 6.38%. The largest segment is, again, the “Other” category, with 48.1%. Progressive enhancement with feature detection allows us to accomodate this variability and offer good experiences to users no matter what their browser and version.
+
+[^4]: Using a usability tester without a vested interest in the project avoids injecting bias. From Rubin & Chisnell, *Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests*, 2008, ‘Chapter 9. Conduct the Test Sessions’: “Take the attitude that you have no vested interest in the results one way or the other. Present the product neutrally (this does not mean you need to be solemn), so that the participants cannot ascertain any preference on your part. Never indicate through your speech or mannerisms that you strongly approve or disapprove of any actions or comments offered by a particular participant. React to ‘mistakes’ or ‘wrong turns’ in exactly the same way as you do to correct behavior. Never make participants feel stupid or inadequate (even inadvertently) by how you respond to their actions. If a participant is having problems, remember that it is the fault of the product. Period. Even if you say and do all the right things, participants will still blame themselves. If that happens, remind them of the value of their difficulties in understanding how the product actually works. Encourage them to freely explore areas without concern for ‘looking good.’”
