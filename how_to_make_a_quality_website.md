@@ -17,11 +17,11 @@ These principles should be examined and considered before the project starts, wh
 
 1. Every website needs to be [responsive](https://en.wikipedia.org/wiki/Responsive_web_design)[^1], every website needs to be [accessible](https://en.wikipedia.org/wiki/Web_accessibility)[^2], every website needs to use [progressive enhancement](https://en.wikipedia.org/wiki/Progressive_Enhancement)[^3].
 
-1. Every stakeholder is a team member and every team member is a stakeholder.
+1. Every stakeholder is a team member and every team member is a stakeholder.[^4]
 
 	* Exception: Usability tests should, ideally, be conducted and summarized by people completely separate from the rest of the team, to avoid bias.
 	
-		If the team members are the ones conducting usability tests, every effort should be made to avoid bias in testing.[^4]
+		If the team members are the ones conducting usability tests, every effort should be made to avoid bias in testing.[^5]
 
 1. Involve all stakeholders at every step of the project, every meeting, and every decision point. Everybody should have the *opportunity* to participate.
 	
@@ -37,7 +37,7 @@ These principles should be examined and considered before the project starts, wh
 
 	* e.g. a content expert is not a designer; a developer is not a scientist
 
-1. Don’t give disproportionate or inappropriate weight to trivial issues.[^5]
+1. Don’t give disproportionate or inappropriate weight to trivial issues.[^6]
 
 1. Remember the [Priority of Constituencies](http://www.w3.org/TR/html-design-principles/#priority-of-constituencies), a founding web design principle encoded by the World Wide Web Consortium and Web Hypertext Application Technology Working Group (the organizations responsible for web standards):
 
@@ -51,7 +51,7 @@ These principles should be examined and considered before the project starts, wh
 	
 	* Note that this principle does not mean we should always defer to what each constituency wants or says they want; it means that in cases of conflict we should look at evidence and use that evidence to prioritize benefits to users over authors, etc. We always prioritize evidence over expert opinion.
 
-1. No single user is more important than another user. 
+1. No single user is more important than another user.[^7] 
 
 	* e.g. mobile users need the same access to the same content as desktop users, disabled users need the same access to the same content as able users, etc.
 
@@ -60,8 +60,12 @@ These principles should be examined and considered before the project starts, wh
 	* Users might think they know how to solve these problems, but they may be wrong. They aren’t the experts in tool development, you are. *However*, they may be knowledge experts in the context of the tool usage.
 
 	* Usability test summaries focus on identifying 	problems rather than solutions. While user-suggested solutions should be considered, final decisions on solutions should be decided by experts on your team.
+	
+	* “Users are most valuable in helping designers know what a system should do, but not in helping designers determine how best to have the system do it.”[^8]
 
 1. Usability testing should only ever focus on one area at a time, e.g. either content, look-and-feel, or functionality. If you want to test multiple areas, conduct separate usability tests.
+
+	* Usability tests should have specific performance and success goals.[^11]
 
 1. You’re building for the web, so use web-compatible technologies.
 
@@ -79,13 +83,13 @@ These principles should be examined and considered before the project starts, wh
 
 1. Avoid social components (e.g. forums, chat, blogs, social media) when possible.
 
-1. Avoid requiring users to login with a username and password.
+1. Avoid requiring users to log in with a username and password.
 
 1. Document everything you do at every step and use version control software for every piece.
 
 1. Everybody should track their hours. Ideally hours should be tracked according to specific tasks. One good way to do this is to make every task a GitHub issue, and associate all hours with specific issues.
 
-1. Publish what you publish. Knowledge translation depends on dissemination; we need share what we’re creating[^6].
+1. Publish what you publish. Knowledge translation depends on dissemination; we need share what we’re creating[^9].
 
 	* Make all website content public, not password protected or behind a paywall.
 	
@@ -128,7 +132,7 @@ These principles should be examined and considered before the project starts, wh
 
 	* Remember: extra money is a good problem to have.
 
-1. Using your operating budget and timelines as guides, determine the ideal project scope, then reduce it by half. This is your scope for *this phase*.
+1. Using your operating budget and timelines as guides, determine the ideal project scope[^10], then reduce it by half. This is your scope for *this phase*.
 
 	* A focused project is more likely to be successful, and there will always be time for more phases later.
 	
@@ -142,7 +146,7 @@ These principles should be examined and considered before the project starts, wh
 
 1. Research
 
-	* Study the data collected from other projects and earlier versions of this project, and interview stakeholders (especially users). Determine what content and features are important to whom and why, how they will be used, and where they will be accessed from.
+	* Study the data collected from other projects and earlier versions of this project, and interview stakeholders (especially users). Determine what content and features are important to whom and why, how they will be used, and where they will be accessed from.[^8],[^12]
 	
 	* Every team member should spend at least one full day reading about their area of focus (and especially about how it applies to the web), and another full day about an area on which they aren’t focusing and/or aren’t an expert. This helps insure that everybody’s knowledge is current and continues to grow.
 	
@@ -196,9 +200,9 @@ These principles should be examined and considered before the project starts, wh
 	
 1. Create your content, in compliance with your style guide and Information Architecture, and keeping in mind your user personas. Then, delete half the content.
 
-	* Your users usually have very specific goals when visiting a web site. Don’t clutter their experience, and don’t give them what they don’t need.
+	* Your users usually have very specific goals when visiting a web site. Don’t clutter their experience, and don’t give them what they don’t need.[^12],[^13]
 
-1. Conduct usability testing on the content. Can users understand it and get the info they need?
+1. Conduct usability testing on the content. Can users understand it and get the info they need?[^8]
 
 	* Try to test with users that closely match each of your personas.
 	
@@ -217,11 +221,11 @@ These principles should be examined and considered before the project starts, wh
 	* Javascript support/availability
 	* Language, e.g. with machine-translation support
 	
-	This isn’t the “showcase” design, this is the fallback, lowest-common-denominator design.
+	This isn’t the “showcase” design, this is the fallback, lowest-common-denominator design.[^7]
 	
 1. Cut the number of templates in half, and for each remaining template, cut the number of user interace elements in half. Double the font size, and double the white space.
 
-1. Conduct usability testing on this design, using paper prototypes.
+1. Conduct usability testing on this design, using paper prototypes.[^7],[^12]
 
 	* Try to test with users that closely match each of your personas.
 	
@@ -325,6 +329,14 @@ These steps focus on front-end development. Back-end development may need to tak
 
 1. Perform the **Testing** steps.
 
+1. Perform Search Engine Optimization by ensuring proper meta-information and titles have been used for all pages, including the use of structured data (e.g. [schema.org](http://schema.org/)).[^14]
+
+	* Also consider using search engine submission tools, such as [Google Webmaster Tools](https://www.google.com/webmasters/tools/home?hl=en).
+
+	* The best ways to achieve high-ranking search results are to have high quality content; semantic, validated code; and high performance. All of these should have been handled before this point in the process.
+	
+1. Perform the **Testing** steps.
+
 ### Testing
 
 1. Test the templates in as many browsers as possible, on as many devices as possible, with as many assistive technologies as possible. Make sure everything functions as it should and looks ok (though not necessarily pixel perfect!).
@@ -349,6 +361,8 @@ These steps focus on front-end development. Back-end development may need to tak
 
 1. Fix any problems that arose during performance testing.
 
+	* Good performance should take priority over good aesthetics. Ideally you can achieve both, but in cases of conflict, optimize for performance.[^15]
+
 	* If there were problems to fix, return to step 1.
 
 ### Notes
@@ -359,8 +373,26 @@ These steps focus on front-end development. Back-end development may need to tak
 
 [^3]: Using progressive enhancement facilitates making responsive and accessible websites, and also helps us make websites that work with the wide variety of browsers in use. We see similar variety in browser versions as we do in screen resolution; [StatCounter](http://gs.statcounter.com/) tracks 12 popular browser versions with significant usage, the highest being “Android 0” at 6.38%. The largest segment is, again, the “Other” category, with 48.1%. Progressive enhancement with feature detection allows us to accomodate this variability and offer good experiences to users no matter what their browser and version.
 
-[^4]: Using a usability tester without a vested interest in the project avoids injecting bias. From Rubin & Chisnell, *Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests*, 2008, ‘Chapter 9. Conduct the Test Sessions’: “Take the attitude that you have no vested interest in the results one way or the other. Present the product neutrally (this does not mean you need to be solemn), so that the participants cannot ascertain any preference on your part. Never indicate through your speech or mannerisms that you strongly approve or disapprove of any actions or comments offered by a particular participant. React to ‘mistakes’ or ‘wrong turns’ in exactly the same way as you do to correct behavior. Never make participants feel stupid or inadequate (even inadvertently) by how you respond to their actions. If a participant is having problems, remember that it is the fault of the product. Period. Even if you say and do all the right things, participants will still blame themselves. If that happens, remind them of the value of their difficulties in understanding how the product actually works. Encourage them to freely explore areas without concern for ‘looking good.’”
+[^4]: “Involve Users in Establishing User Requirements: Involve users to improve the completeness and accuracy of user requirements. One of the basic principles of user-centered design is the early and continual focus on users. For this reason, user involvement has become a widely accepted principle in the development of usable systems. Involving users has the most value when trying to improve the completeness and accuracy of user requirements. It is also useful in helping to avoid unused or little-used system features. Users are most valuable in helping designers know what a system should do, but not in helping designers determine how best to have the system do it.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 4, Involve Users in Establishing User Requirements”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/4](http://guidelines.usability.gov/guidelines/4). Accessed 2014-07-28.
 
-[^5]: In software development, this is known as [Bikeshedding](https://en.wikipedia.org/wiki/Parkinson%27s_Law_of_Triviality).
+[^5]: Using a usability tester without a vested interest in the project avoids injecting bias. From Rubin & Chisnell, *Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests*, 2008, ‘Chapter 9. Conduct the Test Sessions’: “Take the attitude that you have no vested interest in the results one way or the other. Present the product neutrally (this does not mean you need to be solemn), so that the participants cannot ascertain any preference on your part. Never indicate through your speech or mannerisms that you strongly approve or disapprove of any actions or comments offered by a particular participant. React to ‘mistakes’ or ‘wrong turns’ in exactly the same way as you do to correct behavior. Never make participants feel stupid or inadequate (even inadvertently) by how you respond to their actions. If a participant is having problems, remember that it is the fault of the product. Period. Even if you say and do all the right things, participants will still blame themselves. If that happens, remind them of the value of their difficulties in understanding how the product actually works. Encourage them to freely explore areas without concern for ‘looking good.’”
 
-[^6]: This is often referred to as “eating your own dogfood” or [dogfooding](http://en.wikipedia.org/wiki/Dogfooding).
+[^6]: In software development, this is known as [Bikeshedding](https://en.wikipedia.org/wiki/Parkinson%27s_Law_of_Triviality).
+
+[^7]: “Consider Many User Interface Issues: Consider as many user interface issues as possible during the design process. Consider numerous usability-related issues during the creation of a Web site. These can include: the context within which users will be visiting a Web site; the experience levels of the users; the types of tasks users will perform on the site; the types of computer and connection speeds used when visiting the site; evaluation of prototypes; and the results of usability tests.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 7, Consider Many User Interface Issues”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/7](http://guidelines.usability.gov/guidelines/7). Accessed 2014-07-28.
+
+[^8]: “Establish User Requirements: Use all available resources to better understand users’ requirements. The greater the number of exchanges of information with potential users, the better the developers' understanding of the users' requirements. The more information that can be exchanged between developers and users, the higher the probability of having a successful website. These could include customer support lines, customer surveys and interviews, bulletin boards, sales people, user groups, trade show experiences, focus groups, etc. Successful projects require at least four (and average five) different sources of information. Do not rely too heavily on user intermediaries. The information gathered from exchanges with users can be used to build 'use cases'. Use cases describe the things that users want and need the website to be able to do. In one study, when compared with traditional function-oriented analyses, use cases provided a specification that produced better user performance and higher user preferences.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 2, Establish User Requirements”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/2](http://guidelines.usability.gov/guidelines/2). Accessed 2014-07-28.
+
+[^9]: This is often referred to as “eating your own dogfood” or [dogfooding](http://en.wikipedia.org/wiki/Dogfooding).
+
+[^10]: “Set and State Goals: Identify and clearly articulate the primary goals of the Web site before beginning the design process. Before starting design work, identify the primary goals of the website (educate, inform, entertain, sell, etc.). Goals determine the audience, content, function, and the site’s unique look and feel. It is also a good idea to communicate the goals to, and develop consensus for the site goals from management and those working on the website.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 5, Set and State Goals”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/5](http://guidelines.usability.gov/guidelines/5). Accessed 2014-07-28.
+
+[^11]: “Set Usability Goals: Set performance goals that include success rates and the time it takes users to find specific information, or preference goals that address satisfaction and acceptance by users. Setting user performance and/or preference goals helps developers build better Web sites. It can also help make usability testing more effective. For example, some intranet Web sites have set the goal that information will be found eighty percent of the time and in less than one minute.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 9, Set Usability Goals”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/9](http://guidelines.usability.gov/guidelines/9). Accessed 2014-07-28.
+
+[^12]: “Understand and Meet User’s Expectations: Ensure that the website format meets user expectations, especially related to navigation, content, and organization. Users define ‘usability’ as their perception of how consistent, efficient, productive, organized, easy to use, intuitive, and straightforward it is to accomplish tasks within a system. It is important for designers to develop an understanding of their users expectations through task analyses and other research. Users can have expectations based on their prior knowledge and past experience. The use of familiar formatting and navigation schemes makes it easier for users to learn and remember the layout of a site. Assume that certain users will not use a website frequently enough to learn to use it efficiently. Therefore, use familiar conventions.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 3, Understand and Meet User’s Expectations”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/3](http://guidelines.usability.gov/guidelines/3). Accessed 2014-07-28.
+
+[^13]: “Provide Useful Content: Provide content that is engaging, relevant, and appropriate to the audience. Content is the information provided on a Web site. Do not waste resources providing easy access and good usability to the wrong content. One study found that content is the most critical element of a Web site. Other studies have reported that content is more important than navigation, visual design, functionality, and interactivity.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 1, Provide Useful Content”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/1](http://guidelines.usability.gov/guidelines/1). Accessed 2014-07-28.
+
+[^14]: “Be Easily Found in the Top 30: In order to have a high probability of being accessed, ensure that a Web site is in the 'top 30' references presented from a major search engine. One study showed that users usually do not look at Web sites that are not in the 'top 30'. Some of the features required to be in the 'top 30' include appropriate meta-content and page titles, the number of links to the Web site, as well as updated registration with the major search engines.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 8, Be Easily Found in the Top 30”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/8](http://guidelines.usability.gov/guidelines/8). Accessed 2014-07-28.
+
+[^15]: “Focus on Performance Before Preference: If user performance is important, make decisions about content, format, interaction, and navigation before deciding on colors and decorative graphics. Focus on achieving a high rate of user performance before dealing with aesthetics. Graphics issues tend to have little impact, if any, on users' success rates or speed of performance.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 6, Focus on Performance Before Preference”. Washington: U.S. Government Printing Office. [http://guidelines.usability.gov/guidelines/6](http://guidelines.usability.gov/guidelines/6). Accessed 2014-07-28.
