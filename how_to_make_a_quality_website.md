@@ -1,0 +1,323 @@
+# How to make a quality website
+
+*David Newton  
+for the Knowledge Translation Program, St. Michael’s Hospital  
+2014-07-23*
+
+This process has lots of padding and failsafes built-in. Every project always runs over-time, over-budget, and under-scope. The padding and failsafes should help mitigate the consequences of unexpected barriers.
+
+## Principles
+
+These principles should be examined and considered before the project starts, when the project ends, and at every step in between. At every step, every team member should consider how the principle applies to the step as a whole, and to their work in that step.
+
+1. Every website needs to be [responsive](https://en.wikipedia.org/wiki/Responsive_web_design), every website needs to be [accessible](https://en.wikipedia.org/wiki/Web_accessibility), every website needs to use [progressive enhancement](https://en.wikipedia.org/wiki/Progressive_Enhancement).
+
+1. Every stakeholder is a team member and every team member is a stakeholder.
+
+	* Exception: Usability tests should be conducted and summarized by people complete separate from the rest of the team, to avoid bias.
+
+1. Involve all stakeholders at every step of the project, every meeting, and every decision point. Everybody should have the *opportunity* to participate.
+
+	* For some parts a team member’s involvement will be mandatory, for others optional; but, every team member should have that option for every stage.
+
+	* Involvement does not simply equal presence. Every team member should have the option *participating*, and should be encouraged to do so.
+
+	* e.g. desginers should be involved while during content creation, developers should be involved while creating timelines, users should be involved while planning scope, etc.		
+
+1. Trust the expertise of your experts, *in their area of expertise*. Being an expert in one area doesn’t make somebody an expert in another area.
+
+	* e.g. a content expert is not a designer; a developer is not a scientist
+
+1. Don’t [Bikeshed](http://en.wikipedia.org/wiki/Bikeshed).
+
+1. Remember the [Priority of Constituencies](http://www.w3.org/TR/html-design-principles/#priority-of-constituencies):
+
+	* In case of conflict, consider users over authors (developers/designers) over implementors (tool creators?) over specifiers (other stakeholders?) over theoretical purity. In other words costs or difficulties to the user should be given more weight than costs to authors; which in turn should be given more weight than costs to implementors; which should be given more weight than costs to authors of the spec itself, which should be given more weight than those proposing changes for theoretical reasons alone. Of course, it is preferred to make things better for multiple constituencies at once. (paraphrased)
+
+1. No one user is more important than another user. 
+
+	* e.g. mobile users need the same access to the same content as desktop users, disabled users need the same access to the same content as able users, etc.
+
+1. Usability tests are for identifying problems, not for generating suggestions.
+
+	* Users might think they know how to solve these problems, but they’re probably wrong.
+	
+	* They aren’t the experts, you are.
+
+	* Usability test summaries should identify 	problems, but not mention any user-generated suggested solutions. Solutions should be determined by experts on your team.
+
+1. Usability testing should only ever focus on one area at a time, e.g. either content, look-and-feel, functionality. If you want to test multiple areas, conduct separate usability tests.
+
+1. You’re building for the web, so use web-compatible technologies.
+
+	* Create content using plain text, [Markdown](https://en.wikipedia.org/wiki/Markdown), or HTML, not in Microsoft Word (and especially not PDFs or PowerPoint).
+
+	* If possible, design *in the browser* using CSS, not in software designed for print, like Photoshop, Illustrator, or InDesign (and especially not in non-design software like PowerPoint, Word, etc).
+	
+	* Define design in terms of web units, e.g. colours as hex values, sizes and distances in pixels and ems, etc.
+
+	* Collaborate using version control software and services like GitHub, not by emailing and turning on Track Changes in Microsoft Word.
+
+1. Make sure all designs account for and define all interactions and states (clicks, hovers, transitions, etc.).
+
+1. Build everything (content, design, development) modularly: you’ll probably be on another project where you can re-use components.
+
+1. Avoid social components (e.g. forums, chat, blogs, social media).
+
+1. Avoid requiring users to login with a username and password.
+
+1. Document everything you do at every step and fall in love with version control software for every piece.
+
+1. Everybody should track their hours. Ideally hours should be tracked according to specific tasks. One good way to do this is to make every task a GitHub issue, and associate all hours with specific issues.
+
+1. Publish what you publish. Knowledge translation depends on dissemination; we need to do some [dogfooding](http://en.wikipedia.org/wiki/Dogfooding) and share what we’re creating.
+
+	* Make all website content public, not password protected or behind a paywall.
+	
+	* If it can’t be made public, then it probably shouldn’t be on the website. Use other services, like intranets, Basecamp, Canvas, etc.
+	
+	* Open source all the developed designs, code, documentation, etc.
+	
+	* Find out what your rights are when you publish papers about the project. If possible make the papers available as widely as possible, for free, even if it costs extra money.
+
+1. Research as much as possible. Learn as much as possible. Collect as much data as possible. More [dogfooding](http://en.wikipedia.org/wiki/Dogfooding): evidence-based web development.
+
+1. Work in the open. Avoid decision-making over email or in private conversations.
+
+	* All meetings should have a secretary, and that secretary should take notes *visibly*, e.g. on a whiteboard, so other attendees can contribute and updates notes where they see fit. Ideally, meetings should also be audio recorded and made available to members who weren’t able to attend. Ideally, any sketches should be photographed/scanned and be included with the minutes.
+	
+	* All decision-making between meetings should be done in an open forum, such as GitHub or Basecamp.
+
+1. Give credit where it’s due. All the documentation you develop, including git logs and timesheets, means you’ll know who did what. Give appropriate credit to *everyone* in *all* the following places:
+
+	* on the website (e.g. in a humans.txt file, in page metadata)
+	* in the website’s documentation (e.g. CONTRIBUTORS.MD on GitHub)
+	* in papers about the project (e.g. authorship for anybody that had decision-making responsibility, acknowledgements for every other team member)
+	* in presentations (e.g. on an acknowledgements slide)
+
+## Steps
+
+1. Determine who the stakeholders and team members are.
+
+1. For each of the following areas, determine which team member is the most responsible person: planning, content, design, development, and science. The most responsible person should be an expert in their area.
+
+	* The most responsible person will have the final decision on matters related to their area(s).
+	
+	* All other team members are still welcome to provide *feedback* on all other areas.
+
+1. For every team member that’s not a most responsible person, determine which area (planning, content, design, development, and science) they will focus on.
+
+	* All other team members are still welcome to provide *feedback* on all other areas, but they should have a specific focus.
+
+1. Determine the maximum budget that is available, and divide by two. This is your operating budget.
+
+	* Remember: extra money is a good problem to have.
+
+1. Using your operating budget as a guideline, determine the ideal project scope, then reduce it by half. This is your scope for *this phase*.
+
+	* A focused project is more likely to be successful, and there will always be time for more phases later.		
+
+1. Plan exactly what data you’d like collected and why. Then, plan to collect more data than you think you’ll need.
+
+	* If possible, try to collect as much data as possible anonymously. Identifiable data should be avoided whenever possible.
+	
+	* If you’re collecting data, write a privacy policy and submit it to REB/legal, and make sure to include it in the publicly-available content you develop in the **Content** steps.
+
+1. Research
+
+	* Study the data from other projects and earlier versions of this project and interview stakeholders (especially users). Determine what is important to whom and why, how it will be used, and where it will be accessed from.
+	
+	* Every team member should spend at least one full day reading about their area of focus (and especially about how it applies to the web), and another full day about an area on which they aren’t focusing and/or aren’t an expert. This helps insure that everybody’s knowledge is current and continues to grow.
+	
+1. Create user personas based on your research, that reflect different types of typical and atypical users.
+
+	* Remember that these form a useful but incomplete subset of your users; real users will never behave as you expect, nor should they.
+
+1. Do the **Content** steps.
+
+1. Do the **Design** steps.
+
+1. Do the **Development** steps.
+
+1. Create a launch plan.
+
+	* If this is an update to an existing site, develop a plan for how users will transition to the new version. Give them options to opt-in to the new version early, and opt-out for a set period after launch. Plan specific changeover dates and stick to them. Create and make available change documentation explaining what has changed and why. 
+	
+	* Provide communication and feedback channels, and plan how these will be monitored.
+	
+	* Plan how data will be monitored during the launch/transition period, and how to react/make adjustments based on this data.
+
+1. Follow your launch plan.
+
+1. After launch, have all the stakeholders go over the built-up documentation (minutes, git logs, documentation, style guides, READMEs, help files, timesheets, papers written, etc.) and compile a “bible” for the project.
+
+	* This should include take-aways that can be used in future projects.
+	
+	* Contribute relevant pieces to any department documents (process docs, pattern libraries, etc.)
+	
+	* Make sure to document, in as much detail as possible, any failures or barriers.
+
+### Content
+
+1. Develop or choose an existing style guide for content, *before* you actually start creating any of the content.
+
+	* Making already-created content conform to your style guide is much more work than developing content with a style guide already in-place.
+	
+1. Information Architecture: create a plan for how your content will be structured, both at a high-level (e.g. site navigation), and a low-level (e.g. sections within documents/pages). Then, reduce the complexity of your Information Architecture by half.
+
+	* Content should be structured as simply as possible to help users find what they’re looking for.
+	
+1. Create your content, in compliance with your style guide and Information Architecture, and keeping in mind your user personas. Then, delete half the content.
+
+	* Your users usually have very specific goals when visiting a web site. Don’t clutter their experience, and don’t give them what they don’t need.
+
+1. Conduct usability testing on the content. Can users understand it and get the info they need?
+
+	* Try to test with users that closely match each of your personas.
+	
+1. Revise the content based on the usability test feedback.
+
+1. Update the project’s style guide with any content and IA details that weren’t previously accounted for.
+
+### Design
+
+1. Create basic, works-for-everybody design templates that account for all the content and works well for all users, regardless of:
+
+	* Device, e.g. phone, tablet, desktop, laptop, etc.
+	* Browser, e.g. modern IE, obsolete IE, Firefox, Chrome, Safari, Opera, etc.
+	* Connection speed, e.g. high-speed/broadband, LTE, 3G, 2G, etc.
+	* Ability, e.g. using a mouse, using a keyboard, without assistive technology, with a screenreader, etc.
+	* Javascript support/availability
+	* Language, e.g. with machine-translation support
+	
+	This isn’t the “showcase” design, this is the fallback, lowest-common-denominator design.
+	
+1. Cut the number of templates in half, and for each remaining template, cut the number of user interace elements in half. Double the font size, and double the white space.
+
+1. Conduct usability testing on this design, using paper prototypes.
+
+	* Try to test with users that closely match each of your personas.
+	
+	* Test both previous and new testers if possible.
+	
+1. Revise the design based on usability feedback.
+
+1. Based on this design, update the project’s style guide with relevant design details, e.g. typefaces, colours, grid definitions, sizes, interactions, etc.
+
+1. Create “showcase” design templates for how everything should look in a mobile browser in the best possible case: modern device, modern browser, fast connection, available JavaScript.
+
+1. Cut the number of templates in half, and for each remaining template, cut the number of user interace elements in half. Double the font size, and double the white space.
+
+1. Conduct usability testing on this design, using paper prototypes.
+
+	* Try to test with users that closely match each of your personas.
+	
+	* Test both previous and new testers if possible.
+	
+1. Revise the design based on usability feedback.
+
+1. Based on this design, update the project’s style guide with relevant design details, e.g. typefaces, colours, grid definitions, sizes, interactions, etc.
+
+1. Create “showcase” design templates for how everything should look in a desktop browser in the best possible case: modern device, modern browser, fast connection, available JavaScript.
+
+1. Cut the number of templates in half, and for each remaining template, cut the number of user interace elements in half. Double the font size, and double the white space.
+
+1. Conduct usability testing on this design, using paper prototypes.
+
+	* Try to test with users that closely match each of your personas.
+	
+	* Test both previous and new testers if possible.
+	
+1. Revise the design based on usability feedback.
+
+1. Based on this design, update the project’s style guide with relevant design details, e.g. typefaces, colours, grid definitions, sizes, interactions, etc.
+
+1. Document in detail how each element of each template progressively enhances from the fallback design to the mobile design to the desktop design. Make sure there is complete content- and functionality-parity between all three designs, and that it’s clear how each element adjusts in changing circumstances.
+
+	* This process will probably require creating a few extra alternate design templates at different “breakpoints”, i.e. an adjustment when something breaks or looks bad at certain size or when a certain feature is supported. Always create these alternate templates based on breakpoints and not specific devices.
+	
+1. Update the style guide with any design information not previously entered.
+
+### Development
+
+These steps focus on front-end development.
+
+1. Develop HTML and CSS versions of each fallback template, using real content.
+
+	* This should involve *no JavaScript*, but may involve creating some backend functionality.
+	
+	* These need to be fully functional. If something doesn’t or can’t work at this stage, go back to whatever previous step created the barrier, fix it, and redo everything from that point forward.
+
+1. Perform the **Testing** steps.
+	
+1. Conduct usability testing on these templates, using real browsers/devices *of the users’ choice*.
+
+	* Conduct separate usability sessions geared at how it looks and how it works.
+
+	* Try to test with users that closely match each of your personas.
+	
+	* Test both previous and new testers if possible.
+
+1. Revise based on usability testing.
+
+1. Perform the **Testing** steps.
+	
+1. Update the style guide with any new information that hasn’t previously been included.
+
+1. Progressively enhance your design to get to the showcase mobile design, and any breakpoints between it and the fallback.
+
+	* Always use real content.
+	
+	* Use feature checking and appropriate fallbacks.
+	
+	* Remember that not every user needs the showcase design; that’s why the fallback and breakpoint templates are there, and why there are feature fallbacks. Everybody will get a good experience *appropriate* to their browsing context.
+
+1. Perform the **Testing** steps.
+
+1. Conduct usability testing on these templates, using real browsers/devices *of the users’ choice*.
+
+	* Conduct separate usability sessions geared at how it looks and how it works.
+
+	* Try to test with users that closely match each of your personas.
+	
+	* Test both previous and new testers if possible.
+
+1. Revise based on usability testing.
+
+1. Perform the **Testing** steps.
+	
+1. Update the style guide with any new information that hasn’t previously been included.
+
+1. Progressively enhance your design to get to the showcase desktop design, and any remaining breakpoints.
+
+	* Always use real content.
+	
+	* Use feature checking and appropriate fallbacks.
+	
+	* Remember that not every user needs the showcase design; that’s why the fallback and breakpoint templates are there, and why there are feature fallbacks. Everybody will get a good experience *appropriate* to their browsing context.
+
+1. Perform the **Testing** steps.
+
+### Testing
+
+1. Test the templates in as many browsers as possible, on as many devices as possible, with as many assistive technologies as possible. Make sure everything functions as it should and looks ok (though not necessarily pixel perfect!).
+
+	* Prioritize testing with real browsers and devices, and only use simulators if the real thing is unavailable.
+	
+	* While testing, take screenshots of every template in every browser/device combination. Save these.
+
+1. Fix any problems that arose during browser testing.
+
+	* If there were problems to fix, return to step 1.
+
+1. Conduct automated markup and accessibility validation.
+
+1. Fix any problems that arose during validity testing.
+
+	* If there were problems to fix, return to step 1.
+
+1. Conduct automated performance testing.
+
+1. Fix any problems that arose during performance testing.
+
+	* If there were problems to fix, return to step 1.
