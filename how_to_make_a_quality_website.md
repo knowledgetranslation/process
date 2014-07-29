@@ -110,6 +110,8 @@ These principles should be examined and considered before the project starts, wh
 
 1. Everybody should track their hours. Ideally hours should be tracked according to specific tasks. One good way to do this is to make every task a GitHub issue, and associate all hours with specific issues.
 
+	* Tracking the time it takes to create each feature can help with scoping and budgeting future projects.
+
 1. Publish what you publish. Knowledge translation depends on dissemination; we need share what we’re creating[^17].
 
 	* Make all website content public, not password protected or behind a paywall.
@@ -160,6 +162,8 @@ These principles should be examined and considered before the project starts, wh
 
 	* A focused project is more likely to be successful, and there will always be time for more phases later.
 	
+	* It may be best to think of each phase as a collection of specific features. E.g., Phase 1 might be a collection of static content pages, Phase 2 might add videos or other interactive content, etc.
+	
 	* Remember to consider *all* the steps in this document when considering timelines, including multiple rounds of usability and testing.
 
 1. Plan exactly what data you’d like collected for research, testing, and development/planning purposes, and define why you need it. Then, for each of these, plan to collect more data than you think you’ll need.
@@ -196,7 +200,7 @@ These principles should be examined and considered before the project starts, wh
 
 	* Decide what actions will be required for maintaining and updating the site, who will be responsible for this, and where the funds will come from.
 	
-	* Plan for how to monitor and react to usage and other data post-launch.
+	* Plan for how to monitor and react to usage and other data post-launch. For example, tracking usage of individual features can help determine if they should be removed, and can help with scoping and budgeting for future projects.
 	
 	* Plan for who will monitor and respond to the communications channels that were defined in your launch plan.
 
