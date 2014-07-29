@@ -2,8 +2,8 @@
 
 *David Newton  
 for the Knowledge Translation Program, St. Michael’s Hospital  
-With feedback and contributions from Sharon Straus and Wai-Hin Chan  
-2014-07-28*
+With feedback and contributions from Sharon Straus, Wai-Hin Chan, and Nikolas LeBlanc  
+2014-07-29*
 
 This document lives at [https://github.com/knowledgetranslation/process/](https://github.com/knowledgetranslation/process/). Please check there for the most up-to-date version.
 
@@ -166,7 +166,7 @@ These principles should be examined and considered before the project starts, wh
 
 	* Study the data collected from other projects and earlier versions of this project, and interview stakeholders (especially users). Determine what content and features are important to whom and why, how they will be used, and where they will be accessed from.[^14a],[^19a]
 	
-	* Every team member should spend at least one full day reading about their area of focus (and especially about how it applies to the web), and another full day about an area on which they aren’t focusing and/or aren’t an expert. This helps insure that everybody’s knowledge is current and continues to grow.
+	* Every team member should spend at least one full day reading about their area of focus (and especially about how it applies to the web), and another full day about an area on which they aren’t focusing and/or aren’t an expert. This helps ensure that everybody’s knowledge is current and continues to grow.
 	
 1. Create user personas based on your research, that reflect different types of typical and atypical users.
 
