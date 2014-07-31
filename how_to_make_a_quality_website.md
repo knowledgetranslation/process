@@ -339,7 +339,9 @@ These steps focus on front-end development. Back-end development may need to tak
 1. Create a “help” section.[^40],[^41]
 
 	* If any parts of your “help” section get very complex, consider simplifying the design/functionality to require less explanation. This may require returning to an earlier step.
-	
+
+1. Do a code review and refactor where appropriate.
+
 1. Perform the **Testing** steps.
 
 
