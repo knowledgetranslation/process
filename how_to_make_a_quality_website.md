@@ -7,7 +7,10 @@ With feedback and contributions from Sharon Straus, Wai-Hin Chan, and Nikolas Le
 
 This document lives at [https://github.com/knowledgetranslation/process/](https://github.com/knowledgetranslation/process/). Please check there for the most up-to-date version.
 
----
+
+
+
+## 1. Introduction
 
 This process has lots of padding and failsafes built-in. Every project always runs over-time, over-budget, and under-scope. The padding and failsafes should help mitigate the consequences of unexpected barriers.
 
@@ -30,7 +33,7 @@ Another oft-cited and useful resource is [The W3C Recommendation on Mobile Web B
 
 
 
-## Principles
+## 2. Principles
 
 These principles should be examined and considered before the project starts, when the project ends, and at every step in between. At every step, every team member should consider how the principle applies to the step as a whole, and to their work in that step.
 
@@ -142,7 +145,7 @@ These principles should be examined and considered before the project starts, wh
 
 
 
-## Steps
+## 3. Steps
 
 1. Determine who the stakeholders and team members are.
 
@@ -220,7 +223,7 @@ These principles should be examined and considered before the project starts, wh
 
 
 
-### Content
+### 3.1 Content steps
 
 1. Develop or choose an existing style guide for content, *before* you actually start creating any of the content.[^22]
 
@@ -244,7 +247,7 @@ These principles should be examined and considered before the project starts, wh
 
 
 
-### Design
+### 3.2 Design steps
 
 1. Create basic, works-for-everybody design templates that account for all the content and work well for all users, regardless of:
 
@@ -291,7 +294,7 @@ These principles should be examined and considered before the project starts, wh
 1. Update the style guide with any design information not previously entered.
 
 
-#### Design validation substeps
+#### 3.2.1 Design validation substeps
 
 1. Cut the number of templates in half, and for each remaining template, cut the number of user interace elements in half[^35]. Double the font size, and double the white space.[^36],[^37]
 
@@ -307,7 +310,7 @@ These principles should be examined and considered before the project starts, wh
 
 
 
-### Development
+### 3.3 Development steps
 
 These steps focus on front-end development. Back-end development may need to take place in parallel with these steps.
 
@@ -356,7 +359,7 @@ These steps focus on front-end development. Back-end development may need to tak
 1. Perform the **Testing** steps.
 
 
-#### Development validation substeps
+#### 3.3.1 Development validation substeps
 
 1. Perform the **Testing** steps.
 	
@@ -376,7 +379,7 @@ These steps focus on front-end development. Back-end development may need to tak
 
 
 
-### Testing
+### 3.4 Testing steps
 
 1. Test the templates in as many browsers as possible[^20], on as many devices as possible, with as many assistive technologies as possible. Make sure everything functions as it should and looks ok (though not necessarily pixel perfect!).
 
@@ -407,7 +410,7 @@ These steps focus on front-end development. Back-end development may need to tak
 
 
 
-## Notes
+## 4. Notes and references
 
 [^1]: “Do not use frames. Many mobile devices do not support frames. In addition, frames are recognized as being generally problematic.” –Rabin Jo, McCathie Nevile Charles (eds.), 2008. *Mobile Web Best Practices 1.0 Basic Guidelines*. W3C Recommendation 29 July 2008. [http://www.w3.org/TR/mobile-bp/#NO_FRAMES](http://www.w3.org/TR/mobile-bp/#NO_FRAMES). Accessed 2014-07-29.
 
