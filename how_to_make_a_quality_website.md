@@ -14,22 +14,6 @@ This document lives at [https://github.com/knowledgetranslation/process/](https:
 
 This process has lots of padding and failsafes built-in. Every project always runs over-time, over-budget, and under-scope. The padding and failsafes should help mitigate the consequences of unexpected barriers.
 
-Many of the references in this document cite [usability.gov](http://usability.gov), a secondary source for evidence-based web development. The [usability.gov](http://usability.gov) pages cited here contain examples and references to primary research sources, as well as indicators of relative importance and strength of evidence.
-
-[usability.gov](http://usability.gov) also contains many guidelines, templates, and methods not covered here, that may be useful to review as part of your research steps. Note, though, that some of their recommendations are out of date and are no longer considered best practice, especially:
-
-* [Chapter 4: Hardware and Software](http://guidelines.usability.gov/chapters/4/introduction)
-
-* [5:7 Limit Homepage Length](http://guidelines.usability.gov/guidelines/52)
-
-* [6:13 Use Frames when Functions Must Remain Accessible](http://guidelines.usability.gov/guidelines/66)[^1]
-
-* [13:19 Place Cursor in First Data Entry Field](http://guidelines.usability.gov/guidelines/144)
-
-* [14:7 Limit Large Images Above the Fold](http://guidelines.usability.gov/guidelines/156)
-
-Another oft-cited and useful resource is [The W3C Recommendation on Mobile Web Best Practices](http://www.w3.org/TR/mobile-bp/), an evidence-based guideline that also includes references to other secondary and primary sources.
-
 
 
 
@@ -410,7 +394,108 @@ These steps focus on front-end development. Back-end development may need to tak
 
 
 
-## 4. Notes and references
+## 4. Resources
+
+1. Many of the references in this document cite [usability.gov](http://usability.gov), a secondary source for evidence-based web development. The [usability.gov](http://usability.gov) pages cited here contain examples and references to primary research sources, as well as indicators of relative importance and strength of evidence.
+
+	[usability.gov](http://usability.gov) also contains many guidelines, templates, and methods not covered here, that may be useful to review as part of your research steps. Note, though, that some of their recommendations are out of date and are no longer considered best practice, especially:
+
+	* [Chapter 4: Hardware and Software](http://guidelines.usability.gov/chapters/4/introduction)
+
+	* [5:7 Limit Homepage Length](http://guidelines.usability.gov/guidelines/52)
+
+	* [6:13 Use Frames when Functions Must Remain Accessible](http://guidelines.usability.gov/guidelines/66)[^1]
+
+	* [13:19 Place Cursor in First Data Entry Field](http://guidelines.usability.gov/guidelines/144)
+
+	* [14:7 Limit Large Images Above the Fold](http://guidelines.usability.gov/guidelines/156)
+
+1. Another oft-cited and useful resource is [The W3C Recommendation on Mobile Web Best Practices](http://www.w3.org/TR/mobile-bp/), an evidence-based guideline that also includes references to other secondary and primary sources.
+
+1. The [A Book Apart](http://www.abookapart.com/) and [Five Simple Steps](http://www.fivesimplesteps.com/) series consist of a number of short, focused, and very high quality books that cover all aspects of building projects for the web. Current and upcoming titles cover:
+
+	* Research:
+
+		* [Just Enough Research](http://www.abookapart.com/products/just-enough-research) by Erika Hall
+		
+		* [International User Research](http://www.fivesimplesteps.com/products/international-user-research) by Chui Chui Tan
+		
+		* [Interviewing for Research](http://www.fivesimplesteps.com/products/interviewing-for-research) by Andrew Travers
+
+	* Content:
+
+		* [The Elements of Content Strategy](http://www.abookapart.com/products/the-elements-of-content-strategy) by Erin Kissane
+
+		* [Content Strategy for Mobile](http://www.abookapart.com/products/content-strategy-for-mobile) by Karen McGrane
+		
+		* [The Craft of Words. Part One: Macrocopy](http://www.fivesimplesteps.com/products/the-craft-of-words) by The Standardistas
+		
+		* [The Craft of Words. Part Two: Microcopy](http://www.fivesimplesteps.com/products/the-craft-of-words) by The Standardistas
+		
+	* Design:
+
+		* [Designing for Emotion](http://www.abookapart.com/products/designing-for-emotion) by Aarron Walter
+
+		* [On Web Typography](http://www.abookapart.com/products/on-web-typography) by Jason Santa Maria
+		
+		* [Combining Typefaces](http://www.fivesimplesteps.com/products/combining-typefaces) by Tim Brown
+		
+		* [Psychology for Designers](http://www.fivesimplesteps.com/products/psychology-for-designers) by Joe Leech
+		
+		* [Usability of Web Photos](http://www.fivesimplesteps.com/products/usability-of-web-photos) by James Chudley
+		
+		* [Designing for the Web](http://www.fivesimplesteps.com/products/a-practical-guide-to-designing-for-the-web) by Mark Boulton
+		
+		* [Designing the Invisible](http://www.fivesimplesteps.com/products/a-practical-guide-to-designing-the-invisible) by Robert Mills
+		
+		* [The Icon Handbook](http://www.fivesimplesteps.com/products/the-icon-handbook) by Jon Hicks
+
+	* Development:
+
+		* [HTML5 for Web Designers](http://www.abookapart.com/products/html5-for-web-designers) by Jeremy Keith
+
+		* [CSS3 for Web Designers](http://www.abookapart.com/products/css3-for-web-designers) by Dan Cederholm
+
+		* [Responsive Web Design](http://www.abookapart.com/products/responsive-web-design) by Ethan Marcotte
+
+		* [Mobile First](http://www.abookapart.com/products/mobile-first) by Luke Wroblewski
+
+		* [SASS for Web Designers](http://www.abookapart.com/products/sass-for-web-designers) by Dan Cederholm
+
+		* [Responsible Responsive Design](http://www.abookapart.com/products/responsible-responsive-design) by Scott Jehl
+		
+		* [Creating Symbol Fonts](http://www.fivesimplesteps.com/products/creating-symbol-fonts) by Brian Suda
+		
+		* [CSS Animations](http://www.fivesimplesteps.com/products/css-animations) by Val Head
+		
+		* [CSS3 Layout Modules](http://www.fivesimplesteps.com/products/css3-layout-modules) by Rachel Andrew
+		
+		* [HTML Email](http://www.fivesimplesteps.com/products/html-email) by Andy Croll
+		
+		* [Web Performance](http://www.fivesimplesteps.com/products/web-performance) by Andy Davies
+		
+		* [Hardboiled Web Design](http://www.fivesimplesteps.com/products/hardboiled-web-design) by Andy Clarke
+
+	* Accessibility:
+	
+		* [Colour Accessibility: A Pocket Guide](http://www.fivesimplesteps.com/products/colour-accessibility) by Geri Coady
+
+	* Business and project management:
+
+		* [Design is a Job](http://www.abookapart.com/products/design-is-a-job) by Mike Monteiro
+
+		* [You’re My Favorite Client](http://www.abookapart.com/products/youre-my-favorite-client) by Mike Monteiro)
+		
+		* [Managing Web Projects](http://www.fivesimplesteps.com/products/a-practical-guide-to-managing-web-projects) by Breandán Knowlton
+		
+		* [Web App Success](http://www.fivesimplesteps.com/products/web-app-success) by Dan Zambonini
+
+
+
+
+
+
+## 5. Notes and references
 
 [^1]: “Do not use frames. Many mobile devices do not support frames. In addition, frames are recognized as being generally problematic.” –Rabin Jo, McCathie Nevile Charles (eds.), 2008. *Mobile Web Best Practices 1.0 Basic Guidelines*. W3C Recommendation 29 July 2008. [http://www.w3.org/TR/mobile-bp/#NO_FRAMES](http://www.w3.org/TR/mobile-bp/#NO_FRAMES). Accessed 2014-07-29.
 
