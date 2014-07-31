@@ -2,8 +2,8 @@
 
 *David Newton  
 for the Knowledge Translation Program, St. Michael’s Hospital  
-With feedback and contributions from Sharon Straus, Wai-Hin Chan, and Nikolas LeBlanc  
-2014-07-29*
+With feedback and contributions from Wai-Hin Chan, Michael R. Kealey, Nikolas LeBlanc, and Sharon Straus  
+2014-07-31*
 
 This document lives at [https://github.com/knowledgetranslation/process/](https://github.com/knowledgetranslation/process/). Please check there for the most up-to-date version.
 
