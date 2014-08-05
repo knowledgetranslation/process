@@ -332,7 +332,7 @@ These steps focus on front-end development. Back-end development may need to tak
 
 1. Perform Search Engine Optimization by:
 
-	* Ensuring proper meta-information and titles have been used for all pages, including the use of structured data (e.g. [schema.org](http://schema.org/)).[^44]
+	* Ensuring proper meta-information and titles have been used for all pages, including the use of structured data (e.g. [schema.org](http://schema.org/) or [schema-creator.org](http://schema-creator.org/)).[^44]
 
 	* Creating a sitemap.
 
@@ -496,6 +496,94 @@ These steps focus on front-end development. Back-end development may need to tak
 		
 		* [Web App Success](http://www.fivesimplesteps.com/products/web-app-success) by Dan Zambonini
 
+
+
+
+### 4.1 Automated testing resources
+
+These can be run manually, but since they are automated tests, they’d ideally be integrated into build and/or deployment steps.
+
+#### 4.1.1 HTML and other markup
+
+1. [W3C Markup Validation Service](http://validator.w3.org/) for HTML validity
+
+1. [W3C Feed Validation Service](http://validator.w3.org/feed/) for RSS and Atom feed validity
+
+1. [W3C RDF Validator](http://www.w3.org/RDF/Validator/) for RDF/XML validity
+
+#### 4.1.2 CSS
+
+1. [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/) for CSS validity
+
+1. [CSS Lint](http://csslint.net/) for CSS validity and recommended style
+
+#### 4.1.3 JavaScript
+
+1. [JSLint](http://www.jslint.com/) for JS validity and recommended style
+
+1. [JSHint](http://jshint.com/) for JS validity and recommended style
+
+1. [JSONLint](http://jsonlint.com/) for JSON
+
+#### 4.1.4 PHP
+
+1. [PHPLint on-line](http://www.icosaedro.it/phplint/phplint-on-line.html) for PHP
+
+#### 4.1.5 Content and Semantics
+
+1. [W3C Spell Checker](http://www.w3.org/2002/01/spellchecker) for English/French spelling
+
+1. [W3C Semantic Data Extrator](http://www.w3.org/2003/12/semantic-extractor.html) for semantic information
+
+1. [Google Webmaster Tools Structured Data Testing Tool](http://www.google.com/webmasters/tools/richsnippets) for rich snippets
+
+1. [W3C Internationalization Checker](http://validator.w3.org/i18n-checker/) for internationalization- and translation-readiness
+
+#### 4.1.6 Links and URLs
+
+1. [W3C Link Checker](http://validator.w3.org/checklink) for broken links
+
+1. [no-www.org](http://no-www.org/verify.php) to verify that `www` is stripped from the URL (expected results: ‘Class B’)
+
+#### 4.1.7 Compatibility
+
+1. [W3C mobileOK Checker](http://validator.w3.org/mobile/) for mobile compatibility
+
+1. [Microsoft modern.IE Site Scan](https://www.modern.ie/en-us/report) for compatibility-related coding issues
+
+1. [Microsoft modern.IE Compatibility Report](https://www.modern.ie/en-us/compat-scan) for compatibility-related coding issues
+
+#### 4.1.8 Accessibility
+
+1. [AChecker](http://www.atutor.ca/achecker/) for general accessibility
+
+1. [WAVE](http://wave.webaim.org/) for general accessibility
+
+1. [checkmycolours](http://www.checkmycolours.com/) for color contrast
+
+#### 4.1.9 Security
+
+1. [ASafaWeb](https://asafaweb.com/) for security (specifically for ASP.NET pages, but provides general tests as well) 
+
+1. [Qualys SSL Labs SSL Server Test](https://www.ssllabs.com/ssltest/) for SSL/TLS security certificates
+
+1. [openresolver](http://openresolver.com/) for recursive DNS request vulnerabilities
+
+1. [cookiechecker](http://www.cookie-checker.com/) to check cookies and validate against EU cookie law
+
+#### 4.1.10 Performance
+
+1. [Google PageSpeed](https://developers.google.com/speed/pagespeed/) for performance and usability
+
+1. [Yahoo YSlow](http://yslow.org/) for performance
+
+1. [REDbot](https://redbot.org/) for HTTP headers
+
+1. [Sizer Soze](http://sizersoze.org/) for responsive images
+
+#### 4.1.11 Social
+
+1. [Twitter Card Validator](https://dev.twitter.com/docs/cards/validation/validator) to preview Twitter link cards
 
 
 
