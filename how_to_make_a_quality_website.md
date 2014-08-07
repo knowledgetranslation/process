@@ -3,7 +3,7 @@
 *David Newton  
 for the Knowledge Translation Program, St. Michael’s Hospital  
 With feedback and contributions from Wai-Hin Chan, Michael R. Kealey, Nikolas LeBlanc, and Sharon Straus  
-2014-08-05*
+2014-08-08*
 
 This document lives at [https://github.com/knowledgetranslation/process/](https://github.com/knowledgetranslation/process/). Please check there for the most up-to-date version.
 
@@ -507,84 +507,147 @@ These can be run manually, but since they are automated tests, they’d ideally 
 
 1. [W3C Markup Validation Service](http://validator.w3.org/) for HTML validity
 
+	* [grunt-w3c-validation](https://www.npmjs.org/package/grunt-w3c-validation)
+
 1. [W3C Feed Validation Service](http://validator.w3.org/feed/) for RSS and Atom feed validity
 
+	* No grunt package available
+
 1. [W3C RDF Validator](http://www.w3.org/RDF/Validator/) for RDF/XML validity
+
+	* No grunt package available
 
 #### 4.1.2 CSS
 
 1. [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/) for CSS validity
 
+	* [grunt-w3c-validation](https://www.npmjs.org/package/grunt-w3c-validation)
+
 1. [CSS Lint](http://csslint.net/) for CSS validity and recommended style
+
+	* [grunt-contrib-csslint](https://github.com/gruntjs/grunt-contrib-csslint)
 
 #### 4.1.3 JavaScript
 
 1. [JSLint](http://www.jslint.com/) for JS validity and recommended style
 
+	* [grunt-jslint](https://www.npmjs.org/package/grunt-jslint)
+
 1. [JSHint](http://jshint.com/) for JS validity and recommended style
 
+	* [grunt-contrib-jshint](https://github.com/gruntjs/grunt-contrib-jshint)
+
 1. [JSONLint](http://jsonlint.com/) for JSON
+
+	* [grunt-jsonlint](https://www.npmjs.org/package/grunt-jsonlint)
 
 #### 4.1.4 PHP
 
 1. [PHPLint on-line](http://www.icosaedro.it/phplint/phplint-on-line.html) for PHP
 
+	* [grunt-phplint](https://www.npmjs.org/package/grunt-phplint)
+
 #### 4.1.5 Content and Semantics
 
 1. [W3C Spell Checker](http://www.w3.org/2002/01/spellchecker) for English/French spelling
 
+	* [grunt-spell](https://github.com/shama/grunt-spell) (Similar, but with a different engine. Supports en, fr, de, pt, es. Not great.)
+
 1. [W3C Semantic Data Extrator](http://www.w3.org/2003/12/semantic-extractor.html) for semantic information
+
+	* No grunt package available
 
 1. [Google Webmaster Tools Structured Data Testing Tool](http://www.google.com/webmasters/tools/richsnippets) for rich snippets
 
+	* No grunt package available
+
 1. [W3C Internationalization Checker](http://validator.w3.org/i18n-checker/) for internationalization- and translation-readiness
+
+	* No grunt package available
 
 #### 4.1.6 Links and URLs
 
 1. [W3C Link Checker](http://validator.w3.org/checklink) for broken links
 
+	* [grunt-link-checker](https://www.npmjs.org/package/grunt-link-checker) (Similar, but with a different engine. Needs a server.)
+
 1. [no-www.org](http://no-www.org/verify.php) to verify that `www` is stripped from the URL (expected results: ‘Class B’)
+
+	* No grunt package available
 
 #### 4.1.7 Compatibility
 
 1. [W3C mobileOK Checker](http://validator.w3.org/mobile/) for mobile compatibility
 
+	* No grunt package available
+
 1. [Microsoft modern.IE Site Scan](https://www.modern.ie/en-us/report) for compatibility-related coding issues
 
+	* [modern.IE-static-code-scan](https://github.com/InternetExplorer/modern.IE-static-code-scan/) (A grunt/nodeunit suite.)
+
 1. [Microsoft modern.IE Compatibility Report](https://www.modern.ie/en-us/compat-scan) for compatibility-related coding issues
+
+	* [modern.IE-static-code-scan](https://github.com/InternetExplorer/modern.IE-static-code-scan/) (A grunt/nodeunit suite.)
 
 #### 4.1.8 Accessibility
 
 1. [AChecker](http://www.atutor.ca/achecker/) for general accessibility
 
+	* [wcag-validator](https://www.npmjs.org/package/wcag-validator) (Node package, not grunt. Requires web service ID.)
+
 1. [WAVE](http://wave.webaim.org/) for general accessibility
 
+	* [grunt-accessibility](https://www.npmjs.org/package/grunt-accessibility) (Similar, uses a different engine.)
+
 1. [checkmycolours](http://www.checkmycolours.com/) for color contrast
+
+	* No grunt package available
 
 #### 4.1.9 Security
 
 1. [ASafaWeb](https://asafaweb.com/) for security (specifically for ASP.NET pages, but provides general tests as well) 
 
+	* No grunt package available
+
 1. [Qualys SSL Labs SSL Server Test](https://www.ssllabs.com/ssltest/) for SSL/TLS security certificates
+
+	* No grunt package available
 
 1. [openresolver](http://openresolver.com/) for recursive DNS request vulnerabilities
 
+	* No grunt package available
+
 1. [cookiechecker](http://www.cookie-checker.com/) to check cookies and validate against EU cookie law
+
+	* No grunt package available
 
 #### 4.1.10 Performance
 
 1. [Google PageSpeed](https://developers.google.com/speed/pagespeed/) for performance and usability
 
+	* [grunt-pagespeed](https://www.npmjs.org/package/grunt-pagespeed)
+
 1. [Yahoo YSlow](http://yslow.org/) for performance
+
+	* [grunt-yslow](https://www.npmjs.org/package/grunt-yslow)
+
+1. [WebPageTest](http://www.webpagetest.org/) for performance
+
+	* [grunt-perfbudget](https://github.com/tkadlec/grunt-perfbudget)
 
 1. [REDbot](https://redbot.org/) for HTTP headers
 
+	* No grunt package available
+
 1. [Sizer Soze](http://sizersoze.org/) for responsive images
+
+	* No grunt package available
 
 #### 4.1.11 Social
 
 1. [Twitter Card Validator](https://dev.twitter.com/docs/cards/validation/validator) to preview Twitter link cards
 
+	* No grunt package available
 
 
 
