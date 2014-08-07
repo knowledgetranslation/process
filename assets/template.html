@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-CA" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<title>$title$</title>
+		<meta name="author" content="$author$" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<style type="text/css">
+			body {
+				font-family: Helvetica, Arial, sans-serif;
+				font-size: 16pt;
+				max-width: 50em;
+				margin: 0 auto;
+				padding: 1em;
+			}
+
+			dt {
+				clear: both;
+				float: left;
+				font-weight: bold;
+				margin: 0;
+				padding: 0;
+				text-align: right;
+				width: 15%;
+			}
+
+			dt:after {
+				content: ': ';
+			}
+
+			dd {
+				float: left;
+				width: 83%;
+				margin: 0 0 0 2%;
+				padding: 0;
+			}
+
+			nav {
+				clear: both;
+				font-size: 0.8em;
+				padding-top: 2em;
+			}
+
+			nav > ul {
+				background-color: #eee;
+				padding: 1em 2em;
+			}
+
+			nav ul {
+				margin: 0;
+			}
+
+			nav li {
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+
+			main {
+				margin-top: 2em;
+			}
+
+			h2 {
+				margin-top: 3em;
+			}
+
+			h3 {
+				margin-top: 2.5em;
+			}
+
+			h4 {
+				margin-top: 2em;
+			}
+
+			h5 {
+				margint-top: 1.5em;
+			}
+
+			h6 {
+				margin-top: 1em;
+			}
+
+			hr {
+				display: none;
+			}
+		</style>
+	</head>
+
+	<body id="top" vocab="http://schema.org/" typeof="WebPage">
+		<header role="banner">
+			<h1>$title$</h1>
+
+			<dl>
+				<dt>Author</dt>
+				<dd>
+					$author$<br />
+					$organization$
+				</dd>
+
+				<dt>Contributors</dt>
+				<dd>$contributors$</dd>
+
+				<dt>Date</dt>
+				<dd>$date$</dd>
+
+				<dt>URL</dt>
+				<dd><a href="$url$">$url$</a></dd>
+			</dl>
+
+			<nav>$toc$</nav>
+		</header>
+
+		<main role="main" property="mainContentOfPage">
+			$body$
+		</main>
+	</body>
+</html>

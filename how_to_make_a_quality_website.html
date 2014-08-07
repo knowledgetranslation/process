@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en-CA" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<title>How to make a quality website</title>
+		<meta name="author" content="David Newton" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<style type="text/css">
+			body {
+				font-family: Helvetica, Arial, sans-serif;
+				font-size: 16pt;
+				max-width: 50em;
+				margin: 0 auto;
+				padding: 1em;
+			}
+
+			dt {
+				clear: both;
+				float: left;
+				font-weight: bold;
+				margin: 0;
+				padding: 0;
+				text-align: right;
+				width: 15%;
+			}
+
+			dt:after {
+				content: ': ';
+			}
+
+			dd {
+				float: left;
+				width: 83%;
+				margin: 0 0 0 2%;
+				padding: 0;
+			}
+
+			nav {
+				clear: both;
+				font-size: 0.8em;
+				padding-top: 2em;
+			}
+
+			nav > ul {
+				background-color: #eee;
+				padding: 1em 2em;
+			}
+
+			nav ul {
+				margin: 0;
+			}
+
+			nav li {
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+
+			main {
+				margin-top: 2em;
+			}
+
+			h2 {
+				margin-top: 3em;
+			}
+
+			h3 {
+				margin-top: 2.5em;
+			}
+
+			h4 {
+				margin-top: 2em;
+			}
+
+			h5 {
+				margint-top: 1.5em;
+			}
+
+			h6 {
+				margin-top: 1em;
+			}
+
+			hr {
+				display: none;
+			}
+		</style>
+	</head>
+
+	<body id="top" vocab="http://schema.org/" typeof="WebPage">
+		<header role="banner">
+			<h1>How to make a quality website</h1>
+
+			<dl>
+				<dt>Author</dt>
+				<dd>
+					David Newton<br />
+					Knowledge Translation Program, St. Michael’s Hospital
+				</dd>
+
+				<dt>Contributors</dt>
+				<dd>Wai-Hin Chan, Michael R. Kealey, Nikolas LeBlanc, and Sharon Straus</dd>
+
+				<dt>Date</dt>
+				<dd>2014-08-07</dd>
+
+				<dt>URL</dt>
+				<dd><a href="https://github.com/knowledgetranslation/process/">https://github.com/knowledgetranslation/process/</a></dd>
+			</dl>
+
+			<nav><ul>
+<li><a href="#introduction">1. Introduction</a></li>
+<li><a href="#principles">2. Principles</a></li>
+<li><a href="#steps">3. Steps</a><ul>
+<li><a href="#content-steps">3.1 Content steps</a></li>
+<li><a href="#design-steps">3.2 Design steps</a><ul>
+<li><a href="#design-validation-substeps">3.2.1 Design validation substeps</a></li>
+</ul></li>
+<li><a href="#development-steps">3.3 Development steps</a><ul>
+<li><a href="#development-validation-substeps">3.3.1 Development validation substeps</a></li>
+</ul></li>
+<li><a href="#testing-steps">3.4 Testing steps</a></li>
+</ul></li>
+<li><a href="#resources">4. Resources</a><ul>
+<li><a href="#automated-testing-resources">4.1 Automated testing resources</a><ul>
+<li><a href="#html-and-other-markup">4.1.1 HTML and other markup</a></li>
+<li><a href="#css">4.1.2 CSS</a></li>
+<li><a href="#javascript">4.1.3 JavaScript</a></li>
+<li><a href="#php">4.1.4 PHP</a></li>
+<li><a href="#content-and-semantics">4.1.5 Content and Semantics</a></li>
+<li><a href="#links-and-urls">4.1.6 Links and URLs</a></li>
+<li><a href="#compatibility">4.1.7 Compatibility</a></li>
+<li><a href="#accessibility">4.1.8 Accessibility</a></li>
+<li><a href="#security">4.1.9 Security</a></li>
+<li><a href="#performance">4.1.10 Performance</a></li>
+<li><a href="#social">4.1.11 Social</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#notes-and-references">5. Notes and references</a></li>
+</ul></nav>
+		</header>
+
+		<main role="main" property="mainContentOfPage">
+			<h2 id="introduction"><a href="#introduction">1. Introduction</a></h2>
+<p>This process has lots of padding and failsafes built-in. Every project always runs over-time, over-budget, and under-scope. The padding and failsafes should help mitigate the consequences of unexpected barriers.</p>
+<h2 id="principles"><a href="#principles">2. Principles</a></h2>
+<p>These principles should be examined and considered before the project starts, when the project ends, and at every step in between. At every step, every team member should consider how the principle applies to the step as a whole, and to their work in that step.</p>
+<ol style="list-style-type: decimal">
+<li><p>Every website needs to be <a href="https://en.wikipedia.org/wiki/Responsive_web_design">responsive</a><a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>,<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>, every website needs to be <a href="https://en.wikipedia.org/wiki/Web_accessibility">accessible</a><a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a>,<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a>, every website needs to use <a href="https://en.wikipedia.org/wiki/Progressive_Enhancement">progressive enhancement</a><a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a>,<a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a>.</p></li>
+<li><p>Every stakeholder is a team member and every team member is a stakeholder.<a href="#fn7" class="footnoteRef" id="fnref7"><sup>7</sup></a></p>
+<ul>
+<li><p>Exception: Usability tests should, ideally, be conducted and summarized by people completely separate from the rest of the team, to avoid bias.</p>
+<p>If the team members are the ones conducting usability tests, every effort should be made to avoid bias in testing.<a href="#fn8" class="footnoteRef" id="fnref8"><sup>8</sup></a></p></li>
+</ul></li>
+<li><p>Involve all stakeholders at every step of the project, every meeting, and every decision point. Everybody should have the <em>opportunity</em> to participate.</p>
+<ul>
+<li><p>Involvement should be discussed and agreed upon at the first meeting, and the team should make decisions about what the expectations are for every team member, and what the timelines for response are.</p></li>
+<li><p>For some parts of the project, a team member’s involvement will be mandatory, for others optional; but, every team member should have the option to participate in every stage.</p></li>
+<li><p>Involvement does not simply equal presence. Every team member should have the option of <em>participating actively</em>, and should be encouraged to do so.</p></li>
+<li><p>e.g. designers should be involved during content creation, developers should be involved while creating timelines, users should be involved while planning scope<a href="#fn9" class="footnoteRef" id="fnref9"><sup>9</sup></a>, etc.</p></li>
+</ul></li>
+<li><p>Trust the expertise of your experts, <em>in their area of expertise</em>. Being an expert in one area doesn’t make somebody an expert in another area.</p>
+<ul>
+<li>e.g. a content expert is not a designer; a developer is not a scientist</li>
+</ul></li>
+<li><p>Don’t give disproportionate or inappropriate weight to trivial issues.<a href="#fn10" class="footnoteRef" id="fnref10"><sup>10</sup></a></p>
+<ul>
+<li>As an example, holding a meeting to discuss a typeface or the colour of a design element is probably not the best use of the team’s time. Instead, focus on content, functionality, and usability.</li>
+</ul></li>
+<li><p>Remember the <a href="http://www.w3.org/TR/html-design-principles/#priority-of-constituencies">Priority of Constituencies</a>, a founding web design principle encoded by the World Wide Web Consortium and Web Hypertext Application Technology Working Group (the organizations responsible for web standards):</p>
+<blockquote>
+<p>In case of conflict, consider users over authors over implementors over specifiers over theoretical purity. In other words costs or difficulties to the user should be given more weight than costs to authors; which in turn should be given more weight than costs to implementors; which should be given more weight than costs to authors of the spec itself, which should be given more weight than those proposing changes for theoretical reasons alone. Of course, it is preferred to make things better for multiple constituencies at once.</p>
+</blockquote>
+<ul>
+<li><p>The original principle defines “authors” as web authors, i.e. web developers and designers who are building a site; “implementors” as browser implementors, i.e. software developers who build web browsers; and “specifiers” as those writing web standards specifications.</p></li>
+<li><p>For our projects, we can alter these definitions while still retaining the spirit of the principle. “Specifiers” would be those team members who are responsible for planning, and “implementors” would be those responsible for content; the definitions for “users”, “authors”, and “theoretical purity” can remain unchanged.</p></li>
+<li><p>With these new definitions, we can resolve conflicts by giving more weight to costs/difficulties affecting users over developers/designers over content creators over planners over theoretical purity. But, as always, solutions should ideally improve things for multiple/all constituencies.</p></li>
+<li><p>Note that this principle does not mean we should always defer to what each constituency wants or says they want; it means that in cases of conflict we should look at evidence and use that evidence to prioritize benefits to users over authors, etc.<a href="#fn11" class="footnoteRef" id="fnref11"><sup>11</sup></a> We always prioritize evidence over expert opinion.</p></li>
+</ul></li>
+<li><p>No single user is more important than another user.<a href="#fn12" class="footnoteRef" id="fnref12"><sup>12</sup></a></p>
+<ul>
+<li>e.g. mobile users need the same access to the same content as desktop users, disabled users need the same access to the same content as able users, etc.</li>
+</ul></li>
+<li><p>Usability tests are for identifying problems, not for generating suggestions.</p>
+<ul>
+<li><p>Users might think they know how to solve these problems, but they may be wrong. They aren’t the experts in tool development, you are. <em>However</em>, they may be knowledge experts in the context of the tool usage.</p></li>
+<li><p>Usability test summaries focus on identifying problems rather than solutions. While user-suggested solutions should be considered, final decisions on solutions should be decided by experts on your team.</p></li>
+<li><p>“Users are most valuable in helping designers know what a system should do, but not in helping designers determine how best to have the system do it.”<a href="#fn13" class="footnoteRef" id="fnref13"><sup>13</sup></a></p></li>
+</ul></li>
+<li><p>Usability testing should only ever focus on one area at a time, e.g. either content, look-and-feel, or functionality. If you want to test multiple areas, conduct separate usability tests.</p>
+<ul>
+<li>Usability tests should have specific performance and success goals.<a href="#fn14" class="footnoteRef" id="fnref14"><sup>14</sup></a></li>
+</ul></li>
+<li><p>You’re building for the web, so use web-compatible technologies.</p>
+<ul>
+<li><p>Create content using plain text, <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a>, or HTML; not in Microsoft Word (and especially not PDFs or PowerPoint).</p></li>
+<li><p>If possible, design <em>in the browser</em><a href="#fn15" class="footnoteRef" id="fnref15"><sup>15</sup></a>,<a href="#fn16" class="footnoteRef" id="fnref16"><sup>16</sup></a>,<a href="#fn17" class="footnoteRef" id="fnref17"><sup>17</sup></a> using CSS, not in software designed for print, like Photoshop, Illustrator, or InDesign (and especially not in non-design software like PowerPoint, Word, etc).</p></li>
+<li><p>Define design in terms of web units, e.g. colours as hex values, sizes and distances in pixels and ems, etc.</p></li>
+<li><p>Collaborate using version control software and services like GitHub, not by emailing and turning on Track Changes in Microsoft Word.</p></li>
+</ul></li>
+<li><p>Make sure all designs account for and define all interactions and states (clicks, hovers, transitions, etc.).</p></li>
+<li><p>“A user interface is like a joke. If you have to explain it, it’s not that good.” —Martin LeBlanc<a href="#fn18" class="footnoteRef" id="fnref18"><sup>18</sup></a></p>
+<p>“No line of instruction will compensate for a bad design.” —Robert Hoekman Jr.<a href="#fn19" class="footnoteRef" id="fnref19"><sup>19</sup></a></p></li>
+<li><p>Build everything (content, design, development) modularly: you’ll probably be on another project where you can re-use components.</p></li>
+<li><p>Avoid social components (e.g. forums, chat, blogs, social media) when possible.</p></li>
+<li><p>Avoid requiring users to log in with a username and password.</p>
+<ul>
+<li>If a password cannot be avoided, show it in plain text with an option to obscure it<a href="#fn20" class="footnoteRef" id="fnref20"><sup>20</sup></a> and provide an automated way for users to reset their own passwords.</li>
+</ul></li>
+<li><p>Document everything you do at every step and use version control software for every piece.</p></li>
+<li><p>Everybody should track their hours. Ideally hours should be tracked according to specific tasks. One good way to do this is to make every task a GitHub issue, and associate all hours with specific issues.</p>
+<ul>
+<li>Tracking the time it takes to create each feature can help with scoping and budgeting future projects.</li>
+</ul></li>
+<li><p>Publish what you publish. Knowledge translation depends on dissemination; we need share what we’re creating<a href="#fn21" class="footnoteRef" id="fnref21"><sup>21</sup></a>.</p>
+<ul>
+<li><p>Make all website content public, not password protected or behind a paywall.</p></li>
+<li><p>If it can’t be made public, then it probably shouldn’t be on the website. Use other services, like intranets, Basecamp, Canvas, etc.</p></li>
+<li><p>Open source all the developed designs, code, documentation, etc.</p></li>
+<li><p>Find out what your rights are when you publish papers about the project. If possible make the papers available as widely as possible, for free, even if it costs extra money.</p></li>
+</ul></li>
+<li><p>Research as much as possible. Learn as much as possible. Collect as much data as possible. We should always strive to do evidence-based web development.</p></li>
+<li><p>Work in the open. Avoid decision-making over email or in private conversations.</p>
+<ul>
+<li><p>All meetings should have a secretary, and that secretary should take notes <em>visibly</em>, e.g. on a whiteboard, so other attendees can contribute and update notes where they see fit. Ideally, meetings should also be audio recorded and made available to members who weren’t able to attend. Ideally, any sketches should be photographed/scanned and be included with the minutes.</p></li>
+<li><p>All decision-making between meetings should be done in an open forum, such as GitHub or Basecamp.</p></li>
+</ul></li>
+<li><p>Give credit where it’s due. In steps 1–3 you’ll clearly define roles and responsibilities for each team member. With all the documentation you develop, including git logs and timesheets, you’ll be able to verify who did what. Give appropriate credit to <em>everyone</em> in <em>all</em> the following places:</p>
+<ul>
+<li>on the website (e.g. in a humans.txt file, in page metadata)</li>
+<li>in the website’s documentation (e.g. CONTRIBUTORS.MD on GitHub)</li>
+<li>in papers about the project (e.g. authorship for anybody that had decision-making responsibility, acknowledgements for every other team member)</li>
+<li>in presentations (e.g. on an acknowledgements slide)</li>
+</ul></li>
+</ol>
+<h2 id="steps"><a href="#steps">3. Steps</a></h2>
+<ol style="list-style-type: decimal">
+<li><p>Determine who the stakeholders and team members are.</p></li>
+<li><p>For each of the following areas, determine which team member is the most responsible person: planning, content, design, development, and science. The most responsible person should be an expert in their area.</p>
+<ul>
+<li><p>The most responsible person will have the final decision on matters related to their area(s).</p></li>
+<li><p>All other team members are still welcome to provide <em>feedback</em> on all other areas.</p></li>
+</ul></li>
+<li><p>For every team member that’s not a most responsible person, determine which area (planning, content, design, development, and science) they will focus on.</p>
+<ul>
+<li>All other team members are still welcome to provide <em>feedback</em> on all other areas, but they should have a specific focus.</li>
+</ul></li>
+<li><p>Determine the maximum budget that is available, and divide by two. This is your operating budget.</p>
+<ul>
+<li>Remember: extra money is a good problem to have.</li>
+</ul></li>
+<li><p>Using your operating budget and timelines as guides, determine the ideal project scope<a href="#fn22" class="footnoteRef" id="fnref22"><sup>22</sup></a>, then reduce it by half. This is your scope for <em>this phase</em>.</p>
+<ul>
+<li><p>A focused project is more likely to be successful, and there will always be time for more phases later.</p></li>
+<li><p>It may be best to think of each phase as a collection of specific features. E.g., Phase 1 might be a collection of static content pages, Phase 2 might add videos or other interactive content, etc.</p></li>
+<li><p>Remember to consider <em>all</em> the steps in this document when considering timelines, including multiple rounds of usability and testing.</p></li>
+</ul></li>
+<li><p>Plan exactly what data you’d like collected for research, testing, and development/planning purposes, and define why you need it. Then, for each of these, plan to collect more data than you think you’ll need.</p>
+<ul>
+<li><p>If possible, try to collect as much data as possible anonymously. Identifiable data should be avoided whenever possible.</p></li>
+<li><p>If you’re collecting data, write a privacy policy and submit it to REB/legal, and make sure to include it in the publicly-available content you develop in the <strong>Content</strong> steps.</p></li>
+</ul></li>
+<li><p>Research</p>
+<ul>
+<li><p>Study the data collected from other projects and earlier versions of this project, and interview stakeholders (especially users). Determine what content and features are important to whom and why, how they will be used, and where they will be accessed from.<a href="#fn23" class="footnoteRef" id="fnref23"><sup>23</sup></a>,<a href="#fn24" class="footnoteRef" id="fnref24"><sup>24</sup></a></p></li>
+<li><p>Every team member should spend at least one full day reading about their area of focus (and especially about how it applies to the web), and another full day about an area on which they aren’t focusing and/or aren’t an expert. This helps ensure that everybody’s knowledge is current and continues to grow.</p></li>
+</ul></li>
+<li><p>Create user personas based on your research, that reflect different types of typical and atypical users.</p>
+<ul>
+<li>Remember that these form a useful but incomplete subset of your users; real users will never behave as you expect, nor should they.</li>
+</ul></li>
+<li><p>Do the <strong>Content</strong> steps.</p></li>
+<li><p>Do the <strong>Design</strong> steps.</p></li>
+<li><p>Do the <strong>Development</strong> steps.</p></li>
+<li><p>Create a launch plan.</p>
+<ul>
+<li><p>If this is an update to an existing site, develop a plan for how users will transition to the new version. Give them options to opt-in to the new version early, and opt-out for a set period after launch. Plan specific changeover dates and stick to them. Create and make available change documentation explaining what has changed and why.<a href="#fn25" class="footnoteRef" id="fnref25"><sup>25</sup></a>,<a href="#fn26" class="footnoteRef" id="fnref26"><sup>26</sup></a></p></li>
+<li><p>Provide communication and feedback channels, and plan how these will be monitored.</p></li>
+<li><p>Plan how data will be monitored during the launch/transition period, and how to react/make adjustments based on this data.</p></li>
+</ul></li>
+<li><p>Create a post-launch plan.</p>
+<ul>
+<li><p>Decide what actions will be required for maintaining and updating the site, who will be responsible for this, and where the funds will come from.</p></li>
+<li><p>Plan for how to monitor and react to usage and other data post-launch. For example, tracking usage of individual features can help determine if they should be removed, and can help with scoping and budgeting for future projects.</p></li>
+<li><p>Plan for who will monitor and respond to the communications channels that were defined in your launch plan.</p></li>
+</ul></li>
+<li><p>Implement your launch plan.</p></li>
+<li><p>Once the final phase of your launch plan is complete, implement your post-launch plan.</p></li>
+<li><p>Once you are in the post-launch phase, have all the stakeholders go over the built-up documentation (minutes, git logs, documentation, style guides, READMEs, help files, timesheets, papers written, etc.) and compile a “bible” for the project.</p>
+<ul>
+<li><p>This should include take-aways that can be used in future projects.</p></li>
+<li><p>Contribute relevant pieces to any department documents (process docs, pattern libraries, etc.)</p></li>
+<li><p>Make sure to document, in as much detail as possible, any failures or barriers.</p></li>
+</ul></li>
+</ol>
+<h3 id="content-steps"><a href="#content-steps">3.1 Content steps</a></h3>
+<ol style="list-style-type: decimal">
+<li><p>Develop or choose an existing style guide for content, <em>before</em> you actually start creating any of the content.<a href="#fn27" class="footnoteRef" id="fnref27"><sup>27</sup></a></p>
+<ul>
+<li>Making already-created content conform to your style guide is much more work than developing content with a style guide already in-place.</li>
+</ul></li>
+<li><p>Information Architecture: create a plan for how your content will be structured, both at a high-level (e.g. site navigation), and a low-level (e.g. sections within documents/pages). Then, reduce the complexity of your Information Architecture by half.<a href="#fn28" class="footnoteRef" id="fnref28"><sup>28</sup></a>,<a href="#fn29" class="footnoteRef" id="fnref29"><sup>29</sup></a>,<a href="#fn30" class="footnoteRef" id="fnref30"><sup>30</sup></a>,<a href="#fn31" class="footnoteRef" id="fnref31"><sup>31</sup></a></p>
+<ul>
+<li>Content should be structured as simply as possible to help users find what they’re looking for.<a href="#fn32" class="footnoteRef" id="fnref32"><sup>32</sup></a>,<a href="#fn33" class="footnoteRef" id="fnref33"><sup>33</sup></a></li>
+</ul></li>
+<li><p>Create your content, in compliance with your style guide and Information Architecture, and keeping in mind your user personas. Then, delete half the content.<a href="#fn34" class="footnoteRef" id="fnref34"><sup>34</sup></a></p>
+<ul>
+<li>Your users usually have very specific goals when visiting a web site. Don’t clutter their experience, and don’t give them what they don’t need.<a href="#fn35" class="footnoteRef" id="fnref35"><sup>35</sup></a>,<a href="#fn36" class="footnoteRef" id="fnref36"><sup>36</sup></a>,<a href="#fn37" class="footnoteRef" id="fnref37"><sup>37</sup></a>,<a href="#fn38" class="footnoteRef" id="fnref38"><sup>38</sup></a></li>
+</ul></li>
+<li><p>Conduct usability testing on the content. Can users understand it and get the info they need?<a href="#fn39" class="footnoteRef" id="fnref39"><sup>39</sup></a></p>
+<ul>
+<li>Try to test with <em>real</em> users, and/or users that closely match each of your personas.<a href="#fn40" class="footnoteRef" id="fnref40"><sup>40</sup></a></li>
+</ul></li>
+<li><p>Revise the content based on the usability test feedback.</p></li>
+<li><p>Update the project’s style guide with any content and IA details that weren’t previously accounted for.</p></li>
+</ol>
+<h3 id="design-steps"><a href="#design-steps">3.2 Design steps</a></h3>
+<ol style="list-style-type: decimal">
+<li><p>Create basic, works-for-everybody design templates that account for all the content and work well for all users, regardless of:</p>
+<ul>
+<li>Printed vs. on-screen<a href="#fn41" class="footnoteRef" id="fnref41"><sup>41</sup></a>,<a href="#fn42" class="footnoteRef" id="fnref42"><sup>42</sup></a>,<a href="#fn43" class="footnoteRef" id="fnref43"><sup>43</sup></a></li>
+<li>Device, e.g. phone, tablet, desktop, laptop, etc.<a href="#fn44" class="footnoteRef" id="fnref44"><sup>44</sup></a></li>
+<li>Browser, e.g. modern IE, obsolete IE, Firefox, Chrome, Safari, Opera, etc.</li>
+<li>Connection speed, e.g. high-speed/broadband, LTE, 3G, 2G, etc.</li>
+<li>Ability, e.g. using a mouse, using a keyboard, without assistive technology, with a screenreader, etc.</li>
+<li>Javascript and plugin support/availability<a href="#fn45" class="footnoteRef" id="fnref45"><sup>45</sup></a>,<a href="#fn46" class="footnoteRef" id="fnref46"><sup>46</sup></a></li>
+<li>Language, e.g. with machine-translation support</li>
+</ul>
+<p>Specifically, this fallback should work in the “Default Delivery Context”, which <a href="http://www.w3.org/TR/mobile-bp/">The W3C Recommendation on Mobile Web Best Practices</a> defines as:</p>
+<ul>
+<li>Usable Screen Width: 120 pixels, minimum.</li>
+<li>Markup Language Support: XHTML Basic 1.1 delivered with content type application/xhtml+xml.</li>
+<li>Character Encoding: UTF-8</li>
+<li>Image Format Support: JPEG, GIF89a</li>
+<li>Maximum Total Page Weight: 20 kilobytes</li>
+<li>Colors: 256 Colors, minimum.</li>
+<li>Style Sheet Support: CSS Level 1. In addition, CSS Level 2 <span class="citation">@media</span> rule together with the handheld and all media types.</li>
+<li>HTTP: HTTP/1.0 or more recent [HTTP1.1].</li>
+<li>Script: No support for client side scripting.</li>
+</ul>
+<p>This isn’t the “showcase” design, this is the fallback, lowest-common-denominator design.<a href="#fn47" class="footnoteRef" id="fnref47"><sup>47</sup></a></p></li>
+<li><p>Perform the <strong>Design validation substeps</strong></p></li>
+<li><p>Create “showcase” design templates for how everything should look in a mobile browser in the best possible case: modern device, modern browser, fast connection, available JavaScript.<a href="#fn48" class="footnoteRef" id="fnref48"><sup>48</sup></a></p></li>
+<li><p>Perform the <strong>Design validation substeps</strong></p></li>
+<li><p>Create “showcase” design templates for how everything should look in a desktop browser in the best possible case: modern device, modern browser, fast connection, available JavaScript.</p></li>
+<li><p>Perform the <strong>Design validation substeps</strong></p></li>
+<li><p>Design “showcase” design templates for how everything should look when printed in the best possible case: modern device, modern browser, available JavaScript.<a href="#fn49" class="footnoteRef" id="fnref49"><sup>49</sup></a>,<a href="#fn50" class="footnoteRef" id="fnref50"><sup>50</sup></a>,<a href="#fn51" class="footnoteRef" id="fnref51"><sup>51</sup></a></p></li>
+<li><p>Perform the <strong>Design validation substeps</strong></p></li>
+<li><p>Document in detail how each element of each template progressively enhances from the fallback design to the mobile design to the desktop design. Make sure there is complete content- and functionality-parity between all three designs, and that it’s clear how each element adjusts in changing circumstances.</p>
+<ul>
+<li>This process will probably require creating a few extra alternate design templates at different “breakpoints”, i.e. an adjustment when something breaks or looks bad at a certain size or when a certain feature is/isn’t supported. Always create these alternate templates based on breakpoints and not specific devices.</li>
+</ul></li>
+<li><p>Update the style guide with any design information not previously entered.</p></li>
+</ol>
+<h4 id="design-validation-substeps"><a href="#design-validation-substeps">3.2.1 Design validation substeps</a></h4>
+<ol style="list-style-type: decimal">
+<li><p>Cut the number of templates in half, and for each remaining template, cut the number of user interace elements in half<a href="#fn52" class="footnoteRef" id="fnref52"><sup>52</sup></a>. Double the font size, and double the white space.<a href="#fn53" class="footnoteRef" id="fnref53"><sup>53</sup></a>,<a href="#fn54" class="footnoteRef" id="fnref54"><sup>54</sup></a></p></li>
+<li><p>Conduct usability testing on this design, using paper prototypes.<a href="#fn55" class="footnoteRef" id="fnref55"><sup>55</sup></a>,<a href="#fn56" class="footnoteRef" id="fnref56"><sup>56</sup></a>,<a href="#fn57" class="footnoteRef" id="fnref57"><sup>57</sup></a></p>
+<ul>
+<li><p>Try to test with <em>real</em> users, and/or users that closely match each of your personas.<a href="#fn58" class="footnoteRef" id="fnref58"><sup>58</sup></a></p></li>
+<li><p>Test both previous and new testers if possible.</p></li>
+</ul></li>
+<li><p>Revise the design based on usability feedback.</p></li>
+<li><p>Based on this design, update the project’s style guide with relevant design details, e.g. typefaces, colours, grid definitions, sizes, interactions, etc.</p></li>
+</ol>
+<h3 id="development-steps"><a href="#development-steps">3.3 Development steps</a></h3>
+<p>These steps focus on front-end development. Back-end development may need to take place in parallel with these steps.</p>
+<ol style="list-style-type: decimal">
+<li><p>Develop HTML and CSS versions of each fallback template, using real content.</p>
+<ul>
+<li><p>This should involve <em>no JavaScript</em>, but may involve creating some backend functionality.</p></li>
+<li><p>These need to be fully functional. If something doesn’t or can’t work at this stage, go back to whatever previous step created the barrier, fix it, and redo everything from that point forward.</p></li>
+</ul></li>
+<li><p>Perform the <strong>Development validation substeps</strong></p></li>
+<li><p>Progressively enhance your design to get to the showcase mobile design, and any breakpoints between it and the fallback.</p>
+<ul>
+<li><p>Always use real content.</p></li>
+<li><p>Use feature checking and appropriate fallbacks.</p></li>
+<li><p>Remember that not every user needs the showcase design; that’s why the fallback and breakpoint templates are there, and why there are feature fallbacks. Everybody will get a good experience <em>appropriate</em> to their browsing context.</p></li>
+</ul></li>
+<li><p>Perform the <strong>Development validation substeps</strong></p></li>
+<li><p>Progressively enhance your design to get to the showcase desktop design, and any remaining breakpoints.</p>
+<ul>
+<li><p>Always use real content.</p></li>
+<li><p>Use feature checking and appropriate fallbacks.</p></li>
+<li><p>Remember that not every user needs the showcase design; that’s why the fallback and breakpoint templates are there, and why there are feature fallbacks. Everybody will get a good experience <em>appropriate</em> to their browsing context.</p></li>
+</ul></li>
+<li><p>Perform the <strong>Development validation substeps</strong></p></li>
+<li><p>Perform Search Engine Optimization by:</p>
+<ul>
+<li><p>Ensuring proper meta-information and titles have been used for all pages, including the use of structured data (e.g. <a href="http://schema.org/">schema.org</a> or <a href="http://schema-creator.org/">schema-creator.org</a>).<a href="#fn59" class="footnoteRef" id="fnref59"><sup>59</sup></a></p></li>
+<li><p>Creating a sitemap.</p></li>
+<li><p>Using search engine submission tools, such as <a href="https://www.google.com/webmasters/tools/home?hl=en">Google Webmaster Tools</a>.</p></li>
+</ul>
+<p>Note that the best ways to achieve high-ranking search results are to have high quality content; semantic, validated code; and high performance. All of these should have been handled before this point in the process.</p></li>
+<li><p>Create a “help” section.<a href="#fn60" class="footnoteRef" id="fnref60"><sup>60</sup></a>,<a href="#fn61" class="footnoteRef" id="fnref61"><sup>61</sup></a></p>
+<ul>
+<li>If any parts of your “help” section get very complex, consider simplifying the design/functionality to require less explanation. This may require returning to an earlier step.</li>
+</ul></li>
+<li><p>Do a code review and refactor where appropriate.</p></li>
+<li><p>Perform the <strong>Testing</strong> steps.</p></li>
+</ol>
+<h4 id="development-validation-substeps"><a href="#development-validation-substeps">3.3.1 Development validation substeps</a></h4>
+<ol style="list-style-type: decimal">
+<li><p>Perform the <strong>Testing</strong> steps.</p></li>
+<li><p>Conduct usability testing on these templates, using real browsers/devices <em>of the users’ choice</em>.</p>
+<ul>
+<li><p>Conduct separate usability sessions geared at how it looks and how it works.</p></li>
+<li><p>Try to test with <em>real</em> users, and/or users that closely match each of your personas.<a href="#fn62" class="footnoteRef" id="fnref62"><sup>62</sup></a></p></li>
+<li><p>Test both previous and new testers if possible.</p></li>
+</ul></li>
+<li><p>Revise based on usability testing.</p></li>
+<li><p>Perform the <strong>Testing</strong> steps.</p></li>
+<li><p>Update the style guide with any new information that hasn’t previously been included.</p></li>
+</ol>
+<h3 id="testing-steps"><a href="#testing-steps">3.4 Testing steps</a></h3>
+<ol style="list-style-type: decimal">
+<li><p>Test the templates in as many browsers as possible<a href="#fn63" class="footnoteRef" id="fnref63"><sup>63</sup></a>, on as many devices as possible, with as many assistive technologies as possible. Make sure everything functions as it should and looks ok (though not necessarily pixel perfect!).</p>
+<ul>
+<li><p>Prioritize testing with real browsers and devices, and only use emulators/simulators if the real thing is unavailable.<a href="#fn64" class="footnoteRef" id="fnref64"><sup>64</sup></a></p></li>
+<li><p>While testing, take screenshots of every template in every browser/device combination. Save these.</p></li>
+<li><p>Make sure multiple team members test. Fresh eyes are crucial.</p></li>
+</ul></li>
+<li><p>Fix any problems that arose during browser testing.</p>
+<ul>
+<li>If there were problems to fix, return to step 1.</li>
+</ul></li>
+<li><p>Conduct automated markup<a href="#fn65" class="footnoteRef" id="fnref65"><sup>65</sup></a> and accessibility<a href="#fn66" class="footnoteRef" id="fnref66"><sup>66</sup></a> validation.</p></li>
+<li><p>Fix any problems that arose during validity testing.</p>
+<ul>
+<li>If there were problems to fix, return to step 1.</li>
+</ul></li>
+<li><p>Conduct automated performance testing<a href="#fn67" class="footnoteRef" id="fnref67"><sup>67</sup></a>,<a href="#fn68" class="footnoteRef" id="fnref68"><sup>68</sup></a>,<a href="#fn69" class="footnoteRef" id="fnref69"><sup>69</sup></a>,<a href="#fn70" class="footnoteRef" id="fnref70"><sup>70</sup></a>,<a href="#fn71" class="footnoteRef" id="fnref71"><sup>71</sup></a>.</p></li>
+<li><p>Fix any problems that arose during performance testing.</p>
+<ul>
+<li><p>Good performance should take priority over good aesthetics. Ideally you can achieve both, but in cases of conflict, optimize for performance.<a href="#fn72" class="footnoteRef" id="fnref72"><sup>72</sup></a></p></li>
+<li><p>If there were problems to fix, return to step 1.</p></li>
+</ul></li>
+</ol>
+<h2 id="resources"><a href="#resources">4. Resources</a></h2>
+<ol style="list-style-type: decimal">
+<li><p>Many of the references in this document cite <a href="http://usability.gov">usability.gov</a>, a secondary source for evidence-based web development. The <a href="http://usability.gov">usability.gov</a> pages cited here contain examples and references to primary research sources, as well as indicators of relative importance and strength of evidence.</p>
+<p><a href="http://usability.gov">usability.gov</a> also contains many guidelines, templates, and methods not covered here, that may be useful to review as part of your research steps. Note, though, that some of their recommendations are out of date and are no longer considered best practice, especially:</p>
+<ul>
+<li><p><a href="http://guidelines.usability.gov/chapters/4/introduction">Chapter 4: Hardware and Software</a></p></li>
+<li><p><a href="http://guidelines.usability.gov/guidelines/52">5:7 Limit Homepage Length</a></p></li>
+<li><p><a href="http://guidelines.usability.gov/guidelines/66">6:13 Use Frames when Functions Must Remain Accessible</a><a href="#fn73" class="footnoteRef" id="fnref73"><sup>73</sup></a></p></li>
+<li><p><a href="http://guidelines.usability.gov/guidelines/144">13:19 Place Cursor in First Data Entry Field</a></p></li>
+<li><p><a href="http://guidelines.usability.gov/guidelines/156">14:7 Limit Large Images Above the Fold</a></p></li>
+</ul></li>
+<li><p>Another oft-cited and useful resource is <a href="http://www.w3.org/TR/mobile-bp/">The W3C Recommendation on Mobile Web Best Practices</a>, an evidence-based guideline that also includes references to other secondary and primary sources.</p></li>
+<li><p>The <a href="http://www.abookapart.com/">A Book Apart</a> and <a href="http://www.fivesimplesteps.com/">Five Simple Steps</a> series consist of a number of short, focused, and very high quality books that cover all aspects of building projects for the web. Current and upcoming titles cover:</p>
+<ul>
+<li><p>Research:</p>
+<ul>
+<li><p><a href="http://www.abookapart.com/products/just-enough-research">Just Enough Research</a> by Erika Hall</p></li>
+<li><p><a href="http://www.fivesimplesteps.com/products/international-user-research">International User Research</a> by Chui Chui Tan</p></li>
+<li><p><a href="http://www.fivesimplesteps.com/products/interviewing-for-research">Interviewing for Research</a> by Andrew Travers</p></li>
+</ul></li>
+<li><p>Content:</p>
+<ul>
+<li><p><a href="http://www.abookapart.com/products/the-elements-of-content-strategy">The Elements of Content Strategy</a> by Erin Kissane</p></li>
+<li><p><a href="http://www.abookapart.com/products/content-strategy-for-mobile">Content Strategy for Mobile</a> by Karen McGrane</p></li>
+<li><p><a href="http://www.fivesimplesteps.com/products/the-craft-of-words">The Craft of Words. Part One: Macrocopy</a> by The Standardistas</p></li>
+<li><p><a href="http://www.fivesimplesteps.com/products/the-craft-of-words">The Craft of Words. Part Two: Microcopy</a> by The Standardistas</p></li>
+</ul></li>
+<li><p>Design:</p>
+<ul>
+<li><p><a href="http://www.abookapart.com/products/designing-for-emotion">Designing for Emotion</a> by Aarron Walter</p></li>
+<li><p><a href="http://www.abookapart.com/products/on-web-typography">On Web Typography</a> by Jason Santa Maria</p></li>
+<li><p><a href="http://www.fivesimplesteps.com/products/combining-typefaces">Combining Typefaces</a> by Tim Brown</p></li>
+<li><p><a href="http://www.fivesimplesteps.com/products/psychology-for-designers">Psychology for Designers</a> by Joe Leech</p></li>
+<li><p><a href="http://www.fivesimplesteps.com/products/usability-of-web-photos">Usability of Web Photos</a> by James Chudley</p></li>
+<li><p><a href="http://www.fivesimplesteps.com/products/a-practical-guide-to-designing-for-the-web">Designing for the Web</a> by Mark Boulton</p></li>
+<li><p><a href="http://www.fivesimplesteps.com/products/a-practical-guide-to-designing-the-invisible">Designing the Invisible</a> by Robert Mills</p></li>
+<li><p><a href="http://www.fivesimplesteps.com/products/the-icon-handbook">The Icon Handbook</a> by Jon Hicks</p></li>
+</ul></li>
+<li><p>Development:</p>
+<ul>
+<li><p><a href="http://www.abookapart.com/products/html5-for-web-designers">HTML5 for Web Designers</a> by Jeremy Keith</p></li>
+<li><p><a href="http://www.abookapart.com/products/css3-for-web-designers">CSS3 for Web Designers</a> by Dan Cederholm</p></li>
+<li><p><a href="http://www.abookapart.com/products/responsive-web-design">Responsive Web Design</a> by Ethan Marcotte</p></li>
+<li><p><a href="http://www.abookapart.com/products/mobile-first">Mobile First</a> by Luke Wroblewski</p></li>
+<li><p><a href="http://www.abookapart.com/products/sass-for-web-designers">SASS for Web Designers</a> by Dan Cederholm</p></li>
+<li><p><a href="http://www.abookapart.com/products/responsible-responsive-design">Responsible Responsive Design</a> by Scott Jehl</p></li>
+<li><p><a href="http://www.fivesimplesteps.com/products/creating-symbol-fonts">Creating Symbol Fonts</a> by Brian Suda</p></li>
+<li><p><a href="http://www.fivesimplesteps.com/products/css-animations">CSS Animations</a> by Val Head</p></li>
+<li><p><a href="http://www.fivesimplesteps.com/products/css3-layout-modules">CSS3 Layout Modules</a> by Rachel Andrew</p></li>
+<li><p><a href="http://www.fivesimplesteps.com/products/html-email">HTML Email</a> by Andy Croll</p></li>
+<li><p><a href="http://www.fivesimplesteps.com/products/web-performance">Web Performance</a> by Andy Davies</p></li>
+<li><p><a href="http://www.fivesimplesteps.com/products/hardboiled-web-design">Hardboiled Web Design</a> by Andy Clarke</p></li>
+</ul></li>
+<li><p>Accessibility:</p>
+<ul>
+<li><a href="http://www.fivesimplesteps.com/products/colour-accessibility">Colour Accessibility: A Pocket Guide</a> by Geri Coady</li>
+</ul></li>
+<li><p>Business and project management:</p>
+<ul>
+<li><p><a href="http://www.abookapart.com/products/design-is-a-job">Design is a Job</a> by Mike Monteiro</p></li>
+<li><p><a href="http://www.abookapart.com/products/youre-my-favorite-client">You’re My Favorite Client</a> by Mike Monteiro)</p></li>
+<li><p><a href="http://www.fivesimplesteps.com/products/a-practical-guide-to-managing-web-projects">Managing Web Projects</a> by Breandán Knowlton</p></li>
+<li><p><a href="http://www.fivesimplesteps.com/products/web-app-success">Web App Success</a> by Dan Zambonini</p></li>
+</ul></li>
+</ul></li>
+</ol>
+<h3 id="automated-testing-resources"><a href="#automated-testing-resources">4.1 Automated testing resources</a></h3>
+<p>These can be run manually, but since they are automated tests, they’d ideally be integrated into build and/or deployment steps.</p>
+<h4 id="html-and-other-markup"><a href="#html-and-other-markup">4.1.1 HTML and other markup</a></h4>
+<ol style="list-style-type: decimal">
+<li><p><a href="http://validator.w3.org/">W3C Markup Validation Service</a> for HTML validity</p>
+<ul>
+<li><a href="https://www.npmjs.org/package/grunt-w3c-validation">grunt-w3c-validation</a></li>
+</ul></li>
+<li><p><a href="http://validator.w3.org/feed/">W3C Feed Validation Service</a> for RSS and Atom feed validity</p>
+<ul>
+<li>No grunt package available</li>
+</ul></li>
+<li><p><a href="http://www.w3.org/RDF/Validator/">W3C RDF Validator</a> for RDF/XML validity</p>
+<ul>
+<li>No grunt package available</li>
+</ul></li>
+</ol>
+<h4 id="css"><a href="#css">4.1.2 CSS</a></h4>
+<ol style="list-style-type: decimal">
+<li><p><a href="http://jigsaw.w3.org/css-validator/">W3C CSS Validation Service</a> for CSS validity</p>
+<ul>
+<li><a href="https://www.npmjs.org/package/grunt-w3c-validation">grunt-w3c-validation</a></li>
+</ul></li>
+<li><p><a href="http://csslint.net/">CSS Lint</a> for CSS validity and recommended style</p>
+<ul>
+<li><a href="https://github.com/gruntjs/grunt-contrib-csslint">grunt-contrib-csslint</a></li>
+</ul></li>
+</ol>
+<h4 id="javascript"><a href="#javascript">4.1.3 JavaScript</a></h4>
+<ol style="list-style-type: decimal">
+<li><p><a href="http://www.jslint.com/">JSLint</a> for JS validity and recommended style</p>
+<ul>
+<li><a href="https://www.npmjs.org/package/grunt-jslint">grunt-jslint</a></li>
+</ul></li>
+<li><p><a href="http://jshint.com/">JSHint</a> for JS validity and recommended style</p>
+<ul>
+<li><a href="https://github.com/gruntjs/grunt-contrib-jshint">grunt-contrib-jshint</a></li>
+</ul></li>
+<li><p><a href="http://jsonlint.com/">JSONLint</a> for JSON</p>
+<ul>
+<li><a href="https://www.npmjs.org/package/grunt-jsonlint">grunt-jsonlint</a></li>
+</ul></li>
+</ol>
+<h4 id="php"><a href="#php">4.1.4 PHP</a></h4>
+<ol style="list-style-type: decimal">
+<li><p><a href="http://www.icosaedro.it/phplint/phplint-on-line.html">PHPLint on-line</a> for PHP</p>
+<ul>
+<li><a href="https://www.npmjs.org/package/grunt-phplint">grunt-phplint</a></li>
+</ul></li>
+</ol>
+<h4 id="content-and-semantics"><a href="#content-and-semantics">4.1.5 Content and Semantics</a></h4>
+<ol style="list-style-type: decimal">
+<li><p><a href="http://www.w3.org/2002/01/spellchecker">W3C Spell Checker</a> for English/French spelling</p>
+<ul>
+<li><a href="https://github.com/shama/grunt-spell">grunt-spell</a> (Similar, but with a different engine. Supports en, fr, de, pt, es. Not great.)</li>
+</ul></li>
+<li><p><a href="http://www.w3.org/2003/12/semantic-extractor.html">W3C Semantic Data Extrator</a> for semantic information</p>
+<ul>
+<li>No grunt package available</li>
+</ul></li>
+<li><p><a href="http://www.google.com/webmasters/tools/richsnippets">Google Webmaster Tools Structured Data Testing Tool</a> for rich snippets</p>
+<ul>
+<li>No grunt package available</li>
+</ul></li>
+<li><p><a href="http://validator.w3.org/i18n-checker/">W3C Internationalization Checker</a> for internationalization- and translation-readiness</p>
+<ul>
+<li>No grunt package available</li>
+</ul></li>
+</ol>
+<h4 id="links-and-urls"><a href="#links-and-urls">4.1.6 Links and URLs</a></h4>
+<ol style="list-style-type: decimal">
+<li><p><a href="http://validator.w3.org/checklink">W3C Link Checker</a> for broken links</p>
+<ul>
+<li><a href="https://www.npmjs.org/package/grunt-link-checker">grunt-link-checker</a> (Similar, but with a different engine. Needs a server.)</li>
+</ul></li>
+<li><p><a href="http://no-www.org/verify.php">no-www.org</a> to verify that <code>www</code> is stripped from the URL (expected results: ‘Class B’)</p>
+<ul>
+<li>No grunt package available</li>
+</ul></li>
+</ol>
+<h4 id="compatibility"><a href="#compatibility">4.1.7 Compatibility</a></h4>
+<ol style="list-style-type: decimal">
+<li><p><a href="http://validator.w3.org/mobile/">W3C mobileOK Checker</a> for mobile compatibility</p>
+<ul>
+<li>No grunt package available</li>
+</ul></li>
+<li><p><a href="https://www.modern.ie/en-us/report">Microsoft modern.IE Site Scan</a> for compatibility-related coding issues</p>
+<ul>
+<li><a href="https://github.com/InternetExplorer/modern.IE-static-code-scan/">modern.IE-static-code-scan</a> (A grunt/nodeunit suite.)</li>
+</ul></li>
+<li><p><a href="https://www.modern.ie/en-us/compat-scan">Microsoft modern.IE Compatibility Report</a> for compatibility-related coding issues</p>
+<ul>
+<li><a href="https://github.com/InternetExplorer/modern.IE-static-code-scan/">modern.IE-static-code-scan</a> (A grunt/nodeunit suite.)</li>
+</ul></li>
+</ol>
+<h4 id="accessibility"><a href="#accessibility">4.1.8 Accessibility</a></h4>
+<ol style="list-style-type: decimal">
+<li><p><a href="http://www.atutor.ca/achecker/">AChecker</a> for general accessibility</p>
+<ul>
+<li><a href="https://www.npmjs.org/package/wcag-validator">wcag-validator</a> (Node package, not grunt. Requires web service ID.)</li>
+</ul></li>
+<li><p><a href="http://wave.webaim.org/">WAVE</a> for general accessibility</p>
+<ul>
+<li><a href="https://www.npmjs.org/package/grunt-accessibility">grunt-accessibility</a> (Similar, uses a different engine.)</li>
+</ul></li>
+<li><p><a href="http://www.checkmycolours.com/">checkmycolours</a> for color contrast</p>
+<ul>
+<li>No grunt package available</li>
+</ul></li>
+</ol>
+<h4 id="security"><a href="#security">4.1.9 Security</a></h4>
+<ol style="list-style-type: decimal">
+<li><p><a href="https://asafaweb.com/">ASafaWeb</a> for security (specifically for ASP.NET pages, but provides general tests as well)</p>
+<ul>
+<li>No grunt package available</li>
+</ul></li>
+<li><p><a href="https://www.ssllabs.com/ssltest/">Qualys SSL Labs SSL Server Test</a> for SSL/TLS security certificates</p>
+<ul>
+<li>No grunt package available</li>
+</ul></li>
+<li><p><a href="http://openresolver.com/">openresolver</a> for recursive DNS request vulnerabilities</p>
+<ul>
+<li>No grunt package available</li>
+</ul></li>
+<li><p><a href="http://www.cookie-checker.com/">cookiechecker</a> to check cookies and validate against EU cookie law</p>
+<ul>
+<li>No grunt package available</li>
+</ul></li>
+</ol>
+<h4 id="performance"><a href="#performance">4.1.10 Performance</a></h4>
+<ol style="list-style-type: decimal">
+<li><p><a href="https://developers.google.com/speed/pagespeed/">Google PageSpeed</a> for performance and usability</p>
+<ul>
+<li><a href="https://www.npmjs.org/package/grunt-pagespeed">grunt-pagespeed</a></li>
+</ul></li>
+<li><p><a href="http://yslow.org/">Yahoo YSlow</a> for performance</p>
+<ul>
+<li><a href="https://www.npmjs.org/package/grunt-yslow">grunt-yslow</a></li>
+</ul></li>
+<li><p><a href="http://www.webpagetest.org/">WebPageTest</a> for performance</p>
+<ul>
+<li><a href="https://github.com/tkadlec/grunt-perfbudget">grunt-perfbudget</a></li>
+</ul></li>
+<li><p><a href="https://redbot.org/">REDbot</a> for HTTP headers</p>
+<ul>
+<li>No grunt package available</li>
+</ul></li>
+<li><p><a href="http://sizersoze.org/">Sizer Soze</a> for responsive images</p>
+<ul>
+<li>No grunt package available</li>
+</ul></li>
+</ol>
+<h4 id="social"><a href="#social">4.1.11 Social</a></h4>
+<ol style="list-style-type: decimal">
+<li><p><a href="https://dev.twitter.com/docs/cards/validation/validator">Twitter Card Validator</a> to preview Twitter link cards</p>
+<ul>
+<li>No grunt package available</li>
+</ul></li>
+</ol>
+<h2 id="notes-and-references"><a href="#notes-and-references">5. Notes and references</a></h2>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Given the variability in how users access the web, responsive design has become an industry standard; sites need to be responsive because we cannot account for how a user will be using a site. Not designing responsively risks excluding a large number of users. According to <a href="http://gs.statcounter.com/">StatCounter</a>, in June 2014 mobile web usage is 26.64% (up from 15.31% in June 2013), tablet web usage is 6.4% (up from 4.65% in June 2013). Moreover, according to <a href="http://think.withgoogle.com/mobileplanet/en/graph/?country=ca&amp;category=MOBI&amp;topic=Q09B&amp;stat=Q09B_1&amp;wave=2013&amp;age=all&amp;gender=all&amp;chart_type=&amp;active=stat">OurMobilePlanet</a>, 74% of Canadians access the web from their mobile devices daily. However, these discrete, broad categories can also obfuscate the fact that “mobile” and “tablet” aren’t really consistent; screen resolution varies wildly. <a href="http://gs.statcounter.com/">StatCounter</a> also tracks 14 separate screen resolutions that people use to access the web in signficant numbers, but the highest percentage of access for any one resolution is 20.13% (for 1366x768 pixels); far more users (27.84%) fall into the “other” category. We cannot design for individual devices, device types, or resolutions; we must instead allow our designs to <em>respond</em> to the users’ viewing context.<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>“…One Web means making, as far as is reasonable, the same information and services available to users irrespective of the device they are using. However, it does not mean that exactly the same information is available in exactly the same representation across all devices. The context of mobile use, device capability variations, bandwidth issues and mobile network capabilities all affect the representation. Furthermore, some services and information are more suitable for and targeted at particular user contexts… Some services have a primarily mobile appeal (location based services, for example). Some have a primarily mobile appeal but have a complementary desktop aspect (for instance for complex configuration tasks). Still others have a primarily desktop appeal but a complementary mobile aspect (possibly for alerting). Finally there will remain some Web applications that have a primarily desktop appeal (lengthy reference material, rich images, for example). It is likely that application designers and service providers will wish to provide the best possible experience in the context in which their service has the most appeal. However, while services may be most appropriately experienced in one context or another, it is considered best practice to provide as reasonable experience as is possible given device limitations and not to exclude access from any particular class of device, except where this is necessary because of device limitations.” –Rabin Jo, McCathie Nevile Charles (eds.), 2008. <em>Mobile Web Best Practices 1.0 Basic Guidelines</em>. W3C Recommendation 29 July 2008. <a href="http://www.w3.org/TR/mobile-bp/#d0e347">http://www.w3.org/TR/mobile-bp/#d0e347</a>. Accessed 2014-07-29.<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>Not making sites accessible risks excluding a large number of users: <a href="http://www4.rhdcc.gc.ca/indicator.jsp?&amp;indicatorid=40">according to the Canadian government</a>, 13.7% of the population has a disability. Furthermore, we are required by law (The <a href="http://www.e-laws.gov.on.ca/html/statutes/english/elaws_statutes_05a11_e.htm">Accessibility for Ontarians with Disabilities Act, 2005</a>) to make all our websites accessible. We do this by adhering to the <a href="http://www.w3.org/TR/WCAG20/">Web Content Accessibility Guidelines (WCAG) 2.0</a> and other industry standards.<a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p>“Web sites should be designed to ensure that everyone, including users who have difficulty seeing, hearing, and making precise movements, can use them. Generally, this means ensuring that Web sites facilitate the use of common assistive technologies.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 3: Accessibility”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/chapters/3/introduction">http://guidelines.usability.gov/chapters/3/introduction</a>. Accessed 2014-07-28.<a href="#fnref4">↩</a></p></li>
+<li id="fn5"><p>Using progressive enhancement facilitates making responsive and accessible websites, and also helps us make websites that work with the wide variety of browsers in use. We see similar variety in browser versions as we do in screen resolution; <a href="http://gs.statcounter.com/">StatCounter</a> tracks 12 popular browser versions with significant usage, the highest being “Android 0” at 6.38%. The largest segment is, again, the “Other” category, with 48.1%. Progressive enhancement with feature detection allows us to accomodate this variability and offer good experiences to users no matter what their browser and version.<a href="#fnref5">↩</a></p></li>
+<li id="fn6"><p>“Take reasonable steps to work around deficient implementations.… Just as it is not the intention to recommend a least common denominator approach, neither is it the intention to recommend avoiding features that exhibit problems on some class of devices. It is also not the intention to suggest that content providers should restrict their support to certain device types. Content providers should aim to support as wide a range of device types as is practical.” –Rabin Jo, McCathie Nevile Charles (eds.), 2008. <em>Mobile Web Best Practices 1.0 Basic Guidelines</em>. W3C Recommendation 29 July 2008. <a href="http://www.w3.org/TR/mobile-bp/#DEFICIENCIES">http://www.w3.org/TR/mobile-bp/#DEFICIENCIES</a>. Accessed 2014-07-29.<a href="#fnref6">↩</a></p></li>
+<li id="fn7"><p>“Involve Users in Establishing User Requirements: Involve users to improve the completeness and accuracy of user requirements. One of the basic principles of user-centered design is the early and continual focus on users. For this reason, user involvement has become a widely accepted principle in the development of usable systems. Involving users has the most value when trying to improve the completeness and accuracy of user requirements. It is also useful in helping to avoid unused or little-used system features. Users are most valuable in helping designers know what a system should do, but not in helping designers determine how best to have the system do it.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 1: Design Process and Evaluation; Section 4, Involve Users in Establishing User Requirements”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/4">http://guidelines.usability.gov/guidelines/4</a>. Accessed 2014-07-28.<a href="#fnref7">↩</a></p></li>
+<li id="fn8"><p>Using a usability tester without a vested interest in the project avoids injecting bias. From Rubin &amp; Chisnell, <em>Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests</em>, 2008, ‘Chapter 9. Conduct the Test Sessions’: “Take the attitude that you have no vested interest in the results one way or the other. Present the product neutrally (this does not mean you need to be solemn), so that the participants cannot ascertain any preference on your part. Never indicate through your speech or mannerisms that you strongly approve or disapprove of any actions or comments offered by a particular participant. React to ‘mistakes’ or ‘wrong turns’ in exactly the same way as you do to correct behavior. Never make participants feel stupid or inadequate (even inadvertently) by how you respond to their actions. If a participant is having problems, remember that it is the fault of the product. Period. Even if you say and do all the right things, participants will still blame themselves. If that happens, remind them of the value of their difficulties in understanding how the product actually works. Encourage them to freely explore areas without concern for ‘looking good.’”<a href="#fnref8">↩</a></p></li>
+<li id="fn9"><p>Web Accessibility Initiative. <em>Involving Users in Web Projects for Better, Easier Accessibility</em>. <a href="http://www.w3.org/WAI/users/involving">http://www.w3.org/WAI/users/involving</a>. Accessed 2014-07-29.<a href="#fnref9">↩</a></p></li>
+<li id="fn10"><p>In software development, this is known as <a href="https://en.wikipedia.org/wiki/Parkinson%27s_Law_of_Triviality">Bikeshedding</a>.<a href="#fnref10">↩</a></p></li>
+<li id="fn11"><p>“Reduce User’s Workload: Allocate functions to take advantage of the inherent respective strengths of computers and users. Let the computer perform as many tasks as possible, so that users can concentrate on performing tasks that actually require human processing and input. Ensure that the activities performed by the human and the computer take full advantage of the strengths of each. For example, calculating body mass indexes, remembering user IDs, and mortgage payments are best performed by computers.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 2: Optimizing the User Experience; Section 4, Reduce User’s Workload”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/15">http://guidelines.usability.gov/guidelines/15</a>. Accessed 2014-07-28.<a href="#fnref11">↩</a></p></li>
+<li id="fn12"><p>“Consider Many User Interface Issues: Consider as many user interface issues as possible during the design process. Consider numerous usability-related issues during the creation of a Web site. These can include: the context within which users will be visiting a Web site; the experience levels of the users; the types of tasks users will perform on the site; the types of computer and connection speeds used when visiting the site; evaluation of prototypes; and the results of usability tests.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 1: Design Process and Evaluation; Section 7, Consider Many User Interface Issues”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/7">http://guidelines.usability.gov/guidelines/7</a>. Accessed 2014-07-28.<a href="#fnref12">↩</a></p></li>
+<li id="fn13"><p>“Establish User Requirements: Use all available resources to better understand users’ requirements. The greater the number of exchanges of information with potential users, the better the developers’ understanding of the users’ requirements. The more information that can be exchanged between developers and users, the higher the probability of having a successful website. These could include customer support lines, customer surveys and interviews, bulletin boards, sales people, user groups, trade show experiences, focus groups, etc. Successful projects require at least four (and average five) different sources of information. Do not rely too heavily on user intermediaries. The information gathered from exchanges with users can be used to build ‘use cases’. Use cases describe the things that users want and need the website to be able to do. In one study, when compared with traditional function-oriented analyses, use cases provided a specification that produced better user performance and higher user preferences.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 1: Design Process and Evaluation; Section 2, Establish User Requirements”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/2">http://guidelines.usability.gov/guidelines/2</a>. Accessed 2014-07-28.<a href="#fnref13">↩</a></p></li>
+<li id="fn14"><p>“Set Usability Goals: Set performance goals that include success rates and the time it takes users to find specific information, or preference goals that address satisfaction and acceptance by users. Setting user performance and/or preference goals helps developers build better Web sites. It can also help make usability testing more effective. For example, some intranet Web sites have set the goal that information will be found eighty percent of the time and in less than one minute.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 1: Design Process and Evaluation; Section 9, Set Usability Goals”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/9">http://guidelines.usability.gov/guidelines/9</a>. Accessed 2014-07-28.<a href="#fnref14">↩</a></p></li>
+<li id="fn15"><p>Srivastava, E. (2014). Designing in the Browser: An Efficient Route to Responsive Design. <em>User Experience Magazine</em>, 14(2). <a href="http://www.uxpamagazine.org/designing-in-the-browser/">http://www.uxpamagazine.org/designing-in-the-browser/</a>. Accessed 2014-08-05.<a href="#fnref15">↩</a></p></li>
+<li id="fn16"><p>Roberts, Harry. (2010). Designing in the browser leads to better quality builds. <em>CSS Wizardry</em>. <a href="http://csswizardry.com/2010/10/designing-in-the-browser-leads-to-better-quality-builds/">http://csswizardry.com/2010/10/designing-in-the-browser-leads-to-better-quality-builds/</a>. Accessed 2014-08-05.<a href="#fnref16">↩</a></p></li>
+<li id="fn17"><p>Fisher, Meagan. 2009. Make Your Mockup in Markup. <em>24 Ways</em>. <a href="http://24ways.org/2009/make-your-mockup-in-markup/">http://24ways.org/2009/make-your-mockup-in-markup/</a>. Accessed 2014-08-05.<a href="#fnref17">↩</a></p></li>
+<li id="fn18"><p>LeBlanc, Martin. 2014-05-14. <a href="https://twitter.com/leblancstartup/status/466638260195041280">https://twitter.com/leblancstartup/status/466638260195041280</a>. Accessed 2014-08-05.<a href="#fnref18">↩</a></p></li>
+<li id="fn19"><p>Hoekman Jr, Robert. 2011. The Myth Of The Sophisticated User. <em>Smashing Magazine</em>. <a href="http://www.smashingmagazine.com/2011/12/28/myth-of-sophisticated-user/">http://www.smashingmagazine.com/2011/12/28/myth-of-sophisticated-user/</a>. Accessed 2014-08-05.<a href="#fnref19">↩</a></p></li>
+<li id="fn20"><p>“Allow Users to See Their Entered Data: Create data entry fields that are large enough to show all of the entered data without scrolling. Users should be able to see their entire entry at one time. There always will be some users who will enter more data than can be seen without scrolling; however, try to minimize the need to scroll or move the cursor to see all the data entered in a field. If there is a character limit for a particular field, state that near the entry field. Designers should be particularly aware of the length of data entry fields used for entering search terms. One study found that this entry field should be at least 35-40 characters long to accommodate ninety-five percent of search terms being used.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 13: Screen-Based Controls (Widgets); Section 8, Allow Users to See Their Entered Data”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/133">http://guidelines.usability.gov/guidelines/133</a>. Accessed 2014-07-29.<a href="#fnref20">↩</a></p></li>
+<li id="fn21"><p>This is often referred to as “eating your own dogfood” or <a href="http://en.wikipedia.org/wiki/Dogfooding">dogfooding</a>.<a href="#fnref21">↩</a></p></li>
+<li id="fn22"><p>“Set and State Goals: Identify and clearly articulate the primary goals of the Web site before beginning the design process. Before starting design work, identify the primary goals of the website (educate, inform, entertain, sell, etc.). Goals determine the audience, content, function, and the site’s unique look and feel. It is also a good idea to communicate the goals to, and develop consensus for the site goals from management and those working on the website.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 1: Design Process and Evaluation; Section 5, Set and State Goals”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/5">http://guidelines.usability.gov/guidelines/5</a>. Accessed 2014-07-28.<a href="#fnref22">↩</a></p></li>
+<li id="fn23"><p>“Establish User Requirements: Use all available resources to better understand users’ requirements. The greater the number of exchanges of information with potential users, the better the developers’ understanding of the users’ requirements. The more information that can be exchanged between developers and users, the higher the probability of having a successful website. These could include customer support lines, customer surveys and interviews, bulletin boards, sales people, user groups, trade show experiences, focus groups, etc. Successful projects require at least four (and average five) different sources of information. Do not rely too heavily on user intermediaries. The information gathered from exchanges with users can be used to build ‘use cases’. Use cases describe the things that users want and need the website to be able to do. In one study, when compared with traditional function-oriented analyses, use cases provided a specification that produced better user performance and higher user preferences.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 1: Design Process and Evaluation; Section 2, Establish User Requirements”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/2">http://guidelines.usability.gov/guidelines/2</a>. Accessed 2014-07-28.<a href="#fnref23">↩</a></p></li>
+<li id="fn24"><p>“Understand and Meet User’s Expectations: Ensure that the website format meets user expectations, especially related to navigation, content, and organization. Users define ‘usability’ as their perception of how consistent, efficient, productive, organized, easy to use, intuitive, and straightforward it is to accomplish tasks within a system. It is important for designers to develop an understanding of their users expectations through task analyses and other research. Users can have expectations based on their prior knowledge and past experience. The use of familiar formatting and navigation schemes makes it easier for users to learn and remember the layout of a site. Assume that certain users will not use a website frequently enough to learn to use it efficiently. Therefore, use familiar conventions.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 1: Design Process and Evaluation; Section 3, Understand and Meet User’s Expectations”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/3">http://guidelines.usability.gov/guidelines/3</a>. Accessed 2014-07-28.<a href="#fnref24">↩</a></p></li>
+<li id="fn25"><p>“Announce Changes to a Web Site: Announce major changes to a Web site on the homepage - do not surprise users. Introducing users to a redesigned Web site can require some preparation of expectations. Users may not know what to do when they are suddenly confronted with a new look or navigation structure. Therefore, you should communicate any planned changes to users ahead of time. Following completion of changes, tell users exactly what has changed and when the changes were made. Assure users that all previously available information will continue to be on the site. It may also be helpful to users if you inform them of site changes at other relevant places on the Web site. For example, if shipping policies have changed, a notification of such on the order page should be provided.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 5: The Home Page; Section 8, Announce Changes to a Web Site”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/53">http://guidelines.usability.gov/guidelines/53</a>. Accessed 2014-07-28.<a href="#fnref25">↩</a></p></li>
+<li id="fn26"><p>Lewis, Makayla (2013). Cerebral palsy, online social networks and change. (Unpublished Doctoral thesis, City University London). http://openaccess.city.ac.uk/3011/. Accessed 2014-07-28. Summary available at <a href="http://www.slideshare.net/MakaylaLewis1/makayla-lewis-a11y-to-april-2014publicversion">http://www.slideshare.net/MakaylaLewis1/makayla-lewis-a11y-to-april-2014publicversion</a>. Accessed 2014-07-28.<a href="#fnref26">↩</a></p></li>
+<li id="fn27"><p>“Format Common Items Consistently: Ensure that the format of common items is consistent from one page to another. The formatting convention chosen should be familiar to users. For example, telephone numbers should be consistently punctuated (800-555-1212), and time records might be consistently punctuated with colons (HH:MM:SS).” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 11: Text Appearance; Section 2, Format Common Items Consistently”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/107">http://guidelines.usability.gov/guidelines/107</a>. Accessed 2014-07-29.<a href="#fnref27">↩</a></p></li>
+<li id="fn28"><p>“Structure for Easy Comparison: Structure information so that it can be easily scanned and compared. Users should be able to compare two or more items without having to remember one while going to another page or another place on the same page to view a different item.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 6: Page Layout; Section 4, Structure for Easy Comparison”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/58">http://guidelines.usability.gov/guidelines/58</a>. Accessed 2014-07-28.<a href="#fnref28">↩</a></p></li>
+<li id="fn29"><p>“Establish Level of Importance: Establish a high-to-low level of importance for information and infuse this approach throughout each page on the Web site. The page layout should help users find and use the most important information. Important information should appear higher on the page so users can locate it quickly. The least used information should appear toward the bottom of the page. Information should be presented in the order that is most useful to users. People prefer hierarchies, and tend to focus their attention on one level of the hierarchy at a time. This enables them to adopt a more systematic strategy when scanning a page, which results in fewer revisits.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 6: Page Layout; Section 5, Establish Level of Importance”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/59">http://guidelines.usability.gov/guidelines/59</a>. Accessed 2014-07-28.<a href="#fnref29">↩</a></p></li>
+<li id="fn30"><p>“Organization Information Clearly: Organize information at each level of the Web site so that it shows a clear and logical structure to typical users. Designers should present information in a structure that reflects user needs and the site’s goals. Information should be well-organized at the Web site level, page level, and paragraph or list level. Good Web site and page design enables users to understand the nature of the site’s organizational relationships and will support users in locating information efficiently. A clear, logical structure will reduce the chances of users becoming bored, disinterested, or frustrated.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 16: Content Organization; Section 1, Organization Information Clearly”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/177">http://guidelines.usability.gov/guidelines/177</a>. Accessed 2014-07-29.<a href="#fnref30">↩</a></p></li>
+<li id="fn31"><p>“Minimize the Number of Clicks or Pages: To allow users to efficiently find what they want, design so that the most common tasks can be successfully completed in the fewest number of clicks. Provide critical information as close to the homepage as possible. Important information should be available within two or three clicks - the greater the number of clicks, the greater the likelihood that users will make incorrect choices.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 16: Content Organization; Section 5, Minimize the Number of Clicks or Pages”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/181">http://guidelines.usability.gov/guidelines/181</a>. Accessed 2014-07-29.<a href="#fnref31">↩</a></p></li>
+<li id="fn32"><p>“Organization Information Clearly: Organize information at each level of the Web site so that it shows a clear and logical structure to typical users. Designers should present information in a structure that reflects user needs and the site’s goals. Information should be well-organized at the Web site level, page level, and paragraph or list level. Good Web site and page design enables users to understand the nature of the site’s organizational relationships and will support users in locating information efficiently. A clear, logical structure will reduce the chances of users becoming bored, disinterested, or frustrated.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 16: Content Organization; Section 1, Organization Information Clearly”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/177">http://guidelines.usability.gov/guidelines/177</a>. Accessed 2014-07-29.<a href="#fnref32">↩</a></p></li>
+<li id="fn33"><p>“Minimize the Number of Clicks or Pages: To allow users to efficiently find what they want, design so that the most common tasks can be successfully completed in the fewest number of clicks. Provide critical information as close to the homepage as possible. Important information should be available within two or three clicks - the greater the number of clicks, the greater the likelihood that users will make incorrect choices.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 16: Content Organization; Section 5, Minimize the Number of Clicks or Pages”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/181">http://guidelines.usability.gov/guidelines/181</a>. Accessed 2014-07-29.<a href="#fnref33">↩</a></p></li>
+<li id="fn34"><p>“Display Only Necessary Information: Limit page information only to that which is needed by users while on that page. Do not overload pages or interactions with extraneous information. Displaying too much information may confuse users and hinder assimilation of needed information. Allow users to remain focused on the desired task by excluding information that task analysis and usability testing indicates is not relevant to their current task. When user information requirements cannot be precisely anticipated by the designer, allow users to tailor displays online.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 16: Content Organization; Section 7, Display Only Necessary Information”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/183">http://guidelines.usability.gov/guidelines/183</a>. Accessed 2014-07-29.<a href="#fnref34">↩</a></p></li>
+<li id="fn35"><p>“Understand and Meet User’s Expectations: Ensure that the website format meets user expectations, especially related to navigation, content, and organization. Users define ‘usability’ as their perception of how consistent, efficient, productive, organized, easy to use, intuitive, and straightforward it is to accomplish tasks within a system. It is important for designers to develop an understanding of their users expectations through task analyses and other research. Users can have expectations based on their prior knowledge and past experience. The use of familiar formatting and navigation schemes makes it easier for users to learn and remember the layout of a site. Assume that certain users will not use a website frequently enough to learn to use it efficiently. Therefore, use familiar conventions.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 1: Design Process and Evaluation; Section 3, Understand and Meet User’s Expectations”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/3">http://guidelines.usability.gov/guidelines/3</a>. Accessed 2014-07-28.<a href="#fnref35">↩</a></p></li>
+<li id="fn36"><p>“Provide Useful Content: Provide content that is engaging, relevant, and appropriate to the audience. Content is the information provided on a Web site. Do not waste resources providing easy access and good usability to the wrong content. One study found that content is the most critical element of a Web site. Other studies have reported that content is more important than navigation, visual design, functionality, and interactivity.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 1: Design Process and Evaluation; Section 1, Provide Useful Content”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/1">http://guidelines.usability.gov/guidelines/1</a>. Accessed 2014-07-28.<a href="#fnref36">↩</a></p></li>
+<li id="fn37"><p>“Display Only Necessary Information: Limit page information only to that which is needed by users while on that page. Do not overload pages or interactions with extraneous information. Displaying too much information may confuse users and hinder assimilation of needed information. Allow users to remain focused on the desired task by excluding information that task analysis and usability testing indicates is not relevant to their current task. When user information requirements cannot be precisely anticipated by the designer, allow users to tailor displays online.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 16: Content Organization; Section 7, Display Only Necessary Information”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/183">http://guidelines.usability.gov/guidelines/183</a>. Accessed 2014-07-29.<a href="#fnref37">↩</a></p></li>
+<li id="fn38"><p>“Users in a mobile context are often looking for specific pieces of information, rather than browsing. Content providers should consider the likely context of use of information and, while providing the option to access all information, should offer appropriate information first.… The general prescription to use clear language is of particular importance for mobile delivery, where brevity and directness are generally more desirable than a discursive style. Writing content in the traditional journalistic ‘front loaded’ style can assist users determining whether information is of interest to them and allow them to skip it more easily if it is not. Placing distinguishing information at the beginning of headings, paragraphs, lists, etc. can also help the user contextualize when using devices with limited screen area.… Mobile users often pay for bandwidth, so offering them content that is extraneous to their needs, especially advertising, costs them time and money and contributes to an unsatisfactory experience. In general, the user’s consent should be sought before initiating the download of content.” –Rabin Jo, McCathie Nevile Charles (eds.), 2008. <em>Mobile Web Best Practices 1.0 Basic Guidelines</em>. W3C Recommendation 29 July 2008. <a href="http://www.w3.org/TR/mobile-bp/#TESTING">http://www.w3.org/TR/mobile-bp/#cl</a>. Accessed 2014-07-29.<a href="#fnref38">↩</a></p></li>
+<li id="fn39"><p>“Establish User Requirements: Use all available resources to better understand users’ requirements. The greater the number of exchanges of information with potential users, the better the developers’ understanding of the users’ requirements. The more information that can be exchanged between developers and users, the higher the probability of having a successful website. These could include customer support lines, customer surveys and interviews, bulletin boards, sales people, user groups, trade show experiences, focus groups, etc. Successful projects require at least four (and average five) different sources of information. Do not rely too heavily on user intermediaries. The information gathered from exchanges with users can be used to build ‘use cases’. Use cases describe the things that users want and need the website to be able to do. In one study, when compared with traditional function-oriented analyses, use cases provided a specification that produced better user performance and higher user preferences.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 1: Design Process and Evaluation; Section 2, Establish User Requirements”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/2">http://guidelines.usability.gov/guidelines/2</a>. Accessed 2014-07-28.<a href="#fnref39">↩</a></p></li>
+<li id="fn40"><p>Web Accessibility Initiative. <em>Involving Users in Web Projects for Better, Easier Accessibility</em>. <a href="http://www.w3.org/WAI/users/involving">http://www.w3.org/WAI/users/involving</a>. Accessed 2014-07-29.<a href="#fnref40">↩</a></p></li>
+<li id="fn41"><p>“Format Information for Reading and Printing: Prepare information with the expectation that it will either be read online or printed. Prepare documents so that they can be read online or printed. Online documents can be read anywhere and at any time. However, users prefer to print documents that are five or more pages long, can be read at a later time, support presentations or research, or contain complex information requiring notes or highlighting.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 2: Optimizing the User Experience; Section 9, Format Information for Reading and Printing”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/20">http://guidelines.usability.gov/guidelines/20</a>. Accessed 2014-07-28.<a href="#fnref41">↩</a></p></li>
+<li id="fn42"><p>“Develop Pages that Will Print Properly: If users are likely to print one or more pages, develop pages with widths that print properly. It is possible to display pages that are too wide to print completely on standard 8.5 x 11 inch paper in portrait orientation. Ensure that margin to margin printing is possible.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 2: Optimizing the User Experience; Section 12, Develop Pages that Will Print Properly”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/23">http://guidelines.usability.gov/guidelines/23</a>. Accessed 2014-07-28.<a href="#fnref42">↩</a></p></li>
+<li id="fn43"><p>“Provide Printing Options: Provide a link to printable and downloadable document versions. Many users prefer to read text from a paper copy of a document. Paper allows users to take notes, highlight ideas, follow presentations, and save information that may be difficult to find at a later time.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 2: Optimizing the User Experience; Section 15, Provide Printing Options”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/26">http://guidelines.usability.gov/guidelines/26</a>. Accessed 2014-07-28.<a href="#fnref43">↩</a></p></li>
+<li id="fn44"><p>“Take reasonable steps to work around deficient implementations.… Just as it is not the intention to recommend a least common denominator approach, neither is it the intention to recommend avoiding features that exhibit problems on some class of devices. It is also not the intention to suggest that content providers should restrict their support to certain device types. Content providers should aim to support as wide a range of device types as is practical.” –Rabin Jo, McCathie Nevile Charles (eds.), 2008. <em>Mobile Web Best Practices 1.0 Basic Guidelines</em>. W3C Recommendation 29 July 2008. <a href="http://www.w3.org/TR/mobile-bp/#DEFICIENCIES">http://www.w3.org/TR/mobile-bp/#DEFICIENCIES</a>. Accessed 2014-07-29.<a href="#fnref44">↩</a></p></li>
+<li id="fn45"><p>“Test Plug-Ins and Applets for Accessibility: To ensure accessibility, test any applets, plug-ins or other applications required to interpret page content to ensure that they can be used by assistive technologies. Applets, plug-ins and other software can create problems for people using assistive technologies, and should be thoroughly tested for accessibility.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 3: Accessibility; Section 6, Test Plug-Ins and Applets for Accessibility”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/33">http://guidelines.usability.gov/guidelines/33</a>. Accessed 2014-07-28.<a href="#fnref45">↩</a></p></li>
+<li id="fn46"><p>“Do not rely on embedded objects or script.… Many mobile devices do not support embedded objects or script and in many cases it is not possible for users to load plug-ins to add support. Content must be designed with this in mind. Even where a device does support scripting, do not use it unless there is no other way of accomplishing your objectives. Scripting increases power consumption and so decreases battery life.” –Rabin Jo, McCathie Nevile Charles (eds.), 2008. <em>Mobile Web Best Practices 1.0 Basic Guidelines</em>. W3C Recommendation 29 July 2008. <a href="http://www.w3.org/TR/mobile-bp/#OBJECTS_OR_SCRIPT">http://www.w3.org/TR/mobile-bp/#OBJECTS_OR_SCRIPT</a>. Accessed 2014-07-29.<a href="#fnref46">↩</a></p></li>
+<li id="fn47"><p>“Consider Many User Interface Issues: Consider as many user interface issues as possible during the design process. Consider numerous usability-related issues during the creation of a Web site. These can include: the context within which users will be visiting a Web site; the experience levels of the users; the types of tasks users will perform on the site; the types of computer and connection speeds used when visiting the site; evaluation of prototypes; and the results of usability tests.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 1: Design Process and Evaluation; Section 7, Consider Many User Interface Issues”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/7">http://guidelines.usability.gov/guidelines/7</a>. Accessed 2014-07-28.<a href="#fnref47">↩</a></p></li>
+<li id="fn48"><p>“Exploit device capabilities to provide an enhanced user experience. While encouraging content providers to be sensitive to the needs of the Default Delivery Context, it is not intended that this will result in a diminished experience on more capable devices. Develop sites that target the Default Delivery Context. In addition, where appropriate, use device capabilities to provide a better user experience on more capable devices.” –Rabin Jo, McCathie Nevile Charles (eds.), 2008. <em>Mobile Web Best Practices 1.0 Basic Guidelines</em>. W3C Recommendation 29 July 2008. <a href="http://www.w3.org/TR/mobile-bp/#CAPABILITIES">http://www.w3.org/TR/mobile-bp/#CAPABILITIES</a>. Accessed 2014-07-29.<a href="#fnref48">↩</a></p></li>
+<li id="fn49"><p>“Format Information for Reading and Printing: Prepare information with the expectation that it will either be read online or printed. Prepare documents so that they can be read online or printed. Online documents can be read anywhere and at any time. However, users prefer to print documents that are five or more pages long, can be read at a later time, support presentations or research, or contain complex information requiring notes or highlighting.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 2: Optimizing the User Experience; Section 9, Format Information for Reading and Printing”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/20">http://guidelines.usability.gov/guidelines/20</a>. Accessed 2014-07-28.<a href="#fnref49">↩</a></p></li>
+<li id="fn50"><p>“Develop Pages that Will Print Properly: If users are likely to print one or more pages, develop pages with widths that print properly. It is possible to display pages that are too wide to print completely on standard 8.5 x 11 inch paper in portrait orientation. Ensure that margin to margin printing is possible.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 2: Optimizing the User Experience; Section 12, Develop Pages that Will Print Properly”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/23">http://guidelines.usability.gov/guidelines/23</a>. Accessed 2014-07-28.<a href="#fnref50">↩</a></p></li>
+<li id="fn51"><p>“Provide Printing Options: Provide a link to printable and downloadable document versions. Many users prefer to read text from a paper copy of a document. Paper allows users to take notes, highlight ideas, follow presentations, and save information that may be difficult to find at a later time.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 2: Optimizing the User Experience; Section 15, Provide Printing Options”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/26">http://guidelines.usability.gov/guidelines/26</a>. Accessed 2014-07-28.<a href="#fnref51">↩</a></p></li>
+<li id="fn52"><p>“Standardize Task Sequences: Allow users to perform tasks in the same sequence and manner across similar conditions. Users learn certain sequences of behaviors and perform best when they can be reliably repeated. For example, users become accustomed to looking in either the left or right panels for additional information. Also, users become familiar with the steps in a search or checkout process.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 2: Optimizing the User Experience; Section 3, Standardize Task Sequences”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/14">http://guidelines.usability.gov/guidelines/14</a>. Accessed 2014-07-28.<a href="#fnref52">↩</a></p></li>
+<li id="fn53"><p>“Avoid Cluttered Displays: Create pages that are not considered cluttered by users. Clutter is when excess items on a page lead to a degradation of performance when trying to find certain information. Studies have shown that users can find what they are looking for more quickly in a sparse and uncluttered display than in a dense display. On an uncluttered display, all important search targets are highly salient, i.e., clearly available. One study found that test participants tended to agree on which displays were least cluttered and those that were most cluttered.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 6: Page Layout; Section 1, Avoid Cluttered Displays”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/55">http://guidelines.usability.gov/guidelines/55</a>. Accessed 2014-07-28.<a href="#fnref53">↩</a></p></li>
+<li id="fn54"><p>“Optimize Display Density: To facilitate finding target information on a page, create pages that are not too crowded with items of information. Density can be defined as the number of items per degree of visual angle within a visually distinct group. This density either can be crowded with many items, or sparse with few items. One study found that locating a target in a crowded area took longer than when the target was in a sparse area. Also, participants searched and found items in the sparse areas faster than those in the crowded areas. Participants used fewer fixations per word in the crowded areas, but their fixations were much longer when viewing items in the crowded areas. Finally, participants tended to visit sparse areas before dense groups. To summarize, targets in sparse areas of the display (versus crowded areas) tended to be searched earlier and found faster.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 6: Page Layout; Section 6, Optimize Display Density”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/60">http://guidelines.usability.gov/guidelines/60</a>. Accessed 2014-07-28.<a href="#fnref54">↩</a></p></li>
+<li id="fn55"><p>“Consider Many User Interface Issues: Consider as many user interface issues as possible during the design process. Consider numerous usability-related issues during the creation of a Web site. These can include: the context within which users will be visiting a Web site; the experience levels of the users; the types of tasks users will perform on the site; the types of computer and connection speeds used when visiting the site; evaluation of prototypes; and the results of usability tests.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 1: Design Process and Evaluation; Section 7, Consider Many User Interface Issues”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/7">http://guidelines.usability.gov/guidelines/7</a>. Accessed 2014-07-28.<a href="#fnref55">↩</a></p></li>
+<li id="fn56"><p>“Understand and Meet User’s Expectations: Ensure that the website format meets user expectations, especially related to navigation, content, and organization. Users define ‘usability’ as their perception of how consistent, efficient, productive, organized, easy to use, intuitive, and straightforward it is to accomplish tasks within a system. It is important for designers to develop an understanding of their users expectations through task analyses and other research. Users can have expectations based on their prior knowledge and past experience. The use of familiar formatting and navigation schemes makes it easier for users to learn and remember the layout of a site. Assume that certain users will not use a website frequently enough to learn to use it efficiently. Therefore, use familiar conventions.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 1: Design Process and Evaluation; Section 3, Understand and Meet User’s Expectations”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/3">http://guidelines.usability.gov/guidelines/3</a>. Accessed 2014-07-28.<a href="#fnref56">↩</a></p></li>
+<li id="fn57"><p>“Use an Iterative Design Approach: Develop and test prototypes through an iterative design approach to create the most useful and usable Web site. Iterative design consists of creating paper or computer prototypes, testing the prototypes, and then making changes based on the test results. The ’test and make changes’ process is repeated until the website meets performance benchmarks (usability goals). When these goals are met, the iterative process ends. The iterative design process helps to substantially improve the usability of websites, improve task completion rates, and improve user satisfaction.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 18: Usability Testing; Section 1, Use an Iterative Design Approach”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/194">http://guidelines.usability.gov/guidelines/194</a>. Accessed 2014-07-29.<a href="#fnref57">↩</a></p></li>
+<li id="fn58"><p>Web Accessibility Initiative. <em>Involving Users in Web Projects for Better, Easier Accessibility</em>. <a href="http://www.w3.org/WAI/users/involving">http://www.w3.org/WAI/users/involving</a>. Accessed 2014-07-29.<a href="#fnref58">↩</a></p></li>
+<li id="fn59"><p>“Be Easily Found in the Top 30: In order to have a high probability of being accessed, ensure that a Web site is in the ‘top 30’ references presented from a major search engine. One study showed that users usually do not look at Web sites that are not in the ‘top 30’. Some of the features required to be in the ‘top 30’ include appropriate meta-content and page titles, the number of links to the Web site, as well as updated registration with the major search engines.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 1: Design Process and Evaluation; Section 8, Be Easily Found in the Top 30”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/8">http://guidelines.usability.gov/guidelines/8</a>. Accessed 2014-07-28.<a href="#fnref59">↩</a></p></li>
+<li id="fn60"><p>“Use Users’ Terminology in Help Documentation: Create ‘Help’ documentation using the users’ terminology to describe elements and features. Users have a colloquial understanding of website features, names and functions (e.g., breadcrumbs). Create ‘Help’ sections that address unfamiliar terms with the right amount of context. For example, if you refer to the ‘navigation bar,’ explain or highlight what you are referring. Remember that users and designers may use different terms to identify the same web features.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 2: Optimizing the User Experience; Section 14, Use Users’ Terminology in Help Documentation”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/25">http://guidelines.usability.gov/guidelines/25</a>. Accessed 2014-07-28.<a href="#fnref60">↩</a></p></li>
+<li id="fn61"><p>“Provide Assistance to Users: Provide assistance for users who need additional help with the website. Some users require special assistance. This is particularly important if the site was designed for inexperienced users or has many first time users. For example, in one website that was designed for repeat users, more than one-third of users (thirty-six percent) were first time visitors. A special link was prepared that allowed new users to access more information about the content of the site and described the best way to navigate the site.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 2: Optimizing the User Experience; Section 16, Provide Assistance to Users”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/26">http://guidelines.usability.gov/guidelines/26</a>. Accessed 2014-07-28.<a href="#fnref61">↩</a></p></li>
+<li id="fn62"><p>Web Accessibility Initiative. <em>Involving Users in Web Projects for Better, Easier Accessibility</em>. <a href="http://www.w3.org/WAI/users/involving">http://www.w3.org/WAI/users/involving</a>. Accessed 2014-07-29.<a href="#fnref62">↩</a></p></li>
+<li id="fn63"><p>“Announce Changes to a Web Site: Announce major changes to a Web site on the homepage - do not surprise users. Introducing users to a redesigned Web site can require some preparation of expectations. Users may not know what to do when they are suddenly confronted with a new look or navigation structure. Therefore, you should communicate any planned changes to users ahead of time. Following completion of changes, tell users exactly what has changed and when the changes were made. Assure users that all previously available information will continue to be on the site. It may also be helpful to users if you inform them of site changes at other relevant places on the Web site. For example, if shipping policies have changed, a notification of such on the order page should be provided.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 5: The Home Page; Section 8, Announce Changes to a Web Site”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/53">http://guidelines.usability.gov/guidelines/53</a>. Accessed 2014-07-28.<a href="#fnref63">↩</a></p></li>
+<li id="fn64"><p>“Carry out testing on actual devices as well as emulators. Any Web site should be tested in a range of browsers. Mobile browsers often show markedly different characteristics to desktop browsers. As well as assessing a site’s suitability for display in reduced format, content providers are encouraged to test that the features they rely on work in actual devices. Content providers should also test with specific features disabled, such as using text-only modes and with scripting disabled. Many manufacturers provide emulators for their device that can provide a convenient preliminary means of testing. However, in practice, many of the emulators behave in a different way to the devices they emulate. Consequently testing should be carried out in as wide a range of real devices and specific software versions as is practical.” –Rabin Jo, McCathie Nevile Charles (eds.), 2008. <em>Mobile Web Best Practices 1.0 Basic Guidelines</em>. W3C Recommendation 29 July 2008. <a href="http://www.w3.org/TR/mobile-bp/#TESTING">http://www.w3.org/TR/mobile-bp/#TESTING</a>. Accessed 2014-07-29.<a href="#fnref64">↩</a></p></li>
+<li id="fn65"><p>“Create documents that validate to published formal grammars. If the page markup is invalid this will result in unpredictable and possibly incomplete presentation.” –Rabin Jo, McCathie Nevile Charles (eds.), 2008. <em>Mobile Web Best Practices 1.0 Basic Guidelines</em>. W3C Recommendation 29 July 2008. <a href="http://www.w3.org/TR/mobile-bp/#VALID_MARKUP">http://www.w3.org/TR/mobile-bp/#VALID_MARKUP</a>. Accessed 2014-07-29.<a href="#fnref65">↩</a></p></li>
+<li id="fn66"><p>“Web sites should be designed to ensure that everyone, including users who have difficulty seeing, hearing, and making precise movements, can use them. Generally, this means ensuring that Web sites facilitate the use of common assistive technologies.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 3: Accessibility”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/chapters/3/introduction">http://guidelines.usability.gov/chapters/3/introduction</a>. Accessed 2014-07-28.<a href="#fnref66">↩</a></p></li>
+<li id="fn67"><p>“Minimize Page Download Time: Minimize the time required to download a Web site’s pages. The best way to facilitate fast page loading is to minimize the number of bytes per page.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 2: Optimizing the User Experience; Section 6, Minimize Page Download Time”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/17">http://guidelines.usability.gov/guidelines/17</a>. Accessed 2014-07-28.<a href="#fnref67">↩</a></p></li>
+<li id="fn68"><p>“Ensure that Images Do Not Slow Downloads: Take steps to ensure that images do not negatively impact download speeds. Delays are frustrating to users. Strive to maintain download speeds to less than five seconds. To improve download speeds, use several small images rather than a single large image. Repeat images when possible, and save images with the ‘interlaced’ or ‘progressive’ option. Limit page sizes to less than 30,000 bytes. Minimize the number of different colors used in an image, and add pixel dimension tags (e.g., height and width) to the image reference. High Speed users may not notice anything different; however, these techniques will greatly improve download speeds for modem or hotspot users.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 14: Graphics, Images, and Multimedia; Section 3, Ensure that Images Do Not Slow Downloads”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/152">http://guidelines.usability.gov/guidelines/152</a>. Accessed 2014-07-29.<a href="#fnref68">↩</a></p></li>
+<li id="fn69"><p>“Limit the Use of Images: Use images only when they are critical to the success of a Web site. Ensure that a Web site’s graphics add value and increase the clarity of the information on the site. Certain graphics can make some Web sites much more interesting for users, and users may be willing to wait a few extra seconds for them to load. Users tend to be most frustrated if they wait several seconds for a graphic to download, and then find that the image does not add any value. Some decorative graphics are acceptable when they do not distract the user.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 14: Graphics, Images, and Multimedia; Section 9, Limit the Use of Images”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/158">http://guidelines.usability.gov/guidelines/158</a>. Accessed 2014-07-29.<a href="#fnref69">↩</a></p></li>
+<li id="fn70"><p>“Keep style sheets small.… Optimize style information so that only styles that are used are included.” –Rabin Jo, McCathie Nevile Charles (eds.), 2008. <em>Mobile Web Best Practices 1.0 Basic Guidelines</em>. W3C Recommendation 29 July 2008. <a href="http://www.w3.org/TR/mobile-bp/#STYLE_SHEETS_SIZE">http://www.w3.org/TR/mobile-bp/#STYLE_SHEETS_SIZE</a>. Accessed 2014-07-29.<a href="#fnref70">↩</a></p></li>
+<li id="fn71"><p>“Use terse, efficient markup.… Marking fonts, colors and other stylistic effects in-line can cause considerably larger page sizes when compared with using logical markup, and use of the HTML class attribute for application of style… While it is not intended that authors should create their content in a single line to remove white space altogether, it is suggested that authors should not contribute to page weight by introducing unnecessary white space. Note that ‘pretty printing’ (the formatting of markup with indentation) can generate large amounts of white space and hence add to page weight. If ‘pretty printing’ is an important part of the authoring process, then try to arrange that redundant white space is stripped when serving a page. Even though some network proxies strip white space that they think is redundant, not all do so, so it is not best practice to rely upon this behavior. Use of structural markup… contributes to minimizing the size of the markup on a page, as does centralizing the style descriptions using CSS.” –Rabin Jo, McCathie Nevile Charles (eds.), 2008. <em>Mobile Web Best Practices 1.0 Basic Guidelines</em>. W3C Recommendation 29 July 2008. <a href="http://www.w3.org/TR/mobile-bp/#MINIMIZE">http://www.w3.org/TR/mobile-bp/#MINIMIZE</a>. Accessed 2014-07-29.<a href="#fnref71">↩</a></p></li>
+<li id="fn72"><p>“Focus on Performance Before Preference: If user performance is important, make decisions about content, format, interaction, and navigation before deciding on colors and decorative graphics. Focus on achieving a high rate of user performance before dealing with aesthetics. Graphics issues tend to have little impact, if any, on users’ success rates or speed of performance.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 1: Design Process and Evaluation; Section 6, Focus on Performance Before Preference”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/6">http://guidelines.usability.gov/guidelines/6</a>. Accessed 2014-07-28.<a href="#fnref72">↩</a></p></li>
+<li id="fn73"><p>“Do not use frames. Many mobile devices do not support frames. In addition, frames are recognized as being generally problematic.” –Rabin Jo, McCathie Nevile Charles (eds.), 2008. <em>Mobile Web Best Practices 1.0 Basic Guidelines</em>. W3C Recommendation 29 July 2008. <a href="http://www.w3.org/TR/mobile-bp/#NO_FRAMES">http://www.w3.org/TR/mobile-bp/#NO_FRAMES</a>. Accessed 2014-07-29.<a href="#fnref73">↩</a></p></li>
+</ol>
+</div>
+		</main>
+	</body>
+</html>
