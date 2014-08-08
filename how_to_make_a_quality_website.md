@@ -171,6 +171,10 @@ These principles should be examined and considered before the project starts, wh
 
 1. Create user personas based on your research, that reflect different types of typical and atypical users.
 
+	* usability.gov provides [a detailed method for creating user personas](http://www.usability.gov/how-to-and-tools/methods/personas.html), including best practices, questions to ask, elements to consider, examples, and references.
+
+	* When creating user personas for accessibility testing, remember to consider a wide range of accessibility concerns. See, for example, [An Alphabet of Accessibility Issues](https://the-pastry-box-project.net/anne-gibson/2014-July-31).
+
 	* Remember that these form a useful but incomplete subset of your users; real users will never behave as you expect, nor should they.
 
 1. Do the **Content** steps.
