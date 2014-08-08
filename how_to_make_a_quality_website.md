@@ -395,19 +395,19 @@ These steps focus on front-end development. Back-end development may need to tak
 
 	* Make sure multiple team members test. Fresh eyes are crucial.
 
-1. Fix any problems that arose during browser testing.
+1. Fix any problems that arise during browser testing.
 
 	* If there were problems to fix, return to step 1.
 
 1. Conduct automated markup[^48] and accessibility[^4] validation.
 
-1. Fix any problems that arose during validity testing.
+1. Fix any problems that arise during validity testing.
 
 	* If there were problems to fix, return to step 1.
 
 1. Conduct automated performance testing[^49][^50][^51][^52][^53].
 
-1. Fix any problems that arose during performance testing.
+1. Fix any problems that arise during performance testing.
 
 	* Good performance should take priority over good aesthetics. Ideally you can achieve both, but in cases of conflict, optimize for performance.[^54]
 
