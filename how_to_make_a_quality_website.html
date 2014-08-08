@@ -7,9 +7,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<style type="text/css">
 			body {
+				color: #444;
 				font-family: Helvetica, Arial, sans-serif;
 				font-size: 16pt;
-				max-width: 50em;
+				line-height: 1.2;
+				max-width: 32em;
 				margin: 0 auto;
 				padding: 1em;
 			}
@@ -19,9 +21,15 @@
 				float: left;
 				font-weight: bold;
 				margin: 0;
+				min-width: 6.35em;
 				padding: 0;
-				text-align: right;
-				width: 15%;
+				width: 25%;
+			}
+
+			@media (min-width: 625px) {
+				dt {
+					text-align: right;
+				}
 			}
 
 			dt:after {
@@ -29,8 +37,8 @@
 			}
 
 			dd {
-				float: left;
-				width: 83%;
+				float: right;
+				width: 73%;
 				margin: 0 0 0 2%;
 				padding: 0;
 			}
@@ -79,8 +87,23 @@
 				margin-top: 1em;
 			}
 
+			h1 a,
+			h2 a,
+			h3 a,
+			h4 a,
+			h5 a,
+			h6 a {
+				color: inherit;
+				cursor: default;
+				text-decoration: none;
+			}
+
 			hr {
 				display: none;
+			}
+
+			sup {
+				padding: 0 0.25em;
 			}
 		</style>
 	</head>
@@ -144,7 +167,7 @@
 <h2 id="principles"><a href="#principles">2. Principles</a></h2>
 <p>These principles should be examined and considered before the project starts, when the project ends, and at every step in between. At every step, every team member should consider how the principle applies to the step as a whole, and to their work in that step.</p>
 <ol style="list-style-type: decimal">
-<li><p>Every website needs to be <a href="https://en.wikipedia.org/wiki/Responsive_web_design">responsive</a><a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>,<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>, every website needs to be <a href="https://en.wikipedia.org/wiki/Web_accessibility">accessible</a><a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a>,<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a>, every website needs to use <a href="https://en.wikipedia.org/wiki/Progressive_Enhancement">progressive enhancement</a><a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a>,<a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a>.</p></li>
+<li><p>Every website needs to be <a href="https://en.wikipedia.org/wiki/Responsive_web_design">responsive</a><a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a><a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>, every website needs to be <a href="https://en.wikipedia.org/wiki/Web_accessibility">accessible</a><a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a><a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a>, every website needs to use <a href="https://en.wikipedia.org/wiki/Progressive_Enhancement">progressive enhancement</a><a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a><a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a>.</p></li>
 <li><p>Every stakeholder is a team member and every team member is a stakeholder.<a href="#fn7" class="footnoteRef" id="fnref7"><sup>7</sup></a></p>
 <ul>
 <li><p>Exception: Usability tests should, ideally, be conducted and summarized by people completely separate from the rest of the team, to avoid bias.</p>
@@ -192,7 +215,7 @@
 <li><p>You’re building for the web, so use web-compatible technologies.</p>
 <ul>
 <li><p>Create content using plain text, <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a>, or HTML; not in Microsoft Word (and especially not PDFs or PowerPoint).</p></li>
-<li><p>If possible, design <em>in the browser</em><a href="#fn15" class="footnoteRef" id="fnref15"><sup>15</sup></a>,<a href="#fn16" class="footnoteRef" id="fnref16"><sup>16</sup></a>,<a href="#fn17" class="footnoteRef" id="fnref17"><sup>17</sup></a> using CSS, not in software designed for print, like Photoshop, Illustrator, or InDesign (and especially not in non-design software like PowerPoint, Word, etc).</p></li>
+<li><p>If possible, design <em>in the browser</em><a href="#fn15" class="footnoteRef" id="fnref15"><sup>15</sup></a><a href="#fn16" class="footnoteRef" id="fnref16"><sup>16</sup></a><a href="#fn17" class="footnoteRef" id="fnref17"><sup>17</sup></a> using CSS, not in software designed for print, like Photoshop, Illustrator, or InDesign (and especially not in non-design software like PowerPoint, Word, etc).</p></li>
 <li><p>Define design in terms of web units, e.g. colours as hex values, sizes and distances in pixels and ems, etc.</p></li>
 <li><p>Collaborate using version control software and services like GitHub, not by emailing and turning on Track Changes in Microsoft Word.</p></li>
 </ul></li>
@@ -260,7 +283,7 @@
 </ul></li>
 <li><p>Research</p>
 <ul>
-<li><p>Study the data collected from other projects and earlier versions of this project, and interview stakeholders (especially users). Determine what content and features are important to whom and why, how they will be used, and where they will be accessed from.<a href="#fn23" class="footnoteRef" id="fnref23"><sup>23</sup></a>,<a href="#fn24" class="footnoteRef" id="fnref24"><sup>24</sup></a></p></li>
+<li><p>Study the data collected from other projects and earlier versions of this project, and interview stakeholders (especially users). Determine what content and features are important to whom and why, how they will be used, and where they will be accessed from.<a href="#fn23" class="footnoteRef" id="fnref23"><sup>23</sup></a><a href="#fn24" class="footnoteRef" id="fnref24"><sup>24</sup></a></p></li>
 <li><p>Every team member should spend at least one full day reading about their area of focus (and especially about how it applies to the web), and another full day about an area on which they aren’t focusing and/or aren’t an expert. This helps ensure that everybody’s knowledge is current and continues to grow.</p></li>
 </ul></li>
 <li><p>Create user personas based on your research, that reflect different types of typical and atypical users.</p>
@@ -272,7 +295,7 @@
 <li><p>Do the <strong>Development</strong> steps.</p></li>
 <li><p>Create a launch plan.</p>
 <ul>
-<li><p>If this is an update to an existing site, develop a plan for how users will transition to the new version. Give them options to opt-in to the new version early, and opt-out for a set period after launch. Plan specific changeover dates and stick to them. Create and make available change documentation explaining what has changed and why.<a href="#fn25" class="footnoteRef" id="fnref25"><sup>25</sup></a>,<a href="#fn26" class="footnoteRef" id="fnref26"><sup>26</sup></a></p></li>
+<li><p>If this is an update to an existing site, develop a plan for how users will transition to the new version. Give them options to opt-in to the new version early, and opt-out for a set period after launch. Plan specific changeover dates and stick to them. Create and make available change documentation explaining what has changed and why.<a href="#fn25" class="footnoteRef" id="fnref25"><sup>25</sup></a><a href="#fn26" class="footnoteRef" id="fnref26"><sup>26</sup></a></p></li>
 <li><p>Provide communication and feedback channels, and plan how these will be monitored.</p></li>
 <li><p>Plan how data will be monitored during the launch/transition period, and how to react/make adjustments based on this data.</p></li>
 </ul></li>
@@ -297,13 +320,13 @@
 <ul>
 <li>Making already-created content conform to your style guide is much more work than developing content with a style guide already in-place.</li>
 </ul></li>
-<li><p>Information Architecture: create a plan for how your content will be structured, both at a high-level (e.g. site navigation), and a low-level (e.g. sections within documents/pages). Then, reduce the complexity of your Information Architecture by half.<a href="#fn28" class="footnoteRef" id="fnref28"><sup>28</sup></a>,<a href="#fn29" class="footnoteRef" id="fnref29"><sup>29</sup></a>,<a href="#fn30" class="footnoteRef" id="fnref30"><sup>30</sup></a>,<a href="#fn31" class="footnoteRef" id="fnref31"><sup>31</sup></a></p>
+<li><p>Information Architecture: create a plan for how your content will be structured, both at a high-level (e.g. site navigation), and a low-level (e.g. sections within documents/pages). Then, reduce the complexity of your Information Architecture by half.<a href="#fn28" class="footnoteRef" id="fnref28"><sup>28</sup></a><a href="#fn29" class="footnoteRef" id="fnref29"><sup>29</sup></a><a href="#fn30" class="footnoteRef" id="fnref30"><sup>30</sup></a><a href="#fn31" class="footnoteRef" id="fnref31"><sup>31</sup></a></p>
 <ul>
-<li>Content should be structured as simply as possible to help users find what they’re looking for.<a href="#fn32" class="footnoteRef" id="fnref32"><sup>32</sup></a>,<a href="#fn33" class="footnoteRef" id="fnref33"><sup>33</sup></a></li>
+<li>Content should be structured as simply as possible to help users find what they’re looking for.<a href="#fn32" class="footnoteRef" id="fnref32"><sup>32</sup></a><a href="#fn33" class="footnoteRef" id="fnref33"><sup>33</sup></a></li>
 </ul></li>
 <li><p>Create your content, in compliance with your style guide and Information Architecture, and keeping in mind your user personas. Then, delete half the content.<a href="#fn34" class="footnoteRef" id="fnref34"><sup>34</sup></a></p>
 <ul>
-<li>Your users usually have very specific goals when visiting a web site. Don’t clutter their experience, and don’t give them what they don’t need.<a href="#fn35" class="footnoteRef" id="fnref35"><sup>35</sup></a>,<a href="#fn36" class="footnoteRef" id="fnref36"><sup>36</sup></a>,<a href="#fn37" class="footnoteRef" id="fnref37"><sup>37</sup></a>,<a href="#fn38" class="footnoteRef" id="fnref38"><sup>38</sup></a></li>
+<li>Your users usually have very specific goals when visiting a web site. Don’t clutter their experience, and don’t give them what they don’t need.<a href="#fn35" class="footnoteRef" id="fnref35"><sup>35</sup></a><a href="#fn36" class="footnoteRef" id="fnref36"><sup>36</sup></a><a href="#fn37" class="footnoteRef" id="fnref37"><sup>37</sup></a><a href="#fn38" class="footnoteRef" id="fnref38"><sup>38</sup></a></li>
 </ul></li>
 <li><p>Conduct usability testing on the content. Can users understand it and get the info they need?<a href="#fn39" class="footnoteRef" id="fnref39"><sup>39</sup></a></p>
 <ul>
@@ -316,25 +339,25 @@
 <ol style="list-style-type: decimal">
 <li><p>Create basic, works-for-everybody design templates that account for all the content and work well for all users, regardless of:</p>
 <ul>
-<li>Printed vs. on-screen<a href="#fn41" class="footnoteRef" id="fnref41"><sup>41</sup></a>,<a href="#fn42" class="footnoteRef" id="fnref42"><sup>42</sup></a>,<a href="#fn43" class="footnoteRef" id="fnref43"><sup>43</sup></a></li>
-<li>Device, e.g. phone, tablet, desktop, laptop, etc.<a href="#fn44" class="footnoteRef" id="fnref44"><sup>44</sup></a></li>
-<li>Browser, e.g. modern IE, obsolete IE, Firefox, Chrome, Safari, Opera, etc.</li>
-<li>Connection speed, e.g. high-speed/broadband, LTE, 3G, 2G, etc.</li>
-<li>Ability, e.g. using a mouse, using a keyboard, without assistive technology, with a screenreader, etc.</li>
-<li>Javascript and plugin support/availability<a href="#fn45" class="footnoteRef" id="fnref45"><sup>45</sup></a>,<a href="#fn46" class="footnoteRef" id="fnref46"><sup>46</sup></a></li>
-<li>Language, e.g. with machine-translation support</li>
+<li><p>Printed vs. on-screen<a href="#fn41" class="footnoteRef" id="fnref41"><sup>41</sup></a><a href="#fn42" class="footnoteRef" id="fnref42"><sup>42</sup></a><a href="#fn43" class="footnoteRef" id="fnref43"><sup>43</sup></a></p></li>
+<li><p>Device, e.g. phone, tablet, desktop, laptop, etc.<a href="#fn44" class="footnoteRef" id="fnref44"><sup>44</sup></a></p></li>
+<li><p>Browser, e.g. modern IE, obsolete IE, Firefox, Chrome, Safari, Opera, etc.</p></li>
+<li><p>Connection speed, e.g. high-speed/broadband, LTE, 3G, 2G, etc.</p></li>
+<li><p>Ability, e.g. using a mouse, using a keyboard, without assistive technology, with a screenreader, etc.</p></li>
+<li><p>Javascript and plugin support/availability<a href="#fn45" class="footnoteRef" id="fnref45"><sup>45</sup></a><a href="#fn46" class="footnoteRef" id="fnref46"><sup>46</sup></a></p></li>
+<li><p>Language, e.g. with machine-translation support</p></li>
 </ul>
 <p>Specifically, this fallback should work in the “Default Delivery Context”, which <a href="http://www.w3.org/TR/mobile-bp/">The W3C Recommendation on Mobile Web Best Practices</a> defines as:</p>
 <ul>
-<li>Usable Screen Width: 120 pixels, minimum.</li>
-<li>Markup Language Support: XHTML Basic 1.1 delivered with content type application/xhtml+xml.</li>
-<li>Character Encoding: UTF-8</li>
-<li>Image Format Support: JPEG, GIF89a</li>
-<li>Maximum Total Page Weight: 20 kilobytes</li>
-<li>Colors: 256 Colors, minimum.</li>
-<li>Style Sheet Support: CSS Level 1. In addition, CSS Level 2 <span class="citation">@media</span> rule together with the handheld and all media types.</li>
-<li>HTTP: HTTP/1.0 or more recent [HTTP1.1].</li>
-<li>Script: No support for client side scripting.</li>
+<li><p>Usable Screen Width: 120 pixels, minimum.</p></li>
+<li><p>Markup Language Support: XHTML Basic 1.1 delivered with content type application/xhtml+xml.</p></li>
+<li><p>Character Encoding: UTF-8</p></li>
+<li><p>Image Format Support: JPEG, GIF89a</p></li>
+<li><p>Maximum Total Page Weight: 20 kilobytes</p></li>
+<li><p>Colors: 256 Colors, minimum.</p></li>
+<li><p>Style Sheet Support: CSS Level 1. In addition, CSS Level 2 <span class="citation">@media</span> rule together with the handheld and all media types.</p></li>
+<li><p>HTTP: HTTP/1.0 or more recent [HTTP1.1].</p></li>
+<li><p>Script: No support for client side scripting.</p></li>
 </ul>
 <p>This isn’t the “showcase” design, this is the fallback, lowest-common-denominator design.<a href="#fn47" class="footnoteRef" id="fnref47"><sup>47</sup></a></p></li>
 <li><p>Perform the <strong>Design validation substeps</strong></p></li>
@@ -342,7 +365,7 @@
 <li><p>Perform the <strong>Design validation substeps</strong></p></li>
 <li><p>Create “showcase” design templates for how everything should look in a desktop browser in the best possible case: modern device, modern browser, fast connection, available JavaScript.</p></li>
 <li><p>Perform the <strong>Design validation substeps</strong></p></li>
-<li><p>Design “showcase” design templates for how everything should look when printed in the best possible case: modern device, modern browser, available JavaScript.<a href="#fn49" class="footnoteRef" id="fnref49"><sup>49</sup></a>,<a href="#fn50" class="footnoteRef" id="fnref50"><sup>50</sup></a>,<a href="#fn51" class="footnoteRef" id="fnref51"><sup>51</sup></a></p></li>
+<li><p>Design “showcase” design templates for how everything should look when printed in the best possible case: modern device, modern browser, available JavaScript.<a href="#fn49" class="footnoteRef" id="fnref49"><sup>49</sup></a><a href="#fn50" class="footnoteRef" id="fnref50"><sup>50</sup></a><a href="#fn51" class="footnoteRef" id="fnref51"><sup>51</sup></a></p></li>
 <li><p>Perform the <strong>Design validation substeps</strong></p></li>
 <li><p>Document in detail how each element of each template progressively enhances from the fallback design to the mobile design to the desktop design. Make sure there is complete content- and functionality-parity between all three designs, and that it’s clear how each element adjusts in changing circumstances.</p>
 <ul>
@@ -352,8 +375,8 @@
 </ol>
 <h4 id="design-validation-substeps"><a href="#design-validation-substeps">3.2.1 Design validation substeps</a></h4>
 <ol style="list-style-type: decimal">
-<li><p>Cut the number of templates in half, and for each remaining template, cut the number of user interace elements in half<a href="#fn52" class="footnoteRef" id="fnref52"><sup>52</sup></a>. Double the font size, and double the white space.<a href="#fn53" class="footnoteRef" id="fnref53"><sup>53</sup></a>,<a href="#fn54" class="footnoteRef" id="fnref54"><sup>54</sup></a></p></li>
-<li><p>Conduct usability testing on this design, using paper prototypes.<a href="#fn55" class="footnoteRef" id="fnref55"><sup>55</sup></a>,<a href="#fn56" class="footnoteRef" id="fnref56"><sup>56</sup></a>,<a href="#fn57" class="footnoteRef" id="fnref57"><sup>57</sup></a></p>
+<li><p>Cut the number of templates in half, and for each remaining template, cut the number of user interace elements in half<a href="#fn52" class="footnoteRef" id="fnref52"><sup>52</sup></a>. Double the font size, and double the white space.<a href="#fn53" class="footnoteRef" id="fnref53"><sup>53</sup></a><a href="#fn54" class="footnoteRef" id="fnref54"><sup>54</sup></a></p></li>
+<li><p>Conduct usability testing on this design, using paper prototypes.<a href="#fn55" class="footnoteRef" id="fnref55"><sup>55</sup></a><a href="#fn56" class="footnoteRef" id="fnref56"><sup>56</sup></a><a href="#fn57" class="footnoteRef" id="fnref57"><sup>57</sup></a></p>
 <ul>
 <li><p>Try to test with <em>real</em> users, and/or users that closely match each of your personas.<a href="#fn58" class="footnoteRef" id="fnref58"><sup>58</sup></a></p></li>
 <li><p>Test both previous and new testers if possible.</p></li>
@@ -391,7 +414,7 @@
 <li><p>Using search engine submission tools, such as <a href="https://www.google.com/webmasters/tools/home?hl=en">Google Webmaster Tools</a>.</p></li>
 </ul>
 <p>Note that the best ways to achieve high-ranking search results are to have high quality content; semantic, validated code; and high performance. All of these should have been handled before this point in the process.</p></li>
-<li><p>Create a “help” section.<a href="#fn60" class="footnoteRef" id="fnref60"><sup>60</sup></a>,<a href="#fn61" class="footnoteRef" id="fnref61"><sup>61</sup></a></p>
+<li><p>Create a “help” section.<a href="#fn60" class="footnoteRef" id="fnref60"><sup>60</sup></a><a href="#fn61" class="footnoteRef" id="fnref61"><sup>61</sup></a></p>
 <ul>
 <li>If any parts of your “help” section get very complex, consider simplifying the design/functionality to require less explanation. This may require returning to an earlier step.</li>
 </ul></li>
@@ -428,7 +451,7 @@
 <ul>
 <li>If there were problems to fix, return to step 1.</li>
 </ul></li>
-<li><p>Conduct automated performance testing<a href="#fn67" class="footnoteRef" id="fnref67"><sup>67</sup></a>,<a href="#fn68" class="footnoteRef" id="fnref68"><sup>68</sup></a>,<a href="#fn69" class="footnoteRef" id="fnref69"><sup>69</sup></a>,<a href="#fn70" class="footnoteRef" id="fnref70"><sup>70</sup></a>,<a href="#fn71" class="footnoteRef" id="fnref71"><sup>71</sup></a>.</p></li>
+<li><p>Conduct automated performance testing<a href="#fn67" class="footnoteRef" id="fnref67"><sup>67</sup></a><a href="#fn68" class="footnoteRef" id="fnref68"><sup>68</sup></a><a href="#fn69" class="footnoteRef" id="fnref69"><sup>69</sup></a><a href="#fn70" class="footnoteRef" id="fnref70"><sup>70</sup></a><a href="#fn71" class="footnoteRef" id="fnref71"><sup>71</sup></a>.</p></li>
 <li><p>Fix any problems that arose during performance testing.</p>
 <ul>
 <li><p>Good performance should take priority over good aesthetics. Ideally you can achieve both, but in cases of conflict, optimize for performance.<a href="#fn72" class="footnoteRef" id="fnref72"><sup>72</sup></a></p></li>
@@ -689,7 +712,7 @@
 <li id="fn23"><p>“Establish User Requirements: Use all available resources to better understand users’ requirements. The greater the number of exchanges of information with potential users, the better the developers’ understanding of the users’ requirements. The more information that can be exchanged between developers and users, the higher the probability of having a successful website. These could include customer support lines, customer surveys and interviews, bulletin boards, sales people, user groups, trade show experiences, focus groups, etc. Successful projects require at least four (and average five) different sources of information. Do not rely too heavily on user intermediaries. The information gathered from exchanges with users can be used to build ‘use cases’. Use cases describe the things that users want and need the website to be able to do. In one study, when compared with traditional function-oriented analyses, use cases provided a specification that produced better user performance and higher user preferences.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 1: Design Process and Evaluation; Section 2, Establish User Requirements”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/2">http://guidelines.usability.gov/guidelines/2</a>. Accessed 2014-07-28.<a href="#fnref23">↩</a></p></li>
 <li id="fn24"><p>“Understand and Meet User’s Expectations: Ensure that the website format meets user expectations, especially related to navigation, content, and organization. Users define ‘usability’ as their perception of how consistent, efficient, productive, organized, easy to use, intuitive, and straightforward it is to accomplish tasks within a system. It is important for designers to develop an understanding of their users expectations through task analyses and other research. Users can have expectations based on their prior knowledge and past experience. The use of familiar formatting and navigation schemes makes it easier for users to learn and remember the layout of a site. Assume that certain users will not use a website frequently enough to learn to use it efficiently. Therefore, use familiar conventions.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 1: Design Process and Evaluation; Section 3, Understand and Meet User’s Expectations”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/3">http://guidelines.usability.gov/guidelines/3</a>. Accessed 2014-07-28.<a href="#fnref24">↩</a></p></li>
 <li id="fn25"><p>“Announce Changes to a Web Site: Announce major changes to a Web site on the homepage - do not surprise users. Introducing users to a redesigned Web site can require some preparation of expectations. Users may not know what to do when they are suddenly confronted with a new look or navigation structure. Therefore, you should communicate any planned changes to users ahead of time. Following completion of changes, tell users exactly what has changed and when the changes were made. Assure users that all previously available information will continue to be on the site. It may also be helpful to users if you inform them of site changes at other relevant places on the Web site. For example, if shipping policies have changed, a notification of such on the order page should be provided.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 5: The Home Page; Section 8, Announce Changes to a Web Site”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/53">http://guidelines.usability.gov/guidelines/53</a>. Accessed 2014-07-28.<a href="#fnref25">↩</a></p></li>
-<li id="fn26"><p>Lewis, Makayla (2013). Cerebral palsy, online social networks and change. (Unpublished Doctoral thesis, City University London). http://openaccess.city.ac.uk/3011/. Accessed 2014-07-28. Summary available at <a href="http://www.slideshare.net/MakaylaLewis1/makayla-lewis-a11y-to-april-2014publicversion">http://www.slideshare.net/MakaylaLewis1/makayla-lewis-a11y-to-april-2014publicversion</a>. Accessed 2014-07-28.<a href="#fnref26">↩</a></p></li>
+<li id="fn26"><p>Lewis, Makayla (2013). Cerebral palsy, online social networks and change. (Unpublished Doctoral thesis, City University London). <a href="http://openaccess.city.ac.uk/3011/">http://openaccess.city.ac.uk/3011/</a>. Accessed 2014-07-28. Summary available at <a href="http://www.slideshare.net/MakaylaLewis1/makayla-lewis-a11y-to-april-2014publicversion">http://www.slideshare.net/MakaylaLewis1/makayla-lewis-a11y-to-april-2014publicversion</a>. Accessed 2014-07-28.<a href="#fnref26">↩</a></p></li>
 <li id="fn27"><p>“Format Common Items Consistently: Ensure that the format of common items is consistent from one page to another. The formatting convention chosen should be familiar to users. For example, telephone numbers should be consistently punctuated (800-555-1212), and time records might be consistently punctuated with colons (HH:MM:SS).” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 11: Text Appearance; Section 2, Format Common Items Consistently”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/107">http://guidelines.usability.gov/guidelines/107</a>. Accessed 2014-07-29.<a href="#fnref27">↩</a></p></li>
 <li id="fn28"><p>“Structure for Easy Comparison: Structure information so that it can be easily scanned and compared. Users should be able to compare two or more items without having to remember one while going to another page or another place on the same page to view a different item.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 6: Page Layout; Section 4, Structure for Easy Comparison”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/58">http://guidelines.usability.gov/guidelines/58</a>. Accessed 2014-07-28.<a href="#fnref28">↩</a></p></li>
 <li id="fn29"><p>“Establish Level of Importance: Establish a high-to-low level of importance for information and infuse this approach throughout each page on the Web site. The page layout should help users find and use the most important information. Important information should appear higher on the page so users can locate it quickly. The least used information should appear toward the bottom of the page. Information should be presented in the order that is most useful to users. People prefer hierarchies, and tend to focus their attention on one level of the hierarchy at a time. This enables them to adopt a more systematic strategy when scanning a page, which results in fewer revisits.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 6: Page Layout; Section 5, Establish Level of Importance”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/59">http://guidelines.usability.gov/guidelines/59</a>. Accessed 2014-07-28.<a href="#fnref29">↩</a></p></li>
@@ -701,7 +724,7 @@
 <li id="fn35"><p>“Understand and Meet User’s Expectations: Ensure that the website format meets user expectations, especially related to navigation, content, and organization. Users define ‘usability’ as their perception of how consistent, efficient, productive, organized, easy to use, intuitive, and straightforward it is to accomplish tasks within a system. It is important for designers to develop an understanding of their users expectations through task analyses and other research. Users can have expectations based on their prior knowledge and past experience. The use of familiar formatting and navigation schemes makes it easier for users to learn and remember the layout of a site. Assume that certain users will not use a website frequently enough to learn to use it efficiently. Therefore, use familiar conventions.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 1: Design Process and Evaluation; Section 3, Understand and Meet User’s Expectations”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/3">http://guidelines.usability.gov/guidelines/3</a>. Accessed 2014-07-28.<a href="#fnref35">↩</a></p></li>
 <li id="fn36"><p>“Provide Useful Content: Provide content that is engaging, relevant, and appropriate to the audience. Content is the information provided on a Web site. Do not waste resources providing easy access and good usability to the wrong content. One study found that content is the most critical element of a Web site. Other studies have reported that content is more important than navigation, visual design, functionality, and interactivity.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 1: Design Process and Evaluation; Section 1, Provide Useful Content”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/1">http://guidelines.usability.gov/guidelines/1</a>. Accessed 2014-07-28.<a href="#fnref36">↩</a></p></li>
 <li id="fn37"><p>“Display Only Necessary Information: Limit page information only to that which is needed by users while on that page. Do not overload pages or interactions with extraneous information. Displaying too much information may confuse users and hinder assimilation of needed information. Allow users to remain focused on the desired task by excluding information that task analysis and usability testing indicates is not relevant to their current task. When user information requirements cannot be precisely anticipated by the designer, allow users to tailor displays online.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 16: Content Organization; Section 7, Display Only Necessary Information”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/183">http://guidelines.usability.gov/guidelines/183</a>. Accessed 2014-07-29.<a href="#fnref37">↩</a></p></li>
-<li id="fn38"><p>“Users in a mobile context are often looking for specific pieces of information, rather than browsing. Content providers should consider the likely context of use of information and, while providing the option to access all information, should offer appropriate information first.… The general prescription to use clear language is of particular importance for mobile delivery, where brevity and directness are generally more desirable than a discursive style. Writing content in the traditional journalistic ‘front loaded’ style can assist users determining whether information is of interest to them and allow them to skip it more easily if it is not. Placing distinguishing information at the beginning of headings, paragraphs, lists, etc. can also help the user contextualize when using devices with limited screen area.… Mobile users often pay for bandwidth, so offering them content that is extraneous to their needs, especially advertising, costs them time and money and contributes to an unsatisfactory experience. In general, the user’s consent should be sought before initiating the download of content.” –Rabin Jo, McCathie Nevile Charles (eds.), 2008. <em>Mobile Web Best Practices 1.0 Basic Guidelines</em>. W3C Recommendation 29 July 2008. <a href="http://www.w3.org/TR/mobile-bp/#TESTING">http://www.w3.org/TR/mobile-bp/#cl</a>. Accessed 2014-07-29.<a href="#fnref38">↩</a></p></li>
+<li id="fn38"><p>“Users in a mobile context are often looking for specific pieces of information, rather than browsing. Content providers should consider the likely context of use of information and, while providing the option to access all information, should offer appropriate information first.… The general prescription to use clear language is of particular importance for mobile delivery, where brevity and directness are generally more desirable than a discursive style. Writing content in the traditional journalistic ‘front loaded’ style can assist users determining whether information is of interest to them and allow them to skip it more easily if it is not. Placing distinguishing information at the beginning of headings, paragraphs, lists, etc. can also help the user contextualize when using devices with limited screen area.… Mobile users often pay for bandwidth, so offering them content that is extraneous to their needs, especially advertising, costs them time and money and contributes to an unsatisfactory experience. In general, the user’s consent should be sought before initiating the download of content.” –Rabin Jo, McCathie Nevile Charles (eds.), 2008. <em>Mobile Web Best Practices 1.0 Basic Guidelines</em>. W3C Recommendation 29 July 2008. <a href="http://www.w3.org/TR/mobile-bp/#cl">http://www.w3.org/TR/mobile-bp/#cl</a>. Accessed 2014-07-29.<a href="#fnref38">↩</a></p></li>
 <li id="fn39"><p>“Establish User Requirements: Use all available resources to better understand users’ requirements. The greater the number of exchanges of information with potential users, the better the developers’ understanding of the users’ requirements. The more information that can be exchanged between developers and users, the higher the probability of having a successful website. These could include customer support lines, customer surveys and interviews, bulletin boards, sales people, user groups, trade show experiences, focus groups, etc. Successful projects require at least four (and average five) different sources of information. Do not rely too heavily on user intermediaries. The information gathered from exchanges with users can be used to build ‘use cases’. Use cases describe the things that users want and need the website to be able to do. In one study, when compared with traditional function-oriented analyses, use cases provided a specification that produced better user performance and higher user preferences.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 1: Design Process and Evaluation; Section 2, Establish User Requirements”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/2">http://guidelines.usability.gov/guidelines/2</a>. Accessed 2014-07-28.<a href="#fnref39">↩</a></p></li>
 <li id="fn40"><p>Web Accessibility Initiative. <em>Involving Users in Web Projects for Better, Easier Accessibility</em>. <a href="http://www.w3.org/WAI/users/involving">http://www.w3.org/WAI/users/involving</a>. Accessed 2014-07-29.<a href="#fnref40">↩</a></p></li>
 <li id="fn41"><p>“Format Information for Reading and Printing: Prepare information with the expectation that it will either be read online or printed. Prepare documents so that they can be read online or printed. Online documents can be read anywhere and at any time. However, users prefer to print documents that are five or more pages long, can be read at a later time, support presentations or research, or contain complex information requiring notes or highlighting.” —U.S. Dept. of Health and Human Services. <em>The Research-Based Web Design &amp; Usability Guidelines, Enlarged/Expanded edition</em>. “Chapter 2: Optimizing the User Experience; Section 9, Format Information for Reading and Printing”. Washington: U.S. Government Printing Office. <a href="http://guidelines.usability.gov/guidelines/20">http://guidelines.usability.gov/guidelines/20</a>. Accessed 2014-07-28.<a href="#fnref41">↩</a></p></li>
