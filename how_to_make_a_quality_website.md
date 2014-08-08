@@ -8,6 +8,18 @@ Source:			https://github.com/knowledgetranslation/process/
 
 
 
+## 0. Companion documents
+
+These companion documents provide more in-depth information than is available here:
+
+1. *How to conduct usability testing* (forthcoming)
+
+1. *Working with git and GitHub* (forthcoming)
+
+1. *When to use third-party web applications* (forthcoming)
+
+
+
 
 ## 1. Introduction
 
@@ -20,39 +32,41 @@ This process builds in lots of padding to budget, timelines, and scope. This cre
 
 ## 2. Principles
 
-These principles should be examined and considered before the project starts, when the project ends, and at every step in between. At every step, every team member should consider how the principle applies to the step as a whole, and to their work in that step.
+These principles should be examined and considered before the project starts, when the project ends, and at every step in between. At every step, every team member should consider how the principles apply to the step as a whole, and to their work in that step.
 
-1. Every website needs to be [responsive](https://en.wikipedia.org/wiki/Responsive_web_design)[^1][^2], every website needs to be [accessible](https://en.wikipedia.org/wiki/Web_accessibility)[^3][^4], every website needs to use [progressive enhancement](https://en.wikipedia.org/wiki/Progressive_Enhancement)[^5][^6].
+1. Every website needs to be [responsive](https://en.wikipedia.org/wiki/Responsive_web_design)[^1][^2], every website needs to be [accessible](https://en.wikipedia.org/wiki/Web_accessibility)[^3][^4], every website needs to use [progressive enhancement](https://en.wikipedia.org/wiki/Progressive_Enhancement).[^5][^6]
 
 1. Every stakeholder is a team member and every team member is a stakeholder.[^7]
 
-	* Exception: Usability tests should, ideally, be conducted and summarized by people completely separate from the rest of the team, to avoid bias.
+	* Exception: To avoid bias, usability tests should ideally be conducted and summarized by people completely separate from the rest of the team.
 
 		If the team members are the ones conducting usability tests, every effort should be made to avoid bias in testing.[^8]
 
+	* *A Guide to the Project Management Body of Knowledge (PMBOK® Guide)* states that a stakeholder is someone who “is actively involved in the project; has interests that may be positively or negatively affected by the performance or completion of the project; [or] may exert influence over the project, its deliverables or its team members”.[^56] The [Project Management Institute](http://www.pmi.org/)’s [Voices on Project Management blog](http://blogs.pmi.org/blog/voices_on_project_management/) suggests that different stakes to consider: interest, rights, ownership, knowledge, impact or influence, and contribution.[^57]
+
 1. Involve all stakeholders at every step of the project, every meeting, and every decision point. Everybody should have the *opportunity* to participate.
 
-	* Involvement should be discussed and agreed upon at the first meeting, and the team should make decisions about what the expectations are for every team member, and what the timelines for response are.
+	* Involvement should be discussed and agreed upon at the first meeting. The team should make decisions about what the expectations are for every team member and what the timelines for response are.
 
 	* For some parts of the project, a team member’s involvement will be mandatory, for others optional; but, every team member should have the option to participate in every stage.
 
-	* Involvement does not simply equal presence. Every team member should have the option of *participating actively*, and should be encouraged to do so.
+	* Involvement does not simply equal presence. Every team member should have the option of *participating actively* and should be encouraged to do so.
 
-	* e.g. designers should be involved during content creation, developers should be involved while creating timelines, users should be involved while planning scope[^9], etc.
+	* E.g. designers should be involved during content creation, developers should be involved while creating timelines, users should be involved while planning scope[^9], etc.
 
-1. Trust the expertise of your experts, *in their area of expertise*. Being an expert in one area doesn’t make somebody an expert in another area.
+1. Trust the expertise of your experts *in their area of expertise*. Being an expert in one area doesn’t make somebody an expert in another area.
 
-	* e.g. a content expert is not a designer; a developer is not a scientist
+	* E.g. a content expert is not a designer; a developer is not a scientist
 
 1. Don’t give disproportionate or inappropriate weight to trivial issues.[^10]
 
-	* As an example, holding a meeting to discuss a typeface or the colour of a design element is probably not the best use of the team’s time. Instead, focus on content, functionality, and usability.
+	* e.g holding a meeting to discuss a typeface or the colour of a design element is probably not the best use of the team’s time. Instead, focus on content, functionality, and usability.
 
 1. Remember the [Priority of Constituencies](http://www.w3.org/TR/html-design-principles/#priority-of-constituencies), a founding web design principle encoded by the World Wide Web Consortium and Web Hypertext Application Technology Working Group (the organizations responsible for web standards):
 
 	> In case of conflict, consider users over authors over implementors over specifiers over theoretical purity. In other words costs or difficulties to the user should be given more weight than costs to authors; which in turn should be given more weight than costs to implementors; which should be given more weight than costs to authors of the spec itself, which should be given more weight than those proposing changes for theoretical reasons alone. Of course, it is preferred to make things better for multiple constituencies at once.
 
-	* The original principle defines “authors” as web authors, i.e. web developers and designers who are building a site; “implementors” as browser implementors, i.e. software developers who build web browsers; and “specifiers” as those writing web standards specifications.
+	* The original principle defines “authors” as web authors (i.e. web developers and designers who are building a site), “implementors” as browser implementors (i.e. software developers who build web browsers), and “specifiers” as those writing web standards specifications.
 
 	* For our projects, we can alter these definitions while still retaining the spirit of the principle. “Specifiers” would be those team members who are responsible for planning, and “implementors” would be those responsible for content; the definitions for “users”, “authors”, and “theoretical purity” can remain unchanged.
 
@@ -62,7 +76,7 @@ These principles should be examined and considered before the project starts, wh
 
 1. No single user is more important than another user.[^12]
 
-	* e.g. mobile users need the same access to the same content as desktop users, disabled users need the same access to the same content as able users, etc.
+	* E.g. mobile users need the same access to the same content as desktop users, disabled users need the same access to the same content as able users, etc.
 
 1. Usability tests are for identifying problems, not for generating suggestions.
 
@@ -72,19 +86,21 @@ These principles should be examined and considered before the project starts, wh
 
 	* “Users are most valuable in helping designers know what a system should do, but not in helping designers determine how best to have the system do it.”[^13]
 
-1. Usability testing should only ever focus on one area at a time, e.g. either content, look-and-feel, or functionality. If you want to test multiple areas, conduct separate usability tests.
+1. Usability testing should only ever focus on one area at a time (e.g. either content, look-and-feel, or functionality). If you want to test multiple areas, conduct separate usability tests.
 
 	* Usability tests should have specific performance and success goals.[^14]
 
 1. You’re building for the web, so use web-compatible technologies.
 
+	When you use a technology that’s not directly compatible with the web, the content you generate needs to be *adapted* or *translated* before it can be used. In some cases this can lead to loss of quality (e.g. with images being recompressed as they are converted), the introduction of errors (e.g. with text being transferred between programs or re-typed). In all cases it will introduce a financial and time cost, by creating more work for developers and designers who need to adapt this content.
+
 	* Create content using plain text, [Markdown](https://en.wikipedia.org/wiki/Markdown), or HTML; not in Microsoft Word (and especially not PDFs or PowerPoint).
 
 	* If possible, design *in the browser*[^15][^16][^17] using CSS, not in software designed for print, like Photoshop, Illustrator, or InDesign (and especially not in non-design software like PowerPoint, Word, etc).
 
-	* Define design in terms of web units, e.g. colours as hex values, sizes and distances in pixels and ems, etc.
+	* Define design in terms of web units (e.g. colours as hex values, sizes and distances in pixels and ems, etc.).
 
-	* Collaborate using version control software and services like GitHub, not by emailing and turning on Track Changes in Microsoft Word.
+	* Collaborate using version control software and services like [GitHub](https://github.com/), not by emailing and turning on Track Changes in Microsoft Word.
 
 1. Make sure all designs account for and define all interactions and states (clicks, hovers, transitions, etc.).
 
@@ -94,7 +110,13 @@ These principles should be examined and considered before the project starts, wh
 
 1. Build everything (content, design, development) modularly: you’ll probably be on another project where you can re-use components.
 
+	* E.g., Brad Frost’s [Atomic Design methodology](http://bradfrostweb.com/blog/post/atomic-web-design/)
+
 1. Avoid social components (e.g. forums, chat, blogs, social media) when possible.
+
+	* Social media sharing “widgets” have huge performance costs (i.e. they slow down your site)[^58][^59][^60] and there is little evidence to suggest that they increase sharing or traffic.[^61] They can also be used to track your users, creating potential security and privacy issues.[^62]
+
+	* Forums, blogs, and chat often suffer because they don’t offer anything that users can’t get elsewhere. To be successful, these components “must have a specific purpose and deliver value members aren’t receiving elsewhere”.[^63] In order to maintain reader intesest, these must also be updated frequently with high-quality content, which creates time and financial burdens and is difficult to maintain.[^64] Even when properly maintained, users may not use or benefit from these features.
 
 1. Avoid requiring users to log in with a username and password.
 
@@ -102,32 +124,32 @@ These principles should be examined and considered before the project starts, wh
 
 1. Document everything you do at every step and use version control software for every piece.
 
-1. Everybody should track their hours. Ideally hours should be tracked according to specific tasks. One good way to do this is to make every task a GitHub issue, and associate all hours with specific issues.
+1. Everybody should track their hours. Ideally hours should be tracked according to specific tasks. One good way to do this is to make every task a [GitHub](https://github.com/) issue, and associate all hours with specific issues.
 
 	* Tracking the time it takes to create each feature can help with scoping and budgeting future projects.
 
-1. Publish what you publish. Knowledge translation depends on dissemination; we need share what we’re creating[^21].
+1. Publish what you publish. Knowledge translation depends on dissemination; we need share what we’re creating.[^21]
 
 	* Make all website content public, not password protected or behind a paywall.
 
-	* If it can’t be made public, then it probably shouldn’t be on the website. Use other services, like intranets, Basecamp, Canvas, etc.
+	* If it can’t be made public, then it probably shouldn’t be on the website. Use other services, like intranets, [Basecamp](https://basecamp.com/), [Canvas](http://www.instructure.com/), etc.
 
 	* Open source all the developed designs, code, documentation, etc.
 
 	* Find out what your rights are when you publish papers about the project. If possible make the papers available as widely as possible, for free, even if it costs extra money.
 
-1. Research as much as possible. Learn as much as possible. Collect as much data as possible. We should always strive to do evidence-based web development.
+1. Research as much as possible. Learn as much as possible. Collect as much relevant data as possible. We should always strive to do evidence-based web development.
 
 1. Work in the open. Avoid decision-making over email or in private conversations.
 
-	* All meetings should have a secretary, and that secretary should take notes *visibly*, e.g. on a whiteboard, so other attendees can contribute and update notes where they see fit. Ideally, meetings should also be audio recorded and made available to members who weren’t able to attend. Ideally, any sketches should be photographed/scanned and be included with the minutes.
+	* All meetings should have a secretary, and that secretary should take notes *visibly* (e.g. on a whiteboard, so other attendees can contribute and update notes where they see fit). Ideally, meetings should also be audio recorded and made available to members who weren’t able to attend. Ideally, any sketches should be photographed/scanned and be included with the minutes.
 
-	* All decision-making between meetings should be done in an open forum, such as GitHub or Basecamp.
+	* All decision-making between meetings should be done in an open forum, such as [GitHub](https://github.com/) or [Basecamp](https://basecamp.com/).
 
 1. Give credit where it’s due. In [Steps 1–3](#steps) you’ll clearly define roles and responsibilities for each team member. With all the documentation you develop, including git logs and timesheets, you’ll be able to verify who did what. Give appropriate credit to *everyone* in *all* the following places:
 
 	* on the website (e.g. in a humans.txt file, in page metadata)
-	* in the website’s documentation (e.g. CONTRIBUTORS.MD on GitHub)
+	* in the website’s documentation (e.g. CONTRIBUTORS.MD on [GitHub](https://github.com/))
 	* in papers about the project (e.g. authorship for anybody that had decision-making responsibility, acknowledgements for every other team member)
 	* in presentations (e.g. on an acknowledgements slide)
 
@@ -156,7 +178,7 @@ These principles should be examined and considered before the project starts, wh
 
 	* A focused project is more likely to be successful, and there will always be time for more phases later.
 
-	* It may be best to think of each phase as a collection of specific features. E.g., Phase 1 might be a collection of static content pages, Phase 2 might add videos or other interactive content, etc.
+	* It may be best to think of each phase as a collection of specific features. E.g. Phase 1 might be a collection of static content pages, Phase 2 might add videos or other interactive content, etc.
 
 	* Remember to consider *all* the steps in this document when considering timelines, including multiple rounds of usability and testing.
 
@@ -303,7 +325,7 @@ These principles should be examined and considered before the project starts, wh
 
 #### 3.2.1 Design validation substeps
 
-1. Cut the number of templates in half, and for each remaining template, cut the number of user interace elements in half[^40]. Double the font size, and double the white space.[^41][^42]
+1. Cut the number of templates in half, and for each remaining template, cut the number of user interace elements in half.[^40] Double the font size, and double the white space.[^41][^42]
 
 1. Conduct usability testing on this design, using paper prototypes.[^12][^23][^43]
 
@@ -408,7 +430,7 @@ These steps focus on front-end development. Back-end development may need to tak
 
 	* If there were problems to fix, return to step 1.
 
-1. Conduct automated performance testing[^49][^50][^51][^52][^53].
+1. Conduct automated performance testing.[^49][^50][^51][^52][^53]
 
 1. Fix any problems that arise during performance testing.
 
@@ -687,7 +709,7 @@ ASP.NET
 Atom
 :	“The name Atom applies to a pair of related Web standards. The Atom Syndication Format is an XML language used for web feeds, while the Atom Publishing Protocol (AtomPub or APP) is a simple HTTP-based protocol for creating and updating web resources.
 
-	“Web feeds allow software programs to check for updates published on a website. To provide a web feed, the site owner may use specialized software (such as a content management system) that publishes a list (or "feed") of recent articles or content in a standardized, machine-readable format. The feed can then be downloaded by programs that use it, like websites that syndicate content from the feed, or by feed reader programs that allow Internet users to subscribe to feeds and view their content.
+	“Web feeds allow software programs to check for updates published on a website. To provide a web feed, the site owner may use specialized software (such as a content management system) that publishes a list (or ‘feed’) of recent articles or content in a standardized, machine-readable format. The feed can then be downloaded by programs that use it, like websites that syndicate content from the feed, or by feed reader programs that allow Internet users to subscribe to feeds and view their content.
 
 	“A feed contains entries, which may be headlines, full-text articles, excerpts, summaries, and/or links to content on a website, along with various metadata.” —[Wikipedia](http://en.wikipedia.org/wiki/Atom_(standard))
 
@@ -709,7 +731,7 @@ character encoding
 client-side
 :	“Client-side refers to operations that are performed by the client in a client–server relationship in a computer network.
 
-	“Typically, a client is a computer application, such as a web browser, that runs on a user's local computer or workstation and connects to a server as necessary. Operations may be performed client-side because they require access to information or functionality that is available on the client but not on the server, because the user needs to observe them or provide input, or because the server lacks the processing power to perform the operations in a timely manner for all of the clients it serves. Additionally, if operations can be performed by the client, without sending data over the network, they may take less time, use less bandwidth, and incur a lesser security risk.
+	“Typically, a client is a computer application, such as a web browser, that runs on a user’s local computer or workstation and connects to a server as necessary. Operations may be performed client-side because they require access to information or functionality that is available on the client but not on the server, because the user needs to observe them or provide input, or because the server lacks the processing power to perform the operations in a timely manner for all of the clients it serves. Additionally, if operations can be performed by the client, without sending data over the network, they may take less time, use less bandwidth, and incur a lesser security risk.
 
 	“When the server serves data in a commonly used manner, for example according to the HTTP or FTP protocols, users may have their choice of a number of client programs (most modern web browsers can request and receive data using both of those protocols). In the case of more specialized applications, programmers may write their own server, client, and communications protocol, that can only be used with one another.” —[Wikipedia](http://en.wikipedia.org/wiki/Client_side)
 
@@ -828,7 +850,7 @@ JSON
 lint
 :	“In computer programming, lint was the name originally given to a particular program that flagged some suspicious and non-portable constructs (likely to be bugs) in C language source code. The term is now applied generically to tools that flag suspicious usage in software written in any computer language. The term lint-like behavior is sometimes applied to the process of flagging suspicious language usage. Lint-like tools generally perform static analysis of source code.
 
-	“Lint as a term can also refer more broadly to syntactic discrepancies in general, especially in interpreted languages like JavaScript and Python. For example, modern lint checkers are often used to find code that doesn't correspond to certain style guidelines. They can also be used as simple debuggers for common errors, or hard to find errors such as heisenbugs.
+	“Lint as a term can also refer more broadly to syntactic discrepancies in general, especially in interpreted languages like JavaScript and Python. For example, modern lint checkers are often used to find code that doesn’t correspond to certain style guidelines. They can also be used as simple debuggers for common errors, or hard to find errors such as heisenbugs.
 
 	“This technique is formally referred to as static code analysis.” —[Wikipedia](http://en.wikipedia.org/wiki/Lint_(software))
 
@@ -836,7 +858,7 @@ Markdown
 :	“Markdown is a plain text formatting syntax designed so that it optionally can be converted to HTML using a tool by the same name. Markdown is popularly used to format readme files, for writing messages in online discussion forums or in text editors for the quick creation of rich text documents.” —[Wikipedia](http://en.wikipedia.org/wiki/Markdown)
 
 markup language
-:	“A (document) markup language is a modern system for annotating a document in a way that is syntactically distinguishable from the text. The idea and terminology evolved from the ‘marking up’ of paper manuscripts, i.e., the revision instructions by editors, traditionally written with a blue pencil on authors' manuscripts. In digital media this ‘blue pencil instruction text’ was replaced by tags, that is, instructions are expressed directly by tags or ‘instruction text encapsulated by tags’.
+:	“A (document) markup language is a modern system for annotating a document in a way that is syntactically distinguishable from the text. The idea and terminology evolved from the ‘marking up’ of paper manuscripts, i.e., the revision instructions by editors, traditionally written with a blue pencil on authors’ manuscripts. In digital media this ‘blue pencil instruction text’ was replaced by tags, that is, instructions are expressed directly by tags or ‘instruction text encapsulated by tags’.
 
 	“Examples are typesetting instructions such as those found in troff, TeX and LaTeX, or structural markers such as XML tags. Markup instructs the software displaying the text to carry out appropriate actions, but is omitted from the version of the text that is displayed to users. Some markup languages, such as the widely used HTML, have pre-defined presentation semantics, meaning that their specification prescribes how the structured data are to be presented; others, such as XML, do not.
 
@@ -871,7 +893,7 @@ rich snippets
 :	“In 2010, Google specified three forms of structured metadata that their systems will use to find structured semantic content within webpages. Such information, when related to reviews, people profiles, business listings, and events will be used by Google to enhance the ‘snippet’, or short piece of quoted text that is shown when the page appears in search listings. Google specifies that that data may be given using microdata, microformats or RDFa. Microdata is specified inside `itemtype` and `itemprop` attributes added to existing HTML elements; microformat keywords are added inside class attributes as discussed above; and RDFa relies on `rel`, `typeof` and `property` attributes added to existing elements.” —[Wikipedia](https://en.wikipedia.org/wiki/Semantic_HTML)
 
 RSS
-:	“RSS (Rich Site Summary); originally RDF Site Summary; often dubbed Really Simple Syndication, uses a family of standard web feed formats to publish frequently updated information: blog entries, news headlines, audio, video. An RSS document (called ‘feed’, ‘web feed’, or ‘channel’) includes full or summarized text, and metadata, like publishing date and author's name.
+:	“RSS (Rich Site Summary); originally RDF Site Summary; often dubbed Really Simple Syndication, uses a family of standard web feed formats to publish frequently updated information: blog entries, news headlines, audio, video. An RSS document (called ‘feed’, ‘web feed’, or ‘channel’) includes full or summarized text, and metadata, like publishing date and author’s name.
 
 	“RSS feeds enable publishers to syndicate data automatically. A standard XML file format ensures compatibility with many different machines/programs. RSS feeds also benefit users who want to receive timely updates from favourite websites or to aggregate data from many sites.
 
@@ -881,12 +903,12 @@ scripts
 :	“A scripting language or script language is a programming language that supports scripts, programs written for a special run-time environment that can interpret (rather than compile) and automate the execution of tasks that could alternatively be executed one-by-one by a human operator. Environments that can be automated through scripting include software applications, web pages within a web browser, the shells of operating systems (OS), and embedded systems. A scripting language can be viewed as a domain-specific language for a particular environment; in the case of scripting an application, this is also known as an extension language. Scripting languages are also sometimes referred to as very high-level programming languages, as they operate at a high level of abstraction, or as control languages, particularly for job control languages on mainframes.” —[Wikipedia](http://en.wikipedia.org/wiki/Script_(computing))
 
 search engine optimization
-:	“Search engine optimization (SEO) is the process of affecting the visibility of a website or a web page in a search engine’s ‘natural’ or un-paid (‘organic’) search results. In general, the earlier (or higher ranked on the search results page), and more frequently a site appears in the search results list, the more visitors it will receive from the search engine's users. SEO may target different kinds of search, including image search, local search, video search, academic search, news search and industry-specific vertical search engines.
+:	“Search engine optimization (SEO) is the process of affecting the visibility of a website or a web page in a search engine’s ‘natural’ or un-paid (‘organic’) search results. In general, the earlier (or higher ranked on the search results page), and more frequently a site appears in the search results list, the more visitors it will receive from the search engine’s users. SEO may target different kinds of search, including image search, local search, video search, academic search, news search and industry-specific vertical search engines.
 
 	“As an Internet marketing strategy, SEO considers how search engines work, what people search for, the actual search terms or keywords typed into search engines and which search engines are preferred by their targeted audience. Optimizing a website may involve editing its content, HTML and associated coding to both increase its relevance to specific keywords and to remove barriers to the indexing activities of search engines. Promoting a site to increase the number of backlinks, or inbound links, is another SEO tactic.” —[Wikipedia](http://en.wikipedia.org/wiki/Search_engine_optimization)
 
 security certificate
-:	“In cryptography, a public key certificate (also known as a digital certificate or identity certificate) is an electronic document used to prove ownership of a public key. The certificate includes information about the key, information about its owner's identity, and the digital signature of an entity that has verified the certificate’s contents are correct. If the signature is valid, and the person examining the certificate trusts the signer, then they know they can use that key to communicate with its owner.
+:	“In cryptography, a public key certificate (also known as a digital certificate or identity certificate) is an electronic document used to prove ownership of a public key. The certificate includes information about the key, information about its owner’s identity, and the digital signature of an entity that has verified the certificate’s contents are correct. If the signature is valid, and the person examining the certificate trusts the signer, then they know they can use that key to communicate with its owner.
 
 	“In a typical public-key infrastructure (PKI) scheme, the signer is a certificate authority (CA), usually a company such as VeriSign which charges customers to issue certificates for them. In a web of trust scheme, the signer is either the key’s owner (a self-signed certificate) or other users (‘endorsements’) who the person examining the certificate might know and trust.
 
@@ -900,7 +922,7 @@ semantic code or semantic HTML
 server-side
 :	“Server-side (commonly referred to as SS) refers to operations that are performed by the server in a client–server relationship in computer networking.
 
-	“Typically, a server is a computer program, such as a web server, that runs on a remote server, reachable from a user's local computer or workstation. Operations may be performed server-side because they require access to information or functionality that is not available on the client, or require typical behavior that is unreliable when it is done client-side.
+	“Typically, a server is a computer program, such as a web server, that runs on a remote server, reachable from a user’s local computer or workstation. Operations may be performed server-side because they require access to information or functionality that is not available on the client, or require typical behavior that is unreliable when it is done client-side.
 
 	“Server-side operations also include processing and storage of data from a client to a server, which can be viewed by a group of clients.…
 
@@ -931,6 +953,9 @@ version control software
 	“Version control systems (VCS) most commonly run as stand-alone applications, but revision control is also embedded in various types of software such as word processors and spreadsheets, e.g., Google Docs and Sheets and in various content management systems, e.g., Wikipedia’s Page history. Revision control allows for the ability to revert a document to a previous revision, which is critical for allowing editors to track each other’s edits, correct mistakes, and defend against vandalism and spamming.
 
 	“Software tools for revision control are essential for the organization of multi-developer projects.” —[Wikipedia](https://en.wikipedia.org/wiki/Version_control_software)
+
+widget
+:	“In computing, a web widget is a software widget for the web. It’s a small application with limited functionality that can be installed and executed within a web page by an end user. A widget has the role of a transient or auxiliary application, meaning that it just occupies a portion of a webpage and does something useful with information fetched from other websites and displayed in place.” —[Wikipedia](http://en.wikipedia.org/wiki/Web_widget)
 
 XML
 :	“Extensible Markup Language (XML) is markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. It is defined in the XML 1.0 Specification produced by the W3C, and several other related specifications, all free open standards.
@@ -1060,6 +1085,9 @@ PHP
 
 PKI
 :	Public-Key Infrastructure
+
+PMBOK
+:	Project Management Body of Knowledge
 
 RDF
 :	Resource Description Framework
@@ -1260,3 +1288,21 @@ XUL
 [^54]: “Focus on Performance Before Preference: If user performance is important, make decisions about content, format, interaction, and navigation before deciding on colors and decorative graphics. Focus on achieving a high rate of user performance before dealing with aesthetics. Graphics issues tend to have little impact, if any, on users’ success rates or speed of performance.”  —U.S. Dept. of Health and Human Services. *The Research-Based Web Design & Usability Guidelines, Enlarged/Expanded edition*. “Chapter 1: Design Process and Evaluation; Section 6, Focus on Performance Before Preference”. Washington: U.S. Government Printing Office. http://guidelines.usability.gov/guidelines/6. Accessed 2014-07-28.
 
 [^55]: “Do not use frames. Many mobile devices do not support frames. In addition, frames are recognized as being generally problematic.” –Rabin Jo, McCathie Nevile Charles (eds.), 2008. *Mobile Web Best Practices 1.0 Basic Guidelines*. W3C Recommendation 29 July 2008. http://www.w3.org/TR/mobile-bp/#NO_FRAMES. Accessed 2014-07-29.
+
+[^56]: Project Management Institute. 2013. *A Guide to the Project Management Body of Knowledge: PMBOK® Guide*, 5th edition. Newtown Square, Pennsylvania: Project Management Institute.
+
+[^57]: Bourne, Lynda. 2009. “Who is a Stakeholder?”, *Voices on Project Management: Independent ideas and insights by and for project practitioners*. September 22, 2009. http://blogs.pmi.org/blog/voices_on_project_management/2009/09/who-is-a-stakeholder.html. Accessed 2014-08-08.
+
+[^58]: Smiley, Jonathan. 2012. “Small, Painful Buttons: Why Social Media Buttons Might be Killing Your Mobile Site”, *ZURB Blog*. January 17, 2012. http://zurb.com/article/883/small-painful-buttons-why-social-media-bu. Accessed 2014-08-08.
+
+[^59]: Jal Park, Bhagwad. 2010. “Why Facebook’s ‘Like’ button is so slow”, *Expressions*. September 9, 2010. http://www.bhagwad.com/blog/2010/technology/why-facebooks-like-button-is-so-slow.html/. Accessed 2014-08-08.
+
+[^60]: Schiller, Scott. 2009. “The Cost Of ‘Social Media’ Javascript Overload”, *Schillmania!*. http://www.schillmania.com/content/entries/2009/browser-performance-cost-of-social-media/. Accessed 2014-08-08.
+
+[^61]: Solomon, Sam. 2014. “Why I’m Done With Social Media Buttons”, *solomon.io*. February 7, 2014. http://solomon.io/why-im-done-with-social-media-buttons/. Accessed 2014-08-08.
+
+[^62]: The Week Staff. 2011. “Is Facebook's 'Like' button spying on you?”, *The Week*. May 20, 2011. http://theweek.com/article/index/215546/is-facebooks-like-button-spying-on-you. Accessed 2014-08-08.
+
+[^63]: Strojny, Drew. 2014. “To add a forum to your website (or not)”, *Memberful*. July 2, 2014. https://memberful.com/blog/add-a-forum-to-your-website/. Accessed 2014-08-08.
+
+[^64]: Quenqua, Douglas. 2009. “Blogs Falling in an Empty Forest”, *The New York Times*. June 5, 2009. http://www.nytimes.com/2009/06/07/fashion/07blogs.html?_r=0. Accessed 2014-08-08.
