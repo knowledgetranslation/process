@@ -506,7 +506,7 @@ These steps focus on front-end development. Back-end development may need to tak
 
 		* [Design is a Job](http://www.abookapart.com/products/design-is-a-job) by Mike Monteiro
 
-		* [You’re My Favorite Client](http://www.abookapart.com/products/youre-my-favorite-client) by Mike Monteiro)
+		* [You’re My Favorite Client](http://www.abookapart.com/products/youre-my-favorite-client) by Mike Monteiro
 
 		* [Managing Web Projects](http://www.fivesimplesteps.com/products/a-practical-guide-to-managing-web-projects) by Breandán Knowlton
 
