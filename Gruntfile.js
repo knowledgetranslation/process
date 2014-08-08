@@ -12,10 +12,20 @@ module.exports = function(grunt) {
 					'from' : ['how_to_make_a_quality_website.md']
 				}
 			}
+		},
+
+		rename: {
+			main: {
+				files: [{
+					src: ['how_to_make_a_quality_website.html'],
+					dest: 'index.html'
+				}]
+			}
 		}
 	});
 
-	grunt.registerTask('default', ['pandoc']);
+	grunt.registerTask('default', ['pandoc', 'rename']);
 
 	grunt.loadNpmTasks('grunt-pandoc');
+	grunt.loadNpmTasks('grunt-contrib-rename');
 };

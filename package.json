@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "devDependencies": {
     "grunt": "^0.4.5",
+    "grunt-contrib-rename": "0.0.3",
     "grunt-pandoc": "^0.2.3"
   }
 }
