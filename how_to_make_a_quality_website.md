@@ -219,11 +219,11 @@ These principles should be examined and considered before the project starts, wh
 
 	* Making already-created content conform to your style guide is much more work than developing content with a style guide already in-place.
 
-1. Information Architecture: create a plan for how your content will be structured, both at a high-level (e.g. site navigation), and a low-level (e.g. sections within documents/pages). Then, reduce the complexity of your Information Architecture by half.[^27][^28][^29][^30]
+1. Information Architecture (IA): create a plan for how your content will be structured, both at a high-level (e.g. site navigation), and a low-level (e.g. sections within documents/pages). Then, reduce the complexity of your IA by half.[^27][^28][^29][^30]
 
 	* Content should be structured as simply as possible to help users find what they’re looking for.[^29][^30]
 
-1. Create your content, in compliance with your style guide and Information Architecture, and keeping in mind your user personas. Then, delete half the content.[^31]
+1. Create your content, in compliance with your style guide and IA, and keeping in mind your user personas. Then, delete half the content.[^31]
 
 	* Your users usually have very specific goals when visiting a web site. Don’t clutter their experience, and don’t give them what they don’t need.[^23][^32][^31][^33]
 
