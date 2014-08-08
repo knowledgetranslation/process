@@ -158,6 +158,8 @@ These principles should be examined and considered before the project starts, wh
 
 ## 3. Steps
 
+When possible, all steps should be completed in sequence, not in parallel.
+
 1. Determine who the stakeholders and team members are.
 
 1. For each of the following areas, determine which team member is the most responsible person: planning, content, design, development, and science. The most responsible person should be an expert in their area.
@@ -178,23 +180,25 @@ These principles should be examined and considered before the project starts, wh
 
 	* A focused project is more likely to be successful, and there will always be time for more phases later.
 
-	* It may be best to think of each phase as a collection of specific features. E.g. Phase 1 might be a collection of static content pages, Phase 2 might add videos or other interactive content, etc.
+	* It may be best to think of each phase as a collection of specific features. (E.g. Phase 1 might be a collection of static content pages, Phase 2 might add videos or other interactive content, etc.)
 
 	* Remember to consider *all* the steps in this document when considering timelines, including multiple rounds of usability and testing.
 
 1. Plan exactly what data you’d like collected for research, testing, and development/planning purposes, and define why you need it. Then, for each of these, plan to collect more data than you think you’ll need.
 
-	* If possible, try to collect as much data as possible anonymously. Identifiable data should be avoided whenever possible.
+	* Collecting “too much” data, to the point where you’re overwhelmed by it, is a risk. However, not having data that you later realize you need is also a risk. If you think you *might* need it, it’s probably worth collecting.
 
-	* If you’re collecting data, write a privacy policy and submit it to REB/legal, and make sure to include it in the publicly-available content you develop in the **Content** steps.
+	* If possible, try to collect as much data as possible *anonymously*. Identifiable data should be avoided whenever possible.
+
+	* If you’re collecting data, write a privacy policy and submit it to the Research Ethics Board (REB) and/or Legal department, and make sure to include it in the publicly-available content you develop in the [Content steps](#content-steps).
 
 1. Research
 
 	* Study the data collected from other projects and earlier versions of this project, and interview stakeholders (especially users). Determine what content and features are important to whom and why, how they will be used, and where they will be accessed from.[^13][^23]
 
-	* Every team member should spend at least one full day reading about their area of focus (and especially about how it applies to the web), and another full day about an area on which they aren’t focusing and/or aren’t an expert. This helps ensure that everybody’s knowledge is current and continues to grow.
+	* Every team member should spend at least one full day reading about their area of focus (and especially about how it applies to the web), and another full day about an area on which they aren’t focusing and/or in which they aren’t an expert. This helps ensure that everybody’s knowledge is current and continues to grow.
 
-1. Create user personas based on your research, that reflect different types of typical and atypical users.
+1.  Based on your research, create user personas that reflect different types of typical and atypical users.
 
 	* usability.gov provides [a detailed method for creating user personas](http://www.usability.gov/how-to-and-tools/methods/personas.html), including best practices, questions to ask, elements to consider, examples, and references.
 
@@ -202,15 +206,15 @@ These principles should be examined and considered before the project starts, wh
 
 	* Remember that these form a useful but incomplete subset of your users; real users will never behave as you expect, nor should they.
 
-1. Do the **Content** steps.
+1. Do the [Content steps](#content-steps).
 
-1. Do the **Design** steps.
+1. Do the [Design steps](#design-steps).
 
-1. Do the **Development** steps.
+1. Do the [Development steps](#development-steps).
 
 1. Create a launch plan.
 
-	* If this is an update to an existing site, develop a plan for how users will transition to the new version. Give them options to opt-in to the new version early, and opt-out for a set period after launch. Plan specific changeover dates and stick to them. Create and make available change documentation explaining what has changed and why.[^24][^25]
+	* If this is an update to an existing site, develop a plan for how users will transition to the new version. Give them options to opt-in to the new version early and to opt-out for a set period after launch. Plan specific changeover dates and stick to them. Create and make available change documentation explaining what has changed and why.[^24][^25]
 
 	* Provide communication and feedback channels, and plan how these will be monitored.
 
@@ -222,7 +226,7 @@ These principles should be examined and considered before the project starts, wh
 
 	* Plan for how to monitor and react to usage and other data post-launch. For example, tracking usage of individual features can help determine if they should be removed, and can help with scoping and budgeting for future projects.
 
-	* Plan for who will monitor and respond to the communications channels that were defined in your launch plan.
+	* Plan for who will monitor and respond to the communication channels that were defined in your launch plan.
 
 1. Implement your launch plan.
 
@@ -234,27 +238,29 @@ These principles should be examined and considered before the project starts, wh
 
 	* Contribute relevant pieces to any department documents (process docs, pattern libraries, etc.)
 
-	* Make sure to document, in as much detail as possible, any failures or barriers.
+	* Make sure to document, in as much detail as possible, any failures or barriers, the approaches that were taken to resolve them, and whether or not these worked.
 
 
 
 ### 3.1 Content steps
 
-1. Develop or choose an existing style guide for content, *before* you actually start creating any of the content.[^26]
+1. Develop or choose an existing style guide for content, *before* you actually start creating any of the content. This style guide should be updated throughout the process (as indicated).[^26]
 
 	* Making already-created content conform to your style guide is much more work than developing content with a style guide already in-place.
 
-1. Information Architecture (IA): create a plan for how your content will be structured, both at a high-level (e.g. site navigation), and a low-level (e.g. sections within documents/pages). Then, reduce the complexity of your IA by half.[^27][^28][^29][^30]
+	* Examples of well-known existing style guides for content include [The Chicago Manual of Style](http://www.chicagomanualofstyle.org/) and [The Canadian Press Stylebook](http://www.thecanadianpress.com/products_and_services.aspx?id=86) (which St. Michael’s uses as the base for its internal style guide). These include information about how spelling, punctuation, capitalization, grammar, and formatting.
+
+1. Information Architecture (IA): create a plan for how your content will be structured, both at a high-level (e.g. site navigation) and a low-level (e.g. sections within documents/pages). Then, reduce the complexity of your IA by half.[^27][^28][^29][^30]
 
 	* Content should be structured as simply as possible to help users find what they’re looking for.[^29][^30]
 
-1. Create your content, in compliance with your style guide and IA, and keeping in mind your user personas. Then, delete half the content.[^31]
+1. Create your content, in compliance with your style guide and IA, keeping in mind your user personas. Then, delete half the content.[^31]
 
 	* Your users usually have very specific goals when visiting a web site. Don’t clutter their experience, and don’t give them what they don’t need.[^23][^32][^31][^33]
 
 1. Conduct usability testing on the content. Can users understand it and get the info they need?[^13]
 
-	* Try to test with *real* users, and/or users that closely match each of your personas.[^9]
+	* Try to test with *real* users and/or users that closely match each of your personas.[^9]
 
 1. Revise the content based on the usability test feedback.
 
@@ -264,27 +270,27 @@ These principles should be examined and considered before the project starts, wh
 
 ### 3.2 Design steps
 
-1. Create basic, works-for-everybody design templates that account for all the content and work well for all users, regardless of:
+1. Create basic design templates that account for all the content and work well for all users, regardless of:
 
 	* Printed vs. on-screen[^34][^35][^36]
 
-	* Device, e.g. phone, tablet, desktop, laptop, etc.[^6]
+	* Device (e.g. phone, tablet, desktop, laptop, etc.)[^6]
 
-	* Browser, e.g. modern IE, obsolete IE, Firefox, Chrome, Safari, Opera, etc.
+	* Browser (e.g. modern IE, obsolete IE, Firefox, Chrome, Safari, Opera, etc.)
 
-	* Connection speed, e.g. high-speed/broadband, LTE, 3G, 2G, etc.
+	* Connection speed (e.g. high-speed/broadband, LTE, 3G, 2G, etc.)
 
-	* Ability, e.g. using a mouse, using a keyboard, without assistive technology, with a screenreader, etc.
+	* Ability (e.g. using a mouse, using a keyboard, without assistive technology, with a screenreader, etc.)
 
 	* Javascript and plugin support/availability[^37][^38]
 
-	* Language, e.g. with machine-translation support
+	* Language (e.g. with machine-translation support)
 
 	Specifically, this fallback should work in the “Default Delivery Context”, which [The W3C Recommendation on Mobile Web Best Practices](http://www.w3.org/TR/mobile-bp/) defines as:
 
-	* Usable Screen Width: 120 pixels, minimum.
+	* Usable Screen Width: 120 pixels, minimum
 
-	* Markup Language Support: XHTML Basic 1.1 delivered with content type application/xhtml+xml.
+	* Markup Language Support: XHTML Basic 1.1 delivered with content type application/xhtml+xml
 
 	* Character Encoding: UTF-8
 
@@ -292,29 +298,29 @@ These principles should be examined and considered before the project starts, wh
 
 	* Maximum Total Page Weight: 20 kilobytes
 
-	* Colors: 256 Colors, minimum.
+	* Colors: 256 Colors, minimum
 
 	* Style Sheet Support: CSS Level 1. In addition, CSS Level 2 @media rule together with the handheld and all media types.
 
-	* HTTP: HTTP/1.0 or more recent [HTTP1.1].
+	* HTTP: HTTP/1.0 or more recent [HTTP1.1]
 
-	* Script: No support for client side scripting.
+	* Script: No support for client side scripting
 
-	This isn’t the “showcase” design, this is the fallback, lowest-common-denominator design.[^12]
+	This isn’t the “showcase” design; this is the fallback, lowest-common-denominator design.[^12]
 
-1. Perform the **Design validation substeps**
+1. Perform the [Design validation substeps](#design-validation-substeps).
 
 1. Create “showcase” design templates for how everything should look in a mobile browser in the best possible case: modern device, modern browser, fast connection, available JavaScript.[^39]
 
-1. Perform the **Design validation substeps**
+1. Perform the [Design validation substeps](#design-validation-substeps).
 
 1. Create “showcase” design templates for how everything should look in a desktop browser in the best possible case: modern device, modern browser, fast connection, available JavaScript.
 
-1. Perform the **Design validation substeps**
+1. Perform the [Design validation substeps](#design-validation-substeps).
 
 1. Design “showcase” design templates for how everything should look when printed in the best possible case: modern device, modern browser, available JavaScript.[^34][^35][^36]
 
-1. Perform the **Design validation substeps**
+1. Perform the [Design validation substeps](#design-validation-substeps).
 
 1. Document in detail how each element of each template progressively enhances from the fallback design to the mobile design to the desktop design. Make sure there is complete content- and functionality-parity between all three designs, and that it’s clear how each element adjusts in changing circumstances.
 
@@ -329,9 +335,9 @@ These principles should be examined and considered before the project starts, wh
 
 1. Conduct usability testing on this design, using paper prototypes.[^12][^23][^43]
 
-	* Try to test with *real* users, and/or users that closely match each of your personas.[^9]
+	* Try to test with *real* users and/or users that closely match each of your personas.[^9]
 
-	* Test both previous and new testers if possible.
+	* Test both previous and new users if possible.
 
 1. Revise the design based on usability feedback.
 
@@ -345,11 +351,11 @@ These steps focus on front-end development. Back-end development may need to tak
 
 1. Develop HTML and CSS versions of each fallback template, using real content.
 
-	* This should involve *no JavaScript*, but may involve creating some backend functionality.
+	* This should involve *no JavaScript*, but may involve creating some back-end functionality.
 
 	* These need to be fully functional. If something doesn’t or can’t work at this stage, go back to whatever previous step created the barrier, fix it, and redo everything from that point forward.
 
-1. Perform the **Development validation substeps**
+1. Perform the [Development validation substeps](#development-validation-substeps.
 
 1. Progressively enhance your design to get to the showcase mobile design, and any breakpoints between it and the fallback.
 
@@ -359,7 +365,7 @@ These steps focus on front-end development. Back-end development may need to tak
 
 	* Remember that not every user needs the showcase design; that’s why the fallback and breakpoint templates are there, and why there are feature fallbacks. Everybody will get a good experience *appropriate* to their browsing context.
 
-1. Perform the **Development validation substeps**
+1. Perform the [Development validation substeps](#development-validation-substeps.
 
 1. Progressively enhance your design to get to the showcase desktop design, and any remaining breakpoints.
 
@@ -369,13 +375,13 @@ These steps focus on front-end development. Back-end development may need to tak
 
 	* Remember that not every user needs the showcase design; that’s why the fallback and breakpoint templates are there, and why there are feature fallbacks. Everybody will get a good experience *appropriate* to their browsing context.
 
-1. Perform the **Development validation substeps**
+1. Perform the [Development validation substeps](#development-validation-substeps.
 
 1. Perform Search Engine Optimization by:
 
-	* Ensuring proper meta-information and titles have been used for all pages, including the use of structured data (e.g. [schema.org](http://schema.org/) or [schema-creator.org](http://schema-creator.org/)).[^44]
+	* Ensuring proper metadata and titles have been used for all pages, including the use of structured data (e.g. [schema.org](http://schema.org/) or [schema-creator.org](http://schema-creator.org/)).[^44]
 
-	* Creating a sitemap.
+	* Creating a [sitemap](http://www.sitemaps.org/).
 
 	* Using search engine submission tools, such as [Google Webmaster Tools](https://www.google.com/webmasters/tools/home?hl=en).
 
@@ -387,24 +393,24 @@ These steps focus on front-end development. Back-end development may need to tak
 
 1. Do a code review and refactor where appropriate.
 
-1. Perform the **Testing** steps.
+1. Perform the [Testing steps](#testing-steps).
 
 
 #### 3.3.1 Development validation substeps
 
-1. Perform the **Testing** steps.
+1. Perform the [Testing steps](#testing-steps).
 
 1. Conduct usability testing on these templates, using real browsers/devices *of the users’ choice*.
 
 	* Conduct separate usability sessions geared at how it looks and how it works.
 
-	* Try to test with *real* users, and/or users that closely match each of your personas.[^9]
+	* Try to test with *real* users and/or users that closely match each of your personas.[^9]
 
-	* Test both previous and new testers if possible.
+	* Test both previous and new users if possible.
 
 1. Revise based on usability testing.
 
-1. Perform the **Testing** steps.
+1. Perform the [Testing steps](#testing-steps).
 
 1. Update the style guide with any new information that hasn’t previously been included.
 
@@ -735,6 +741,9 @@ client-side
 
 	“When the server serves data in a commonly used manner, for example according to the HTTP or FTP protocols, users may have their choice of a number of client programs (most modern web browsers can request and receive data using both of those protocols). In the case of more specialized applications, programmers may write their own server, client, and communications protocol, that can only be used with one another.” —[Wikipedia](http://en.wikipedia.org/wiki/Client_side)
 
+code review
+:	“Code review is systematic examination (often known as peer review) of computer source code. It is intended to find and fix mistakes overlooked in the initial development phase, improving both the overall quality of software and the developers’ skills. Reviews are done in various forms such as pair programming, informal walkthroughs, and formal inspections.” —[Wikipedia](https://en.wikipedia.org/wiki/Code_review)
+
 CONTRIBUTORS.MD
 :	A Markdown file included with many GitHub repositories, that lists contributors to a project and/or instructions for how to contribute.
 
@@ -864,6 +873,15 @@ markup language
 
 	“HyperText Markup Language (HTML), one of the document formats of the World Wide Web, is an instance of SGML (though, strictly, it does not comply with all the rules of SGML), and follows many of the markup conventions used in the publishing industry in the communication of printed work between authors, editors, and printers.” —[Wikipedia](http://en.wikipedia.org/wiki/Markup_language)
 
+metadata
+:	“Meta elements are tags used in HTML or XHTML documents to provide structured metadata about a Web page. They are part of a web page’s head section. Multiple Meta elements with different attributes can be used on the same page. Meta elements can be used to specify page description, keywords and any other metadata not provided through the other head elements and attributes.
+
+	“The meta element has two uses: either to emulate the use of an HTTP response header, or to embed additional metadata within the HTML document.
+
+	“With HTML up to and including HTML 4.01 and XHTML, there were four valid attributes: content, http-equiv, name and scheme. Under HTML 5 there are now five valid attributes, charset having been added. http-equiv is used to emulate an HTTP header, and name to embed metadata. The value of the statement, in either case, is contained in the content attribute, which is the only required attribute unless charset is given. charset is used to indicate the character set of the document, and is available in HTML5.
+
+	“Such elements must be placed as tags in the head section of an HTML or XHTML document.” —[Wikipedia](https://en.wikipedia.org/wiki/Meta_element)
+
 paywall
 :	“A paywall is a system that prevents Internet users from accessing webpage content without a paid subscription. There are both ‘hard’ and ‘soft’ paywalls in use. ‘Hard’ paywalls allow minimal to no access to content without subscription, while ‘soft’ paywalls allow more flexibility in what users can view without subscribing, such as selective free content and/or a limited number of articles per month, or the sampling of several pages of a book or paragraphs of an article. Newspapers have been implementing paywalls on their websites to increase their revenue, which has been diminishing due to a decline in print subscriptions and advertising revenue.” —[Wikipedia](http://en.wikipedia.org/wiki/Paywall)
 
@@ -877,6 +895,9 @@ RDF
 
 READMEs
 :	“A readme (or read me) file contains information about other files in a directory or archive and is commonly distributed with computer software. Such a file is usually a text file called README.TXT, README.md, README.1ST, READ.ME, or simply README, although some Microsoft Windows software may occasionally include a README.WRI, README.RTF, or README.DOC. The name is chosen so that users unaware of the existence of this type of file would be drawn to read it. It is traditionally written in upper case so that on case-preserving environments using an ASCIIbetical ordering, the name will appear near the beginning of a directory listing (since upper-case letters sort before lower-case letters in ASCIIbetical ordering).” —[Wikipedia](http://en.wikipedia.org/wiki/Readme)
+
+refactor
+:	“Code refactoring is the process of restructuring existing computer code – changing the factoring – without changing its external behavior. Refactoring improves nonfunctional attributes of the software. Advantages include improved code readability and reduced complexity to improve source code maintainability, and create a more expressive internal architecture or object model to improve extensibility.” —[Wikipedia](https://en.wikipedia.org/wiki/Refactor)
 
 responsive web design
 :	“Responsive web design (RWD) is a web design approach aimed at crafting sites to provide an optimal viewing experience—easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices (from mobile phones to desktop computer monitors).
@@ -941,6 +962,17 @@ stakeholders
 	3. may have a positive or negative influence in the project completion.
 
 	“Examples of project stakeholders include the customer, the user group, the project manager, the development team, the testers, etc.” —[Wikipedia](https://en.wikipedia.org/wiki/Sitemap)
+
+structured data
+:	“Data that resides in a fixed field within a record or file is called structured data. This includes data contained in relational databases and spreadsheets.
+
+	“Structured data first depends on creating a data model – a model of the types of business data that will be recorded and how they will be stored, processed and accessed. This includes defining what fields of data will be stored and how that data will be stored: data type (numeric, currency, alphabetic, name, date, address) and any restrictions on the data input (number of characters…).
+
+	“Structured data has the advantage of being easily entered, stored, queried and analyzed.” —[Webopedia](http://www.webopedia.com/TERM/S/structured_data.html)
+
+	“Many sites are generated from structured data, which is often stored in databases. When this data is formatted into HTML, it becomes very difficult to recover the original structured data. Many applications, especially search engines, can benefit greatly from direct access to this structured data. On-page markup enables search engines to understand the information on web pages and provide richer search results in order to make it easier for users to find relevant information on the web. Markup can also enable new tools and applications that make use of the structure.
+
+	“A shared markup vocabulary makes it easier for webmasters to decide on a markup schema and get the maximum benefit for their efforts.” —[schema.org](http://schema.org/)
 
 typeface
 :	“In typography, a typeface (also known as font family) is a set of one or more fonts each composed of glyphs that share common design features. Each font of a typeface has a specific weight, style, condensation, width, slant, italicization, ornamentation, and designer or foundry (and formerly size, in metal fonts). For example, ‘ITC Garamond Bold Condensed Italic’ is a different font from ‘ITC Garamond Condensed Italic’ and ‘ITC Garamond Bold Condensed,’ but all are fonts within the same typeface, ‘ITC Garamond.’ However, ITC Garamond is a different typeface than ‘Adobe Garamond’ or ‘Monotype Garamond.’ There are thousands of different typefaces in existence, with new ones being developed constantly.” —[Wikipedia](https://en.wikipedia.org/wiki/Typeface)
