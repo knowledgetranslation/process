@@ -1,9 +1,9 @@
-Title:				How to make a quality website  
-Author:				David Newton  
-Organization:	Knowledge Translation Program, St. Michael’s Hospital  
-Date:					2014-08-07  
-Contributors:	Wai-Hin Chan, Michael R. Kealey, Nikolas LeBlanc, and Sharon Straus  
-URL:					https://github.com/knowledgetranslation/process/  
+Title:			How to make a quality website
+Author:			David Newton
+Organization:	Knowledge Translation Program, St. Michael’s Hospital
+Date:			2014-08-07
+Contributors:	Wai-Hin Chan, Michael R. Kealey, Gail Klein, Nikolas LeBlanc, and Sharon Straus
+URL:			https://github.com/knowledgetranslation/process/
 
 
 
@@ -24,11 +24,11 @@ These principles should be examined and considered before the project starts, wh
 1. Every stakeholder is a team member and every team member is a stakeholder.[^7]
 
 	* Exception: Usability tests should, ideally, be conducted and summarized by people completely separate from the rest of the team, to avoid bias.
-	
+
 		If the team members are the ones conducting usability tests, every effort should be made to avoid bias in testing.[^8]
 
 1. Involve all stakeholders at every step of the project, every meeting, and every decision point. Everybody should have the *opportunity* to participate.
-	
+
 	* Involvement should be discussed and agreed upon at the first meeting, and the team should make decisions about what the expectations are for every team member, and what the timelines for response are.
 
 	* For some parts of the project, a team member’s involvement will be mandatory, for others optional; but, every team member should have the option to participate in every stage.
@@ -44,20 +44,20 @@ These principles should be examined and considered before the project starts, wh
 1. Don’t give disproportionate or inappropriate weight to trivial issues.[^10]
 
 	* As an example, holding a meeting to discuss a typeface or the colour of a design element is probably not the best use of the team’s time. Instead, focus on content, functionality, and usability.
-	
+
 1. Remember the [Priority of Constituencies](http://www.w3.org/TR/html-design-principles/#priority-of-constituencies), a founding web design principle encoded by the World Wide Web Consortium and Web Hypertext Application Technology Working Group (the organizations responsible for web standards):
 
 	> In case of conflict, consider users over authors over implementors over specifiers over theoretical purity. In other words costs or difficulties to the user should be given more weight than costs to authors; which in turn should be given more weight than costs to implementors; which should be given more weight than costs to authors of the spec itself, which should be given more weight than those proposing changes for theoretical reasons alone. Of course, it is preferred to make things better for multiple constituencies at once.
-	
+
 	* The original principle defines “authors” as web authors, i.e. web developers and designers who are building a site; “implementors” as browser implementors, i.e. software developers who build web browsers; and “specifiers” as those writing web standards specifications.
-	
+
 	* For our projects, we can alter these definitions while still retaining the spirit of the principle. “Specifiers” would be those team members who are responsible for planning, and “implementors” would be those responsible for content; the definitions for “users”, “authors”, and “theoretical purity” can remain unchanged.
-	
+
 	* With these new definitions, we can resolve conflicts by giving more weight to costs/difficulties affecting users over developers/designers over content creators over planners over theoretical purity. But, as always, solutions should ideally improve things for multiple/all constituencies.
-	
+
 	* Note that this principle does not mean we should always defer to what each constituency wants or says they want; it means that in cases of conflict we should look at evidence and use that evidence to prioritize benefits to users over authors, etc.[^11] We always prioritize evidence over expert opinion.
 
-1. No single user is more important than another user.[^12] 
+1. No single user is more important than another user.[^12]
 
 	* e.g. mobile users need the same access to the same content as desktop users, disabled users need the same access to the same content as able users, etc.
 
@@ -66,7 +66,7 @@ These principles should be examined and considered before the project starts, wh
 	* Users might think they know how to solve these problems, but they may be wrong. They aren’t the experts in tool development, you are. *However*, they may be knowledge experts in the context of the tool usage.
 
 	* Usability test summaries focus on identifying 	problems rather than solutions. While user-suggested solutions should be considered, final decisions on solutions should be decided by experts on your team.
-	
+
 	* “Users are most valuable in helping designers know what a system should do, but not in helping designers determine how best to have the system do it.”[^13]
 
 1. Usability testing should only ever focus on one area at a time, e.g. either content, look-and-feel, or functionality. If you want to test multiple areas, conduct separate usability tests.
@@ -78,7 +78,7 @@ These principles should be examined and considered before the project starts, wh
 	* Create content using plain text, [Markdown](https://en.wikipedia.org/wiki/Markdown), or HTML; not in Microsoft Word (and especially not PDFs or PowerPoint).
 
 	* If possible, design *in the browser*[^15][^16][^17] using CSS, not in software designed for print, like Photoshop, Illustrator, or InDesign (and especially not in non-design software like PowerPoint, Word, etc).
-	
+
 	* Define design in terms of web units, e.g. colours as hex values, sizes and distances in pixels and ems, etc.
 
 	* Collaborate using version control software and services like GitHub, not by emailing and turning on Track Changes in Microsoft Word.
@@ -106,11 +106,11 @@ These principles should be examined and considered before the project starts, wh
 1. Publish what you publish. Knowledge translation depends on dissemination; we need share what we’re creating[^21].
 
 	* Make all website content public, not password protected or behind a paywall.
-	
+
 	* If it can’t be made public, then it probably shouldn’t be on the website. Use other services, like intranets, Basecamp, Canvas, etc.
-	
+
 	* Open source all the developed designs, code, documentation, etc.
-	
+
 	* Find out what your rights are when you publish papers about the project. If possible make the papers available as widely as possible, for free, even if it costs extra money.
 
 1. Research as much as possible. Learn as much as possible. Collect as much data as possible. We should always strive to do evidence-based web development.
@@ -118,7 +118,7 @@ These principles should be examined and considered before the project starts, wh
 1. Work in the open. Avoid decision-making over email or in private conversations.
 
 	* All meetings should have a secretary, and that secretary should take notes *visibly*, e.g. on a whiteboard, so other attendees can contribute and update notes where they see fit. Ideally, meetings should also be audio recorded and made available to members who weren’t able to attend. Ideally, any sketches should be photographed/scanned and be included with the minutes.
-	
+
 	* All decision-making between meetings should be done in an open forum, such as GitHub or Basecamp.
 
 1. Give credit where it’s due. In steps 1–3 you’ll clearly define roles and responsibilities for each team member. With all the documentation you develop, including git logs and timesheets, you’ll be able to verify who did what. Give appropriate credit to *everyone* in *all* the following places:
@@ -138,7 +138,7 @@ These principles should be examined and considered before the project starts, wh
 1. For each of the following areas, determine which team member is the most responsible person: planning, content, design, development, and science. The most responsible person should be an expert in their area.
 
 	* The most responsible person will have the final decision on matters related to their area(s).
-	
+
 	* All other team members are still welcome to provide *feedback* on all other areas.
 
 1. For every team member that’s not a most responsible person, determine which area (planning, content, design, development, and science) they will focus on.
@@ -152,23 +152,23 @@ These principles should be examined and considered before the project starts, wh
 1. Using your operating budget and timelines as guides, determine the ideal project scope[^22], then reduce it by half. This is your scope for *this phase*.
 
 	* A focused project is more likely to be successful, and there will always be time for more phases later.
-	
+
 	* It may be best to think of each phase as a collection of specific features. E.g., Phase 1 might be a collection of static content pages, Phase 2 might add videos or other interactive content, etc.
-	
+
 	* Remember to consider *all* the steps in this document when considering timelines, including multiple rounds of usability and testing.
 
 1. Plan exactly what data you’d like collected for research, testing, and development/planning purposes, and define why you need it. Then, for each of these, plan to collect more data than you think you’ll need.
 
 	* If possible, try to collect as much data as possible anonymously. Identifiable data should be avoided whenever possible.
-	
+
 	* If you’re collecting data, write a privacy policy and submit it to REB/legal, and make sure to include it in the publicly-available content you develop in the **Content** steps.
 
 1. Research
 
 	* Study the data collected from other projects and earlier versions of this project, and interview stakeholders (especially users). Determine what content and features are important to whom and why, how they will be used, and where they will be accessed from.[^13][^23]
-	
+
 	* Every team member should spend at least one full day reading about their area of focus (and especially about how it applies to the web), and another full day about an area on which they aren’t focusing and/or aren’t an expert. This helps ensure that everybody’s knowledge is current and continues to grow.
-	
+
 1. Create user personas based on your research, that reflect different types of typical and atypical users.
 
 	* Remember that these form a useful but incomplete subset of your users; real users will never behave as you expect, nor should they.
@@ -182,17 +182,17 @@ These principles should be examined and considered before the project starts, wh
 1. Create a launch plan.
 
 	* If this is an update to an existing site, develop a plan for how users will transition to the new version. Give them options to opt-in to the new version early, and opt-out for a set period after launch. Plan specific changeover dates and stick to them. Create and make available change documentation explaining what has changed and why.[^24][^25]
-	
+
 	* Provide communication and feedback channels, and plan how these will be monitored.
-	
+
 	* Plan how data will be monitored during the launch/transition period, and how to react/make adjustments based on this data.
 
 1. Create a post-launch plan.
 
 	* Decide what actions will be required for maintaining and updating the site, who will be responsible for this, and where the funds will come from.
-	
+
 	* Plan for how to monitor and react to usage and other data post-launch. For example, tracking usage of individual features can help determine if they should be removed, and can help with scoping and budgeting for future projects.
-	
+
 	* Plan for who will monitor and respond to the communications channels that were defined in your launch plan.
 
 1. Implement your launch plan.
@@ -202,9 +202,9 @@ These principles should be examined and considered before the project starts, wh
 1. Once you are in the post-launch phase, have all the stakeholders go over the built-up documentation (minutes, git logs, documentation, style guides, READMEs, help files, timesheets, papers written, etc.) and compile a “bible” for the project.
 
 	* This should include take-aways that can be used in future projects.
-	
+
 	* Contribute relevant pieces to any department documents (process docs, pattern libraries, etc.)
-	
+
 	* Make sure to document, in as much detail as possible, any failures or barriers.
 
 
@@ -214,11 +214,11 @@ These principles should be examined and considered before the project starts, wh
 1. Develop or choose an existing style guide for content, *before* you actually start creating any of the content.[^26]
 
 	* Making already-created content conform to your style guide is much more work than developing content with a style guide already in-place.
-	
+
 1. Information Architecture: create a plan for how your content will be structured, both at a high-level (e.g. site navigation), and a low-level (e.g. sections within documents/pages). Then, reduce the complexity of your Information Architecture by half.[^27][^28][^29][^30]
 
 	* Content should be structured as simply as possible to help users find what they’re looking for.[^29][^30]
-	
+
 1. Create your content, in compliance with your style guide and Information Architecture, and keeping in mind your user personas. Then, delete half the content.[^31]
 
 	* Your users usually have very specific goals when visiting a web site. Don’t clutter their experience, and don’t give them what they don’t need.[^23][^32][^31][^33]
@@ -226,7 +226,7 @@ These principles should be examined and considered before the project starts, wh
 1. Conduct usability testing on the content. Can users understand it and get the info they need?[^13]
 
 	* Try to test with *real* users, and/or users that closely match each of your personas.[^9]
-	
+
 1. Revise the content based on the usability test feedback.
 
 1. Update the project’s style guide with any content and IA details that weren’t previously accounted for.
@@ -250,9 +250,9 @@ These principles should be examined and considered before the project starts, wh
 	* Javascript and plugin support/availability[^37][^38]
 
 	* Language, e.g. with machine-translation support
-	
+
 	Specifically, this fallback should work in the “Default Delivery Context”, which [The W3C Recommendation on Mobile Web Best Practices](http://www.w3.org/TR/mobile-bp/) defines as:
-	
+
 	* Usable Screen Width: 120 pixels, minimum.
 
 	* Markup Language Support: XHTML Basic 1.1 delivered with content type application/xhtml+xml.
@@ -270,7 +270,7 @@ These principles should be examined and considered before the project starts, wh
 	* HTTP: HTTP/1.0 or more recent [HTTP1.1].
 
 	* Script: No support for client side scripting.
-	
+
 	This isn’t the “showcase” design, this is the fallback, lowest-common-denominator design.[^12]
 
 1. Perform the **Design validation substeps**
@@ -290,7 +290,7 @@ These principles should be examined and considered before the project starts, wh
 1. Document in detail how each element of each template progressively enhances from the fallback design to the mobile design to the desktop design. Make sure there is complete content- and functionality-parity between all three designs, and that it’s clear how each element adjusts in changing circumstances.
 
 	* This process will probably require creating a few extra alternate design templates at different “breakpoints”, i.e. an adjustment when something breaks or looks bad at a certain size or when a certain feature is/isn’t supported. Always create these alternate templates based on breakpoints and not specific devices.
-	
+
 1. Update the style guide with any design information not previously entered.
 
 
@@ -301,9 +301,9 @@ These principles should be examined and considered before the project starts, wh
 1. Conduct usability testing on this design, using paper prototypes.[^12][^23][^43]
 
 	* Try to test with *real* users, and/or users that closely match each of your personas.[^9]
-	
+
 	* Test both previous and new testers if possible.
-	
+
 1. Revise the design based on usability feedback.
 
 1. Based on this design, update the project’s style guide with relevant design details, e.g. typefaces, colours, grid definitions, sizes, interactions, etc.
@@ -317,7 +317,7 @@ These steps focus on front-end development. Back-end development may need to tak
 1. Develop HTML and CSS versions of each fallback template, using real content.
 
 	* This should involve *no JavaScript*, but may involve creating some backend functionality.
-	
+
 	* These need to be fully functional. If something doesn’t or can’t work at this stage, go back to whatever previous step created the barrier, fix it, and redo everything from that point forward.
 
 1. Perform the **Development validation substeps**
@@ -325,9 +325,9 @@ These steps focus on front-end development. Back-end development may need to tak
 1. Progressively enhance your design to get to the showcase mobile design, and any breakpoints between it and the fallback.
 
 	* Always use real content.
-	
+
 	* Use feature checking and appropriate fallbacks.
-	
+
 	* Remember that not every user needs the showcase design; that’s why the fallback and breakpoint templates are there, and why there are feature fallbacks. Everybody will get a good experience *appropriate* to their browsing context.
 
 1. Perform the **Development validation substeps**
@@ -335,9 +335,9 @@ These steps focus on front-end development. Back-end development may need to tak
 1. Progressively enhance your design to get to the showcase desktop design, and any remaining breakpoints.
 
 	* Always use real content.
-	
+
 	* Use feature checking and appropriate fallbacks.
-	
+
 	* Remember that not every user needs the showcase design; that’s why the fallback and breakpoint templates are there, and why there are feature fallbacks. Everybody will get a good experience *appropriate* to their browsing context.
 
 1. Perform the **Development validation substeps**
@@ -351,7 +351,7 @@ These steps focus on front-end development. Back-end development may need to tak
 	* Using search engine submission tools, such as [Google Webmaster Tools](https://www.google.com/webmasters/tools/home?hl=en).
 
 	Note that the best ways to achieve high-ranking search results are to have high quality content; semantic, validated code; and high performance. All of these should have been handled before this point in the process.
-	
+
 1. Create a “help” section.[^45][^46]
 
 	* If any parts of your “help” section get very complex, consider simplifying the design/functionality to require less explanation. This may require returning to an earlier step.
@@ -364,19 +364,19 @@ These steps focus on front-end development. Back-end development may need to tak
 #### 3.3.1 Development validation substeps
 
 1. Perform the **Testing** steps.
-	
+
 1. Conduct usability testing on these templates, using real browsers/devices *of the users’ choice*.
 
 	* Conduct separate usability sessions geared at how it looks and how it works.
 
 	* Try to test with *real* users, and/or users that closely match each of your personas.[^9]
-	
+
 	* Test both previous and new testers if possible.
 
 1. Revise based on usability testing.
 
 1. Perform the **Testing** steps.
-	
+
 1. Update the style guide with any new information that hasn’t previously been included.
 
 
@@ -386,9 +386,9 @@ These steps focus on front-end development. Back-end development may need to tak
 1. Test the templates in as many browsers as possible[^24], on as many devices as possible, with as many assistive technologies as possible. Make sure everything functions as it should and looks ok (though not necessarily pixel perfect!).
 
 	* Prioritize testing with real browsers and devices, and only use emulators/simulators if the real thing is unavailable.[^47]
-	
+
 	* While testing, take screenshots of every template in every browser/device combination. Save these.
-	
+
 	* Make sure multiple team members test. Fresh eyes are crucial.
 
 1. Fix any problems that arose during browser testing.
@@ -435,9 +435,9 @@ These steps focus on front-end development. Back-end development may need to tak
 	* Research:
 
 		* [Just Enough Research](http://www.abookapart.com/products/just-enough-research) by Erika Hall
-		
+
 		* [International User Research](http://www.fivesimplesteps.com/products/international-user-research) by Chui Chui Tan
-		
+
 		* [Interviewing for Research](http://www.fivesimplesteps.com/products/interviewing-for-research) by Andrew Travers
 
 	* Content:
@@ -445,27 +445,27 @@ These steps focus on front-end development. Back-end development may need to tak
 		* [The Elements of Content Strategy](http://www.abookapart.com/products/the-elements-of-content-strategy) by Erin Kissane
 
 		* [Content Strategy for Mobile](http://www.abookapart.com/products/content-strategy-for-mobile) by Karen McGrane
-		
+
 		* [The Craft of Words. Part One: Macrocopy](http://www.fivesimplesteps.com/products/the-craft-of-words) by The Standardistas
-		
+
 		* [The Craft of Words. Part Two: Microcopy](http://www.fivesimplesteps.com/products/the-craft-of-words) by The Standardistas
-		
+
 	* Design:
 
 		* [Designing for Emotion](http://www.abookapart.com/products/designing-for-emotion) by Aarron Walter
 
 		* [On Web Typography](http://www.abookapart.com/products/on-web-typography) by Jason Santa Maria
-		
+
 		* [Combining Typefaces](http://www.fivesimplesteps.com/products/combining-typefaces) by Tim Brown
-		
+
 		* [Psychology for Designers](http://www.fivesimplesteps.com/products/psychology-for-designers) by Joe Leech
-		
+
 		* [Usability of Web Photos](http://www.fivesimplesteps.com/products/usability-of-web-photos) by James Chudley
-		
+
 		* [Designing for the Web](http://www.fivesimplesteps.com/products/a-practical-guide-to-designing-for-the-web) by Mark Boulton
-		
+
 		* [Designing the Invisible](http://www.fivesimplesteps.com/products/a-practical-guide-to-designing-the-invisible) by Robert Mills
-		
+
 		* [The Icon Handbook](http://www.fivesimplesteps.com/products/the-icon-handbook) by Jon Hicks
 
 	* Development:
@@ -481,21 +481,21 @@ These steps focus on front-end development. Back-end development may need to tak
 		* [SASS for Web Designers](http://www.abookapart.com/products/sass-for-web-designers) by Dan Cederholm
 
 		* [Responsible Responsive Design](http://www.abookapart.com/products/responsible-responsive-design) by Scott Jehl
-		
+
 		* [Creating Symbol Fonts](http://www.fivesimplesteps.com/products/creating-symbol-fonts) by Brian Suda
-		
+
 		* [CSS Animations](http://www.fivesimplesteps.com/products/css-animations) by Val Head
-		
+
 		* [CSS3 Layout Modules](http://www.fivesimplesteps.com/products/css3-layout-modules) by Rachel Andrew
-		
+
 		* [HTML Email](http://www.fivesimplesteps.com/products/html-email) by Andy Croll
-		
+
 		* [Web Performance](http://www.fivesimplesteps.com/products/web-performance) by Andy Davies
-		
+
 		* [Hardboiled Web Design](http://www.fivesimplesteps.com/products/hardboiled-web-design) by Andy Clarke
 
 	* Accessibility:
-	
+
 		* [Colour Accessibility: A Pocket Guide](http://www.fivesimplesteps.com/products/colour-accessibility) by Geri Coady
 
 	* Business and project management:
@@ -503,9 +503,9 @@ These steps focus on front-end development. Back-end development may need to tak
 		* [Design is a Job](http://www.abookapart.com/products/design-is-a-job) by Mike Monteiro
 
 		* [You’re My Favorite Client](http://www.abookapart.com/products/youre-my-favorite-client) by Mike Monteiro)
-		
+
 		* [Managing Web Projects](http://www.fivesimplesteps.com/products/a-practical-guide-to-managing-web-projects) by Breandán Knowlton
-		
+
 		* [Web App Success](http://www.fivesimplesteps.com/products/web-app-success) by Dan Zambonini
 
 
@@ -617,7 +617,7 @@ These can be run manually, but since they are automated tests, they’d ideally 
 
 #### 4.1.9 Security
 
-1. [ASafaWeb](https://asafaweb.com/) for security (specifically for ASP.NET pages, but provides general tests as well) 
+1. [ASafaWeb](https://asafaweb.com/) for security (specifically for ASP.NET pages, but provides general tests as well)
 
 	* No grunt package available
 
@@ -664,7 +664,485 @@ These can be run manually, but since they are automated tests, they’d ideally 
 
 
 
-## 5. Notes and references
+
+## 5. Glossary
+
+Unless otherwise noted, all definitions are from [Wikipedia](http://en.wikipedia.org/wiki/Main_Page) or [Wiktionary](https://www.wiktionary.org/).
+
+assistive technology
+:	“Assistive technology is an umbrella term that includes assistive, adaptive, and rehabilitative devices for people with disabilities and also includes the process used in selecting, locating, and using them. Assistive technology promotes greater independence by enabling people to perform tasks that they were formerly unable to accomplish, or had great difficulty accomplishing, by providing enhancements to, or changing methods of interacting with, the technology needed to accomplish such tasks.” —[Wikipedia](http://en.wikipedia.org/wiki/Assistive_technology)
+
+ASP.NET
+:	“ASP.NET is an open source[1] server-side Web application framework designed for Web development to produce dynamic Web pages. It was developed by Microsoft to allow programmers to build dynamic web sites, web applications and web services.” —[Wikipedia](http://en.wikipedia.org/wiki/Asp.net)
+
+	We do not use ASP.NET in our department.
+
+Atom
+:	“The name Atom applies to a pair of related Web standards. The Atom Syndication Format is an XML language used for web feeds, while the Atom Publishing Protocol (AtomPub or APP) is a simple HTTP-based protocol for creating and updating web resources.
+
+	“Web feeds allow software programs to check for updates published on a website. To provide a web feed, the site owner may use specialized software (such as a content management system) that publishes a list (or "feed") of recent articles or content in a standardized, machine-readable format. The feed can then be downloaded by programs that use it, like websites that syndicate content from the feed, or by feed reader programs that allow Internet users to subscribe to feeds and view their content.
+
+	“A feed contains entries, which may be headlines, full-text articles, excerpts, summaries, and/or links to content on a website, along with various metadata.” —[Wikipedia](http://en.wikipedia.org/wiki/Atom_(standard))
+
+back-end development
+:	“In computer science, the front end is responsible for collecting input in various forms from the user and processing it to conform to a specification the back end can use. The front end is an interface between the user and the back end. The front and back ends may be distributed amongst one or more systems.
+
+	“In software architecture there may be many layers between the hardware and end user. Each can be spoken of as having a front end and a back end. The front is an abstraction, simplifying the underlying component by providing a user-friendly interface.
+
+	“In software design, for example, the model-view-controller architecture, provides front and back ends for the database, the user, and the data processing components. The separation of software systems into front and back ends simplifies development and separates maintenance. A rule of thumb is that the front (or ‘client’) side is any component manipulated by the user. The server-side (or ‘back end’) code resides on the server. The confusion arises when one must make front-end edits to server-side files. Most HTML designers, for instance, don’t need to be on the server when they are developing the HTML; conversely, the server-side engineers are, by definition, never on anything but a server. It takes both to ultimately make a functioning, interactive website.” —[Wikipedia](http://en.wikipedia.org/wiki/Front_and_back_ends)
+
+Bikeshedding
+:	“Parkinson’s law of triviality, also known as bikeshedding, bike-shed effect, or the bicycle-shed example, is C. Northcote Parkinson’s 1957 argument that organizations give disproportionate weight to trivial issues. Parkinson observed and illustrated that a committee whose job is to approve plans for a nuclear power plant spended the majority of its time with pointless discussions on relatively trivial and unimportant but easy-to-grasp issues, such as what materials to use for the staff bike-shed, while neglecting the less-trivial proposed design of the nuclear power plant itself, which is far more important but also far more difficult and complex task to criticize constructively.
+
+	“The law has been applied to software development and other activities, and the term ‘bikeshedding’ was coined as a metaphor to illuminate Parkinson’s Law of Triviality and was popularized in the Berkeley Software Distribution community by Poul Henning-Kamp and has spread from there to the software industry at large.” —[Wikipedia](http://en.wikipedia.org/wiki/Bikeshedding)
+
+character encoding
+:	“In computing, a character encoding is used to represent a repertoire of characters by some kind of an encoding system. Depending on the abstraction level and context, corresponding code points and the resulting code space may be regarded as bit patterns, octets, natural numbers, electrical pulses, etc. A character encoding is used in both computation, data storage, and transmission of textual data.” —[Wikipedia](http://en.wikipedia.org/wiki/Character_encoding)
+
+client-side
+:	“Client-side refers to operations that are performed by the client in a client–server relationship in a computer network.
+
+	“Typically, a client is a computer application, such as a web browser, that runs on a user's local computer or workstation and connects to a server as necessary. Operations may be performed client-side because they require access to information or functionality that is available on the client but not on the server, because the user needs to observe them or provide input, or because the server lacks the processing power to perform the operations in a timely manner for all of the clients it serves. Additionally, if operations can be performed by the client, without sending data over the network, they may take less time, use less bandwidth, and incur a lesser security risk.
+
+	“When the server serves data in a commonly used manner, for example according to the HTTP or FTP protocols, users may have their choice of a number of client programs (most modern web browsers can request and receive data using both of those protocols). In the case of more specialized applications, programmers may write their own server, client, and communications protocol, that can only be used with one another.” —[Wikipedia](http://en.wikipedia.org/wiki/Client_side)
+
+CONTRIBUTORS.MD
+:	A Markdown file included with many GitHub repositories, that lists contributors to a project and/or instructions for how to contribute.
+
+CSS
+:	“Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language. While most often used to style web pages and user interfaces written in HTML and XHTML, the language can be applied to any kind of XML document, including plain XML, SVG and XUL. CSS is a cornerstone specification of the web and almost all web pages use CSS style sheets to describe their presentation.
+
+	“CSS is designed primarily to enable the separation of document content from document presentation, including elements such as the layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple pages to share formatting, and reduce complexity and repetition in the structural content (such as by allowing for tableless web design). It obviates those portions of markup that would specify presentation by instead providing that information in a separate file. For each relevant HTML element (identified by tags), it provides a list of formatting instructions. For example, it might say (in CSS syntax), ‘All heading 1 elements should be bold.’ Therefore, no formatting markup such as bold tags (`<b></b>`)is needed within the content; what is needed is simply semantic markup saying, ‘this text is a level 1 heading.’” —[Wikipedia](http://en.wikipedia.org/wiki/CSS)
+
+dogfooding
+:	“Eating your own dog food, also called dogfooding, is a slang term used to reference a scenario in which a company uses its own product to validate the quality and capabilities of the product.” —[Wikipedia](http://en.wikipedia.org/wiki/Dogfooding)
+
+DNS
+:	“The Domain Name System (DNS) is a hierarchical distributed naming system for computers, services, or any resource connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities. Most prominently, it translates easily memorized domain names to the numerical IP addresses needed for the purpose of locating computer services and devices worldwide. The Domain Name System is an essential component of the functionality of the Internet.
+
+	“An often-used analogy to explain the Domain Name System is that it serves as the phone book for the Internet by translating human-friendly computer hostnames into IP addresses. For example, the domain name www.example.com translates to the addresses 93.184.216.119 (IPv4) and 2606:2800:220:6d:26bf:1447:1097:aa7 (IPv6). Unlike a phone book, the DNS can be quickly updated, allowing a service’s location on the network to change without affecting the end users, who continue to use the same host name. Users take advantage of this when they use meaningful Uniform Resource Locators (URLs), and e-mail addresses without having to know how the computer actually locates the services.” —[Wikipedia](http://en.wikipedia.org/wiki/Dns)
+
+ems
+:	“An em is a unit in the field of typography, equal to the currently specified point size. For example, one em in a 16-point typeface is 16 points. Therefore, this unit is the same for all typefaces at a given point size.…
+
+	“In Cascading Style Sheets, the ‘em’ unit is the height of the font in nominal points or inches. The actual, physical height of any given portion of the font depends on the user-defined dpi setting, current element font-size, and the particular font being used.” —[Wikipedia](http://en.wikipedia.org/wiki/Em_(typography))
+
+front-end development
+:	“In computer science, the front end is responsible for collecting input in various forms from the user and processing it to conform to a specification the back end can use. The front end is an interface between the user and the back end. The front and back ends may be distributed amongst one or more systems.
+
+	“In software architecture there may be many layers between the hardware and end user. Each can be spoken of as having a front end and a back end. The front is an abstraction, simplifying the underlying component by providing a user-friendly interface.
+
+	“In software design, for example, the model-view-controller architecture, provides front and back ends for the database, the user, and the data processing components. The separation of software systems into front and back ends simplifies development and separates maintenance. A rule of thumb is that the front (or ‘client’) side is any component manipulated by the user. The server-side (or ‘back end’) code resides on the server. The confusion arises when one must make front-end edits to server-side files. Most HTML designers, for instance, don’t need to be on the server when they are developing the HTML; conversely, the server-side engineers are, by definition, never on anything but a server. It takes both to ultimately make a functioning, interactive website.” —[Wikipedia](http://en.wikipedia.org/wiki/Front_and_back_ends)
+
+git
+:	“Git is a distributed revision control and source code management (SCM) system with an emphasis on speed, data integrity, and support for distributed, non-linear workflows. Git was initially designed and developed by Linus Torvalds for Linux kernel development in 2005, and has since become the most widely adopted version control system for software development.
+
+	“As with most other distributed revision control systems, and unlike most client–server systems, every Git working directory is a full-fledged repository with complete history and full version-tracking capabilities, independent of network access or a central server.” —[Wikipedia](http://en.wikipedia.org/wiki/Git_(software))
+
+	For more on git, see the companion document, *Working with git and GitHub* (forthcoming).
+
+GitHub
+:	“GitHub is a Git repository web-based hosting service which offers all of the functionality of Git as well as adding many of its own features. Unlike Git, which is strictly a command-line tool, Github provides a web-based graphical interface and desktop as well as mobile integration. It also provides access control and several collaboration features such as wikis, task management, and bug tracking and feature requests for every project.
+
+	“GitHub offers both paid plans for private repositories, and free accounts, which are usually used to host open source software projects. As of 2014, Github reports having over 3.4 million users, making it the largest code host in the world.
+
+	“GitHub has become such a staple among the open-source development community that many developers have begun considering it a replacement for a conventional resume and some employers require applicants to provide a link to and have an active contributing GitHub account in order to qualify for a job.” —[Wikipedia](http://en.wikipedia.org/wiki/Github)
+
+	For more on GitHub, see the companion document, *Working with git and GitHub* (forthcoming).
+
+grid
+:	“In graphic design, a grid is a structure (usually two-dimensional) made up of a series of intersecting straight (vertical, horizontal, and angular) or curved guide lines used to structure content. The grid serves as an armature on which a designer can organize graphic elements (images, glyphs, paragraphs) in a rational, easy to absorb manner. A grid can be used to organize graphic elements in relation to a page, in relation to other graphic elements on the page, or relation to other parts of the same graphic element or shape.…
+
+	“While grid systems have seen significant use in print media, interest from web developers has only recently seen a resurgence. Website design frameworks producing HTML and CSS had existed for a while before newer frameworks popularised the use of grid-based layouts. Some grid systems specify fixed-width elements with pixels, and some are ‘fluid’, meaning that they call for page element sizing to be in relative units like percentages, rather than absolute units like pixels or points.” —[Wikipedia](http://en.wikipedia.org/wiki/Grid_(graphic_design))
+
+Grunt
+:	“Built on top of Node.js, Grunt is a task-based command-line tool that speeds up workflows by reducing the effort required to prepare assets for production. It does this by wrapping up jobs into tasks that are compiled automatically as you go along. Basically, you can use Grunt on most tasks that you consider to be grunt work and would normally have to manually configure and run yourself.…
+
+	“What kind of tasks? Well, the list is exhaustive. Suffice it to say, Grunt can handle most things you throw at it, from minifying to concatenating JavaScript. It can also be used for a range of tasks unrelated to JavaScript, such as compiling CSS from LESS and Sass.” —[Mike Cunsolo, Smashing Magazine](http://www.smashingmagazine.com/2013/10/29/get-up-running-grunt/)
+
+hex values
+:	“A hex triplet is a six-digit, three-byte hexadecimal number used in HTML, CSS, SVG, and other computing applications, to represent colors. The bytes represent the red, green and blue components of the color. One byte represents a number in the range 00 to FF (in hexadecimal notation), or 0 to 255 in decimal notation. This represents the least (0) to the most (255) intensity of each of the color components. Thus web colors specify colors in the Truecolor (24-bit RGB) color scheme. The hex triplet is formed by concatenating three bytes in hexadecimal notation, in the following order:
+
+	* Byte 1: red value (color type red)
+	* Byte 2: green value (color type green)
+	* Byte 3: blue value (color type blue)
+
+	“For example, consider the color where the red/green/blue values are decimal numbers: red=36, green=104, blue=160 (a greyish-blue color). The decimal numbers 36, 104 and 160 are equivalent to the hexadecimal numbers 24, 68 and A0 respectively. The hex triplet is obtained by concatenating the 6 hexadecimal digits together, 2468A0 in this example.
+
+	“Note that if any one of the three color values is less than 16 (decimal) or 10 (hex), it must be represented with a leading zero so that the triplet always has exactly six digits. For example, the decimal triplet 4, 8, 16 would be represented by the hex digits 04, 08, 10, forming the hex triplet 040810.
+
+	“The number of colors that can be represented by this system is 2563 or 224 = 16,777,216.” —[Wikipedia](http://en.wikipedia.org/wiki/Hex_value#Hex_triplet)
+
+HTML
+:	“HTML or HyperText Markup Language is the standard markup language used to create web pages.
+
+	“HTML is written in the form of HTML elements consisting of tags enclosed in angle brackets (like `<html>`). HTML tags most commonly come in pairs like `<h1>` and `</h1>`, although some tags represent empty elements and so are unpaired, for example `<img>`. The first tag in a pair is the start tag, and the second tag is the end tag (they are also called opening tags and closing tags).
+
+	“A web browser can read HTML files and compose them into visible or audible web pages. The browser does not display the HTML tags, but uses them to interpret the content of the page. HTML describes the structure of a website semantically along with cues for presentation, making it a markup language rather than a programming language.
+
+	“HTML elements form the building blocks of all websites. HTML allows images and objects to be embedded and can be used to create interactive forms. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. It can embed scripts written in languages such as JavaScript which affect the behavior of HTML web pages.” —[Wikipedia](http://en.wikipedia.org/wiki/Html)
+
+HTTP
+:	“The Hypertext Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web.
+
+	“Hypertext is structured text that uses logical links (hyperlinks) between nodes containing text. HTTP is the protocol to exchange or transfer hypertext.” —[Wikipedia](http://en.wikipedia.org/wiki/Http)
+
+HTTP header
+:	“HTTP header fields are components of the message header of requests and responses in the Hypertext Transfer Protocol (HTTP). They define the operating parameters of an HTTP transaction.” —[Wikipedia](http://en.wikipedia.org/wiki/HTTP_header)
+
+humans.txt file
+:	“…an initiative for knowing the people behind a website. It’s a TXT file that contains information about the different people who have contributed to building the website.…
+
+	“it’s not intrusive with the code. More often than not, the owners of the site don’t like the authors signing it; they claim that doing so may make the site less efficient. By adding a txt file, you can prove your authorship (not your property) in an external, fast, easy and accessible way.” —[humanstxt.org](http://humanstxt.org/)
+
+Information Architecture
+:	“Information architecture (IA) is the structural design of shared information environments; the art and science of organizing and labeling websites, intranets, online communities and software to support usability and findability; and an emerging community of practice focused on bringing principles of design and architecture to the digital landscape. Typically, it involves a model or concept of information which is used and applied to activities that require explicit details of complex information systems. These activities include library systems and database development.…
+
+	“Information architecture has somewhat different meanings in different branches of IS or IT:
+
+	1. The structural design of shared information environments.
+	2. The art and science of organizing and labeling web sites, intranets, online communities, and software to support findability and usability.
+	3. An emerging community of practice focused on bringing principles of design and architecture to the digital landscape.
+	4. The combination of organization, labeling, search and navigation systems within websites and intranets.” —[Wikipedia](http://en.wikipedia.org/wiki/Information_architecture)
+
+internationalization
+:	“In computing, internationalization and localization (other correct spellings are internationalisation and localisation) are means of adapting computer software to different languages, regional differences and technical requirements of a target market. Internationalization is the process of designing a software application so that it can potentially be adapted to various languages and regions without engineering changes. Localization is the process of adapting internationalized software for a specific region or language by adding locale-specific components and translating text. Localization (which is potentially performed multiple times, for different locales) uses the infrastructure or flexibility provided by internationalization (which is ideally performed only once, or as an integral part of ongoing development).” —[Wikipedia](http://en.wikipedia.org/wiki/Internationalization_and_localization)
+
+JavaScript
+:	“JavaScript (JS) is a dynamic computer programming language. It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed. It is also being used in server-side network programming (with Node.js), game development and the creation of desktop and mobile applications.…
+
+	“JavaScript was formalized in the ECMAScript language standard and is primarily used as part of a web browser (client-side JavaScript). This enables programmatic access to objects within a host environment.” —[Wikipedia](http://en.wikipedia.org/wiki/Javascript)
+
+JSON
+:	“JSON (not pronounced like ‘J-son’, but like the common name ‘Jason’), or JavaScript Object Notation, is an open standard format that uses human-readable text to transmit data objects consisting of attribute–value pairs. It is used primarily to transmit data between a server and web application, as an alternative to XML.
+
+	“Although originally derived from the JavaScript scripting language, JSON is a language-independent data format, and code for parsing and generating JSON data is readily available in a large variety of programming languages.” —[Wikipedia](http://en.wikipedia.org/wiki/Json)
+
+lint
+:	“In computer programming, lint was the name originally given to a particular program that flagged some suspicious and non-portable constructs (likely to be bugs) in C language source code. The term is now applied generically to tools that flag suspicious usage in software written in any computer language. The term lint-like behavior is sometimes applied to the process of flagging suspicious language usage. Lint-like tools generally perform static analysis of source code.
+
+	“Lint as a term can also refer more broadly to syntactic discrepancies in general, especially in interpreted languages like JavaScript and Python. For example, modern lint checkers are often used to find code that doesn't correspond to certain style guidelines. They can also be used as simple debuggers for common errors, or hard to find errors such as heisenbugs.
+
+	“This technique is formally referred to as static code analysis.” —[Wikipedia](http://en.wikipedia.org/wiki/Lint_(software))
+
+Markdown
+:	“Markdown is a plain text formatting syntax designed so that it optionally can be converted to HTML using a tool by the same name. Markdown is popularly used to format readme files, for writing messages in online discussion forums or in text editors for the quick creation of rich text documents.” —[Wikipedia](http://en.wikipedia.org/wiki/Markdown)
+
+markup language
+:	“A (document) markup language is a modern system for annotating a document in a way that is syntactically distinguishable from the text. The idea and terminology evolved from the ‘marking up’ of paper manuscripts, i.e., the revision instructions by editors, traditionally written with a blue pencil on authors' manuscripts. In digital media this ‘blue pencil instruction text’ was replaced by tags, that is, instructions are expressed directly by tags or ‘instruction text encapsulated by tags’.
+
+	“Examples are typesetting instructions such as those found in troff, TeX and LaTeX, or structural markers such as XML tags. Markup instructs the software displaying the text to carry out appropriate actions, but is omitted from the version of the text that is displayed to users. Some markup languages, such as the widely used HTML, have pre-defined presentation semantics, meaning that their specification prescribes how the structured data are to be presented; others, such as XML, do not.
+
+	“HyperText Markup Language (HTML), one of the document formats of the World Wide Web, is an instance of SGML (though, strictly, it does not comply with all the rules of SGML), and follows many of the markup conventions used in the publishing industry in the communication of printed work between authors, editors, and printers.” —[Wikipedia](http://en.wikipedia.org/wiki/Markup_language)
+
+paywall
+:	“A paywall is a system that prevents Internet users from accessing webpage content without a paid subscription. There are both ‘hard’ and ‘soft’ paywalls in use. ‘Hard’ paywalls allow minimal to no access to content without subscription, while ‘soft’ paywalls allow more flexibility in what users can view without subscribing, such as selective free content and/or a limited number of articles per month, or the sampling of several pages of a book or paragraphs of an article. Newspapers have been implementing paywalls on their websites to increase their revenue, which has been diminishing due to a decline in print subscriptions and advertising revenue.” —[Wikipedia](http://en.wikipedia.org/wiki/Paywall)
+
+PHP
+:	“PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. As of January 2013, PHP was installed on more than 240 million websites (39% of those sampled) and 2.1 million web servers.…
+
+	“PHP code can be simply mixed with HTML code, or it can be used in combination with various templating engines and web frameworks. PHP code is usually processed by a PHP interpreter, which is usually implemented as a web server’s native module or a Common Gateway Interface (CGI) executable. After the PHP code is interpreted and executed, the web server sends resulting output to its client, usually in form of a part of the generated web page – for example, PHP code can generate a web page’s HTML code, an image, or some other data. PHP has also evolved to include a command-line interface (CLI) capability and can be used in standalone graphical applications.” —[Wikipedia](http://en.wikipedia.org/wiki/Php)
+
+RDF
+:	“The Resource Description Framework (RDF) is a family of World Wide Web Consortium (W3C) specifications originally designed as a metadata data model. It has come to be used as a general method for conceptual description or modeling of information that is implemented in web resources, using a variety of syntax notations and data serialization formats. It is also used in knowledge management applications.” —[Wikipedia](http://en.wikipedia.org/wiki/Resource_Description_Framework)
+
+READMEs
+:	“A readme (or read me) file contains information about other files in a directory or archive and is commonly distributed with computer software. Such a file is usually a text file called README.TXT, README.md, README.1ST, READ.ME, or simply README, although some Microsoft Windows software may occasionally include a README.WRI, README.RTF, or README.DOC. The name is chosen so that users unaware of the existence of this type of file would be drawn to read it. It is traditionally written in upper case so that on case-preserving environments using an ASCIIbetical ordering, the name will appear near the beginning of a directory listing (since upper-case letters sort before lower-case letters in ASCIIbetical ordering).” —[Wikipedia](http://en.wikipedia.org/wiki/Readme)
+
+responsive web design
+:	“Responsive web design (RWD) is a web design approach aimed at crafting sites to provide an optimal viewing experience—easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices (from mobile phones to desktop computer monitors).
+
+	“A site designed with RWD adapts the layout to the viewing environment by using fluid, proportion-based grids, flexible images, and CSS3 media queries, an extension of the @media rule.
+
+	* The fluid grid concept calls for page element sizing to be in relative units like percentages, rather than absolute units like pixels or points.
+	* Flexible images are also sized in relative units, so as to prevent them from displaying outside their containing element.
+	* Media queries allow the page to use different CSS style rules based on characteristics of the device the site is being displayed on, most commonly the width of the browser.”
+
+	” —[Wikipedia](http://en.wikipedia.org/wiki/Responsive_web_design)
+
+rich snippets
+:	“In 2010, Google specified three forms of structured metadata that their systems will use to find structured semantic content within webpages. Such information, when related to reviews, people profiles, business listings, and events will be used by Google to enhance the ‘snippet’, or short piece of quoted text that is shown when the page appears in search listings. Google specifies that that data may be given using microdata, microformats or RDFa. Microdata is specified inside `itemtype` and `itemprop` attributes added to existing HTML elements; microformat keywords are added inside class attributes as discussed above; and RDFa relies on `rel`, `typeof` and `property` attributes added to existing elements.” —[Wikipedia](https://en.wikipedia.org/wiki/Semantic_HTML)
+
+RSS
+:	“RSS (Rich Site Summary); originally RDF Site Summary; often dubbed Really Simple Syndication, uses a family of standard web feed formats to publish frequently updated information: blog entries, news headlines, audio, video. An RSS document (called ‘feed’, ‘web feed’, or ‘channel’) includes full or summarized text, and metadata, like publishing date and author's name.
+
+	“RSS feeds enable publishers to syndicate data automatically. A standard XML file format ensures compatibility with many different machines/programs. RSS feeds also benefit users who want to receive timely updates from favourite websites or to aggregate data from many sites.
+
+	“Subscribing to a website RSS removes the need for the user to manually check the web site for new content. Instead, their browser constantly monitors the site and informs the user of any updates. The browser can also be commanded to automatically download the new data for the user.” —[Wikipedia](http://en.wikipedia.org/wiki/Rss)
+
+scripts
+:	“A scripting language or script language is a programming language that supports scripts, programs written for a special run-time environment that can interpret (rather than compile) and automate the execution of tasks that could alternatively be executed one-by-one by a human operator. Environments that can be automated through scripting include software applications, web pages within a web browser, the shells of operating systems (OS), and embedded systems. A scripting language can be viewed as a domain-specific language for a particular environment; in the case of scripting an application, this is also known as an extension language. Scripting languages are also sometimes referred to as very high-level programming languages, as they operate at a high level of abstraction, or as control languages, particularly for job control languages on mainframes.” —[Wikipedia](http://en.wikipedia.org/wiki/Script_(computing))
+
+search engine optimization
+:	“Search engine optimization (SEO) is the process of affecting the visibility of a website or a web page in a search engine’s ‘natural’ or un-paid (‘organic’) search results. In general, the earlier (or higher ranked on the search results page), and more frequently a site appears in the search results list, the more visitors it will receive from the search engine's users. SEO may target different kinds of search, including image search, local search, video search, academic search, news search and industry-specific vertical search engines.
+
+	“As an Internet marketing strategy, SEO considers how search engines work, what people search for, the actual search terms or keywords typed into search engines and which search engines are preferred by their targeted audience. Optimizing a website may involve editing its content, HTML and associated coding to both increase its relevance to specific keywords and to remove barriers to the indexing activities of search engines. Promoting a site to increase the number of backlinks, or inbound links, is another SEO tactic.” —[Wikipedia](http://en.wikipedia.org/wiki/Search_engine_optimization)
+
+security certificate
+:	“In cryptography, a public key certificate (also known as a digital certificate or identity certificate) is an electronic document used to prove ownership of a public key. The certificate includes information about the key, information about its owner's identity, and the digital signature of an entity that has verified the certificate’s contents are correct. If the signature is valid, and the person examining the certificate trusts the signer, then they know they can use that key to communicate with its owner.
+
+	“In a typical public-key infrastructure (PKI) scheme, the signer is a certificate authority (CA), usually a company such as VeriSign which charges customers to issue certificates for them. In a web of trust scheme, the signer is either the key’s owner (a self-signed certificate) or other users (‘endorsements’) who the person examining the certificate might know and trust.
+
+	Certificates are an important component of Transport Layer Security (TLS, sometimes called by its older name SSL), where they prevent an attacker from impersonating a secure website or other server. They are also used in other important applications, such as email encryption and code signing.” —[Wikipedia](http://en.wikipedia.org/wiki/Public_key_certificate)
+
+semantic code or semantic HTML
+:	“Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in webpages rather than merely to define its presentation or look. Semantic HTML is processed by regular web browsers as well as by many other user agents. CSS is used to suggest its presentation to human users.
+
+	“As an example, recent HTML standards discourage use of the tag `<i>` (italic, a typeface) in preference of more accurate tags such as `<em>` (emphasis); the CSS stylesheet should then specify whether emphasis is denoted by an italic font, a bold font, underlining, slower or louder audible speech etc. This is because italics are used for purposes other than emphasis, such as citing a source…” —[Wikipedia](https://en.wikipedia.org/wiki/Semantic_HTML)
+
+server-side
+:	“Server-side (commonly referred to as SS) refers to operations that are performed by the server in a client–server relationship in computer networking.
+
+	“Typically, a server is a computer program, such as a web server, that runs on a remote server, reachable from a user's local computer or workstation. Operations may be performed server-side because they require access to information or functionality that is not available on the client, or require typical behavior that is unreliable when it is done client-side.
+
+	“Server-side operations also include processing and storage of data from a client to a server, which can be viewed by a group of clients.…
+
+	“Examples of server-side processing include the creation & adaptation of a database using MySQL.” —[Wikipedia](https://en.wikipedia.org/wiki/Server-side)
+
+sitemap
+:	“A site map (or sitemap) is a list of pages of a web site accessible to crawlers or users. It can be either a document in any form used as a planning tool for Web design, or a Web page that lists the pages on a Web site, typically organized in hierarchical fashion.…
+
+	“There are two popular versions of a site map. An XML Sitemap is a structured format that a user doesn’t need to see, but it tells the search engine about the pages in a site, their relative importance to each other, and how often they are updated. HTML sitemaps are designed for the user to help them find content on the page, and don’t need to include each and every subpage. This helps visitors and search engine bots find pages on the site.” —[Wikipedia](https://en.wikipedia.org/wiki/Sitemap)
+
+stakeholders
+:	“Project stakeholders are entities that have an interest in a given project. These stakeholders may be inside or outside an organization which:
+
+	1. sponsor a project, or
+	2. have an interest or a gain upon a successful completion of a project;
+	3. may have a positive or negative influence in the project completion.
+
+	“Examples of project stakeholders include the customer, the user group, the project manager, the development team, the testers, etc.” —[Wikipedia](https://en.wikipedia.org/wiki/Sitemap)
+
+typeface
+:	“In typography, a typeface (also known as font family) is a set of one or more fonts each composed of glyphs that share common design features. Each font of a typeface has a specific weight, style, condensation, width, slant, italicization, ornamentation, and designer or foundry (and formerly size, in metal fonts). For example, ‘ITC Garamond Bold Condensed Italic’ is a different font from ‘ITC Garamond Condensed Italic’ and ‘ITC Garamond Bold Condensed,’ but all are fonts within the same typeface, ‘ITC Garamond.’ However, ITC Garamond is a different typeface than ‘Adobe Garamond’ or ‘Monotype Garamond.’ There are thousands of different typefaces in existence, with new ones being developed constantly.” —[Wikipedia](https://en.wikipedia.org/wiki/Typeface)
+
+version control software
+:	“Revision control, also known as version control and source control (and an aspect of software configuration management), is the management of changes to documents, computer programs, large web sites, and other collections of information. Changes are usually identified by a number or letter code, termed the ‘revision number’, ‘revision level’, or simply ‘revision’. For example, an initial set of files is ‘revision 1’. When the first change is made, the resulting set is ‘revision 2’, and so on. Each revision is associated with a timestamp and the person making the change. Revisions can be compared, restored, and with some types of files, merged.
+
+	“The need for a logical way to organize and control revisions has existed for almost as long as writing has existed, but revision control became much more important, and complicated, when the era of computing began. The numbering of book editions and of specification revisions are examples that date back to the print-only era. Today, the most capable (as well as complex) revision control systems are those used in software development, where a team of people may change the same files.
+
+	“Version control systems (VCS) most commonly run as stand-alone applications, but revision control is also embedded in various types of software such as word processors and spreadsheets, e.g., Google Docs and Sheets and in various content management systems, e.g., Wikipedia’s Page history. Revision control allows for the ability to revert a document to a previous revision, which is critical for allowing editors to track each other’s edits, correct mistakes, and defend against vandalism and spamming.
+
+	“Software tools for revision control are essential for the organization of multi-developer projects.” —[Wikipedia](https://en.wikipedia.org/wiki/Version_control_software)
+
+XML
+:	“Extensible Markup Language (XML) is markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. It is defined in the XML 1.0 Specification produced by the W3C, and several other related specifications, all free open standards.
+
+	“The design goals of XML emphasize simplicity, generality, and usability over the Internet. It is a textual data format with strong support via Unicode for different human languages. Although the design of XML focuses on documents, it is widely used for the representation of arbitrary data structures, for example in web services.
+
+	“Many application programming interfaces (APIs) have been developed to aid software developers with processing XML data, and several schema systems exist to aid in the definition of XML-based languages.” —[Wikipedia](https://en.wikipedia.org/wiki/Xml)
+
+
+
+
+### 5.1 Abbreviations
+
+2G
+:	Second Generation
+
+3G
+:	Third Generation
+
+API
+:	Application Programming Interface
+
+ASCII
+:	American Standard Code for Information Interchange
+
+ASP.NET
+:	Active Server Pages .NET
+
+AT
+:	Assistive Techonology
+
+CA
+:	Certificate Authority
+
+CGI
+:	Common Gateway Interface
+
+CLI
+:	Command-Line Interface
+
+CSS
+:	Cascading Style Sheets
+
+dept.
+:	department
+
+DNS
+:	Domain Name System
+
+eds.
+:	editors
+
+e.g.
+:	*exempli gratia*, “for example”
+
+etc.
+:	*et cetera*, “and so on”
+
+EU
+:	European Union
+
+FTP
+:	File Transfer Protocol
+
+GIF89a
+:	Graphics Interchange Format version 89a
+
+HTML
+:	HyperText Markup Language
+
+HTTP
+:	HyperText Transfer Protocol
+
+IA
+:	Information Architecture
+
+ID
+:	identification
+
+i.e.
+:	*id est*, “that is”
+
+IE
+:	Internet Explorer
+
+IP
+:	Internet Protocol
+
+IPv4
+:	Internet Protocol version 4
+
+IPv6
+:	Internet Protocol version 6
+
+IS
+:	Information Systems
+
+IT
+:	Information Technology
+
+ITC
+:	International Typeface Corporation
+
+JPEG
+:	Joint Photographic Experts Group
+
+Jr
+:	Junior
+
+JSON
+:	JavaScript Object Notation
+
+LESS
+:	Leaner cascading Style Sheets
+
+LTE
+:	Long-Term Evolution
+
+OS
+:	Operating System
+
+PDF
+:	Portable Document Format
+
+PHP
+:	PHP: Hypertext Preprocessor (a recursive acronym)
+
+PKI
+:	Public-Key Infrastructure
+
+RDF
+:	Resource Description Framework
+
+RDFa
+:	Resource Description Framework in Attributes
+
+REB
+:	Research Ethics Board
+
+repo
+:	repository
+
+RGB
+:	Red—Green—Blue
+
+RSS
+:	Rich Site Summary, or RDF Site Summary, or Really Simple Syndication
+
+RWD
+:	Responsive Web Design
+
+SASS
+:	Syntactically Awesome Style Sheets
+
+SCM
+:	Source Code Management
+
+SEO
+:	Search Engine Optimization
+
+SGML
+:	Standard Generalized Markup Language
+
+SS
+:	Server-Side
+
+SSL
+:	Secure Sockets Layer
+
+SVG
+:	Scalable Vector Graphics
+
+St.
+:	Saint
+
+TLS
+:	Transport Layer Security
+
+TXT
+:	text file
+
+URL
+:	Uniform Resource Locator
+
+U.S.
+:	United States
+
+UTF-8
+:	Universal character set Transformation Format—8-bit
+
+VCS
+:	Version Control Systems
+
+W3C
+:	World Wide Web Consortium
+
+WCAG
+:	Web Content Accessibility Guidelines
+
+WHATWG
+:	Web Hypertext Application Technology Working Group
+
+www
+:	World Wide Web
+
+XHTML
+:	Extensible HyperText Markup Language
+
+XML
+:	Extensible Markup Language
+
+XUL
+:	Extensible markup language User interface Language
+
+
+
+
+
+## 6. Notes and references
 
 [^1]: Given the variability in how users access the web, responsive design has become an industry standard; sites need to be responsive because we cannot account for how a user will be using a site. Not designing responsively risks excluding a large number of users. According to [StatCounter](http://gs.statcounter.com/), in June 2014 mobile web usage is 26.64% (up from 15.31% in June 2013), tablet web usage is 6.4% (up from 4.65% in June 2013). Moreover, according to [OurMobilePlanet](http://think.withgoogle.com/mobileplanet/en/graph/?country=ca&category=MOBI&topic=Q09B&stat=Q09B_1&wave=2013&age=all&gender=all&chart_type=&active=stat), 74% of Canadians access the web from their mobile devices daily. However, these discrete, broad categories can also obfuscate the fact that “mobile” and “tablet” aren’t really consistent; screen resolution varies wildly. [StatCounter](http://gs.statcounter.com/) also tracks 14 separate screen resolutions that people use to access the web in signficant numbers, but the highest percentage of access for any one resolution is 20.13% (for 1366x768 pixels); far more users (27.84%) fall into the “other” category. We cannot design for individual devices, device types, or resolutions; we must instead allow our designs to *respond* to the users’ viewing context.
 
