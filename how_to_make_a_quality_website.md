@@ -121,7 +121,7 @@ These principles should be examined and considered before the project starts, wh
 
 	* All decision-making between meetings should be done in an open forum, such as GitHub or Basecamp.
 
-1. Give credit where it’s due. In steps 1–3 you’ll clearly define roles and responsibilities for each team member. With all the documentation you develop, including git logs and timesheets, you’ll be able to verify who did what. Give appropriate credit to *everyone* in *all* the following places:
+1. Give credit where it’s due. In [Steps 1–3](#steps) you’ll clearly define roles and responsibilities for each team member. With all the documentation you develop, including git logs and timesheets, you’ll be able to verify who did what. Give appropriate credit to *everyone* in *all* the following places:
 
 	* on the website (e.g. in a humans.txt file, in page metadata)
 	* in the website’s documentation (e.g. CONTRIBUTORS.MD on GitHub)
