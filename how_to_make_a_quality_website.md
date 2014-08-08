@@ -11,7 +11,9 @@ Source:			https://github.com/knowledgetranslation/process/
 
 ## 1. Introduction
 
-This process has lots of padding and failsafes built-in. Every project always runs over-time, over-budget, and under-scope. The padding and failsafes should help mitigate the consequences of unexpected barriers.
+We recommend that you read this document in its entirety before beginning a project, and refer to it often throught the project lifecycle. Although different sections of this document may apply to one type of reader more than the other (e.g. the [Design Steps](#design-steps) are primarily targeted to designers), all readers can learn from all sections, and will benefit from having a holistic understanding of the process.
+
+This process builds in lots of padding to budget, timelines, and scope. This creates failsafes to help mitigate the consequences of the unexpected barriers that lead projects to run over-budget, over-time, and under-scope.
 
 
 
