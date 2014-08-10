@@ -718,8 +718,6 @@ These can be run manually, but since they are automated tests, they’d ideally 
 
 ## 5. Glossary
 
-Unless otherwise noted, all definitions are from [Wikipedia](http://en.wikipedia.org/wiki/Main_Page) or [Wiktionary](https://www.wiktionary.org/).
-
 assistive technology
 :	“Assistive technology is an umbrella term that includes assistive, adaptive, and rehabilitative devices for people with disabilities and also includes the process used in selecting, locating, and using them. Assistive technology promotes greater independence by enabling people to perform tasks that they were formerly unable to accomplish, or had great difficulty accomplishing, by providing enhancements to, or changing methods of interacting with, the technology needed to accomplish such tasks.” —[Wikipedia](http://en.wikipedia.org/wiki/Assistive_technology)
 
