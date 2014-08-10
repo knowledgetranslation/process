@@ -1,7 +1,7 @@
 Title:			How to make a quality website
 Author:			David Newton
 Organization:	Knowledge Translation Program, St. Michael’s Hospital
-Date:			2014-08-08
+Date:			2014-08-10
 Contributors:	Wai-Hin Chan, Michael R. Kealey, Gail Klein, Nikolas LeBlanc, Julia Moore, Sharon Straus, Caitlyn Timmings, Judy Tran, and Andrea Tricco
 URL:			https://knowledgetranslation.github.io/process/
 Source:			https://github.com/knowledgetranslation/process/
