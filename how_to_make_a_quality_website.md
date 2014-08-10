@@ -367,7 +367,7 @@ These steps focus on front-end development. Back-end development may need to tak
 
 	* These need to be fully functional. If something doesn’t or can’t work at this stage, go back to whatever previous step created the barrier, fix it, and redo everything from that point forward.
 
-1. Perform the [Development validation substeps](#development-validation-substeps.
+1. Perform the [Development validation substeps](#development-validation-substeps).
 
 1. Progressively enhance your design to get to the showcase mobile design, and any breakpoints between it and the fallback.
 
@@ -377,7 +377,7 @@ These steps focus on front-end development. Back-end development may need to tak
 
 	* Remember that not every user needs the showcase design; that’s why the fallback and breakpoint templates are there, and why there are feature fallbacks. Everybody will get a good experience *appropriate* to their browsing context.
 
-1. Perform the [Development validation substeps](#development-validation-substeps.
+1. Perform the [Development validation substeps](#development-validation-substeps).
 
 1. Progressively enhance your design to get to the showcase desktop design, and any remaining breakpoints.
 
@@ -387,7 +387,7 @@ These steps focus on front-end development. Back-end development may need to tak
 
 	* Remember that not every user needs the showcase design; that’s why the fallback and breakpoint templates are there, and why there are feature fallbacks. Everybody will get a good experience *appropriate* to their browsing context.
 
-1. Perform the [Development validation substeps](#development-validation-substeps.
+1. Perform the [Development validation substeps](#development-validation-substeps).
 
 1. Perform Search Engine Optimization by:
 
