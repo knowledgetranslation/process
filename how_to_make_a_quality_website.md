@@ -2,7 +2,7 @@ Title:			How to make a quality website
 Author:			David Newton
 Organization:	Knowledge Translation Program, St. Michael’s Hospital
 Date:			2014-08-08
-Contributors:	Wai-Hin Chan, Michael R. Kealey, Gail Klein, Nikolas LeBlanc, Sharon Straus, Judy Tran, and Andrea Tricco
+Contributors:	Wai-Hin Chan, Michael R. Kealey, Gail Klein, Nikolas LeBlanc, Julia Moore, Sharon Straus, Caitlyn Timmings, Judy Tran, and Andrea Tricco
 URL:			https://knowledgetranslation.github.io/process/
 Source:			https://github.com/knowledgetranslation/process/
 
@@ -104,13 +104,21 @@ These principles should be examined and considered before the project starts, wh
 
 1. Make sure all designs account for and define all interactions and states (clicks, hovers, transitions, etc.).
 
-1. “A user interface is like a joke. If you have to explain it, it’s not that good.” —Martin LeBlanc[^18]
+1. A site should be completely usable without any special instruction to the user, and without any documentation.[^65]
+
+	“A user interface is like a joke. If you have to explain it, it’s not that good.” —Martin LeBlanc[^18]
 
 	“No line of instruction will compensate for a bad design.” —Robert Hoekman Jr.[^19]
 
 1. Build everything (content, design, development) modularly: you’ll probably be on another project where you can re-use components.
 
 	* E.g., Brad Frost’s [Atomic Design methodology](http://bradfrostweb.com/blog/post/atomic-web-design/)
+
+1. If possible, provide translations, localization, and/or internationalization that is appropriate for your intended audience.
+
+	* Even if you’re building a site in English only *now*, build it so that translation, localization, and/or internationalization can be easily incorporated later.
+
+	* Even if explicit translation doesn’t occur, sites should still be built so that they’re easy for users to translate on their own, using machine translation (e.g. [Google Translate](https://translate.google.com/)), and easy to understand if English is not their first language. (Note that these are accessibility requirements under [Web Content Accessibility Guidelines 2.0 Guideline 3.1](http://www.w3.org/TR/WCAG20/#meaning).)
 
 1. Avoid social components (e.g. forums, chat, blogs, social media) when possible.
 
@@ -121,6 +129,8 @@ These principles should be examined and considered before the project starts, wh
 1. Avoid requiring users to log in with a username and password.
 
 	* If a password cannot be avoided, show it in plain text with an option to obscure it[^20] and provide an automated way for users to reset their own passwords.
+
+1. Keep sites up-to-date and relevant, and plan *how* you’ll do this on an ongoing basis.
 
 1. Document everything you do at every step and use version control software for every piece.
 
@@ -184,7 +194,7 @@ When possible, all steps should be completed in sequence, not in parallel.
 
 	* Remember to consider *all* the steps in this document when considering timelines, including multiple rounds of usability and testing.
 
-1. Plan exactly what data you’d like collected for research, testing, and development/planning purposes, and define why you need it. Then, for each of these, plan to collect more data than you think you’ll need.
+1. Plan exactly what data you’d like collected for research, testing, and development/planning purposes, and define why you need it.
 
 	* Collecting “too much” data, to the point where you’re overwhelmed by it, is a risk. However, not having data that you later realize you need is also a risk. If you think you *might* need it, it’s probably worth collecting.
 
@@ -389,7 +399,11 @@ These steps focus on front-end development. Back-end development may need to tak
 
 1. Create a “help” section.[^45][^46]
 
-	* If any parts of your “help” section get very complex, consider simplifying the design/functionality to require less explanation. This may require returning to an earlier step.
+	* Depending on the complexity of the site, this may range from a simple way for users to contact site administrators with questions to a complex, interactive, context-sensitive help system.
+
+	* Many users—especially novice users—may not use it, and that’s OK.
+
+	* If any explanations in your “help” section get very complex, consider simplifying the design/functionality to be more intuitive. This may require returning to an earlier step.[^65]
 
 1. Do a code review and refactor where appropriate.
 
@@ -1338,3 +1352,5 @@ XUL
 [^63]: Strojny, Drew. 2014. “To add a forum to your website (or not)”, *Memberful*. July 2, 2014. https://memberful.com/blog/add-a-forum-to-your-website/. Accessed 2014-08-08.
 
 [^64]: Quenqua, Douglas. 2009. “Blogs Falling in an Empty Forest”, *The New York Times*. June 5, 2009. http://www.nytimes.com/2009/06/07/fashion/07blogs.html?_r=0. Accessed 2014-08-08.
+
+[^65]: Spolsky, Joel. 2001. “Designing for People Who Have Better Things To Do With Their Lives”, *User interface design for programmers* Chapter 6. April 26, 2000. Apress. http://joelonsoftware.com/uibook/chapters/fog0000000062.html. Accessed 2014-08-10.
