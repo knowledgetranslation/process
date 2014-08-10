@@ -18,6 +18,8 @@ These companion documents provide more in-depth information than is available he
 
 1. *When to use third-party web applications* (forthcoming)
 
+1. *Collaboration between designers and developers* (forthcoming)
+
 
 
 
