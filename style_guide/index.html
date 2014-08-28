@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html lang="en-CA" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<title>Knowledge Translation Program Style Guide</title>
+		<meta name="author" content="David Newton" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<style type="text/css">
+			body {
+				color: #444;
+				font-family: Helvetica, Arial, sans-serif;
+				font-size: 16pt;
+				line-height: 1.2;
+				max-width: 32em;
+				margin: 0 auto;
+				padding: 1em;
+			}
+
+			header dt {
+				clear: both;
+				float: left;
+				font-weight: bold;
+				margin: 0;
+				min-width: 6.35em;
+				padding: 0;
+				width: 25%;
+			}
+
+			@media (min-width: 625px) {
+				header dt {
+					text-align: right;
+				}
+			}
+
+			header dt:after {
+				content: ': ';
+			}
+
+			header dd {
+				float: right;
+				width: 73%;
+				margin: 0 0 0 2%;
+				padding: 0;
+			}
+
+			nav {
+				clear: both;
+				font-size: 0.8em;
+				padding-top: 2em;
+			}
+
+			nav > ul {
+				background-color: #eee;
+				padding: 1em 2em;
+			}
+
+			nav ul {
+				margin: 0;
+			}
+
+			nav li {
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+
+			main {
+				margin-top: 2em;
+			}
+
+			h2 {
+				margin-top: 3em;
+			}
+
+			h3 {
+				margin-top: 2.5em;
+			}
+
+			h4 {
+				margin-top: 2em;
+			}
+
+			h5 {
+				margint-top: 1.5em;
+			}
+
+			h6 {
+				margin-top: 1em;
+			}
+
+			h1 a,
+			h2 a,
+			h3 a,
+			h4 a,
+			h5 a,
+			h6 a {
+				color: inherit;
+				cursor: default;
+				text-decoration: none;
+			}
+
+			blockquote {
+				border-left: 5px solid;
+				opacity: 0.9;
+				padding-left: 1em;
+			}
+
+			hr {
+				display: none;
+			}
+
+			sup {
+				padding: 0 0.25em;
+			}
+
+			main dt {
+				font-weight: bold;
+			}
+		</style>
+	</head>
+
+	<body id="top" vocab="http://schema.org/" typeof="WebPage">
+		<header role="banner">
+			<h1>Knowledge Translation Program Style Guide</h1>
+
+			<dl>
+				<dt>Author</dt>
+				<dd>
+					David Newton<br />
+					Knowledge Translation Program, St. Michael’s Hospital
+				</dd>
+
+				<dt>Contributors</dt>
+				<dd></dd>
+
+				<dt>Date</dt>
+				<dd>2014-08-28</dd>
+
+				<dt>URL</dt>
+				<dd><a href="https://knowledgetranslation.github.io/process/style_guide/">https://knowledgetranslation.github.io/process/style_guide/</a></dd>
+
+				<dt>Source</dt>
+				<dd><a href="https://github.com/knowledgetranslation/process/">https://github.com/knowledgetranslation/process/</a></dd>
+			</dl>
+
+			<nav><ul>
+<li><a href="#companion-documents">0. Companion documents</a></li>
+<li><a href="#introduction">1. Introduction</a></li>
+<li><a href="#writing">2. Writing</a><ul>
+<li><a href="#abbreviations-and-acronyms">2.1 Abbreviations and acronyms</a></li>
+<li><a href="#capitalization">2.2 Capitalization</a></li>
+<li><a href="#citations-and-references">2.3 Citations and references</a></li>
+<li><a href="#dates-and-times">2.4 Dates and times</a></li>
+<li><a href="#grammar">2.5 Grammar</a></li>
+<li><a href="#measurements">2.6 Measurements</a></li>
+<li><a href="#numbers">2.7 Numbers</a></li>
+<li><a href="#people-biographies-and-names">2.8 People, biographies, and names</a></li>
+<li><a href="#punctuation">2.9 Punctuation</a></li>
+<li><a href="#spelling">2.10 Spelling</a></li>
+<li><a href="#terminology">2.11 Terminology</a></li>
+<li><a href="#urls">2.12 URLs</a></li>
+</ul></li>
+<li><a href="#design">3. Design</a><ul>
+<li><a href="#typography">3.1 Typography</a></li>
+</ul></li>
+<li><a href="#media">4. Media</a><ul>
+<li><a href="#images">4.1 Images</a></li>
+</ul></li>
+</ul></nav>
+		</header>
+
+		<main role="main" property="mainContentOfPage">
+			<h2 id="companion-documents"><a href="#companion-documents">0. Companion documents</a></h2>
+<ol style="list-style-type: decimal">
+<li><a href="../">How to make a quality website</a></li>
+</ol>
+<h2 id="introduction"><a href="#introduction">1. Introduction</a></h2>
+<p>This style guide documents writing, editing, visual, and coding styles specific to the Knowledge Translation Program at St. Michael’s Hospital. The hospital also has its own style guides, and generally follows <i>The Canadian Press Stylebook</i>.</p>
+<p>To determine the correct approach in a given circumstance, please consult style guides in the following order:</p>
+<ol style="list-style-type: decimal">
+<li><p>A project-specific style guide, if one is available</p></li>
+<li><p>This document</p></li>
+<li><p>The <a href="http://www.amamanualofstyle.com/">AMA Manual of Style</a> (for citations/references only)</p></li>
+<li><p>The St. Michael’s guides. Always check the <a href="http://portal/">intranet</a> for the most up-to-date versions. Guides include:</p>
+<ul>
+<li><p><a href="assets/smh-style-guide.pdf">St. Michael’s Style Guide</a> [SMHSG]</p></li>
+<li><p><a href="assets/smh-brand-standards.pdf">St. Michael’s Visual Standards</a> [SMHVS]</p></li>
+<li><p><a href="assets/smh-colour-palette.pdf">St. Michael’s Colour Palette</a> [SMHCP]</p></li>
+<li><p><a href="assets/smh-logo.pdf">St. Michael’s Logo Guidelines</a> [SMHLG]</p></li>
+<li><p><a href="assets/smh-photography-guidelines">St. Michael’s Photography Guidelines</a> [SMHPG]</p></li>
+<li><p><a href="assets/smh-web-writing-guidelines.md">St. Michael’s Web Writing Guidelines</a> [SMHWWG]</p></li>
+</ul></li>
+<li><p><a href="http://www.thecanadianpress.com/products_and_services.aspx?id=86"><i>The Canadian Press Stylebook</i></a> [CPS]</p></li>
+<li><p><a href="http://www.thecanadianpress.com/products_and_services.aspx?id=86"><i>The Canadian Press Caps and Spelling</i></a> [CPCS]</p></li>
+<li><p><a href="http://www.oxfordreference.com/view/10.1093/acref/9780195418163.001.0001/acref-9780195418163"><i>Canadian Oxford Dictionary</i></a> [COD]. When this gives alternative spellings, use the first one listed.</p></li>
+</ol>
+<p>For some items, this guide repeats content from the above guides. In cases where a rule is sourced from another style guide, the rule will be marked with a code (listed in square brackets above) indicating its source. In such cases, it’s best practice to double-check the original source for more and up-to-date information.</p>
+<h2 id="writing"><a href="#writing">2. Writing</a></h2>
+<h3 id="abbreviations-and-acronyms"><a href="#abbreviations-and-acronyms">2.1 Abbreviations and acronyms</a></h3>
+<ul>
+<li><p>Ampersands (“&amp;”) should only be used when part of a formal name (e.g. of an organization), or as part of a visual component, e.g. a wordmark. [CPS] (See Punctuation)</p></li>
+<li><p>No period should be used in all-uppercase or mixed-case abbreviations (e.g. “MD”, “PhD”), including geographical abbreviations (e.g. “US” not “U.S.”).</p>
+<ul>
+<li>Exception: titles/honorifics that preceed a name, e.g. “Mr.”</li>
+</ul></li>
+<li><p>Periods should be used in lower-case abbreviations (e.g. “e.g.”, “etc.”), even when sentence-initial (e.g. “e.g.” and “E.g.”).</p>
+<ul>
+<li><p>Exception: metric measurements (e.g. “cm” not “c.m.”)</p></li>
+<li><p>Exception: “p” for “probability” (but “p.” for “page”)</p></li>
+</ul></li>
+<li><p>“E.g.” and “i.e.” should not be followed by a comma.</p></li>
+<li><p>In prose, abbreviations should generally be defined before being used, e.g. “Canadian Institutes of Health Research (CIHR)” followed by “CIHR”.</p>
+<ul>
+<li><p>Exception: common abbreviations that have have been lexicalized in English, e.g. “etc.” [CPS]</p></li>
+<li><p>Exception: honorifics/degree names, e.g. “Mr.”, “PhD” [CPS]</p></li>
+<li><p>Exception: common measurement terms (e.g. “cm”)</p></li>
+</ul></li>
+<li><p>If an abbreviation would only be used once, abandon it and spell the word/phrase out in full.</p></li>
+<li><p>“A” versus “an” before an abbreviation depends on its initial sound, not its initial letter, e.g. “an MA”, “a PhD”. [CPS]</p></li>
+<li><p>Other than the following (lexicalized) exceptions, never abbreviate “electronic x” as “e-x”, “ex”, or “eX”:</p>
+<ul>
+<li><p>e-commerce</p></li>
+<li><p>e-reader</p></li>
+<li><p>ebook</p></li>
+<li><p>email</p></li>
+</ul></li>
+<li><p>When abbreviating hyphenated names, omit the hyphen, e.g. “MP Gagnon”, not “M-P Gagnon”</p></li>
+<li><p>When abbreviating the names of US states and territories, use the United States Postal Service abbreviations</p></li>
+<li><p>Pluralized abbreviations use an “s” with no apostrophe, e.g. “UFOs” or “PhDs” [CPS]</p></li>
+</ul>
+<h4 id="do-not-abbreviate"><a href="#do-not-abbreviate">2.1.1 Do not abbreviate</a></h4>
+<ul>
+<li><p>Days of the week [SMHSG]</p></li>
+<li><p>Months</p></li>
+<li><p>Non-metric measurement terms, e.g. “inches” not “in.”</p></li>
+<li><p>“electronic” (see above)</p></li>
+<li><p>Portions of addresses/street names, e.g. “King Street East” not “King St E”</p>
+<ul>
+<li>Exception: “Saint” and “Sainte” may be abbreviated as “St.” and “Ste.” in place names. For Quebec place names, these are followed by a hyphen, not a period, e.g. “Ste-Agathe” [CPS]</li>
+</ul></li>
+<li><p>“county”, “fort”, “mount”, “point”, or “port” as part of a proper name, e.g. “Mount Everest” not “Mt Everest” (CPS)</p></li>
+</ul>
+<h4 id="abbreviations-by-abbreviation"><a href="#abbreviations-by-abbreviation">2.1.2 Abbreviations by abbreviation</a></h4>
+<h5 id="a"><a href="#a">A</a></h5>
+<ul>
+<li><strong>A1c</strong>: glycated hemoglobin</li>
+<li><strong>AB</strong>: Alberta</li>
+<li><strong>ABPM</strong>: ambulatory blood pressure measurement</li>
+<li><strong>ACEI</strong>: angiotensin-converting enzyme inhibitor</li>
+<li><strong>ACS</strong>: acute coronary syndrome</li>
+<li><strong>ADA</strong>: American Diabetes Association</li>
+<li><strong>ADDITION</strong>: Anglo–Danish–Dutch study of intensive treatment in people with screen detected diabetes in primary care</li>
+<li><strong>ADH</strong>: atypical ductal hyperplasi</li>
+<li><strong>AF</strong>: atrial fibrillation</li>
+<li><strong>AFL</strong>: atrial flutter</li>
+<li><strong>AGREE</strong>: Appraisal of Guidelines for Research and Evaluation</li>
+<li><strong>AHRQ</strong>: Agency for Healthcare Research and Quality</li>
+<li><strong>AIDS</strong>: acquired immunodeficiency syndrome</li>
+<li><strong>AIHW</strong>: Australian Institute of Health and Welfare</li>
+<li><strong>AMI</strong>: acute myocardial infarction</li>
+<li><strong>AMSTAR</strong>: assessment of multiple systematic reviews</li>
+<li><strong>ANOVA</strong>: analysis of variance</li>
+<li><strong>ARB</strong>: angiotensin II receptor blocker</li>
+<li><strong>ARIC</strong>: Atherosclerosis Risk of Communities</li>
+<li><strong>ASA</strong>: acetylsalicylic acid</li>
+<li><strong>ASCUS</strong>: atypical squamous cells of undetermined significance</li>
+<li><strong>ATP</strong>: Adult Treatment Panel</li>
+<li><strong>AUROC</strong>: area under the receiver operating characteristic curve</li>
+<li><strong>AusDrisk</strong>: Australian Diabetes Risk Assessment Tool</li>
+<li><strong>AUSSI</strong>: Affect Underpinned by the Severity of Social Impairment</li>
+</ul>
+<h5 id="b"><a href="#b">B</a></h5>
+<ul>
+<li><strong>BC</strong>: British Columbia</li>
+<li><strong>BCE</strong>: before comman era</li>
+<li><strong>BCh</strong>: Bachelor of Surgery</li>
+<li><strong>BCom</strong>: Bachelor of Commerce</li>
+<li><strong>BDI</strong>: Beck Depression Index</li>
+<li><strong>BID</strong>: bis in die; twice per day</li>
+<li><strong>BMD</strong>: bone mineral density</li>
+<li><strong>BMI</strong>: body–mass index</li>
+<li><strong>BMJ</strong>: British Medical Journal</li>
+<li><strong>BP</strong>: blood pressure</li>
+<li><strong>Brit Med J</strong>: British Medical Journal</li>
+<li><strong>BSc</strong>: Bachelor of Science</li>
+<li><strong>BScPhm</strong>: Bachelor of Science in Pharmacy</li>
+<li><strong>BScPT</strong>: Bachelor of Science in Physical Therapy</li>
+<li><strong>BSE</strong>: breast self-examination</li>
+</ul>
+<h5 id="c"><a href="#c">C</a></h5>
+<ul>
+<li><strong>C-CHANGE</strong>: Canadian Cardiovascular Harmonization of National Guidelines Endeavour</li>
+<li><strong>CA-125</strong>: cancer antigen 125</li>
+<li><strong>CAD</strong>: coronary artery disease</li>
+<li><strong>CADTH</strong>: Canadian Agency for Drugs and Technologies in Health</li>
+<li><strong>Can J Cardiol</strong>: Canadian Journal of Cardiology</li>
+<li><strong>Can Med Assoc J</strong>: Canadian Medical Association Journal</li>
+<li><strong>CAN-ADAPTT</strong>: Canadian Action Network for the Advancement, Dissemination and Adoption of Practice-Informed Tobacco Treatment</li>
+<li><strong>CANOE</strong>: Canadian Normoglycemia Outcomes Evaluation</li>
+<li><strong>CANRISK</strong>: Canadian Diabetes Risk Questionnaire</li>
+<li><strong>CAR</strong>: Canadian Association of Radiologists</li>
+<li><strong>CBE</strong>: clinical breast examination</li>
+<li><strong>CBT</strong>: cognitive behavioral therapy</li>
+<li><strong>CC</strong>: conventional cytology</li>
+<li><strong>CCB</strong>: calcium channel blocker</li>
+<li><strong>CCFP(EM)</strong>: Certificant of the College of Family Physicians of Canada in Emergency Medicine</li>
+<li><strong>CCFP</strong>: Certificant of the College of Family Physicians of Canada</li>
+<li><strong>CCHS</strong>: Canadian Community Health Survey</li>
+<li><strong>CCIRH</strong>: Canadian Collaboration for Immigrant and Refugee Health</li>
+<li><strong>CCRP</strong>: Certified Clinical Research Professional</li>
+<li><strong>CCS</strong>: Canadian Cardiovascular Society</li>
+<li><strong>CCT</strong>: case control trial</li>
+<li><strong>CDA</strong>: Canadian Diabetes Association</li>
+<li><strong>CDC</strong>: Centers for Disease Control and Prevention</li>
+<li><strong>CDKN2A</strong>: cyclin-dependent kinase inhibitor 2A</li>
+<li><strong>CDS</strong>: community-based depression screening</li>
+<li><strong>CE</strong>: common era**: cost effectiveness</li>
+<li><strong>CertEd</strong>: Certificate in Education</li>
+<li><strong>CES—D</strong>: Center for Epidemiologic Studies Depression Scale</li>
+<li><strong>CFCP</strong>: Certified Functional Continuity Professional</li>
+<li><strong>CFPC</strong>: The College of Family Physicians Canada</li>
+<li><strong>CHADS₂</strong>: Cardiac Failure, Hypertension, Age, Diabetes, Stroke System</li>
+<li><strong>CHAP</strong>: Cardiovascular Health Awareness Program</li>
+<li><strong>CHEP</strong>: Canadian Hypertension Education Program</li>
+<li><strong>CHF</strong>: congestive heart failure</li>
+<li><strong>CI</strong>: confidence interval</li>
+<li><strong>CIDI</strong>: Composite International Diagnostic Interview</li>
+<li><strong>CIDI—SF</strong>: Composite International Diagnostic Interview Short Form</li>
+<li><strong>CIHR</strong>: Canadian Institutes of Health Research</li>
+<li><strong>CIN</strong>: cervical intraepithelial neoplasia</li>
+<li><strong>CINAHL</strong>: Cumulative Index to Nursing and Allied Health Literature</li>
+<li><strong>CIR</strong>: cumulative incidence rate</li>
+<li><strong>CKD</strong>: chronic kidney disease</li>
+<li><strong>CLASP</strong>: Coalitions Linking Action and Science for Prevention</li>
+<li><strong>cm</strong>: centimetres</li>
+<li><strong>CM</strong>: Member of the Order of Canada</li>
+<li><strong>CMA</strong>: Canadian Medical Association</li>
+<li><strong>CMAJ</strong>: Canadian Medical Association Journal</li>
+<li><strong>CNA</strong>: Canadian Nurses Association</li>
+<li><strong>CNBSS-1</strong>: Canadian National Breast Screening Study</li>
+<li><strong>CPBP</strong>: community pharmacy blood pressure</li>
+<li><strong>CPCSSN</strong>: Canadian Primary Care Sentinel Surveillance Network</li>
+<li><strong>CPG</strong>: clinical practice guideline</li>
+<li><strong>CPHO</strong>: Chief Public Health Officer</li>
+<li><strong>CPT</strong>: cold pressor test</li>
+<li><strong>CSPQ</strong>: Certified Specialist in the Province of Quebec</li>
+<li><strong>CT</strong>: computerized tomography</li>
+<li><strong>CTFPHC</strong>: Canadian Task Force on Preventive Health Care</li>
+<li><strong>ctrl</strong>: control</li>
+<li><strong>CV</strong>: cardiovascular</li>
+<li><strong>CVD</strong>: cardiovascular disease</li>
+</ul>
+<h5 id="d"><a href="#d">D</a></h5>
+<ul>
+<li><strong>DABEM</strong>: Diplomate of the American Board of Emergency Medicine</li>
+<li><strong>DALY</strong>: disability adjusted life year</li>
+<li><strong>DBP</strong>: diastolic blood pressure</li>
+<li><strong>DCIS</strong>: ductal carcinoma in situ</li>
+<li><strong>DDH</strong>: developmental dysplasia of the hip</li>
+<li><strong>DDST</strong>: Denver Developmental Screening Test</li>
+<li><strong>DM</strong>: diabetes mellitus</li>
+<li><strong>DNA</strong>: deoxyribonucleic acid</li>
+<li><strong>DPhil</strong>: Doctor of Philosophy</li>
+<li><strong>DPP</strong>: Diabetes Prevention Program</li>
+<li><strong>Dr.</strong>: doctor</li>
+<li><strong>DRE</strong>: digital rectal exam</li>
+<li><strong>DREAM</strong>: Diabetes Reduction Assessment with Ramipril and Rosiglitazone Medication</li>
+<li><strong>DSM</strong>: Diagnostic and Statistical Manual of Mental Disorder</li>
+<li><strong>DSS</strong>: Depression and Suicide Screen</li>
+<li><strong>Dx</strong>: diagnosis</li>
+</ul>
+<h5 id="e"><a href="#e">E</a></h5>
+<ul>
+<li><strong>e.g.</strong>: exempli gratia; for example</li>
+<li><strong>EBM</strong>: evidence-based medicine</li>
+<li><strong>ECG</strong>: electrocardiograph</li>
+<li><strong>eGFR</strong>: estimated glomerular filtration rate</li>
+<li><strong>EMBASE</strong>: Excerpta Medica Database</li>
+<li><strong>EMR</strong>: electronic medical record</li>
+<li><strong>EPDS</strong>: Edinburgh Postnatal Depression Scale</li>
+<li><strong>ER</strong>: ermergency room</li>
+<li><strong>ERSC</strong>: Evidence Review and Synthesis Centre</li>
+<li><strong>et al.</strong>: et alii; and others</li>
+<li><strong>etc.</strong>: et cetera; and so on</li>
+</ul>
+<h5 id="f"><a href="#f">F</a></h5>
+<ul>
+<li><strong>FACMI</strong>: Fellow of the American College of Medical Informatics</li>
+<li><strong>FACP</strong>: Fellow of the American College of Physicians</li>
+<li><strong>FAP</strong>: familial adenomatous polyposis</li>
+<li><strong>FAQ</strong>: frequently asked question</li>
+<li><strong>FCAHS</strong>: Fellow of the Canadian Academy of Health Sciences</li>
+<li><strong>FCAOT</strong>: Fellow of the Canadian Association of Occupational Therapists</li>
+<li><strong>FCCP</strong>: Fellow of the American College of Chest Physicians</li>
+<li><strong>FCFPC</strong>: Fellow of the College of Family Physicians of Canada</li>
+<li><strong>FCSHP</strong>: Fellow of the Canadian Society of Hospital Pharmacists</li>
+<li><strong>FDC</strong>: Fellow of Dietitians of Canada</li>
+<li><strong>FFDM</strong>: full-field digital mammography</li>
+<li><strong>FIGO</strong>: Federation of Gynecology and Obstetrics</li>
+<li><strong>FILCA</strong>: Fellow of the International Lactation Consultant Association</li>
+<li><strong>FINDRISC</strong>: Finnish Diabetes Risk Score</li>
+<li><strong>FNIHB</strong>: First Nations and Inuit Health Branch</li>
+<li><strong>FOBT</strong>: fecal occult blood test</li>
+<li><strong>FPG</strong>: fasting plasma glucose</li>
+<li><strong>FRACGP</strong>: Fellowship of the Royal Australian College of General Practitioners</li>
+<li><strong>FRCGP</strong>: Fellow of the Royal College of General Practitioners</li>
+<li><strong>FRCP(C)</strong>: Fellow of the Royal College of Physicians of Canada</li>
+<li><strong>FRCP(UK)</strong>: Fellow of the Royal College of Physicians of the United Kingdom</li>
+<li><strong>FRSC</strong>: Fellow of the Royal Society of Canada</li>
+</ul>
+<h5 id="g"><a href="#g">G</a></h5>
+<ul>
+<li><strong>GAS</strong>: Global Assessment Score</li>
+<li><strong>GCT</strong>: glucose challenge test</li>
+<li><strong>GDM</strong>: gestational diabetes mellitus</li>
+<li><strong>GDS</strong>: Geriatric Depression Scale</li>
+<li><strong>GH</strong>: gestational hypertension</li>
+<li><strong>GIM</strong>: general internal medicine</li>
+<li><strong>GNC(C)</strong>: Gerontolical Nursing Certification (Canada)</li>
+<li><strong>GP</strong>: general practitioner</li>
+<li><strong>GRADE</strong>: Grading of Recommendations Assessment, Development, and Evaluation</li>
+<li><strong>GRADEPro</strong>: GRADE (Grading of Recommendations Assessment, Development, and Evaluation) Profiler</li>
+</ul>
+<h5 id="h"><a href="#h">H</a></h5>
+<ul>
+<li><strong>HADS</strong>: Hospital Anxiety and Depression Scale</li>
+<li><strong>HAS-BLED</strong>: hypertension, abnormal liver/renal function, stroke history, bleeding predisposition, labile international normalized ratios, elderly, drugs/alchol usage</li>
+<li><strong>HBPM</strong>: home blood pressure measurement</li>
+<li><strong>HC</strong>: Hypertension Canada</li>
+<li><strong>HC-II</strong>: hybrid capture two</li>
+<li><strong>HDRS</strong>: Hamilton Depression Rating Scale</li>
+<li><strong>HIP</strong>: health insurance plan</li>
+<li><strong>HIV</strong>: human immunodeficiency virus</li>
+<li><strong>HNPCC</strong>: hereditary nonpolyposis colorectal cancer</li>
+<li><strong>HPD</strong>: hypertensive pregnancy disorder</li>
+<li><strong>HPV</strong>: human papillomavirus</li>
+<li><strong>HR</strong>: hazard ratio</li>
+<li><strong>HRQOL</strong>: health-related quality of life</li>
+<li><strong>HRT</strong>: hormone replacement therapy</li>
+<li><strong>HSIL</strong>: high grade squamous intraepithelial lesions</li>
+<li><strong>HTN</strong>: hypertension</li>
+<li><strong>HUCH</strong>: Helsinki University Central Hospital</li>
+<li><strong>Hx</strong>: history</li>
+</ul>
+<h5 id="i"><a href="#i">I</a></h5>
+<ul>
+<li><strong>i.e.</strong>: id est; that is</li>
+<li><strong>IBCLC</strong>: International Board Certified Lactation Consultant</li>
+<li><strong>ICD</strong>: International Statistical Classification of Diseases</li>
+<li><strong>ICER</strong>: incremental cost effectiveness ratio</li>
+<li><strong>ICP</strong>: intervention coronariennepercutanée</li>
+<li><strong>ICUR</strong>: incremental cost–utility ratio</li>
+<li><strong>IDF</strong>: International Diabetes Federation</li>
+<li><strong>IFG</strong>: impaired fasting glucose</li>
+<li><strong>IGT</strong>: impaired glucose tolerance</li>
+<li><strong>IPV</strong>: intimate partner violence</li>
+<li><strong>IRR</strong>: incidence rate ratios</li>
+<li><strong>ISRCTN</strong>: International Standard Randomised Controlled Trial Number</li>
+<li><strong>IT</strong>: information technology</li>
+<li><strong>IU</strong>: international units</li>
+<li><strong>IV</strong>: inverse variance</li>
+</ul>
+<h5 id="j"><a href="#j">J</a></h5>
+<ul>
+<li><strong>JNC7</strong>: Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure</li>
+</ul>
+<h5 id="k"><a href="#k">K</a></h5>
+<ul>
+<li><strong>kg/m²</strong>: kilograms per square metre</li>
+<li><strong>KT</strong>: Knowledge Translation</li>
+<li><strong>KTP</strong>: Knowledge Translation Program</li>
+</ul>
+<h5 id="l"><a href="#l">L</a></h5>
+<ul>
+<li><strong>L-PI</strong>: lowest pulsatility index</li>
+<li><strong>LAR</strong>: lifetime average risk</li>
+<li><strong>LBC</strong>: liquid-based cytology</li>
+<li><strong>LCIS</strong>: lobular carcinoma in situ</li>
+<li><strong>LDL-C</strong>: low-density lipoprotein</li>
+<li><strong>LEEP</strong>: loop electrosurgical excision procedure</li>
+<li><strong>LLETZ</strong>: large loop excision of the transformation zone</li>
+<li><strong>LSIL</strong>: low grade squamous intraepithelial lesions</li>
+</ul>
+<h5 id="m"><a href="#m">M</a></h5>
+<ul>
+<li><strong>MA</strong>: Master of Arts</li>
+<li><strong>MACP</strong>: Master of the American College of Physicians</li>
+<li><strong>MADRS</strong>: Montgomery–Asberg Depression Rating Scale</li>
+<li><strong>MAP</strong>: mean arterial pressure</li>
+<li><strong>MB</strong>: Manitoba</li>
+<li><strong>MBBS</strong>: Bachelor of Medicine, Bachelor of Surgery</li>
+<li><strong>MBChB</strong>: Bachelor of Medicine, Bachelor of Surgery</li>
+<li><strong>MC</strong>: maladie coronarienne</li>
+<li><strong>MCE</strong>: Master of Continuing Education <em>or</em> Master of Civil Engineering</li>
+<li><strong>MClSc</strong>: Master of Clinical Science</li>
+<li><strong>MD</strong>: Doctor of Medicine <em>or</em> mean difference</li>
+<li><strong>MDCM</strong>: Doctorae Medicinae, Chirurgiae Magister; Doctor of Medicine and Master of Surgery</li>
+<li><strong>MDD</strong>: major depressive disorder</li>
+<li><strong>MDE</strong>: major depressive episodes</li>
+<li><strong>MEDLINE</strong>: Medical Literature Analysis and Retrieval System Online</li>
+<li><strong>MERSC</strong>: McMaster Evidence Review and Synthesis Centre</li>
+<li><strong>MeSH</strong>: Medicine’s Medical Subject Headings</li>
+<li><strong>MetS</strong>: metabolic syndrome</li>
+<li><strong>mg</strong>: milligrams</li>
+<li><strong>MGD</strong>: mean glandular dose</li>
+<li><strong>mGy</strong>: milligrays</li>
+<li><strong>MH</strong>: Mantel–Haenszel</li>
+<li><strong>mL</strong>: millilitres</li>
+<li><strong>MLS</strong>: Master of Library Science</li>
+<li><strong>mm/Hg</strong>: millimeters of mercury</li>
+<li><strong>mmol/L</strong>: millimoles per litre</li>
+<li><strong>MMSE</strong>: Mini-Mental State Exam</li>
+<li><strong>MPH</strong>: Master of Public Health</li>
+<li><strong>Mr.</strong>: mister</li>
+<li><strong>MRI</strong>: magnetic resonance imaging</li>
+<li><strong>MSAFP</strong>: maternal serum alpha-fetoprotein screening</li>
+<li><strong>MSc</strong>: Master of Science</li>
+<li><strong>MScN</strong>: Master of Science in Nursing</li>
+<li><strong>MST</strong>: mental stress test</li>
+<li><strong>MWD</strong>: mean weighted difference</li>
+</ul>
+<h5 id="n"><a href="#n">N</a></h5>
+<ul>
+<li><strong>n.s.</strong>: not significant</li>
+<li><strong>NA</strong>: not applicable</li>
+<li><strong>NAVIGATOR</strong>: Nateglinide and Valsartan in Impaired Glucose Tolerance Outcomes Research</li>
+<li><strong>NB</strong>: New Brunswick</li>
+<li><strong>NC</strong>: number of subjects in control group</li>
+<li><strong>NHANES</strong>: National Health and Nutrition Examination Survey</li>
+<li><strong>NI</strong>: number of subjects in intervention group</li>
+<li><strong>NICE</strong>: National Institute for Health and Care Excellence</li>
+<li><strong>NICU</strong>: neonatal intensive care unit</li>
+<li><strong>NL</strong>: Newfoundland (and Labrador)</li>
+<li><strong>nmol/L</strong>: nanomoles per litre</li>
+<li><strong>NNH</strong>: number needed to harm</li>
+<li><strong>NNS</strong>: number needed to screen</li>
+<li><strong>NNT</strong>: number needed to treat</li>
+<li><strong>NNTH</strong>: number needed to treat to harm</li>
+<li><strong>NOS</strong>: Newcastle–Ottawa Scale</li>
+<li><strong>NR</strong>: not reported</li>
+<li><strong>NS</strong>: Nova Scotia</li>
+<li><strong>NSW</strong>: New South Wales</li>
+<li><strong>NU</strong>: Nunavut</li>
+<li><strong>NWT</strong>: Northwest Territories</li>
+</ul>
+<h5 id="o"><a href="#o">O</a></h5>
+<ul>
+<li><strong>OAC</strong>: oral anticoagulant</li>
+<li><strong>OC</strong>: Officer of the Order of Canada</li>
+<li><strong>OCTFPHC</strong>: Office of the Canadian Task Force on Preventive Health Care</li>
+<li><strong>OD</strong>: omne in die; once per day</li>
+<li><strong>OGTT</strong>: oral glucose tolerance test</li>
+<li><strong>OHIP</strong>: Ontario Health Insurance Plan</li>
+<li><strong>ON</strong>: Ontario</li>
+<li><strong>ON-BP</strong>: Ontario Survey on Prevalence and Control of Hypertension</li>
+<li><strong>OR</strong>: odds ratio</li>
+<li><strong>ORAI</strong>: Osteoporosis Risk Assessment Instrument</li>
+</ul>
+<h5 id="p"><a href="#p">P</a></h5>
+<ul>
+<li><strong>p</strong>: probability</li>
+<li><strong>p.</strong>: page</li>
+<li><strong>Pap test</strong>: Papanicolaou test</li>
+<li><strong>PCCSI</strong>: Pan-Canadian Cervical Screening Initiative</li>
+<li><strong>PCI</strong>: percutaneous coronary intervention</li>
+<li><strong>PCR</strong>: polymerase chain reaction</li>
+<li><strong>PDSS</strong>: Postpartum Depression Screening Scale</li>
+<li><strong>PE</strong>: preeclampsia</li>
+<li><strong>PEI</strong>: Prince Edward Island</li>
+<li><strong>PET</strong>: positron emission tomography</li>
+<li><strong>PGD</strong>: Prevention Guidelines Division</li>
+<li><strong>PHAC</strong>: Public Health Agency of Canada</li>
+<li><strong>PharmD</strong>: Doctor of Pharmacy</li>
+<li><strong>PhD</strong>: Doctor of Philosophy</li>
+<li><strong>PHN</strong>: public health nurse</li>
+<li><strong>PHQ</strong>: patient health questionnaire</li>
+<li><strong>PI</strong>: pulsatility index</li>
+<li><strong>PICO</strong>: population, intervention, control, and outcome</li>
+<li><strong>PICOS</strong>: population, intervention, control, outcome, and study design</li>
+<li><strong>PICOST</strong>: population, intervention, control, outcome, study design, and time limitations</li>
+<li><strong>PLoS ONE</strong>: Public Library of Science One</li>
+<li><strong>POMS</strong>: Profile of Mood States Scale</li>
+<li><strong>PORT</strong>: Pediatric Outcomes Research Team</li>
+<li><strong>pp.</strong>: pages</li>
+<li><strong>PRIME—MD</strong>: Primary Care Evaluation of Mental Disorders, Mood Module</li>
+<li><strong>PROSPERO</strong>: International Prospective Register of Systematic Reviews</li>
+<li><strong>PSA</strong>: prostate-specific antigen test</li>
+<li><strong>PT</strong>: physical therapist</li>
+<li><strong>PTH</strong>: parathyroid hormone</li>
+</ul>
+<h5 id="q"><a href="#q">Q</a></h5>
+<ul>
+<li><strong>QALY</strong>: quality-adjusted life year</li>
+<li><strong>QC</strong>: Quebec</li>
+<li><strong>QID</strong>: quater in die; four times per day</li>
+<li><strong>QOL</strong>: quality of life</li>
+</ul>
+<h5 id="r"><a href="#r">R</a></h5>
+<ul>
+<li><strong>RCT</strong>: randomized control trial</li>
+<li><strong>RD</strong>: Registered Dietician</li>
+<li><strong>RevMan</strong>: Review Manager</li>
+<li><strong>RN</strong>: Registered Nurse</li>
+<li><strong>RPsych</strong>: Registered Psychologist</li>
+<li><strong>RR</strong>: relative risk <em>or</em> risk ratio</li>
+<li><strong>RRR</strong>: ratio of rate ratios</li>
+</ul>
+<h5 id="s"><a href="#s">S</a></h5>
+<ul>
+<li><strong>SADD</strong>: Schedules of Standardized Assessment of Patient with Depressive Disorders</li>
+<li><strong>SBP</strong>: systolic blood pressure</li>
+<li><strong>SCL</strong>: symptom checklist</li>
+<li><strong>SCORE</strong>: Simple Calculated Osteoporosis Risk Estimation</li>
+<li><strong>SD</strong>: standard deviation</li>
+<li><strong>SDS</strong>: Self-rating Depression Scale</li>
+<li><strong>SE</strong>: standard error</li>
+<li><strong>SES</strong>: socioeconomic status</li>
+<li><strong>SF-36</strong>: Short Form 36</li>
+<li><strong>SFM</strong>: single-film mammography</li>
+<li><strong>sig</strong>: statistically significant</li>
+<li><strong>SIGN</strong>: Scottish Intercollegiate Guidelines Network</li>
+<li><strong>SK</strong>: Saskatchewan</li>
+<li><strong>SM</strong>: Scientiae Magister</li>
+<li><strong>SMD</strong>: standard mean difference</li>
+<li><strong>SSRI</strong>: selective serotonin reuptake inhibitor</li>
+</ul>
+<h5 id="t"><a href="#t">T</a></h5>
+<ul>
+<li><strong>TCA</strong>: tricyclic antidepressant</li>
+<li><strong>TEE</strong>: transesophageal echocardiography</li>
+<li><strong>tHcy</strong>: total homocysteine</li>
+<li><strong>TIA</strong>: transient ischemic attack</li>
+<li><strong>TID</strong>: ter in die; three times per day</li>
+<li><strong>TOMBOLA</strong>: Trial of Management of Borderline and Other Low-Grade Abnormal Smears</li>
+<li><strong>Tx</strong>: treatment</li>
+</ul>
+<h5 id="u"><a href="#u">U</a></h5>
+<ul>
+<li><strong>UK</strong>: United Kingdom</li>
+<li><strong>UKBSP</strong>: United Kingdom Breast Screening Programme</li>
+<li><strong>URL</strong>: uniform resource locator</li>
+<li><strong>US</strong>: United States</li>
+<li><strong>USA</strong>: United States of America</li>
+<li><strong>USD</strong>: United States dollar</li>
+<li><strong>USPSTF</strong>: United States Preventive Services Task Force</li>
+<li><strong>UV</strong>: ultra-violet</li>
+</ul>
+<h5 id="v"><a href="#v">V</a></h5>
+<ul>
+<li><strong>vs.</strong>: versus</li>
+</ul>
+<h5 id="w"><a href="#w">W</a></h5>
+<ul>
+<li><strong>WG</strong>: working group</li>
+<li><strong>WHO</strong>: World Health Organization</li>
+</ul>
+<h5 id="y"><a href="#y">Y</a></h5>
+<ul>
+<li><strong>YK</strong>: Yukon</li>
+</ul>
+<h5 id="z"><a href="#z">Z</a></h5>
+<ul>
+<li><strong>Zung–SDS</strong>: Zung Self-Rating Depression Scale</li>
+</ul>
+<h5 id="section"><a href="#section">&amp;</a></h5>
+<ul>
+<li><strong>&amp;</strong>: and</li>
+</ul>
+<h5 id="µ"><a href="#µ">µ</a></h5>
+<ul>
+<li><strong>μg</strong>: micrograms</li>
+</ul>
+<h4 id="abbreviations-by-term"><a href="#abbreviations-by-term">2.1.3 Abbreviations by term</a></h4>
+<h5 id="a-1"><a href="#a-1">A</a></h5>
+<ul>
+<li><strong>acetylsalicylic acid</strong>: ASA</li>
+<li><strong>acquired immunodeficiency syndrome</strong>: AIDS</li>
+<li><strong>acute coronary syndrome</strong>: ACS</li>
+<li><strong>acute myocardial infarction</strong>: AMI</li>
+<li><strong>Adult Treatment Panel</strong>: ATP</li>
+<li><strong>Affect Underpinned by the Severity of Social Impairment</strong>: AUSSI</li>
+<li><strong>Agency for Healthcare Research and Quality</strong>: AHRQ</li>
+<li><strong>Alberta</strong>: AB</li>
+<li><strong>ambulatory blood pressure measurement</strong>: ABPM</li>
+<li><strong>American Diabetes Association</strong>: ADA</li>
+<li><strong>analysis of variance</strong>: ANOVA</li>
+<li><strong>and</strong>: &amp;</li>
+<li><strong>angiotensin II receptor blocker</strong>: ARB</li>
+<li><strong>angiotensin-converting enzyme inhibitor</strong>: ACEI</li>
+<li><strong>Anglo–Danish–Dutch study of intensive treatment in people with screen detected diabetes in primary care</strong>: ADDITION</li>
+<li><strong>Appraisal of Guidelines for Research and Evaluation</strong>: AGREE</li>
+<li><strong>area under the receiver operating characteristic curve</strong>: AUROC</li>
+<li><strong>assessment of multiple systematic reviews</strong>: AMSTAR</li>
+<li><strong>Atherosclerosis Risk of Communities</strong>: ARIC</li>
+<li><strong>atrial fibrillation</strong>: AF</li>
+<li><strong>atrial flutter</strong>: AFL</li>
+<li><strong>atypical ductal hyperplasi</strong>: ADH</li>
+<li><strong>atypical squamous cells of undetermined significance</strong>: ASCUS</li>
+<li><strong>Australian Diabetes Risk Assessment Tool</strong>: AusDrisk</li>
+<li><strong>Australian Institute of Health and Welfare</strong>: AIHW</li>
+</ul>
+<h5 id="b-1"><a href="#b-1">B</a></h5>
+<ul>
+<li><strong>Bachelor of Commerce</strong>: BCom</li>
+<li><strong>Bachelor of Medicine, Bachelor of Surgery</strong>: MBBS <em>or</em> MBChB</li>
+<li><strong>Bachelor of Science</strong>: BSc</li>
+<li><strong>Bachelor of Science in Pharmacy</strong>: BScPhm</li>
+<li><strong>Bachelor of Science in Physical Therapy</strong>: BScPT</li>
+<li><strong>Bachelor of Surgery</strong>: BCh</li>
+<li><strong>Beck Depression Index</strong>: BDI</li>
+<li><strong>before common era</strong>: BCE</li>
+<li><strong>bis in die; twice per day</strong>: BID</li>
+<li><strong>blood pressure</strong>: BP</li>
+<li><strong>body–mass index</strong>: BMI</li>
+<li><strong>bone mineral density</strong>: BMD</li>
+<li><strong>breast self-examination</strong>: BSE</li>
+<li><strong>British Columbia</strong>: BC</li>
+<li><strong>British Medical Journal</strong>: BMJ <em>or</em> Brit Med J</li>
+</ul>
+<h5 id="c-1"><a href="#c-1">C</a></h5>
+<ul>
+<li><strong>calcium channel blocker</strong>: CCB</li>
+<li><strong>Canadian Action Network for the Advancement, Dissemination and Adoption of Practice-Informed Tobacco Treatment</strong>: CAN-ADAPTT</li>
+<li><strong>Canadian Agency for Drugs and Technologies in Health</strong>: CADTH</li>
+<li><strong>Canadian Association of Radiologists</strong>: CAR</li>
+<li><strong>Canadian Cardiovascular Harmonization of national Guidelines Endeavour</strong>: C-CHANGE</li>
+<li><strong>Canadian Cardiovascular Society</strong>: CCS</li>
+<li><strong>Canadian Collaboration for Immigrant and Refugee Health</strong>: CCIRH</li>
+<li><strong>Canadian Community Health Survey</strong>: CCHS</li>
+<li><strong>Canadian Diabetes Association</strong>: CDA</li>
+<li><strong>Canadian Diabetes Risk Questionnaire</strong>: CANRISK</li>
+<li><strong>Canadian Hypertension Education Program</strong>: CHEP</li>
+<li><strong>Canadian Institutes of Health Research</strong>: CIHR</li>
+<li><strong>Canadian Journal of Cardiology</strong>: Can J Cardiol</li>
+<li><strong>Canadian Medical Association</strong>: CMA</li>
+<li><strong>Canadian Medical Association Journal</strong>: Can Med Assoc J <em>or</em> CMAJ</li>
+<li><strong>Canadian National Breast Screening Study</strong>: CNBSS-1</li>
+<li><strong>Canadian Normoglycemia Outcomes Evaluation</strong>: CANOE</li>
+<li><strong>Canadian Nurses Association</strong>: CNA</li>
+<li><strong>Canadian Primary Care Sentinel Surveillance Network</strong>: CPCSSN</li>
+<li><strong>Canadian Task Force on Preventive Health Care</strong>: CTFPHC</li>
+<li><strong>cancer antigen 125</strong>: CA-125</li>
+<li><strong>Cardiac Failure, Hypertension, Age, Diabetes, Stroke System</strong>: CHADS₂</li>
+<li><strong>cardiovascular</strong>: CV</li>
+<li><strong>cardiovascular disease</strong>: CVD</li>
+<li><strong>Cardiovascular Health Awareness Program</strong>: CHAP</li>
+<li><strong>case control trial</strong>: CCT</li>
+<li><strong>Center for Epidemiologic Studies Depression Scale</strong>: CES—D</li>
+<li><strong>Centers for Disease Control and Prevention</strong>: CDC</li>
+<li><strong>centimetres</strong>: cm</li>
+<li><strong>Certificant of the College of Family Physicians of Canada</strong>: CCFP</li>
+<li><strong>Certificant of the College of Family Physicians of Canada in Emergency Medicine</strong>: CCFP(EM)</li>
+<li><strong>Certificate in Education</strong>: CertEd</li>
+<li><strong>Certified Clinical Research Professional</strong>: CCRP</li>
+<li><strong>Certified Functional Continuity Professional</strong>: CFCP</li>
+<li><strong>Certified Specialist in the Province of Quebec</strong>: CSPQ</li>
+<li><strong>cervical intraepithelial neoplasia</strong>: CIN</li>
+<li><strong>Chief Public Health Officer</strong>: CPHO</li>
+<li><strong>chronic kidney disease</strong>: CKD</li>
+<li><strong>clinical breast examination</strong>: CBE</li>
+<li><strong>clinical practice guideline</strong>: CPG</li>
+<li><strong>Coalitions Linking Action and Science for Prevention</strong>: CLASP</li>
+<li><strong>cognitive behavioral therapy</strong>: CBT</li>
+<li><strong>cold pressor test</strong>: CPT</li>
+<li><strong>common era</strong>: CE</li>
+<li><strong>community pharmacy blood pressure</strong>: CPBP</li>
+<li><strong>community-based depression screening</strong>: CDS</li>
+<li><strong>Composite International Diagnostic Interview</strong>: CIDI</li>
+<li><strong>Composite International Diagnostic Interview Short Form</strong>: CIDI—SF</li>
+<li><strong>computerized tomography</strong>: CT</li>
+<li><strong>confidence interval</strong>: CI</li>
+<li><strong>congestive heart failure</strong>: CHF</li>
+<li><strong>control</strong>: ctrl</li>
+<li><strong>conventional cytology</strong>: CC</li>
+<li><strong>coronary artery disease</strong>: CAD</li>
+<li><strong>cost effectiveness</strong>: CE</li>
+<li><strong>cumulative incidence rate</strong>: CIR</li>
+<li><strong>Cumulative Index to Nursing and Allied Health Literature</strong>: CINAHL</li>
+<li><strong>cyclin-dependent kinase inhibitor 2A</strong>: CDKN2A</li>
+</ul>
+<h5 id="d-1"><a href="#d-1">D</a></h5>
+<ul>
+<li><strong>Denver Developmental Screening Test</strong>: DDST</li>
+<li><strong>deoxyribonucleic acid</strong>: DNA</li>
+<li><strong>Depression and Suicide Screen</strong>: DSS</li>
+<li><strong>developmental dysplasia of the hip</strong>: DDH</li>
+<li><strong>diabetes mellitus</strong>: DM</li>
+<li><strong>Diabetes Prevention Program</strong>: DPP</li>
+<li><strong>Diabetes Reduction Assessment with Ramipril and Rosiglitazone Medication</strong>: DREAM</li>
+<li><strong>diagnosis</strong>: Dx</li>
+<li><strong>Diagnostic and Statistical Manual of Mental Disorder</strong>: DSM</li>
+<li><strong>diastolic blood pressure</strong>: DBP</li>
+<li><strong>digital rectal exam</strong>: DRE</li>
+<li><strong>Diplomate of the American Board of Emergency Medicine</strong>: DABEM</li>
+<li><strong>disability adjusted life year</strong>: DALY</li>
+<li><strong>doctor</strong>: Dr.</li>
+<li><strong>Doctor of Medicine</strong>: MD</li>
+<li><strong>Doctor of Pharmacy</strong>: PharmD</li>
+<li><strong>Doctor of Philosophy</strong>: DPhil <em>or</em> PhD</li>
+<li><strong>Doctorae Medicinae, Chirurgiae Magister; Doctor of Medicine and Master of Surgery</strong>: MDCM</li>
+<li><strong>ductal carcinoma in situ</strong>: DCIS</li>
+</ul>
+<h5 id="e-1"><a href="#e-1">E</a></h5>
+<ul>
+<li><strong>Edinburgh Postnatal Depression Scale</strong>: EPDS</li>
+<li><strong>electrocardiograph</strong>: ECG</li>
+<li><strong>electronic medical record</strong>: EMR</li>
+<li><strong>ermergency room</strong>: ER</li>
+<li><strong>estimated glomerular filtration rate</strong>: eGFR</li>
+<li><strong>et alii; and others</strong>: et al.</li>
+<li><strong>et cetera; and so on</strong>: etc.</li>
+<li><strong>Evidence Review and Synthesis Centre</strong>: ERSC</li>
+<li><strong>evidence-based medicine</strong>: EBM</li>
+<li><strong>Excerpta Medica Database</strong>: EMBASE</li>
+<li><strong>exempli gratia; for example</strong>: e.g.</li>
+</ul>
+<h5 id="f-1"><a href="#f-1">F</a></h5>
+<ul>
+<li><strong>familial adenomatous polyposis</strong>: FAP</li>
+<li><strong>fasting plasma glucose</strong>: FPG</li>
+<li><strong>fecal occult blood test</strong>: FOBT</li>
+<li><strong>Federation of Gynecology and Obstetrics</strong>: FIGO</li>
+<li><strong>Fellow of Dietitians of Canada</strong>: FDC</li>
+<li><strong>Fellow of the American College of Chest Physicians</strong>: FCCP</li>
+<li><strong>Fellow of the American College of Medical Informatics</strong>: FACMI</li>
+<li><strong>Fellow of the American College of Physicians</strong>: FACP</li>
+<li><strong>Fellow of the Canadian Academy of Health Sciences</strong>: FCAHS</li>
+<li><strong>Fellow of the Canadian Association of Occupational Therapists</strong>: FCAOT</li>
+<li><strong>Fellow of the Canadian Society of Hospital Pharmacists</strong>: FCSHP</li>
+<li><strong>Fellow of the College of Family Physicians of Canada</strong>: FCFPC</li>
+<li><strong>Fellow of the International Lactation Consultant Association</strong>: FILCA</li>
+<li><strong>Fellow of the Royal College of General Practitioners</strong>: FRCGP</li>
+<li><strong>Fellow of the Royal College of Physicians of Canada</strong>: FRCP(C)</li>
+<li><strong>Fellow of the Royal College of Physicians of the United Kingdom</strong>: FRCP(UK)</li>
+<li><strong>Fellow of the Royal Society of Canada</strong>: FRSC</li>
+<li><strong>Fellowship of the Royal Australian College of General Practitioners</strong>: FRACGP</li>
+<li><strong>Finnish Diabetes Risk Score</strong>: FINDRISC</li>
+<li><strong>First Nations and Inuit Health Branch</strong>: FNIHB</li>
+<li><strong>frequently asked question</strong>: FAQ</li>
+<li><strong>full-field digital mammography</strong>: FFDM</li>
+</ul>
+<h5 id="g-1"><a href="#g-1">G</a></h5>
+<ul>
+<li><strong>general internal medicine</strong>: GIM</li>
+<li><strong>general practitioner</strong>: GP</li>
+<li><strong>Geriatric Depression Scale</strong>: GDS</li>
+<li><strong>Gerontolical Nursing Certification (Canada)</strong>: GNC(C)</li>
+<li><strong>gestational diabetes mellitus</strong>: GDM</li>
+<li><strong>gestational hypertension</strong>: GH</li>
+<li><strong>Global Assessment Score</strong>: GAS</li>
+<li><strong>glucose challenge test</strong>: GCT</li>
+<li><strong>glycated hemoglobin</strong>: A1c</li>
+<li><strong>GRADE (Grading of Recommendations Assessment, Development, and Evaluation) Profiler</strong>: GRADEPro</li>
+<li><strong>Grading of Recommendations Assessment, Development, and Evaluation</strong>: GRADE</li>
+</ul>
+<h5 id="h-1"><a href="#h-1">H</a></h5>
+<ul>
+<li><strong>Hamilton Depression Rating Scale</strong>: HDRS</li>
+<li><strong>hazard ratio</strong>: HR</li>
+<li><strong>health insurance plan</strong>: HIP</li>
+<li><strong>health-related quality of life</strong>: HRQOL</li>
+<li><strong>Helsinki University Central Hospital</strong>: HUCH</li>
+<li><strong>hereditary nonpolyposis colorectal cancer</strong>: HNPCC</li>
+<li><strong>high grade squamous intraepithelial lesions</strong>: HSIL</li>
+<li><strong>history</strong>: Hx</li>
+<li><strong>home blood pressure measurement</strong>: HBPM</li>
+<li><strong>hormone replacement therapy</strong>: HRT</li>
+<li><strong>Hospital Anxiety and Depression Scale</strong>: HADS</li>
+<li><strong>human immunodeficiency virus</strong>: HIV</li>
+<li><strong>human papillomavirus</strong>: HPV</li>
+<li><strong>hybrid capture two</strong>: HC-II</li>
+<li><strong>hypertension</strong>: HTN</li>
+<li><strong>Hypertension Canada</strong>: HC</li>
+<li><strong>hypertension, abnormal liver/renal function, stroke history, bleeding predisposition, labile international normalized ratios, elderly, drugs/alchol usage</strong>: HAS-BLED</li>
+<li><strong>hypertensive pregnancy disorder</strong>: HPD</li>
+</ul>
+<h5 id="i-1"><a href="#i-1">I</a></h5>
+<ul>
+<li><strong>id est; that is</strong>: i.e.</li>
+<li><strong>impaired fasting glucose</strong>: IFG</li>
+<li><strong>impaired glucose tolerance</strong>: IGT</li>
+<li><strong>incidence rate ratios</strong>: IRR</li>
+<li><strong>incremental cost effectiveness ratio</strong>: ICER</li>
+<li><strong>incremental cost–utility ratio</strong>: ICUR</li>
+<li><strong>information technology</strong>: IT</li>
+<li><strong>International Board Certified Lactation Consultant</strong>: IBCLC</li>
+<li><strong>International Diabetes Federation</strong>: IDF</li>
+<li><strong>International Prospective Register of Systematic Reviews</strong>: PROSPERO</li>
+<li><strong>International Standard Randomised Controlled Trial Number</strong>: ISRCTN</li>
+<li><strong>International Statistical Classification of Diseases</strong>: ICD</li>
+<li><strong>international units</strong>: IU</li>
+<li><strong>intervention coronariennepercutanée</strong>: ICP</li>
+<li><strong>intimate partner violence</strong>: IPV</li>
+<li><strong>inverse variance</strong>: IV</li>
+</ul>
+<h5 id="j-1"><a href="#j-1">J</a></h5>
+<ul>
+<li><strong>Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure</strong>: JNC7</li>
+</ul>
+<h5 id="k-1"><a href="#k-1">K</a></h5>
+<ul>
+<li><strong>kilograms per square metre</strong>: kg/m²</li>
+<li><strong>Knowledge Translation</strong>: KT</li>
+<li><strong>Knowledge Translation Program</strong>: KTP</li>
+</ul>
+<h5 id="l-1"><a href="#l-1">L</a></h5>
+<ul>
+<li><strong>large loop excision of the transformation zone</strong>: LLETZ</li>
+<li><strong>lifetime average risk</strong>: LAR</li>
+<li><strong>liquid-based cytology</strong>: LBC</li>
+<li><strong>lobular carcinoma in situ</strong>: LCIS</li>
+<li><strong>loop electrosurgical excision procedure</strong>: LEEP</li>
+<li><strong>low grade squamous intraepithelial lesions</strong>: LSIL</li>
+<li><strong>low-density lipoprotein</strong>: LDL-C</li>
+<li><strong>lowest pulsatility index</strong>: L-PI</li>
+</ul>
+<h5 id="m-1"><a href="#m-1">M</a></h5>
+<ul>
+<li><strong>magnetic resonance imaging</strong>: MRI</li>
+<li><strong>major depressive disorder</strong>: MDD</li>
+<li><strong>major depressive episodes</strong>: MDE</li>
+<li><strong>maladie coronarienne</strong>: MC</li>
+<li><strong>Manitoba</strong>: MB</li>
+<li><strong>Mantel–Haenszel</strong>: MH</li>
+<li><strong>Master of Arts</strong>: MA</li>
+<li><strong>Master of Civil Engineering</strong>: MCE</li>
+<li><strong>Master of Clinical Science</strong>: MClSc</li>
+<li><strong>Master of Continuing Education</strong>: MCE</li>
+<li><strong>Master of Library Science</strong>: MLS</li>
+<li><strong>Master of Public Health</strong>: MPH</li>
+<li><strong>Master of Science</strong>: MSc</li>
+<li><strong>Master of Science in Nursing</strong>: MScN</li>
+<li><strong>Master of the American College of Physicians</strong>: MACP</li>
+<li><strong>maternal serum alpha-fetoprotein screening</strong>: MSAFP</li>
+<li><strong>McMaster Evidence Review and Synthesis Centre</strong>: MERSC</li>
+<li><strong>mean arterial pressure</strong>: MAP</li>
+<li><strong>mean difference</strong>: MD</li>
+<li><strong>mean glandular dose</strong>: MGD</li>
+<li><strong>mean weighted difference</strong>: MWD</li>
+<li><strong>Medical Literature Analysis and Retrieval System Online</strong>: MEDLINE</li>
+<li><strong>Medicine’s Medical Subject Headings</strong>: MeSH</li>
+<li><strong>Member of the Order of Canada</strong>: CM</li>
+<li><strong>mental stress test</strong>: MST</li>
+<li><strong>metabolic syndrome</strong>: MetS</li>
+<li><strong>micrograms</strong>: μg</li>
+<li><strong>milligrams</strong>: mg</li>
+<li><strong>milligrays</strong>: mGy</li>
+<li><strong>millilitres</strong>: mL</li>
+<li><strong>millimeters of mercury</strong>: mm/Hg</li>
+<li><strong>millimoles per litre</strong>: mmol/L</li>
+<li><strong>Mini-Mental State Exam</strong>: MMSE</li>
+<li><strong>mister</strong>: Mr.</li>
+<li><strong>Montgomery–Asberg Depression Rating Scale</strong>: MADRS</li>
+</ul>
+<h5 id="n-1"><a href="#n-1">N</a></h5>
+<ul>
+<li><strong>nanomoles per litre</strong>: nmol/L</li>
+<li><strong>Nateglinide and Valsartan in Impaired Glucose Tolerance Outcomes Research</strong>: NAVIGATOR</li>
+<li><strong>National Health and Nutrition Examination Survey</strong>: NHANES</li>
+<li><strong>National Institute for Health and Care Excellence</strong>: NICE</li>
+<li><strong>neonatal intensive care unit</strong>: NICU</li>
+<li><strong>New Brunswick</strong>: NB</li>
+<li><strong>New South Wales</strong>: NSW</li>
+<li><strong>Newcastle–Ottawa Scale</strong>: NOS</li>
+<li><strong>Newfoundland (and Labrador)</strong>: NL</li>
+<li><strong>Northwest Territories</strong>: NWT</li>
+<li><strong>not applicable</strong>: NA</li>
+<li><strong>not reported</strong>: NR</li>
+<li><strong>not significant</strong>: n.s.</li>
+<li><strong>Nova Scotia</strong>: NS</li>
+<li><strong>number needed to harm</strong>: NNH</li>
+<li><strong>number needed to screen</strong>: NNS</li>
+<li><strong>number needed to treat</strong>: NNT</li>
+<li><strong>number needed to treat to harm</strong>: NNTH</li>
+<li><strong>number of subjects in control group</strong>: NC</li>
+<li><strong>number of subjects in intervention group</strong>: NI</li>
+<li><strong>Nunavut</strong>: NU</li>
+</ul>
+<h5 id="o-1"><a href="#o-1">O</a></h5>
+<ul>
+<li><strong>odds ratio</strong>: OR</li>
+<li><strong>Office of the Canadian Task Force on Preventive Health Care</strong>: OCTFPHC</li>
+<li><strong>Officer of the Order of Canada</strong>: OC</li>
+<li><strong>omne in die; once per day</strong>: OD</li>
+<li><strong>Ontario</strong>: ON</li>
+<li><strong>Ontario Health Insurance Plan</strong>: OHIP</li>
+<li><strong>Ontario Survey on Prevalence and Control of Hypertension</strong>: ON-BP</li>
+<li><strong>oral anticoagulant</strong>: OAC</li>
+<li><strong>oral glucose tolerance test</strong>: OGTT</li>
+<li><strong>Osteoporosis Risk Assessment Instrument</strong>: ORAI</li>
+</ul>
+<h5 id="p-1"><a href="#p-1">P</a></h5>
+<ul>
+<li><strong>page</strong>: p.</li>
+<li><strong>pages</strong>: pp.</li>
+<li><strong>Papanicolaou test</strong>: Pap test</li>
+<li><strong>Pan-Canadian Cervical Screening Initiative</strong>: PCCSI</li>
+<li><strong>parathyroid hormone</strong>: PTH</li>
+<li><strong>patient health questionnaire</strong>: PHQ</li>
+<li><strong>Pediatric Outcomes Research Team</strong>: PORT</li>
+<li><strong>percutaneous coronary intervention</strong>: PCI</li>
+<li><strong>physical therapist</strong>: PT</li>
+<li><strong>polymerase chain reaction</strong>: PCR</li>
+<li><strong>population, intervention, control, and outcome</strong>: PICO</li>
+<li><strong>population, intervention, control, outcome, and study design</strong>: PICOS</li>
+<li><strong>population, intervention, control, outcome, study design, and time limitations</strong>: PICOST</li>
+<li><strong>positron emission tomography</strong>: PET</li>
+<li><strong>Postpartum Depression Screening Scale</strong>: PDSS</li>
+<li><strong>preeclampsia</strong>: PE</li>
+<li><strong>Prevention Guidelines Division</strong>: PGD</li>
+<li><strong>Primary Care Evaluation of Mental Disorders, Mood Module</strong>: PRIME—MD</li>
+<li><strong>Prince Edward Island</strong>: PEI</li>
+<li><strong>probability</strong>: p</li>
+<li><strong>Profile of Mood States Scale</strong>: POMS</li>
+<li><strong>prostate-specific antigen test</strong>: PSA</li>
+<li><strong>Public Health Agency of Canada</strong>: PHAC</li>
+<li><strong>public health nurse</strong>: PHN</li>
+<li><strong>Public Library of Science One</strong>: PLoS ONE</li>
+<li><strong>pulsatility index</strong>: PI</li>
+</ul>
+<h5 id="q-1"><a href="#q-1">Q</a></h5>
+<ul>
+<li><strong>quality of life</strong>: QOL</li>
+<li><strong>quality-adjusted life year</strong>: QALY</li>
+<li><strong>quater in die; four times per day</strong>: QID</li>
+<li><strong>Quebec</strong>: QC</li>
+</ul>
+<h5 id="r-1"><a href="#r-1">R</a></h5>
+<ul>
+<li><strong>randomized control trial</strong>: RCT</li>
+<li><strong>ratio of rate ratios</strong>: RRR</li>
+<li><strong>Registered Dietician</strong>: RD</li>
+<li><strong>Registered Nurse</strong>: RN</li>
+<li><strong>Registered Psychologist</strong>: RPsych</li>
+<li><strong>relative risk</strong>: RR</li>
+<li><strong>Review Manager</strong>: RevMan</li>
+<li><strong>risk ratio</strong>: RR</li>
+</ul>
+<h5 id="s-1"><a href="#s-1">S</a></h5>
+<ul>
+<li><strong>Saskatchewan</strong>: SK</li>
+<li><strong>Schedules of Standardized Assessment of Patient with Depressive Disorders</strong>: SADD</li>
+<li><strong>Scientiae Magister</strong>: SM</li>
+<li><strong>Scottish Intercollegiate Guidelines Network</strong>: SIGN</li>
+<li><strong>selective serotonin reuptake inhibitor</strong>: SSRI</li>
+<li><strong>Self-rating Depression Scale</strong>: SDS</li>
+<li><strong>Short Form 36</strong>: SF-36</li>
+<li><strong>Simple Calculated Osteoporosis Risk Estimation</strong>: SCORE</li>
+<li><strong>single-film mammography</strong>: SFM</li>
+<li><strong>socioeconomic status</strong>: SES</li>
+<li><strong>standard deviation</strong>: SD</li>
+<li><strong>standard error</strong>: SE</li>
+<li><strong>standard mean difference</strong>: SMD</li>
+<li><strong>statistically significant</strong>: sig</li>
+<li><strong>symptom checklist</strong>: SCL</li>
+<li><strong>systolic blood pressure</strong>: SBP</li>
+</ul>
+<h5 id="t-1"><a href="#t-1">T</a></h5>
+<ul>
+<li><strong>ter in die; three times per day</strong>: TID</li>
+<li><strong>The College of Family Physicians Canada</strong>: CFPC</li>
+<li><strong>total homocysteine</strong>: tHcy</li>
+<li><strong>transesophageal echocardiography</strong>: TEE</li>
+<li><strong>transient ischemic attack</strong>: TIA</li>
+<li><strong>treatment</strong>: Tx</li>
+<li><strong>Trial of Management of Borderline and Other Low-Grade Abnormal Smears</strong>: TOMBOLA</li>
+<li><strong>tricyclic antidepressant</strong>: TCA</li>
+</ul>
+<h5 id="u-1"><a href="#u-1">U</a></h5>
+<ul>
+<li><strong>ultra-violet</strong>: UV</li>
+<li><strong>uniform resource locator</strong>: URL</li>
+<li><strong>United Kingdom</strong>: UK</li>
+<li><strong>United Kingdom Breast Screening Programme</strong>: UKBSP</li>
+<li><strong>United States</strong>: US</li>
+<li><strong>United States dollar</strong>: USD</li>
+<li><strong>United States of America</strong>: USA</li>
+<li><strong>United States Preventive Services Task Force</strong>: USPSTF</li>
+</ul>
+<h5 id="v-1"><a href="#v-1">V</a></h5>
+<ul>
+<li><strong>versus</strong>: vs.</li>
+</ul>
+<h5 id="w-1"><a href="#w-1">W</a></h5>
+<ul>
+<li><strong>working group</strong>: WG</li>
+<li><strong>World Health Organization</strong>: WHO</li>
+</ul>
+<h5 id="y-1"><a href="#y-1">Y</a></h5>
+<ul>
+<li><strong>Yukon</strong>: YK</li>
+</ul>
+<h5 id="z-1"><a href="#z-1">Z</a></h5>
+<ul>
+<li><strong>Zung Self-Rating Depression Scale</strong>: Zung–SDS</li>
+</ul>
+<h3 id="capitalization"><a href="#capitalization">2.2 Capitalization</a></h3>
+<ul>
+<li>For French and other non-English titles, capitalize as in the original language (e.g. first word capitalized in French). [CPS]</li>
+</ul>
+<h4 id="capitalize"><a href="#capitalize">2.2.1 Capitalize</a></h4>
+<ul>
+<li><p>Proper names; trade names; government departments and agencies; names of associations and companies, clubs, religions, languages, nations, races, places, and addresses [CPS]</p></li>
+<li><p>University and college department names, e.g. “Faculty of Medicine” [SMHSG]</p></li>
+<li><p>Formal names of departments and programs within St. Michael’s [SMHSG]</p></li>
+<li><p>Honoric titles, e.g. “Dr.” [CPS]</p></li>
+<li><p>Titles of books, journals, magazines, and other publications [CPS]</p></li>
+<li><p>The first word for scientific names of animals [CPS]</p></li>
+</ul>
+<h4 id="do-not-capitalize"><a href="#do-not-capitalize">2.2.2 Do not capitalize</a></h4>
+<ul>
+<li><p>Corporate or organizational department names other than those listed above [SMHSG]</p></li>
+<li><p>Job titles or roles [SMHSG]</p></li>
+<li><p>Diseases, conditions, symptoms, tests, or treatments, unless they include proper names (e.g. “measels” versus “German measels”). [SMHSG]</p></li>
+<li><p>Headings</p></li>
+<li><p>Chapters, article titles, etc.</p></li>
+</ul>
+<h5 id="i-2"><a href="#i-2">I</a></h5>
+<ul>
+<li><p><strong>internet</strong>, not “Internet”</p></li>
+<li><p><strong>intranet</strong>, not “Intranet” [SMHSG]</p></li>
+</ul>
+<h5 id="w-2"><a href="#w-2">W</a></h5>
+<ul>
+<li><p><strong>web</strong>, not “Web”</p></li>
+<li><p><strong>world wide web</strong>, not “World Wide Web”</p></li>
+</ul>
+<h3 id="citations-and-references"><a href="#citations-and-references">2.3 Citations and references</a></h3>
+<ul>
+<li><p>In general, follow AMA citation style and <a href="http://jama.jamanetwork.com/public/instructionsForAuthors.aspx#References">JAMA’s guidelines</a>. In cases of disagreement, follow JAMA.</p></li>
+<li><p>In addition to AMA style, always include a URL to fulltext if available, or an abstract if not.</p></li>
+<li><p>If available, always include PMID, PMCID, doi, and other unique identifiers.</p></li>
+<li><p>In reference lists we always list all authors. Normally AMA only lists up to six authors; for more than six authors it lists three plus “et al.”, but we will not follow this guideline.</p></li>
+<li><p>For articles submitted but not yet accepted, list as “Submitted for publication” and do not list a journal name.</p></li>
+<li><p>For articles accepted but not yet published, list as “In press”.</p></li>
+</ul>
+<h3 id="dates-and-times"><a href="#dates-and-times">2.4 Dates and times</a></h3>
+<ul>
+<li><p>Do not add “st”, “nd”, “rd”, or “th” to dates [SMHSG]</p></li>
+<li><p>Do not abbreviate days of the week or months (see Abbreviations)</p></li>
+<li><p>In prose, format dates as ‘Day D Month, Year’, e.g. “Wednesday 17 September, 1980”. If only using the month and year, the comma should be ommitted, e.g. “September 1980”.</p></li>
+<li><p>In non-prose situations, format dates as ‘YYYY-MM-DD’, e.g. “1980‒09‒17”. Note that this format uses figure dashes, not hyphens (see Punctuation).</p></li>
+<li><p>Use BCE (before common era) and CE (common era) instead of BC (before Christ) and AD (anno Domini)</p></li>
+<li><p>Abbreviated years should include an apostrophe, e.g. “’81” for “1981” [CPS], but should be avoided if possible</p></li>
+<li><p>Decades should not include an apostrophe before the plural “s”, e.g. “the 1990s” or “the ’90s”, not “the 1990’s” [CPS]</p></li>
+</ul>
+<h3 id="grammar"><a href="#grammar">2.5 Grammar</a></h3>
+<ul>
+<li><p>“they”, “their”, and “them” should be used as non-gender-specific singular, third-person pronouns. Never use “he or she”, etc.</p></li>
+<li><p>it’s fine to end a sentence with a preposition [CPS]</p></li>
+<li><p>it’s fine to split infinitives [CPS]</p></li>
+</ul>
+<h3 id="measurements"><a href="#measurements">2.6 Measurements</a></h3>
+<ul>
+<li><p>Use metric for measurements [CPS]</p></li>
+<li><p>Conversions into other systems may be included as an optional parenthetical, e.g. “100 metres (328 feet)”, or possibly “100 metres (about 325 feet)”</p></li>
+<li><p><a href="http://smartquotesforsmartpeople.com/">Use proper primes for measurements</a> such as feet, inches, longitude, and latitude.</p></li>
+<li><p>In prose, avoid abbreviating measurement units (see Abbreviations and acronyms) [CPS]</p></li>
+<li><p>For Celsius and Farenheit temperatures, use a degree sign, e.g. “15ºC” and “15ºF”</p></li>
+<li><p>Include a space between a measurement and the unit.</p>
+<ul>
+<li>Exceptions: the space is ommitted before/after a degree symbol, primes, and currency symbols</li>
+</ul></li>
+</ul>
+<h3 id="numbers"><a href="#numbers">2.7 Numbers</a></h3>
+<ul>
+<li><p>Write out all integers from zero to nine, use numerals for any other number, e.g. “nine”, “25”, “−15” [CPS]</p>
+<ul>
+<li>Exception: When an abbreviation/symbol for a unit is used, use a numeral, e.g. “<span class="math">5”<em>o</em><em>r</em>“<em>f</em><em>i</em><em>v</em><em>e</em><em>d</em><em>o</em><em>l</em><em>l</em><em>a</em><em>r</em><em>s</em>”, <em>n</em><em>o</em><em>t</em>“</span>five” or “5 dollars” [CPS]</li>
+</ul></li>
+<li><p>For negatives, use a minus sign, not a hyphen, e.g. “−15” versus “-15”</p></li>
+<li><p>Use commas to separate numbers with four or more digits, e.g. “4,500” versus “4500” [SMHSG]</p></li>
+<li><p>Use numerals for integers up to 999,999; after that, use words for multiples of one million or one billion. E.g. “900,000 birds” vs. “one million birds” or “1.2 million birds”</p></li>
+<li><p>Because of regional differences in meaning, avoid “billion” if possible</p></li>
+<li><p>Spaces should be used around all mathematical operators, e.g. “1 + 3 = 5”.</p></li>
+<li><p>Decimal numbers between 0 and 1 should always have a leading zero, e.g. “0.1”. [CPS]</p></li>
+<li><p>Use arabic numerals; avoid roman numerals except in proper nouns [CPS]</p></li>
+</ul>
+<h3 id="people-biographies-and-names"><a href="#people-biographies-and-names">2.8 People, biographies, and names</a></h3>
+<ul>
+<li><p>In prose, on first reference, use full name including honorifics. On second reference, use honorific title (but not suffixes) and last name. E.g. “Mary Smith” followed by “Dr. Smith”, “John Appleseed” followed by “Mr. Appleseed”.</p></li>
+<li><p>In prose, a preferred short-form of a first name is acceptable for the first reference, e.g. “Johnny Appleseed” followed by “Mr. Appleseed”.</p></li>
+<li><p>In general, omit middle names and initials (but defer to the subject’s personal preference [CPS])</p></li>
+<li><p>In headers (e.g. in biographies), use full name without short forms, middle initials, and honorifics.</p></li>
+<li><p>Biographies should be written in the third person.</p></li>
+<li><p>Treat individual biographies as a standalone chunk of content when making decisions about abbreviations.</p></li>
+</ul>
+<h3 id="punctuation"><a href="#punctuation">2.9 Punctuation</a></h3>
+<ul>
+<li><p>Ampersands (“&amp;”) should only be used when part of a formal name (e.g. of an organization), or as part of a visual component, e.g. a wordmark. [CPS] (See Abbreviations and acronyms)</p></li>
+<li><p>Always use a single space after a period, question mark, comma, semi-colon, etc.</p></li>
+<li><p>Always use the Oxford comma (a.k.a. a “serial comma”).</p></li>
+<li><p><a href="http://smartquotesforsmartpeople.com/">Use proper (“curly” or “smart”) quotation marks for quotes and proper primes for measurements</a>. Only use straight quotation marks with code.</p></li>
+<li><p>Placement of punctuation and quotation marks is complex!</p>
+<p>In general, punctuation should go outside the quotation marks…</p>
+<ul>
+<li>She said she was going to a “store”.</li>
+</ul>
+<p>…unless it is part of the quoted text.</p>
+<ul>
+<li><p>“I’m going to the store!” she shouted.</p></li>
+<li><p>“Am I going to the store?” she asked.</p></li>
+</ul>
+<p>Within a sentence, a quoted period may be converted to a comma.</p>
+<ul>
+<li>“I’m going to the store,” she said.</li>
+</ul>
+<p>Non-interrogative terminal punctuation (e.g. “.”, “!”) should not appear both in and outside the quotation marks; in this case, use the first mark (i.e. inside the quotation marks).</p>
+<ul>
+<li>She said, “I’m going to the store.”</li>
+</ul>
+<p>A period within a quotation should be ommitted when immediately preceding a question mark.</p>
+<ul>
+<li>Did she say, “I’m going to the store”?</li>
+</ul>
+<p>An exclamation mark within a quotation should not be ommitted when immediately preceding a question mark.</p>
+<ul>
+<li>Did she shout, “I’m going to the store!”?</li>
+</ul>
+<p>A sentence-final period should be ommitted when immediately following a quoted question.</p>
+<ul>
+<li>Did she ask, “Am I going to the store?”</li>
+</ul></li>
+<li><p>For an exclamatory question, use an interrobang (“‽”) or “?!”, but generally try to avoid these sentences</p></li>
+<li><p>Avoid using a slash, with the following exceptions:</p>
+<ul>
+<li><p>“either/or”</p></li>
+<li><p>“and/or”</p></li>
+</ul></li>
+<li><p>When a slash is used, there are no spaces surrounding it.</p></li>
+<li><p>Use appropriate dashes rather than hyphens</p>
+<ul>
+<li><p>An em dash to denote a break in a sentence</p></li>
+<li><p>A quotation dash to set off the source of a quote</p></li>
+<li><p>An en dash for a range of values</p></li>
+<li><p>An en dash for attributive compounds</p></li>
+<li><p>An en dash to show a relationship or connection</p></li>
+<li><p>A figure dash for phone numbers and dates</p></li>
+<li><p>A minus sign for subtraction or negative numbers</p></li>
+</ul></li>
+<li><p>In prose, use “to” instead of a dash (or hyphen) to indicate a range of values</p></li>
+<li><p>Do not use spaces around dashes or hyphens</p></li>
+<li><p>Use a proper ellipses character (“…”) rather than three periods (“...”)</p></li>
+</ul>
+<h3 id="spelling"><a href="#spelling">2.10 Spelling</a></h3>
+<p>When referencing companies, organizations, products, or other proper nouns, use their official spelling.</p>
+<h4 id="b-2"><a href="#b-2">B</a></h4>
+<ul>
+<li><strong>backend</strong>, not “back-end” or “back end”</li>
+</ul>
+<h4 id="c-2"><a href="#c-2">C</a></h4>
+<ul>
+<li><p><strong>centre</strong>, not “center” [SMHSG]</p></li>
+<li><p><strong>checklist</strong>, not “check list” [SMHSG]</p></li>
+<li><p><strong>colour</strong>, not “color” [SMHSG]</p></li>
+</ul>
+<h4 id="d-2"><a href="#d-2">D</a></h4>
+<ul>
+<li><p><strong>defence</strong>, not “defense” [SMHSG]</p></li>
+<li><p><strong>decision-maker</strong>, not “decisionmaker”, “decision maker”, etc.</p></li>
+</ul>
+<h4 id="e-2"><a href="#e-2">E</a></h4>
+<ul>
+<li><p><strong>e-commerce</strong>, not “ecommerce” [CPCS]</p></li>
+<li><p><strong>e-reader</strong>, not “ereader” [CPCS]</p></li>
+<li><p><strong>ebook</strong>, not “e-book” [CPCS]</p></li>
+<li><p><strong>email</strong>, not “email” [SMHSG]</p></li>
+<li><p><strong>evidence-based</strong>, not “evidence based”</p></li>
+</ul>
+<h4 id="f-2"><a href="#f-2">F</a></h4>
+<ul>
+<li><p><strong>free of charge</strong>, not “free-of-charge”</p></li>
+<li><p><strong>French-speaking</strong>, not “French speaking”</p></li>
+<li><p><strong>frontend</strong>, not “front-end” or “front end”</p></li>
+<li><p><strong>frontline</strong>, not “front-line” or “front line”</p></li>
+<li><p><strong>Fundraise</strong>, <strong>Fundraiser</strong>, and <strong>Fundraising</strong>, not “fund raise”, etc. [SMHSG]</p></li>
+</ul>
+<h4 id="g-2"><a href="#g-2">G</a></h4>
+<ul>
+<li><strong>gynecology</strong>, not “gynaecology” [SMHSG]</li>
+</ul>
+<h4 id="h-2"><a href="#h-2">H</a></h4>
+<ul>
+<li><p><strong>health care</strong>, not “healthcare” [SMHSG]</p></li>
+<li><p><strong>hemorrhage</strong>, not “haemorrhage” [SMHSG]</p></li>
+</ul>
+<h4 id="j-2"><a href="#j-2">J</a></h4>
+<ul>
+<li><strong>judgment</strong>, not “judgement” [CPS]</li>
+</ul>
+<h4 id="l-2"><a href="#l-2">L</a></h4>
+<ul>
+<li><p><strong>labour</strong>, not “labor” [SMHSG]</p></li>
+<li><p><strong>long-term</strong>, not “long term” or “longterm” [CPCS]</p></li>
+</ul>
+<h4 id="m-2"><a href="#m-2">M</a></h4>
+<ul>
+<li><p><strong>mannequin</strong>, not “manikin” [SMHSG]</p></li>
+<li><p><strong>metre</strong>, not “meter” [SMHSG]</p></li>
+</ul>
+<h4 id="n-2"><a href="#n-2">N</a></h4>
+<ul>
+<li><strong>non-profit</strong>, not “nonprofit” or “non profit” [CPCS]</li>
+</ul>
+<h4 id="o-2"><a href="#o-2">O</a></h4>
+<ul>
+<li><p><strong>offence</strong>, not “offense” [SMHSG]</p></li>
+<li><p><strong>ongoing</strong>, not “on-going”</p></li>
+<li><p><strong>online</strong>, not “on-line”, “on line”, etc. [SMHSG]</p></li>
+</ul>
+<h4 id="p-2"><a href="#p-2">P</a></h4>
+<ul>
+<li><p><strong>pediatrics</strong>, not “pædiatrics” or “paediatrics” [SMHSG]</p></li>
+<li><p><strong>peer-reviewed</strong>, not “peer reviewed”</p></li>
+<li><p><strong>pilot test</strong>, not “pilot-test”</p></li>
+<li><p><strong>policy-maker</strong>, not “policymaker”, “policy maker”, etc. [CPCS]</p></li>
+<li><p><strong>program</strong>, not programme [SMHSG]</p></li>
+</ul>
+<h4 id="r-2"><a href="#r-2">R</a></h4>
+<ul>
+<li><p><strong>randomize</strong>, not “randomise”</p></li>
+<li><p><strong>rigour</strong>, not “rigour” [SMHSG]</p></li>
+<li><p><strong>rivalled</strong>, not “rivaled” [SMHSG]</p></li>
+</ul>
+<h4 id="s-2"><a href="#s-2">S</a></h4>
+<ul>
+<li><p><strong>short-term</strong>, not “short term” or “shortterm” [CPCS]</p></li>
+<li><p><strong>subset</strong>, not “sub-set”</p></li>
+</ul>
+<h4 id="t-2"><a href="#t-2">T</a></h4>
+<ul>
+<li><p><strong>toolkit</strong>, not “tool-kit”</p></li>
+<li><p><strong>travelled</strong>, not “traveled” [SMHSG]</p></li>
+</ul>
+<h4 id="v-2"><a href="#v-2">V</a></h4>
+<ul>
+<li><strong>vice-president</strong>, not “vice president” [SMHSG]</li>
+</ul>
+<h4 id="w-3"><a href="#w-3">W</a></h4>
+<ul>
+<li><p><strong>web page</strong>, not “web-page” or “webpage” [CPCS]</p></li>
+<li><p><strong>web-based</strong>, not “web based”</p></li>
+<li><p><strong>website</strong>, not “web-site”, “web site”, etc. [SMHSG]</p></li>
+</ul>
+<h3 id="terminology"><a href="#terminology">2.11 Terminology</a></h3>
+<ul>
+<li>In general, refer to drugs by their generic names, notbrand names [CPS]</li>
+</ul>
+<h4 id="e-3"><a href="#e-3">E</a></h4>
+<ul>
+<li><strong>Emergency Department</strong>, not “emergency room” [SMHSG]</li>
+</ul>
+<h4 id="k-2"><a href="#k-2">K</a></h4>
+<ul>
+<li><p><strong>knowledge translation</strong>, not “knowledge transfer”, “implementation science”, etc.</p></li>
+<li><p><strong>KT+</strong>, not “KT PLUS” or “Knowledge Translation PLUS”</p></li>
+</ul>
+<h4 id="m-3"><a href="#m-3">M</a></h4>
+<ul>
+<li><strong>McMaster PLUS</strong> or <strong>MacPLUS</strong>, not “McMaster+” or “Mac+”</li>
+</ul>
+<h4 id="n-3"><a href="#n-3">N</a></h4>
+<ul>
+<li><strong>Nursing+</strong>, not “Nursing PLUS”</li>
+</ul>
+<h4 id="p-3"><a href="#p-3">P</a></h4>
+<ul>
+<li><strong>peer-reviewed</strong>, not “refereed”</li>
+</ul>
+<h4 id="r-3"><a href="#r-3">R</a></h4>
+<ul>
+<li><strong>Rehab+</strong>, not “Rehab PLUS”</li>
+</ul>
+<h3 id="urls"><a href="#urls">2.12 URLs</a></h3>
+<ul>
+<li><p>URLs should always be linked, if links are supported</p></li>
+<li><p>Omit the protocol (e.g. “<a href="http://”">http://”</a> or “<a href="http://”">http://”</a>) for the web and email, but include explicitly or in prose for less common protocols (e.g. FTP, Skype, etc.) [CPCS]</p></li>
+<li><p>Omit “www” subdomains (e.g. “google.com”, not “www.google.com”), if possible</p></li>
+</ul>
+<h2 id="design"><a href="#design">3. Design</a></h2>
+<h3 id="typography"><a href="#typography">3.1 Typography</a></h3>
+<ul>
+<li>Fonts for abbreviations that contain no lower case letters should use small caps, or be 90% of normal size.</li>
+</ul>
+<h2 id="media"><a href="#media">4. Media</a></h2>
+<h3 id="images"><a href="#images">4.1 Images</a></h3>
+<ul>
+<li>Photographs should be saved in high-quality JPEG or TIFF format at 72dpi at least 1000 pixels long on the shortest side.</li>
+</ul>
+		</main>
+	</body>
+</html>

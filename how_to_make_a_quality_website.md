@@ -1,16 +1,18 @@
-Title:			How to make a quality website
-Author:			David Newton
-Organization:	Knowledge Translation Program, St. Michael’s Hospital
-Date:			2014-08-10
-Contributors:	Wai-Hin Chan, Michael R. Kealey, Gail Klein, Nikolas LeBlanc, Julia Moore, Sharon Straus, Caitlyn Timmings, Judy Tran, and Andrea Tricco
-URL:			https://knowledgetranslation.github.io/process/
-Source:			https://github.com/knowledgetranslation/process/
+Title:			How to make a quality website  
+Author:			David Newton  
+Organization:	Knowledge Translation Program, St. Michael’s Hospital  
+Date:			2014-08-28  
+Contributors:	Wai-Hin Chan, Michael R. Kealey, Gail Klein, Nikolas LeBlanc, Julia Moore, Sharon Straus, Caitlyn Timmings, Judy Tran, and Andrea Tricco  
+URL:			https://knowledgetranslation.github.io/process/  
+Source:			https://github.com/knowledgetranslation/process/  
 
 
 
 ## 0. Companion documents
 
 These companion documents provide more in-depth information than is available here:
+
+1. [Knowledge Translation Program Style Guide](style_guide/)
 
 1. *How to conduct usability testing* (forthcoming)
 
