@@ -187,7 +187,7 @@ For some items, this guide repeats content from the above guides. In cases where
 * **CDC**: Centers for Disease Control and Prevention
 * **CDKN2A**: cyclin-dependent kinase inhibitor 2A
 * **CDS**: community-based depression screening
-* **CE**: common era**: cost effectiveness
+* **CE**: common era *or* cost effectiveness
 * **CertEd**: Certificate in Education
 * **CES—D**: Center for Epidemiologic Studies Depression Scale
 * **CFCP**: Certified Functional Continuity Professional
