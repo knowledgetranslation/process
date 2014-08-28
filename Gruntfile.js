@@ -11,6 +11,7 @@ module.exports = function(grunt) {
 				files: {
 					'from' : [
 						'how_to_make_a_quality_website.md',
+						'glossary/glossary.md',
 						'style_guide/kt_style_guide.md',
 					]
 				}
@@ -23,6 +24,10 @@ module.exports = function(grunt) {
 					{
 						src: ['how_to_make_a_quality_website.html'],
 						dest: 'index.html'
+					},
+					{
+						src: ['glossary/glossary.html'],
+						dest: 'glossary/index.html'
 					},
 					{
 						src: ['style_guide/kt_style_guide.html'],
