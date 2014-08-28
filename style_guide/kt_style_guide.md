@@ -15,7 +15,7 @@ To determine the correct approach in a given circumstance, please consult style 
 1. A project-specific style guide, if one is available
 2. This document
 3. The [AMA Manual of Style](http://www.amamanualofstyle.com/) (for citations/references only)
-4. The St. Michael’s guides. Always check the intranet for the most up-to-date versions. Guides include:
+4. The St. Michael’s guides. Always check the [intranet](http://portal/) for the most up-to-date versions. Guides include:
 	* [St. Michael’s Style Guide](assets/smh-style-guide.pdf) [SMHSG]
 	* [St. Michael’s Visual Standards](assets/smh-brand-standards.pdf) [SMHVS]
 	* [St. Michael’s Colour Palette](assets/smh-colour-palette.pdf) [SMHCP]
@@ -26,32 +26,44 @@ To determine the correct approach in a given circumstance, please consult style 
 6. [<i>The Canadian Press Caps and Spelling</i>](http://www.thecanadianpress.com/products_and_services.aspx?id=86) [CPCS]
 7. [<i>Canadian Oxford Dictionary</i>](http://www.oxfordreference.com/view/10.1093/acref/9780195418163.001.0001/acref-9780195418163) [COD]. When this gives alternative spellings, use the first one listed.
 
-For some items, this guide repeats content from the above guides. In cases where a rule is sourced from another style guide, the rule will be marked with a code (listed in square brackets above) indicating its source. In such cases, it’s best practice to double-check the original source for more information.
+For some items, this guide repeats content from the above guides. In cases where a rule is sourced from another style guide, the rule will be marked with a code (listed in square brackets above) indicating its source. In such cases, it’s best practice to double-check the original source for more and up-to-date information.
 
 
 
 # Writing
 
 
-## Abbreviations
+## Abbreviations and acronyms
 
-* Ampersands (“&”) should only be used when part of a formal name (e.g. of an organization), or as part of a visual component, e.g. a wordmark.
-* No period should be used in all-uppercase or mixed-case abbreviations (e.g. “MD”, “PhD”).
-* All lower-case abbreviations (e.g. “e.g.”, “etc.”) should use a period, even when sentence-initial (e.g. “E.g.”).
+* Ampersands (“&”) should only be used when part of a formal name (e.g. of an organization), or as part of a visual component, e.g. a wordmark. (See Punctuation)
+* No period should be used in all-uppercase or mixed-case abbreviations (e.g. “MD”, “PhD”), including geographical abbreviations (e.g. “US” not “U.S.”).
+	* Exception: titles/honorifics that preceed a name, e.g. “Mr.”
+* Periods should be used in lower-case abbreviations (e.g. “e.g.”, “etc.”), even when sentence-initial (e.g. “e.g.” and “E.g.”).
+	* Exception: metric measurements (e.g. “cm” not “c.m.”)
+	* Exception: “p” for “probability” (but “p.” for “page”)
 * “E.g.” and “i.e.” should not be followed by a comma.
-* In prose, abbreviations should generally be defined before being used, e.g. “Canadian Institutes of Health Research (CIHR)” followed by “CIHR”. Exceptions can be made for *very* common abbreviations that have have been lexicalized in English, e.g. “etc.”, or for honorifics.
-* “A” versus “an” before an abbreviation depends on its initial sound, not its initial letter, e.g. “an MA”, “a PhD”.
-* Other than the following exceptions, never abbreviate “electronix x” as “e-x”, “ex”, or “eX”:
+* In prose, abbreviations should generally be defined before being used, e.g. “Canadian Institutes of Health Research (CIHR)” followed by “CIHR”.
+	* Exception: common abbreviations that have have been lexicalized in English, e.g. “etc.” [CPS]
+	* Exception: honorifics/degree names, e.g. “Mr.”, “PhD” [CPS]
+	* Exception: common measurement terms (e.g. “cm”)
+* If an abbreviation would only be used once, abandon it and spell the word/phrase out in full.
+* “A” versus “an” before an abbreviation depends on its initial sound, not its initial letter, e.g. “an MA”, “a PhD”. [CPS]
+* Other than the following (lexicalized) exceptions, never abbreviate “electronic x” as “e-x”, “ex”, or “eX”:
 	* ebook
 	* email
 * When abbreviating hyphenated names, omit the hyphen, e.g. “MP Gagnon”, not “M-P Gagnon”
-
+* When abbreviating the names of US states and territories, use the United States Postal Service abbreviations
+* Pluralized abbreviations use an “s” with no apostrophe, e.g. “UFOs” or “PhDs” [CPS]
 
 ### Do not abbreviate
 
 * Days of the week [SMHSG]
 * Months
-
+* Non-metric measurement terms, e.g. “inches” not “in.”
+* “electronic” (see above)
+* Portions of addresses/street names, e.g. “King Street East” not “King St E”
+	* Exception: “Saint” and “Sainte” may be abbreviated as “St.” and “Ste.” in place names. For Quebec place names, these are followed by a hyphen, not a period, e.g. “Ste-Agathe” [CPS]
+* “county”, “fort”, “mount”, “point”, or “port” as part of a proper name, e.g. “Mount Everest” not “Mt Everest” (CPS)
 
 ### Abbreviations by abbreviation
 
@@ -110,6 +122,10 @@ AUSSI
 
 #### B
 
+BC
+: British Columbia
+BCE
+: before comman era
 BCh
 : Bachelor of Surgery
 BCom
@@ -190,6 +206,7 @@ CDKN2A
 CDS
 : community-based depression screening
 CE
+: common era
 : cost effectiveness
 CertEd
 : Certificate in Education
@@ -263,7 +280,7 @@ CVD
 #### D
 
 DABEM
-: Diplomate of the American Board of Emergency Medicine 
+: Diplomate of the American Board of Emergency Medicine
 DALY
 : disability adjusted life year
 DBP
@@ -323,7 +340,7 @@ etc.
 #### F
 
 FACMI
-: Fellow of the American College of Medical Informatics 
+: Fellow of the American College of Medical Informatics
 FACP
 : Fellow of the American College of Physicians
 FAP
@@ -331,7 +348,7 @@ FAP
 FAQ
 : frequently asked question
 FCAHS
-: Fellow of the Canadian Academy of Health Sciences 
+: Fellow of the Canadian Academy of Health Sciences
 FCAOT
 : Fellow of the Canadian Association of Occupational Therapists
 FCCP
@@ -365,7 +382,7 @@ FRCP(C)
 FRCP(UK)
 : Fellow of the Royal College of Physicians of the United Kingdom
 FRSC
-: Fellow of the Royal Society of Canada 
+: Fellow of the Royal Society of Canada
 
 #### G
 
@@ -505,6 +522,8 @@ MADRS
 : Montgomery–Asberg Depression Rating Scale
 MAP
 : mean arterial pressure
+MB
+: Manitoba
 MBBS
 : Bachelor of Medicine, Bachelor of Surgery
 MBChB
@@ -576,6 +595,8 @@ NA
 : not applicable
 NAVIGATOR
 : Nateglinide and Valsartan in Impaired Glucose Tolerance Outcomes Research
+NB
+: New Brunswick
 NC
 : number of subjects in control group
 NHANES
@@ -586,6 +607,8 @@ NICE
 : National Institute for Health and Care Excellence
 NICU
 : neonatal intensive care unit
+NL
+: Newfoundland (and Labrador)
 nmol/L
 : nanomoles per litre
 NNH
@@ -600,8 +623,14 @@ NOS
 : Newcastle–Ottawa Scale
 NR
 : not reported
+NS
+: Nova Scotia
 NSW
 : New South Wales
+NU
+: Nunavut
+NWT
+: Northwest Territories
 
 #### O
 
@@ -628,6 +657,12 @@ ORAI
 
 #### P
 
+p
+: probability
+p.
+: page
+Pap test
+: Papanicolaou test
 PCCSI
 : Pan-Canadian Cervical Screening Initiative
 PCI
@@ -647,7 +682,7 @@ PGD
 PHAC
 : Public Health Agency of Canada
 PharmD
-: Doctor of Pharmacy 
+: Doctor of Pharmacy
 PhD
 : Doctor of Philosophy
 PHN
@@ -685,6 +720,8 @@ PTH
 
 QALY
 : quality-adjusted life year
+QC
+: Quebec
 QID
 : quater in die; four times per day
 QOL
@@ -766,6 +803,8 @@ UK
 : United Kingdom
 UKBSP
 : United Kingdom Breast Screening Programme
+URL
+: uniform resource locator
 US
 : United States
 USA
@@ -789,10 +828,20 @@ WG
 WHO
 : World Health Organization
 
+#### Y
+
+YK
+: Yukon
+
 #### Z
 
 Zung–SDS
 : Zung Self-Rating Depression Scale
+
+#### &
+
+&
+: and
 
 #### µ
 
@@ -802,762 +851,801 @@ Zung–SDS
 
 ### Abbreviations by term
 
-#### A						
+#### A
 
 acetylsalicylic acid
-: ASA	
+: ASA
 acquired immunodeficiency syndrome
-: AIDS	
+: AIDS
 acute coronary syndrome
-: ACS	
+: ACS
 acute myocardial infarction
-: AMI	
+: AMI
 Adult Treatment Panel
-: ATP	
+: ATP
 Affect Underpinned by the Severity of Social Impairment
-: AUSSI	
+: AUSSI
 Agency for Healthcare Research and Quality
-: AHRQ	
+: AHRQ
 Alberta
-: AB	
+: AB
 ambulatory blood pressure measurement
-: ABPM	
+: ABPM
 American Diabetes Association
-: ADA	
+: ADA
 analysis of variance
-: ANOVA	
+: ANOVA
+and
+: &
 angiotensin II receptor blocker
-: ARB	
+: ARB
 angiotensin-converting enzyme inhibitor
-: ACEI	
+: ACEI
 Anglo–Danish–Dutch study of intensive treatment in people with screen detected diabetes in primary care
-: ADDITION	
+: ADDITION
 Appraisal of Guidelines for Research and Evaluation
-: AGREE	
+: AGREE
 area under the receiver operating characteristic curve
-: AUROC	
+: AUROC
 assessment of multiple systematic reviews
-: AMSTAR	
+: AMSTAR
 Atherosclerosis Risk of Communities
-: ARIC	
+: ARIC
 atrial fibrillation
-: AF	
+: AF
 atrial flutter
-: AFL	
+: AFL
 atypical ductal hyperplasi
-: ADH	
+: ADH
 atypical squamous cells of undetermined significance
-: ASCUS	
+: ASCUS
 Australian Diabetes Risk Assessment Tool
-: AusDrisk	
+: AusDrisk
 Australian Institute of Health and Welfare
-: AIHW	
+: AIHW
 
-#### B						
+#### B
 
 Bachelor of Commerce
-: BCom	
+: BCom
 Bachelor of Medicine, Bachelor of Surgery
 : MBBS
-: MBChB	
+: MBChB
 Bachelor of Science
-: BSc	
+: BSc
 Bachelor of Science in Pharmacy
-: BScPhm	
+: BScPhm
 Bachelor of Science in Physical Therapy
-: BScPT	
+: BScPT
 Bachelor of Surgery
-: BCh	
+: BCh
 Beck Depression Index
-: BDI	
+: BDI
+before common era
+: BCE
 bis in die; twice per day
-: BID	
+: BID
 blood pressure
-: BP	
+: BP
 body–mass index
-: BMI	
+: BMI
 bone mineral density
-: BMD	
+: BMD
 breast self-examination
-: BSE	
+: BSE
+British Columbia
+: BC
 British Medical Journal
 : BMJ
-: Brit Med J	
+: Brit Med J
 
-#### C						
+#### C
 
 calcium channel blocker
-: CCB	
+: CCB
 Canadian Action Network for the Advancement, Dissemination and Adoption of Practice-Informed Tobacco Treatment
-: CAN-ADAPTT	
+: CAN-ADAPTT
 Canadian Agency for Drugs and Technologies in Health
-: CADTH	
+: CADTH
 Canadian Association of Radiologists
-: CAR	
+: CAR
 Canadian Cardiovascular Harmonization of national Guidelines Endeavour
-: C-CHANGE	
+: C-CHANGE
 Canadian Cardiovascular Society
-: CCS	
+: CCS
 Canadian Collaboration for Immigrant and Refugee Health
-: CCIRH	
+: CCIRH
 Canadian Community Health Survey
-: CCHS	
+: CCHS
 Canadian Diabetes Association
-: CDA	
+: CDA
 Canadian Diabetes Risk Questionnaire
-: CANRISK	
+: CANRISK
 Canadian Hypertension Education Program
-: CHEP	
+: CHEP
 Canadian Institutes of Health Research
-: CIHR	
+: CIHR
 Canadian Journal of Cardiology
-: Can J Cardiol	
+: Can J Cardiol
 Canadian Medical Association
-: CMA	
+: CMA
 Canadian Medical Association Journal
 : Can Med Assoc J
-: CMAJ	
+: CMAJ
 Canadian National Breast Screening Study
-: CNBSS-1	
+: CNBSS-1
 Canadian Normoglycemia Outcomes Evaluation
-: CANOE	
+: CANOE
 Canadian Nurses Association
-: CNA	
+: CNA
 Canadian Primary Care Sentinel Surveillance Network
-: CPCSSN	
+: CPCSSN
 Canadian Task Force on Preventive Health Care
-: CTFPHC	
+: CTFPHC
 cancer antigen 125
-: CA-125	
+: CA-125
 Cardiac Failure, Hypertension, Age, Diabetes, Stroke System
-: CHADS₂	
+: CHADS₂
 cardiovascular
-: CV	
+: CV
 cardiovascular disease
-: CVD	
+: CVD
 Cardiovascular Health Awareness Program
-: CHAP	
+: CHAP
 case control trial
-: CCT	
+: CCT
 Center for Epidemiologic Studies Depression Scale
-: CES—D	
+: CES—D
 Centers for Disease Control and Prevention
-: CDC	
+: CDC
 centimetres
-: cm	
+: cm
 Certificant of the College of Family Physicians of Canada
-: CCFP	
+: CCFP
 Certificant of the College of Family Physicians of Canada in Emergency Medicine
-: CCFP(EM)	
+: CCFP(EM)
 Certificate in Education
-: CertEd	
+: CertEd
 Certified Clinical Research Professional
-: CCRP	
+: CCRP
 Certified Functional Continuity Professional
-: CFCP	
+: CFCP
 Certified Specialist in the Province of Quebec
-: CSPQ	
+: CSPQ
 cervical intraepithelial neoplasia
-: CIN	
+: CIN
 Chief Public Health Officer
-: CPHO	
+: CPHO
 chronic kidney disease
-: CKD	
+: CKD
 clinical breast examination
-: CBE	
+: CBE
 clinical practice guideline
-: CPG	
+: CPG
 Coalitions Linking Action and Science for Prevention
-: CLASP	
+: CLASP
 cognitive behavioral therapy
-: CBT	
+: CBT
 cold pressor test
-: CPT	
+: CPT
+common era
+: CE
 community pharmacy blood pressure
-: CPBP	
+: CPBP
 community-based depression screening
-: CDS	
+: CDS
 Composite International Diagnostic Interview
-: CIDI	
+: CIDI
 Composite International Diagnostic Interview Short Form
-: CIDI—SF	
+: CIDI—SF
 computerized tomography
-: CT	
+: CT
 confidence interval
-: CI	
+: CI
 congestive heart failure
-: CHF	
+: CHF
 control
-: ctrl	
+: ctrl
 conventional cytology
-: CC	
+: CC
 coronary artery disease
-: CAD	
+: CAD
 cost effectiveness
-: CE	
+: CE
 cumulative incidence rate
-: CIR	
+: CIR
 Cumulative Index to Nursing and Allied Health Literature
-: CINAHL	
+: CINAHL
 cyclin-dependent kinase inhibitor 2A
-: CDKN2A	
+: CDKN2A
 
-#### D						
+#### D
 
 Denver Developmental Screening Test
-: DDST	
+: DDST
 deoxyribonucleic acid
-: DNA	
+: DNA
 Depression and Suicide Screen
-: DSS	
+: DSS
 developmental dysplasia of the hip
-: DDH	
+: DDH
 diabetes mellitus
-: DM	
+: DM
 Diabetes Prevention Program
-: DPP	
+: DPP
 Diabetes Reduction Assessment with Ramipril and Rosiglitazone Medication
-: DREAM	
+: DREAM
 diagnosis
-: Dx	
+: Dx
 Diagnostic and Statistical Manual of Mental Disorder
-: DSM	
+: DSM
 diastolic blood pressure
-: DBP	
+: DBP
 digital rectal exam
-: DRE	
-Diplomate of the American Board of Emergency Medicine 
-: DABEM	
+: DRE
+Diplomate of the American Board of Emergency Medicine
+: DABEM
 disability adjusted life year
-: DALY	
+: DALY
 doctor
-: Dr.	
-Doctor of Medicine	:	MD	
-Doctor of Pharmacy 
-: PharmD	
+: Dr.
+Doctor of Medicine
+: MD
+Doctor of Pharmacy
+: PharmD
 Doctor of Philosophy
 : DPhil
-: PhD	
+: PhD
 Doctorae Medicinae, Chirurgiae Magister; Doctor of Medicine and Master of Surgery
-: MDCM	
+: MDCM
 ductal carcinoma in situ
-: DCIS	
+: DCIS
 
-#### E						
+#### E
 
 Edinburgh Postnatal Depression Scale
-: EPDS	
+: EPDS
 electrocardiograph
-: ECG	
+: ECG
 electronic medical record
-: EMR	
+: EMR
 ermergency room
-: ER	
+: ER
 estimated glomerular filtration rate
-: eGFR	
+: eGFR
 et alii; and others
-: et al.	
+: et al.
 et cetera; and so on
-: etc.	
+: etc.
 Evidence Review and Synthesis Centre
-: ERSC	
+: ERSC
 evidence-based medicine
-: EBM	
+: EBM
 Excerpta Medica Database
-: EMBASE	
+: EMBASE
 exempli gratia; for example
-: e.g.	
+: e.g.
 
-#### F						
+#### F
 
 familial adenomatous polyposis
-: FAP	
+: FAP
 fasting plasma glucose
-: FPG	
+: FPG
 fecal occult blood test
-: FOBT	
+: FOBT
 Federation of Gynecology and Obstetrics
-: FIGO	
+: FIGO
 Fellow of Dietitians of Canada
-: FDC	
+: FDC
 Fellow of the American College of Chest Physicians
-: FCCP	
-Fellow of the American College of Medical Informatics 
-: FACMI	
+: FCCP
+Fellow of the American College of Medical Informatics
+: FACMI
 Fellow of the American College of Physicians
-: FACP	
-Fellow of the Canadian Academy of Health Sciences 
-: FCAHS	
+: FACP
+Fellow of the Canadian Academy of Health Sciences
+: FCAHS
 Fellow of the Canadian Association of Occupational Therapists
-: FCAOT	
+: FCAOT
 Fellow of the Canadian Society of Hospital Pharmacists
-: FCSHP	
+: FCSHP
 Fellow of the College of Family Physicians of Canada
-: FCFPC	
+: FCFPC
 Fellow of the International Lactation Consultant Association
-: FILCA	
+: FILCA
 Fellow of the Royal College of General Practitioners
-: FRCGP	
+: FRCGP
 Fellow of the Royal College of Physicians of Canada
-: FRCP(C)	
+: FRCP(C)
 Fellow of the Royal College of Physicians of the United Kingdom
-: FRCP(UK)	
-Fellow of the Royal Society of Canada 
-: FRSC	
+: FRCP(UK)
+Fellow of the Royal Society of Canada
+: FRSC
 Fellowship of the Royal Australian College of General Practitioners
-: FRACGP	
+: FRACGP
 Finnish Diabetes Risk Score
-: FINDRISC	
+: FINDRISC
 First Nations and Inuit Health Branch
-: FNIHB	
+: FNIHB
 frequently asked question
-: FAQ	
+: FAQ
 full-field digital mammography
-: FFDM	
+: FFDM
 
-#### G						
+#### G
 
 general internal medicine
-: GIM	
+: GIM
 general practitioner
-: GP	
+: GP
 Geriatric Depression Scale
-: GDS	
+: GDS
 Gerontolical Nursing Certification (Canada)
-: GNC(C)	
+: GNC(C)
 gestational diabetes mellitus
-: GDM	
+: GDM
 gestational hypertension
-: GH	
+: GH
 Global Assessment Score
-: GAS	
+: GAS
 glucose challenge test
-: GCT	
+: GCT
 glycated hemoglobin
-: A1c	
+: A1c
 GRADE (Grading of Recommendations Assessment, Development, and Evaluation) Profiler
-: GRADEPro	
+: GRADEPro
 Grading of Recommendations Assessment, Development, and Evaluation
-: GRADE	
+: GRADE
 
-#### H						
+#### H
 
 Hamilton Depression Rating Scale
-: HDRS	
+: HDRS
 hazard ratio
-: HR	
+: HR
 health insurance plan
-: HIP	
+: HIP
 health-related quality of life
-: HRQOL	
+: HRQOL
 Helsinki University Central Hospital
-: HUCH	
+: HUCH
 hereditary nonpolyposis colorectal cancer
-: HNPCC	
+: HNPCC
 high grade squamous intraepithelial lesions
-: HSIL	
+: HSIL
 history
-: Hx	
+: Hx
 home blood pressure measurement
-: HBPM	
+: HBPM
 hormone replacement therapy
-: HRT	
+: HRT
 Hospital Anxiety and Depression Scale
-: HADS	
+: HADS
 human immunodeficiency virus
-: HIV	
+: HIV
 human papillomavirus
-: HPV	
+: HPV
 hybrid capture two
-: HC-II	
+: HC-II
 hypertension
-: HTN	
+: HTN
 Hypertension Canada
-: HC	
+: HC
 hypertension, abnormal liver/renal function, stroke history, bleeding predisposition, labile international normalized ratios, elderly, drugs/alchol usage
-: HAS-BLED	
+: HAS-BLED
 hypertensive pregnancy disorder
-: HPD	
+: HPD
 
-#### I						
+#### I
 
 id est; that is
-: i.e.	
+: i.e.
 impaired fasting glucose
-: IFG	
+: IFG
 impaired glucose tolerance
-: IGT	
+: IGT
 incidence rate ratios
-: IRR	
+: IRR
 incremental cost effectiveness ratio
-: ICER	
+: ICER
 incremental cost–utility ratio
-: ICUR	
+: ICUR
 information technology
-: IT	
+: IT
 International Board Certified Lactation Consultant
-: IBCLC	
+: IBCLC
 International Diabetes Federation
-: IDF	
+: IDF
 International Prospective Register of Systematic Reviews
-: PROSPERO	
+: PROSPERO
 International Standard Randomised Controlled Trial Number
-: ISRCTN	
+: ISRCTN
 International Statistical Classification of Diseases
-: ICD	
+: ICD
 international units
-: IU	
+: IU
 intervention coronariennepercutanée
-: ICP	
+: ICP
 intimate partner violence
-: IPV	
+: IPV
 inverse variance
-: IV	
+: IV
 
-#### J						
+#### J
 
 Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure
-: JNC7	
+: JNC7
 
-#### K						
+#### K
 
 kilograms per square metre
-: kg/m²	
+: kg/m²
 Knowledge Translation
-: KT	
+: KT
 Knowledge Translation Program
-: KTP	
+: KTP
 
-#### L						
+#### L
 
 large loop excision of the transformation zone
-: LLETZ	
+: LLETZ
 lifetime average risk
-: LAR	
+: LAR
 liquid-based cytology
-: LBC	
+: LBC
 lobular carcinoma in situ
-: LCIS	
+: LCIS
 loop electrosurgical excision procedure
-: LEEP	
+: LEEP
 low grade squamous intraepithelial lesions
-: LSIL	
+: LSIL
 low-density lipoprotein
-: LDL-C	
+: LDL-C
 lowest pulsatility index
-: L-PI	
+: L-PI
 
-#### M						
+#### M
 
 magnetic resonance imaging
-: MRI	
+: MRI
 major depressive disorder
-: MDD	
+: MDD
 major depressive episodes
-: MDE	
+: MDE
 maladie coronarienne
-: MC	
+: MC
+Manitoba
+: MB
 Mantel–Haenszel
-: MH	
+: MH
 Master of Arts
-: MA	
+: MA
 Master of Civil Engineering
 : MCE
 Master of Clinical Science
-: MClSc	
-Master of Continuing Education	:	MCE	
+: MClSc
+Master of Continuing Education
+: MCE
 Master of Library Science
-: MLS	
+: MLS
 Master of Public Health
-: MPH	
+: MPH
 Master of Science
-: MSc	
+: MSc
 Master of Science in Nursing
-: MScN	
+: MScN
 Master of the American College of Physicians
-: MACP	
+: MACP
 maternal serum alpha-fetoprotein screening
-: MSAFP	
+: MSAFP
 McMaster Evidence Review and Synthesis Centre
-: MERSC	
+: MERSC
 mean arterial pressure
-: MAP	
+: MAP
 mean difference
-: MD	
+: MD
 mean glandular dose
-: MGD	
+: MGD
 mean weighted difference
-: MWD	
+: MWD
 Medical Literature Analysis and Retrieval System Online
-: MEDLINE	
+: MEDLINE
 Medicine’s Medical Subject Headings
-: MeSH	
+: MeSH
 Member of the Order of Canada
-: CM	
+: CM
 mental stress test
-: MST	
+: MST
 metabolic syndrome
-: MetS	
+: MetS
 micrograms
-: μg	
+: μg
 milligrams
-: mg	
+: mg
 milligrays
-: mGy	
+: mGy
 millilitres
-: mL	
+: mL
 millimeters of mercury
-: mm/Hg	
+: mm/Hg
 millimoles per litre
-: mmol/L	
+: mmol/L
 Mini-Mental State Exam
-: MMSE	
+: MMSE
 mister
-: Mr.	
+: Mr.
 Montgomery–Asberg Depression Rating Scale
-: MADRS	
+: MADRS
 
-#### N						
+#### N
 
 nanomoles per litre
-: nmol/L	
+: nmol/L
 Nateglinide and Valsartan in Impaired Glucose Tolerance Outcomes Research
-: NAVIGATOR	
+: NAVIGATOR
 National Health and Nutrition Examination Survey
-: NHANES	
+: NHANES
 National Institute for Health and Care Excellence
-: NICE	
+: NICE
 neonatal intensive care unit
-: NICU	
+: NICU
+New Brunswick
+: NB
 New South Wales
-: NSW	
+: NSW
 Newcastle–Ottawa Scale
-: NOS	
+: NOS
+Newfoundland (and Labrador)
+: NL
+Northwest Territories
+: NWT
 not applicable
-: NA	
+: NA
 not reported
-: NR	
+: NR
 not significant
-: n.s.	
+: n.s.
+Nova Scotia
+: NS
 number needed to harm
-: NNH	
+: NNH
 number needed to screen
-: NNS	
+: NNS
 number needed to treat
-: NNT	
+: NNT
 number needed to treat to harm
-: NNTH	
+: NNTH
 number of subjects in control group
-: NC	
+: NC
 number of subjects in intervention group
-: NI	
+: NI
+Nunavut
+: NU
 
-#### O						
+#### O
 
 odds ratio
-: OR	
+: OR
 Office of the Canadian Task Force on Preventive Health Care
-: OCTFPHC	
+: OCTFPHC
 Officer of the Order of Canada
-: OC	
+: OC
 omne in die; once per day
-: OD	
+: OD
 Ontario
-: ON	
+: ON
 Ontario Health Insurance Plan
-: OHIP	
+: OHIP
 Ontario Survey on Prevalence and Control of Hypertension
-: ON-BP	
+: ON-BP
 oral anticoagulant
-: OAC	
+: OAC
 oral glucose tolerance test
-: OGTT	
+: OGTT
 Osteoporosis Risk Assessment Instrument
-: ORAI	
+: ORAI
 
-#### P						
+#### P
 
+page
+: p.
 pages
-: pp.	
+: pp.
+Papanicolaou test
+: Pap test
 Pan-Canadian Cervical Screening Initiative
-: PCCSI	
+: PCCSI
 parathyroid hormone
-: PTH	
+: PTH
 patient health questionnaire
-: PHQ	
+: PHQ
 Pediatric Outcomes Research Team
-: PORT	
+: PORT
 percutaneous coronary intervention
-: PCI	
+: PCI
 physical therapist
-: PT	
+: PT
 polymerase chain reaction
-: PCR	
+: PCR
 population, intervention, control, and outcome
-: PICO	
+: PICO
 population, intervention, control, outcome, and study design
-: PICOS	
+: PICOS
 population, intervention, control, outcome, study design, and time limitations
-: PICOST	
+: PICOST
 positron emission tomography
-: PET	
+: PET
 Postpartum Depression Screening Scale
-: PDSS	
+: PDSS
 preeclampsia
-: PE	
+: PE
 Prevention Guidelines Division
-: PGD	
+: PGD
 Primary Care Evaluation of Mental Disorders, Mood Module
-: PRIME—MD	
+: PRIME—MD
 Prince Edward Island
-: PEI	
+: PEI
+probability
+: p
 Profile of Mood States Scale
-: POMS	
+: POMS
 prostate-specific antigen test
-: PSA	
+: PSA
 Public Health Agency of Canada
-: PHAC	
+: PHAC
 public health nurse
-: PHN	
+: PHN
 Public Library of Science One
-: PLoS ONE	
+: PLoS ONE
 pulsatility index
-: PI	
+: PI
 
-#### Q						
+#### Q
 
 quality of life
-: QOL	
+: QOL
 quality-adjusted life year
-: QALY	
+: QALY
 quater in die; four times per day
-: QID	
+: QID
+Quebec
+: QC
 
-#### R						
+#### R
 
 randomized control trial
-: RCT	
+: RCT
 ratio of rate ratios
-: RRR	
+: RRR
 Registered Dietician
-: RD	
+: RD
 Registered Nurse
-: RN	
+: RN
 Registered Psychologist
-: RPsych	
+: RPsych
 relative risk
-: RR	
+: RR
 Review Manager
-: RevMan	
+: RevMan
 risk ratio
 : RR
 
-#### S						
+#### S
 
 Saskatchewan
-: SK	
+: SK
 Schedules of Standardized Assessment of Patient with Depressive Disorders
-: SADD	
+: SADD
 Scientiae Magister
-: SM	
+: SM
 Scottish Intercollegiate Guidelines Network
-: SIGN	
+: SIGN
 selective serotonin reuptake inhibitor
-: SSRI	
+: SSRI
 Self-rating Depression Scale
-: SDS	
+: SDS
 Short Form 36
-: SF-36	
+: SF-36
 Simple Calculated Osteoporosis Risk Estimation
-: SCORE	
+: SCORE
 single-film mammography
-: SFM	
+: SFM
 socioeconomic status
-: SES	
+: SES
 standard deviation
-: SD	
+: SD
 standard error
-: SE	
+: SE
 standard mean difference
-: SMD	
+: SMD
 statistically significant
-: sig	
+: sig
 symptom checklist
-: SCL	
+: SCL
 systolic blood pressure
-: SBP	
+: SBP
 
-#### T						
+#### T
 
 ter in die; three times per day
-: TID	
+: TID
 The College of Family Physicians Canada
-: CFPC	
+: CFPC
 total homocysteine
-: tHcy	Master of Civil Engineering
+: tHcy
 transesophageal echocardiography
-: TEE	
+: TEE
 transient ischemic attack
-: TIA	
+: TIA
 treatment
-: Tx	
+: Tx
 Trial of Management of Borderline and Other Low-Grade Abnormal Smears
-: TOMBOLA	
+: TOMBOLA
 tricyclic antidepressant
-: TCA	
+: TCA
 
-#### U						
+#### U
 
 ultra-violet
-: UV	
+: UV
+uniform resource locator
+: URL
 United Kingdom
-: UK	
+: UK
 United Kingdom Breast Screening Programme
-: UKBSP	
+: UKBSP
 United States
-: US	
+: US
 United States dollar
-: USD	
+: USD
 United States of America
-: USA	
+: USA
 United States Preventive Services Task Force
-: USPSTF	
+: USPSTF
 
-#### V						
+#### V
 
 versus
-: vs.	
+: vs.
 
-#### W						
+#### W
 
 working group
-: WG	
+: WG
 World Health Organization
-: WHO	
+: WHO
 
-#### Z						
+#### Y
+
+Yukon
+: YK
+
+#### Z
 
 Zung Self-Rating Depression Scale
-: Zung–SDS	
+: Zung–SDS
 
 
 
 ## Capitalization
 
-* For French and other non-English titles, capitalize as in the original language (e.g. first word capitalized in French).
+* For French and other non-English titles, capitalize as in the original language (e.g. first word capitalized in French). [CPS]
 
 ### Capitalize
 
+* Proper names; trade names; government departments and agencies; names of associations and companies, clubs, religions, languages, nations, races, places, and addresses [CPS]
 * University and college department names, e.g. “Faculty of Medicine” [SMHSG]
 * Formal names of departments and programs within St. Michael’s [SMHSG]
-* Honoric titles, e.g. “Dr.”
-* Titles of books, journals, magazines, and other publications
+* Honoric titles, e.g. “Dr.” [CPS]
+* Titles of books, journals, magazines, and other publications [CPS]
+* The first word for scientific names of animals [CPS]
 
 ### Do not capitalize
 
 * Corporate or organizational department names other than those listed above [SMHSG]
 * Job titles or roles [SMHSG]
-* Diseases, conditions, symptoms, tests, or treatments, unless they include proper names (e.g. “meales” versus “German measels”).
+* Diseases, conditions, symptoms, tests, or treatments, unless they include proper names (e.g. “measels” versus “German measels”). [SMHSG]
 * Headings
 * Chapters, article titles, etc.
 
@@ -1566,6 +1654,10 @@ Zung Self-Rating Depression Scale
 * **internet**, not “Internet”
 * **intranet**, not “Intranet” [SMHSG]
 
+#### W
+
+* **web**, not “Web”
+* **world wide web**, not “World Wide Web”
 
 ## Citations and references
 
@@ -1582,36 +1674,45 @@ Zung Self-Rating Depression Scale
 * Do not abbreviate days of the week or months (see Abbreviations)
 * In prose, format dates as ‘Day D Month, Year’, e.g. “Wednesday 17 September, 1980”. If only using the month and year, the comma should be ommitted, e.g. “September 1980”.
 * In non-prose situations, format dates as ‘YYYY-MM-DD’, e.g. “1980‒09‒17”. Note that this format uses figure dashes, not hyphens (see Punctuation).
-
+* Use BCE (before common era) and CE (common era) instead of BC (before Christ) and AD (anno Domini)
+* Abbreviated years should include an apostrophe, e.g. “’81” for “1981” [CPS], but should be avoided if possible
+* Decades should not include an apostrophe before the plural “s”, e.g. “the 1990s” or “the ’90s”, not “the 1990’s” [CPS]
 
 ## Grammar
 
 * “they”, “their”, and “them” should be used as non-gender-specific singular, third-person pronouns. Never use “he or she”, etc.
-* it’s fine to end a sentence with a preposition
-* it’s fine to split infinitives
+* it’s fine to end a sentence with a preposition [CPS]
+* it’s fine to split infinitives [CPS]
 
 
 ## Measurements
 
-* Use metric for all measurements, with conversions into other systems as an optional parenthetical, e.g. “100 metres (328 feet)”
+* Use metric for measurements [CPS]
+* Conversions into other systems may be included as an optional parenthetical, e.g. “100 metres (328 feet)”, or possibly “100 metres (about 325 feet)”
 * [Use proper primes for measurements](http://smartquotesforsmartpeople.com/) such as feet, inches, longitude, and latitude.
-
+* In prose, avoid abbreviating measurement units (see Abbreviations and acronyms) [CPS]
+* For Celsius and Farenheit temperatures, use a degree sign, e.g. “15ºC” and “15ºF”
+* Include a space between a measurement and the unit.
+	* Exceptions: the space is ommitted before/after a degree symbol, primes, and currency symbols
 
 ## Numbers
 
-* Write out all integers from zero to nineteen, use numerals for any other number, e.g. “fifteen”, “25”, “−15”
+* Write out all integers from zero to nine, use numerals for any other number, e.g. “nine”, “25”, “−15” [CPS]
+	* Exception: When an abbreviation/symbol for a unit is used, use a numeral, e.g. “$5” or “five dollars”, not “$five” or “5 dollars” [CPS]
 * For negatives, use a minus sign, not a hyphen, e.g. “−15” versus “-15”
 * Use commas to separate numbers with four or more digits, e.g. “4,500” versus “4500” [SMHSG]
-* Numbers that are integer multiples of 1 million, 1 billion, or 1 trillion, may be as spelled out as here.
+* Use numerals for integers up to 999,999; after that, use words for multiples of one million or one billion. E.g. “900,000 birds” vs. “one million birds” or “1.2 million birds”
+* Because of regional differences in meaning, avoid “billion” if possible
 * Spaces should be used around all mathematical operators, e.g. “1 + 3 = 5”.
-* Decimal numbers between 0 and 1 should always have a leading zero, e.g. “0.1”.
+* Decimal numbers between 0 and 1 should always have a leading zero, e.g. “0.1”. [CPS]
+* Use arabic numerals; avoid roman numerals except in proper nouns [CPS]
 
 
 ## People, biographies, and names
 
 * In prose, on first reference, use full name including honorifics. On second reference, use honorific title (but not suffixes) and last name. E.g. “Mary Smith” followed by “Dr. Smith”, “John Appleseed” followed by “Mr. Appleseed”.
 * In prose, a preferred short-form of a first name is acceptable for the first reference, e.g. “Johnny Appleseed” followed by “Mr. Appleseed”.
-* In prose, omit middle initials for the first reference.
+* In general, omit middle names and initials (but defer to the subject’s personal preference [CPS])
 * In headers (e.g. in biographies), use full name without short forms, middle initials, and honorifics.
 * Biographies should be written in the third person.
 * Treat individual biographies as a standalone chunk of content when making decisions about abbreviations.
@@ -1619,6 +1720,7 @@ Zung Self-Rating Depression Scale
 
 ## Punctuation
 
+* Ampersands (“&”) should only be used when part of a formal name (e.g. of an organization), or as part of a visual component, e.g. a wordmark. (See Abbreviations and acronyms)
 * Always use a single space after a period, question mark, comma, semi-colon, etc.
 * Always use the Oxford comma (a.k.a. a “serial comma”).
 * [Use proper (“curly” or “smart”) quotation marks for quotes and proper primes for measurements](http://smartquotesforsmartpeople.com/). Only use straight quotation marks with code.
@@ -1627,20 +1729,20 @@ Zung Self-Rating Depression Scale
 	In general, punctuation should go outside the quotation marks…
 
 	* She said she was going to a “store”.
-	
+
 	…unless it is part of the quoted text.
 
 	* “I’m going to the store!” she shouted.
 	* “Am I going to the store?” she asked.
-	
+
 	Within a sentence, a quoted period may be converted to a comma.
-	
+
 	* “I’m going to the store,” she said.
 
 	Non-interrogative terminal punctuation (e.g. “.”, “!”) should not appear both in and outside the quotation marks; in this case, use the first mark (i.e. inside the quotation marks).
 
 	* She said, “I’m going to the store.”
-	
+
 	A period within a quotation should be ommitted when immediately preceding a question mark.
 
 	* Did she say, “I’m going to the store”?
@@ -1651,9 +1753,9 @@ Zung Self-Rating Depression Scale
 
 	A sentence-final period should be ommitted when immediately following a quoted question.
 
-	* Did she ask, “am I going to the store?”
+	* Did she ask, “Am I going to the store?”
 
-* For an exclamatory question, use an interrobang (“‽”) or “?!” 
+* For an exclamatory question, use an interrobang (“‽”) or “?!”, but generally try to avoid these sentences
 * Avoid using a slash, with the following exceptions:
 	* “either/or”
 	* “and/or”
@@ -1668,6 +1770,7 @@ Zung Self-Rating Depression Scale
 	* A minus sign for subtraction or negative numbers
 * In prose, use “to” instead of a dash (or hyphen) to indicate a range of values
 * Do not use spaces around dashes or hyphens
+* Use a proper ellipses character (“…”) rather than three periods (“...”)
 
 
 ## Spelling
@@ -1712,6 +1815,10 @@ When referencing companies, organizations, products, or other proper nouns, use 
 * **health care**, not “healthcare” [SMHSG]
 * **hemorrhage**, not “haemorrhage” [SMHSG]
 
+### J
+
+* **judgment**, not “judgement” [CPS]
+
 ### L
 
 * **labour**, not “labor” [SMHSG]
@@ -1734,7 +1841,7 @@ When referencing companies, organizations, products, or other proper nouns, use 
 
 ### P
 
-* **pediatrics**, not “pædiatrics” [SMHSG]
+* **pediatrics**, not “pædiatrics” or “paediatrics” [SMHSG]
 * **peer-reviewed**, not “peer reviewed”
 * **pilot test**, not “pilot-test”
 * **policy maker**, not “policy-maker”, “policy maker”, etc.
@@ -1769,6 +1876,8 @@ When referencing companies, organizations, products, or other proper nouns, use 
 
 ## Terminology
 
+* In general, refer to drugs by their generic names, notbrand names [CPS]
+
 ### E
 
 * **Emergency Department**, not “emergency room” [SMHSG]
@@ -1795,7 +1904,7 @@ When referencing companies, organizations, products, or other proper nouns, use 
 * **Rehab+**, not “Rehab PLUS”
 
 
-## URLs and URIs
+## URLs
 
 * URLs should always be linked, if links are supported
 * Omit the protocol (e.g. “http://” or “http://”)
