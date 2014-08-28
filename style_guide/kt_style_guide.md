@@ -35,7 +35,7 @@ For some items, this guide repeats content from the above guides. In cases where
 
 ## Abbreviations and acronyms
 
-* Ampersands (“&”) should only be used when part of a formal name (e.g. of an organization), or as part of a visual component, e.g. a wordmark. (See Punctuation)
+* Ampersands (“&”) should only be used when part of a formal name (e.g. of an organization), or as part of a visual component, e.g. a wordmark. [CPS] (See Punctuation)
 * No period should be used in all-uppercase or mixed-case abbreviations (e.g. “MD”, “PhD”), including geographical abbreviations (e.g. “US” not “U.S.”).
 	* Exception: titles/honorifics that preceed a name, e.g. “Mr.”
 * Periods should be used in lower-case abbreviations (e.g. “e.g.”, “etc.”), even when sentence-initial (e.g. “e.g.” and “E.g.”).
@@ -49,6 +49,8 @@ For some items, this guide repeats content from the above guides. In cases where
 * If an abbreviation would only be used once, abandon it and spell the word/phrase out in full.
 * “A” versus “an” before an abbreviation depends on its initial sound, not its initial letter, e.g. “an MA”, “a PhD”. [CPS]
 * Other than the following (lexicalized) exceptions, never abbreviate “electronic x” as “e-x”, “ex”, or “eX”:
+	* e-commerce
+	* e-reader
 	* ebook
 	* email
 * When abbreviating hyphenated names, omit the hyphen, e.g. “MP Gagnon”, not “M-P Gagnon”
@@ -1720,7 +1722,7 @@ Zung Self-Rating Depression Scale
 
 ## Punctuation
 
-* Ampersands (“&”) should only be used when part of a formal name (e.g. of an organization), or as part of a visual component, e.g. a wordmark. (See Abbreviations and acronyms)
+* Ampersands (“&”) should only be used when part of a formal name (e.g. of an organization), or as part of a visual component, e.g. a wordmark. [CPS] (See Abbreviations and acronyms)
 * Always use a single space after a period, question mark, comma, semi-colon, etc.
 * Always use the Oxford comma (a.k.a. a “serial comma”).
 * [Use proper (“curly” or “smart”) quotation marks for quotes and proper primes for measurements](http://smartquotesforsmartpeople.com/). Only use straight quotation marks with code.
@@ -1790,11 +1792,13 @@ When referencing companies, organizations, products, or other proper nouns, use 
 ### D
 
 * **defence**, not “defense” [SMHSG]
-* **decision maker**, not “decision-maker”, “decision maker”, etc.
+* **decision-maker**, not “decisionmaker”, “decision maker”, etc.
 
 ### E
 
-* **ebook**, not “e-book”
+* **e-commerce**, not “ecommerce” [CPCS]
+* **e-reader**, not “ereader” [CPCS]
+* **ebook**, not “e-book” [CPCS]
 * **email**, not “email” [SMHSG]
 * **evidence-based**, not “evidence based”
 
@@ -1822,7 +1826,7 @@ When referencing companies, organizations, products, or other proper nouns, use 
 ### L
 
 * **labour**, not “labor” [SMHSG]
-* **longterm**, not “long term” or “long-term”
+* **long-term**, not “long term” or “longterm” [CPCS]
 
 ### M
 
@@ -1831,7 +1835,7 @@ When referencing companies, organizations, products, or other proper nouns, use 
 
 ### N
 
-* **non-profit**, not “nonprofit” or “non profit”
+* **non-profit**, not “nonprofit” or “non profit” [CPCS]
 
 ### O
 
@@ -1844,7 +1848,7 @@ When referencing companies, organizations, products, or other proper nouns, use 
 * **pediatrics**, not “pædiatrics” or “paediatrics” [SMHSG]
 * **peer-reviewed**, not “peer reviewed”
 * **pilot test**, not “pilot-test”
-* **policy maker**, not “policy-maker”, “policy maker”, etc.
+* **policy-maker**, not “policymaker”, “policy maker”, etc. [CPCS]
 * **program**, not programme [SMHSG]
 
 ### R
@@ -1855,7 +1859,7 @@ When referencing companies, organizations, products, or other proper nouns, use 
 
 ### S
 
-* **shortterm**, not “short term” or “short-term”
+* **short-term**, not “short term” or “shortterm” [CPCS]
 * **subset**, not “sub-set”
 
 ### T
@@ -1869,7 +1873,7 @@ When referencing companies, organizations, products, or other proper nouns, use 
 
 ### W
 
-* **web page**, not “web-page” or “webpage”
+* **web page**, not “web-page” or “webpage” [CPCS]
 * **web-based**, not “web based”
 * **website**, not “web-site”, “web site”, etc. [SMHSG]
 
@@ -1907,7 +1911,7 @@ When referencing companies, organizations, products, or other proper nouns, use 
 ## URLs
 
 * URLs should always be linked, if links are supported
-* Omit the protocol (e.g. “http://” or “http://”)
+* Omit the protocol (e.g. “http://” or “http://”) for the web and email, but include explicitly or in prose for less common protocols (e.g. FTP, Skype, etc.) [CPCS]
 * Omit “www” subdomains (e.g. “google.com”, not “www.google.com”), if possible
 
 
